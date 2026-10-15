@@ -1,0 +1,20 @@
+[project]
+name = "attribution-benchmark"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = [
+    "huggingface_hub>=0.30",
+    "loguru",
+    "openai",
+    "pyarrow",
+    "pydantic>=2",
+    "torch",
+    "tqdm",
+    "transformers>=4.56,<5",  # WebOrganizer remote code breaks on 5.x
+]
+
+# SGLang (for `propella --backend sglang`) is installed separately on GPU
+# machines, `uv pip install "sglang[all]"`, because it pins its own torch.
+
+[tool.uv]
+package = false

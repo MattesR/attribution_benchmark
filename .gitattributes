@@ -1,0 +1,2 @@
+# progress.tsv is append-only: merging logs from several machines = keeping all lines
+progress.tsv merge=union
