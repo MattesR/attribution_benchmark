@@ -129,10 +129,31 @@ def lock_path(annotator: str, shard: str) -> Path:
     return DATA / "locks" / annotator / f"{stem(shard)}.lock"
 
 
+def _stale(path: Path) -> bool:
+    """Lock left by a dead process on this host (hard kill, crash)."""
+    try:
+        host, pid = path.read_text().split()
+        pid = int(pid.removeprefix("pid="))
+    except (OSError, ValueError):
+        return False
+    if host != HOST:
+        return False  # can't check processes on other machines
+    try:
+        os.kill(pid, 0)
+    except ProcessLookupError:
+        return True
+    except PermissionError:
+        pass  # pid exists (reused by another user's process)
+    return False
+
+
 @contextmanager
 def shard_lock(annotator: str, shard: str):
     path = lock_path(annotator, shard)
     path.parent.mkdir(parents=True, exist_ok=True)
+    if path.exists() and _stale(path):
+        logger.warning(f"{shard}: removing stale lock ({path.read_text().strip()})")
+        path.unlink(missing_ok=True)
     try:
         fd = os.open(path, os.O_CREAT | os.O_EXCL | os.O_WRONLY)
     except FileExistsError:

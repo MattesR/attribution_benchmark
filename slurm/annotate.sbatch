@@ -8,10 +8,13 @@
 # On the time limit SLURM sends SIGTERM: the lock is released and the
 # partial shard resumes in the next job.
 #SBATCH -J annotate
+#SBATCH --partition=NLPNorth
+#SBATCH --mail-type=END,FAIL
 #SBATCH --gres=gpu:1
 #SBATCH -c 8
 #SBATCH --mem=64G
 #SBATCH -t 7-00:00:00
+#SBATCH --signal=TERM@300   # SIGTERM 5 min before the limit: time to release locks
 #SBATCH -o logs/%x-%A_%a.out
 
 cd "$SLURM_SUBMIT_DIR"
