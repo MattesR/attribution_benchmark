@@ -196,8 +196,15 @@ def start_sglang(args) -> str:
             logger.info(f"sglang server ready after {time.time() - t0:.0f}s")
             return f"http://127.0.0.1:{port}/v1"
         except Exception:
+            log_text = log_path.read_text(errors="replace")
+            # A crashed server does not always exit (stray threads), so poll()
+            # alone can miss it.
+            if "Traceback (most recent call last)" in log_text:
+                proc.terminate()
+                last = log_text.strip().splitlines()[-1]
+                raise RuntimeError(f"sglang server crashed: {last}  (full log: {log_path})")
             if k % 6 == 5:  # every ~30s: show what the server is doing
-                lines = log_path.read_text(errors="replace").strip().splitlines()
+                lines = log_text.strip().splitlines()
                 last = lines[-1][-150:] if lines else ""
                 logger.info(f"waiting for sglang ({time.time() - t0:.0f}s): {last}")
             time.sleep(5)

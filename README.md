@@ -100,7 +100,9 @@ kill $(cat logs/propella-gpu2.pid)   # free GPU 2; its shard resumes later
 ```
 
 SLURM (cn11: 2x H100, cn19: 4x L40S, both fp8-capable; jobs share locks via
-the home directory):
+the home directory). The sbatch script loads `CUDA/12.6.0`, which SGLang needs
+(`CUDA_HOME`, `nvcc`). In an interactive `srun` session, run
+`module load CUDA/12.6.0` yourself first.
 
 ```bash
 sbatch -w cn11 --array=0-1 slurm/annotate.sbatch propella --part 0,1/3 --backend sglang --fp8 --batch-size 512

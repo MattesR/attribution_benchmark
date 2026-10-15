@@ -15,5 +15,8 @@
 #SBATCH -o logs/%x-%A_%a.out
 
 cd "$SLURM_SUBMIT_DIR"
+# CUDA toolkit (CUDA_HOME, nvcc): SGLang compiles kernels at startup and its
+# DeepGEMM import on H100 fails without it. 12.6 matches the nodes' driver.
+module load CUDA/12.6.0
 source .venv/bin/activate
 srun python -m pipeline.run "$@"
