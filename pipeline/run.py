@@ -76,8 +76,12 @@ def annotate_shard(name: str, annotate, shard: str, args) -> None:
 
     t0 = time.time()
     chars = 0
+    # In a batch job (log file, not a terminal) update once a minute, so the
+    # log stays readable and its last line is the current progress.
+    interactive = sys.stderr.isatty()
     with open(partial, "a") as sink, tqdm(total=len(texts), initial=len(done), desc=shard, unit="doc",
-                                          dynamic_ncols=True) as bar:
+                                          dynamic_ncols=True, mininterval=0.1 if interactive else 60,
+                                          ascii=not interactive) as bar:
         for b in range(0, len(todo), args.batch_size):
             rows = todo[b : b + args.batch_size]
             # annotate() may return an iterator (sglang): the bar moves per document.
