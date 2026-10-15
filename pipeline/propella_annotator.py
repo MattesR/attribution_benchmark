@@ -179,7 +179,10 @@ def start_sglang(args) -> str:
     log_path.parent.mkdir(parents=True, exist_ok=True)
     # The venv's bin dir on PATH even when the venv isn't activated: flashinfer
     # calls `ninja` from there to compile kernels on first start.
-    env = {**os.environ, "PATH": f"{Path(sys.executable).parent}{os.pathsep}{os.environ.get('PATH', '')}"}
+    # PYTHONUNBUFFERED: the server log is written as it happens, so the
+    # "waiting for sglang" lines below can show its latest line.
+    env = {**os.environ, "PYTHONUNBUFFERED": "1",
+           "PATH": f"{Path(sys.executable).parent}{os.pathsep}{os.environ.get('PATH', '')}"}
     proc = subprocess.Popen(cmd, stdout=open(log_path, "w"), stderr=subprocess.STDOUT, env=env)
     atexit.register(proc.terminate)
     logger.info(f"starting sglang on port {port}, log: {log_path}")
