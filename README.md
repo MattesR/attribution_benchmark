@@ -91,7 +91,7 @@ Only start processes on GPUs that `nvidia-smi` shows as free.
 
 ```bash
 for g in 0 1 2 3; do
-  CUDA_VISIBLE_DEVICES=$g nohup .venv/bin/python -m pipeline.run propella --part 2/3 --backend sglang --batch-size 512 \
+  CUDA_VISIBLE_DEVICES=$g nohup .venv/bin/python -m pipeline.run propella --part 2/3 --backend sglang \
     --sglang-args "--attention-backend triton --sampling-backend pytorch" \
     > logs/propella-gpu$g.log 2>&1 &
   echo $! > logs/propella-gpu$g.pid
@@ -105,8 +105,8 @@ the home directory). `slurm_startup.sh` loads `GCC/13.3.0 CUDA/12.6.0`, which SG
 `source slurm_startup.sh` first (the sbatch script does this itself).
 
 ```bash
-sbatch -w cn11 --array=0-1 slurm/annotate.sbatch propella --part 0,1/3 --backend sglang --fp8 --batch-size 512
-sbatch -w cn19 --array=0-3 slurm/annotate.sbatch propella --part 0,1/3 --backend sglang --fp8 --batch-size 512
+sbatch -w cn11 --array=0-1 slurm/annotate.sbatch propella --part 0,1/3 --backend sglang --fp8
+sbatch -w cn19 --array=0-3 slurm/annotate.sbatch propella --part 0,1/3 --backend sglang --fp8
 sbatch slurm/annotate.sbatch weborganizer   # only the cluster runs weborganizer, so no --part
 ```
 

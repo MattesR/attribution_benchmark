@@ -8,8 +8,8 @@ reduced to one GPU per process.
       generations may be invalid JSON -> stored with ok=False.
   --backend sglang        starts an SGLang server on a free port for this
       process (or uses --base-url), which enforces the JSON schema and is
-      several times faster. Use a large --batch-size (e.g. 512) so the
-      server has enough concurrent requests.
+      several times faster. Defaults follow the propella paper's throughput
+      setup (many concurrent requests): --concurrency 512, --batch-size 2048.
 
 Prompts and schema come from the model repo's own propella.py.
 Output per document: the 18 properties + ok (parsed and schema-valid).
@@ -37,8 +37,8 @@ FIELDS = [FREE_TEXT] + SINGLE + MULTI
 def add_args(ap) -> None:
     ap.add_argument("--model", default="ellamind/propella-1-4b")
     ap.add_argument("--backend", default="transformers", choices=["transformers", "sglang"])
-    ap.add_argument("--batch-size", type=int, default=8,
-                    help="docs per generate() call (transformers) or per checkpoint (sglang)")
+    ap.add_argument("--batch-size", type=int, default=None,
+                    help="docs per generate() call (transformers, default 8) or per checkpoint (sglang, default 2048)")
     ap.add_argument("--max-chars", type=int, default=50000, help="model card's recommended truncation")
     # transformers backend
     ap.add_argument("--dtype", default="bfloat16")
@@ -47,7 +47,8 @@ def add_args(ap) -> None:
     # sglang backend
     ap.add_argument("--base-url", default=None, help="use a running server instead of starting one")
     ap.add_argument("--fp8", action="store_true", help="fp8 weights + KV cache (H100, L40S; not A100)")
-    ap.add_argument("--concurrency", type=int, default=128)
+    ap.add_argument("--concurrency", type=int, default=512,
+                    help="parallel requests; more than the server runs at once, so it always has work queued")
     ap.add_argument("--sglang-args", default="",
                     help='extra server flags, e.g. "--attention-backend triton --sampling-backend pytorch"')
 
@@ -110,6 +111,8 @@ def to_row(ann: dict | None, propella) -> dict:
 
 
 def load(args):
+    if args.batch_size is None:  # backend-dependent default (run.py reads it after load)
+        args.batch_size = 2048 if args.backend == "sglang" else 8
     propella = load_propella_module(args.model)
     if args.backend == "transformers":
         return load_transformers(args, propella)
