@@ -14,9 +14,12 @@
 #SBATCH -c 8
 #SBATCH --mem=64G
 #SBATCH -t 7-00:00:00
-#SBATCH --signal=TERM@300   # SIGTERM 5 min before the limit: time to release locks
+#SBATCH --signal=B:TERM@300   # SIGTERM 5 min before the limit: time to release locks
 #SBATCH -o logs/%x-%A_%a.out
 
 cd "$SLURM_SUBMIT_DIR"
 source slurm_startup.sh || exit 1   # modules (GCC, CUDA) + venv
-srun python -m pipeline.run "$@"
+# No srun: one process per task needs no job step, and srun's CPU binding
+# can fail when SLURM variables leak in from another session. exec makes
+# python the batch shell itself, so it receives the SIGTERM above.
+exec python -m pipeline.run "$@"
