@@ -48,6 +48,8 @@ def add_args(ap) -> None:
     ap.add_argument("--base-url", default=None, help="use a running server instead of starting one")
     ap.add_argument("--fp8", action="store_true", help="fp8 weights + KV cache (H100, L40S; not A100)")
     ap.add_argument("--concurrency", type=int, default=128)
+    ap.add_argument("--sglang-args", default="",
+                    help='extra server flags, e.g. "--attention-backend triton --sampling-backend pytorch"')
 
 
 def load_propella_module(model: str):
@@ -154,6 +156,7 @@ def load_transformers(args, propella):
 def start_sglang(args) -> str:
     """Start an SGLang server for this process; it is killed when we exit."""
     import atexit
+    import os
     import socket
     import subprocess
     import time
@@ -171,9 +174,13 @@ def start_sglang(args) -> str:
            "--grammar-backend", "llguidance", "--mem-fraction-static", "0.7"]
     if args.fp8:
         cmd += ["--quantization", "w8a8_fp8", "--kv-cache-dtype", "fp8_e4m3"]
-    log_path = DATA / "logs" / f"sglang-{socket.gethostname()}-{port}.log"
+    cmd += args.sglang_args.split()
+    log_path = DATA / "logs" / f"sglang-{socket.gethostname().strip()}-{port}.log"
     log_path.parent.mkdir(parents=True, exist_ok=True)
-    proc = subprocess.Popen(cmd, stdout=open(log_path, "w"), stderr=subprocess.STDOUT)
+    # The venv's bin dir on PATH even when the venv isn't activated: flashinfer
+    # calls `ninja` from there to compile kernels on first start.
+    env = {**os.environ, "PATH": f"{Path(sys.executable).parent}{os.pathsep}{os.environ.get('PATH', '')}"}
+    proc = subprocess.Popen(cmd, stdout=open(log_path, "w"), stderr=subprocess.STDOUT, env=env)
     atexit.register(proc.terminate)
     logger.info(f"starting sglang on port {port}, log: {log_path}")
 

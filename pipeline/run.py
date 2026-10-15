@@ -95,7 +95,8 @@ def annotate_shard(name: str, annotate, shard: str, args) -> None:
 
 
 def main() -> None:
-    ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter,
+                                 add_help=False)  # -h added below, after the annotator options
     ap.add_argument("annotator", choices=ANNOTATORS)
     ap.add_argument("--sources", help="comma-separated, overrides the priority list in common.py")
     ap.add_argument("--part", help="i/n or i,j/n: only shards whose position mod n is in {i,j}, "
@@ -106,6 +107,7 @@ def main() -> None:
     name = ap.parse_known_args()[0].annotator
     module = importlib.import_module(ANNOTATORS[name])
     module.add_args(ap)  # adds --batch-size and annotator-specific options
+    ap.add_argument("-h", "--help", action="help")
     args = ap.parse_args()
 
     # SIGTERM (kill, SLURM time limit) -> normal exit, so the lock is released.
