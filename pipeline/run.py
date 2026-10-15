@@ -69,15 +69,31 @@ def annotate_shard(name: str, annotate, shard: str, args) -> None:
     todo = sorted((i for i in range(len(texts)) if i not in done), key=lambda i: len(texts[i]))
     if args.limit_docs:
         todo = todo[: args.limit_docs]
+    if done:
+        logger.info(f"{shard}: resuming, {len(done):,} rows already annotated")
+    logger.info(f"{shard}: annotating {len(todo):,} docs in batches of {args.batch_size} "
+                "(shortest first, so the rate drops over time)")
 
     t0 = time.time()
-    with open(partial, "a") as sink, tqdm(total=len(texts), initial=len(done), desc=shard, unit="doc") as bar:
+    chars = 0
+    with open(partial, "a") as sink, tqdm(total=len(texts), initial=len(done), desc=shard, unit="doc",
+                                          dynamic_ncols=True) as bar:
         for b in range(0, len(todo), args.batch_size):
             rows = todo[b : b + args.batch_size]
+            # annotate() may return an iterator (sglang): the bar moves per document.
             for i, ann in zip(rows, annotate([texts[i] for i in rows])):
                 sink.write(json.dumps({"row": i, **ann}) + "\n")
+                chars += len(texts[i])
+                bar.update(1)
             sink.flush()
-            bar.update(len(rows))
+            bar.set_postfix(chars_per_s=f"{chars / (time.time() - t0):,.0f}",
+                            doc_len=f"{len(texts[rows[-1]]):,}")
+    if todo:
+        # Rate of this run only (a resumed shard was partly done before).
+        sec = time.time() - t0
+        chars = sum(len(texts[i]) for i in todo)
+        logger.info(f"{shard}: {len(todo)} docs in {sec:.0f}s = {len(todo) / sec:.2f} docs/s, "
+                    f"{chars / sec:,.0f} chars/s (avg {chars / len(todo):,.0f} chars/doc)")
 
     done = read_partial(partial)
     if len(done) < len(texts):
@@ -86,6 +102,7 @@ def annotate_shard(name: str, annotate, shard: str, args) -> None:
 
     rows = [done[i] for i in range(len(texts))]
     out = common.output_path(name, shard)
+    logger.info(f"{shard}: complete, writing {out.name}")
     pq.write_table(float32(pa.Table.from_pylist(rows)), out, compression="zstd")
     partial.unlink()
     n_failed = sum(r.get("ok") is False for r in rows)
@@ -120,6 +137,9 @@ def main() -> None:
         mine, k = args.part.split("/")
         mine, k = {int(i) for i in mine.split(",")}, int(k)
         shards = [s for j, s in enumerate(shards) if j % k in mine]
+    n_done = len(set(shards) & common.annotated(name))
+    logger.info(f"{name}: {len(shards)} shards selected, {n_done} already annotated, "
+                f"{len(shards) - n_done} to go")
 
     annotate = None  # model is loaded only once there is work
     n = 0
@@ -128,7 +148,10 @@ def main() -> None:
             continue
         with common.shard_lock(name, shard) as got:
             if not got or shard in common.annotated(name):
+                if not got:
+                    logger.info(f"{shard}: locked by another process, skipping")
                 continue
+            logger.info(f"{shard}: starting")
             if annotate is None:
                 annotate = module.load(args)
             annotate_shard(name, annotate, shard, args)

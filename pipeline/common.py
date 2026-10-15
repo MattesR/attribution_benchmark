@@ -18,6 +18,8 @@ import time
 from contextlib import contextmanager
 from pathlib import Path
 
+from loguru import logger
+
 REPO = "common-pile/comma_v0.1_training_dataset"
 REVISION = "5afc546db324e7f39f297ba757c9a60547151e7c"  # pinned: row numbers must not shift
 
@@ -66,17 +68,27 @@ def raw_path(shard: str) -> Path:
 
 def download(shard: str) -> Path:
     path = raw_path(shard)
-    if not path.exists():
-        from huggingface_hub import hf_hub_download
-        t0 = time.time()
-        hf_hub_download(REPO, shard, repo_type="dataset", revision=REVISION, local_dir=DATA / "raw")
-        log("downloaded", shard=shard, seconds=round(time.time() - t0))
+    if path.exists():
+        logger.info(f"{shard}: raw file already here ({path.stat().st_size / 1e6:,.0f} MB)")
+        return path
+    from huggingface_hub import hf_hub_download
+    logger.info(f"{shard}: downloading")
+    t0 = time.time()
+    hf_hub_download(REPO, shard, repo_type="dataset", revision=REVISION, local_dir=DATA / "raw")
+    sec = time.time() - t0
+    logger.info(f"{shard}: downloaded {path.stat().st_size / 1e6:,.0f} MB in {sec:.0f}s")
+    log("downloaded", shard=shard, seconds=round(sec))
     return path
 
 
 def read_texts(path: Path) -> list[str]:
+    t0 = time.time()
     with gzip.open(path, "rt") as f:
-        return [json.loads(line)["text"] for line in f]
+        texts = [json.loads(line)["text"] for line in f]
+    chars = sum(map(len, texts))
+    logger.info(f"read {len(texts):,} docs, {chars / 1e6:,.0f}M chars "
+                f"(avg {chars / max(len(texts), 1):,.0f} chars/doc) in {time.time() - t0:.0f}s")
+    return texts
 
 
 def output_path(annotator: str, shard: str, partial: bool = False) -> Path:

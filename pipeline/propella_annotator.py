@@ -184,13 +184,19 @@ def start_sglang(args) -> str:
     atexit.register(proc.terminate)
     logger.info(f"starting sglang on port {port}, log: {log_path}")
 
-    for _ in range(240):  # up to 20 min (first run downloads the model)
+    t0 = time.time()
+    for k in range(240):  # up to 20 min (first run downloads the model, compiles kernels)
         if proc.poll() is not None:
             raise RuntimeError(f"sglang server exited, see {log_path}")
         try:
             urllib.request.urlopen(f"http://127.0.0.1:{port}/health", timeout=5)
+            logger.info(f"sglang server ready after {time.time() - t0:.0f}s")
             return f"http://127.0.0.1:{port}/v1"
         except Exception:
+            if k % 6 == 5:  # every ~30s: show what the server is doing
+                lines = log_path.read_text(errors="replace").strip().splitlines()
+                last = lines[-1][-150:] if lines else ""
+                logger.info(f"waiting for sglang ({time.time() - t0:.0f}s): {last}")
             time.sleep(5)
     raise RuntimeError(f"sglang server did not come up, see {log_path}")
 
@@ -215,7 +221,7 @@ def load_sglang(args, propella):
         )
         return to_row(parse_json(resp.choices[0].message.content or ""), propella)
 
-    def annotate(texts: list[str]) -> list[dict]:
-        return list(pool.map(one, texts))
+    def annotate(texts: list[str]):
+        return pool.map(one, texts)  # iterator, in order: lets the progress bar move per document
 
     return annotate

@@ -85,11 +85,14 @@ follow the priority order. When one side runs out of work, sync
 `progress.tsv` and restart it without `--part` to pick up what is left.
 
 cir (external 4x A100): four independent processes, one per GPU. A100s don't
-support fp8, so `--fp8` is left off.
+support fp8, so `--fp8` is left off. SGLang's default flashinfer kernels fail
+to build on cir, so it uses the Triton attention backend and PyTorch sampling.
+Only start processes on GPUs that `nvidia-smi` shows as free.
 
 ```bash
 for g in 0 1 2 3; do
-  CUDA_VISIBLE_DEVICES=$g nohup python -m pipeline.run propella --part 2/3 --backend sglang --batch-size 512 \
+  CUDA_VISIBLE_DEVICES=$g nohup .venv/bin/python -m pipeline.run propella --part 2/3 --backend sglang --batch-size 512 \
+    --sglang-args "--attention-backend triton --sampling-backend pytorch" \
     > logs/propella-gpu$g.log 2>&1 &
   echo $! > logs/propella-gpu$g.pid
 done
