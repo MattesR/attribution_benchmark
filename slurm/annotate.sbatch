@@ -1,8 +1,8 @@
 #!/bin/bash
 # One GPU per array task; each task works through shards until none are left.
 #
-#   sbatch -w cn19 --array=0-3 slurm/annotate.sbatch propella --backend sglang --fp8 --batch-size 512
-#   sbatch -w cn11 --array=0-1 slurm/annotate.sbatch propella --backend sglang --fp8 --batch-size 512
+#   sbatch -w cn19 --array=0-3 slurm/annotate.sbatch propella --part 0,1/3 --backend sglang --fp8 --batch-size 512
+#   sbatch -w cn11 --array=0-1 slurm/annotate.sbatch propella --part 0,1/3 --backend sglang --fp8 --batch-size 512
 #   sbatch slurm/annotate.sbatch weborganizer
 #
 # On the time limit SLURM sends SIGTERM: the lock is released and the
@@ -19,6 +19,7 @@
 
 cd "$SLURM_SUBMIT_DIR"
 source slurm_startup.sh || exit 1   # modules (GCC, CUDA) + venv
+export PYTHONUNBUFFERED=1           # progress bar reaches the log file in whole updates
 # No srun: one process per task needs no job step, and srun's CPU binding
 # can fail when SLURM variables leak in from another session. exec makes
 # python the batch shell itself, so it receives the SIGTERM above.

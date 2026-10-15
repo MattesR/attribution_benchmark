@@ -12,8 +12,11 @@ echo "== jobs =="
 squeue -u "$USER" -o "%.12i %.10j %.8T %.12M %.10l %R"
 
 echo
-echo "== latest progress per job log =="
-for f in $(ls -t logs/annotate-*.out 2>/dev/null | head -20); do
+echo "== latest progress of running jobs =="
+# Only logs of running tasks (old logs of finished/failed tasks stay in logs/).
+for id in $(squeue -h -u "$USER" -t RUNNING -o "%i"); do
+    f="logs/annotate-$id.out"
+    [ -f "$f" ] || continue
     # tqdm separates updates with \r; keep the last non-empty one.
     last=$(tr '\r' '\n' < "$f" | grep -v '^\s*$' | tail -1)
     printf "%-28s %s\n" "$(basename "$f")" "${last:0:160}"
