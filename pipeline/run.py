@@ -98,6 +98,9 @@ def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("annotator", choices=ANNOTATORS)
     ap.add_argument("--sources", help="comma-separated, overrides the priority list in common.py")
+    ap.add_argument("--part", help="i/n or i,j/n: only shards whose position mod n is in {i,j}, "
+                                   "e.g. 0,1/3 on the cluster and 2/3 on cir, so machines without "
+                                   "shared locks don't overlap")
     ap.add_argument("--max-shards", type=int, default=0, help="stop after this many shards")
     ap.add_argument("--limit-docs", type=int, default=0, help="prototype: annotate only N docs per shard")
     name = ap.parse_known_args()[0].annotator
@@ -108,9 +111,17 @@ def main() -> None:
     # SIGTERM (kill, SLURM time limit) -> normal exit, so the lock is released.
     signal.signal(signal.SIGTERM, lambda *_: sys.exit(1))
 
+    shards = common.ordered_shards(args.sources.split(",") if args.sources else None)
+    if args.part:
+        # Every n-th shard of the (pinned, identical everywhere) list: disjoint
+        # work for machines that don't share locks, in the same priority order.
+        mine, k = args.part.split("/")
+        mine, k = {int(i) for i in mine.split(",")}, int(k)
+        shards = [s for j, s in enumerate(shards) if j % k in mine]
+
     annotate = None  # model is loaded only once there is work
     n = 0
-    for shard in common.ordered_shards(args.sources.split(",") if args.sources else None):
+    for shard in shards:
         if shard in common.annotated(name):
             continue
         with common.shard_lock(name, shard) as got:

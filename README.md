@@ -78,24 +78,31 @@ python -m pipeline.run weborganizer --sources news --max-shards 1 --limit-docs 1
 python -m pipeline.run propella --sources news --max-shards 1 --limit-docs 20
 ```
 
-External A100 box: four independent processes, one per GPU. A100s don't
+The cluster and cir don't share locks, so they split the shard list with
+`--part`: e.g. the cluster takes `0,1/3` (two thirds, it has more GPUs), cir
+takes `2/3`. Both still
+follow the priority order. When one side runs out of work, sync
+`progress.tsv` and restart it without `--part` to pick up what is left.
+
+cir (external 4x A100): four independent processes, one per GPU. A100s don't
 support fp8, so `--fp8` is left off.
 
 ```bash
 for g in 0 1 2 3; do
-  CUDA_VISIBLE_DEVICES=$g nohup python -m pipeline.run propella --backend sglang --batch-size 512 \
+  CUDA_VISIBLE_DEVICES=$g nohup python -m pipeline.run propella --part 2/3 --backend sglang --batch-size 512 \
     > logs/propella-gpu$g.log 2>&1 &
   echo $! > logs/propella-gpu$g.pid
 done
 kill $(cat logs/propella-gpu2.pid)   # free GPU 2; its shard resumes later
 ```
 
-SLURM (cn11: 2x H100, cn19: 4x L40S, both fp8-capable):
+SLURM (cn11: 2x H100, cn19: 4x L40S, both fp8-capable; jobs share locks via
+the home directory):
 
 ```bash
-sbatch -w cn11 --array=0-1 slurm/annotate.sbatch propella --backend sglang --fp8 --batch-size 512
-sbatch -w cn19 --array=0-3 slurm/annotate.sbatch propella --backend sglang --fp8 --batch-size 512
-sbatch slurm/annotate.sbatch weborganizer
+sbatch -w cn11 --array=0-1 slurm/annotate.sbatch propella --part 0,1/3 --backend sglang --fp8 --batch-size 512
+sbatch -w cn19 --array=0-3 slurm/annotate.sbatch propella --part 0,1/3 --backend sglang --fp8 --batch-size 512
+sbatch slurm/annotate.sbatch weborganizer   # only the cluster runs weborganizer, so no --part
 ```
 
 Overview:
@@ -115,6 +122,6 @@ python -m pipeline.status
   schema is enforced.
 - Raw files are kept after annotation, so the second annotator doesn't
   download them again. Delete `data/raw/` when disk space is tight.
-- Not handled yet: claiming shards across machines without a shared
-  filesystem. For now, give each machine different `--sources`, or merge
-  `progress.tsv` before starting.
+- Machines without a shared filesystem coordinate only through `--part` and a
+  manually synced `progress.tsv` (`git pull && git add progress.tsv && git
+  commit -m progress && git push`). The workers never commit themselves.
