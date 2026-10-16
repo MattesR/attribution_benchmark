@@ -8,8 +8,8 @@ reduced to one GPU per process.
       generations may be invalid JSON -> stored with ok=False.
   --backend sglang        starts an SGLang server on a free port for this
       process (or uses --base-url), which enforces the JSON schema and is
-      several times faster. Defaults follow the propella paper's throughput
-      setup (many concurrent requests): --concurrency 512, --batch-size 2048.
+      several times faster. Defaults: --concurrency 240 (just below the
+      server's 256 running requests), --batch-size 2048.
 
 Prompts and schema come from the model repo's own propella.py.
 Output per document: the 18 properties + ok (parsed and schema-valid).
@@ -40,15 +40,21 @@ def add_args(ap) -> None:
     ap.add_argument("--batch-size", type=int, default=None,
                     help="docs per generate() call (transformers, default 8) or per checkpoint (sglang, default 2048)")
     ap.add_argument("--max-chars", type=int, default=50000, help="model card's recommended truncation")
-    # transformers backend
+    # transformers backend (--max-new-tokens applies to both)
     ap.add_argument("--dtype", default="bfloat16")
     ap.add_argument("--max-input-tokens", type=int, default=8192)
-    ap.add_argument("--max-new-tokens", type=int, default=640)
+    ap.add_argument("--max-new-tokens", type=int, default=640,
+                    help="output limit; the JSON answer is ~150-300 tokens. Also sent to SGLang, whose "
+                         "scheduler otherwise reserves room for context-length outputs and admits "
+                         "new requests one at a time")
     # sglang backend
     ap.add_argument("--base-url", default=None, help="use a running server instead of starting one")
     ap.add_argument("--fp8", action="store_true", help="fp8 weights + KV cache (H100, L40S; not A100)")
-    ap.add_argument("--concurrency", type=int, default=512,
-                    help="parallel requests; more than the server runs at once, so it always has work queued")
+    # Must stay below the server's --max-running-requests (256): at 256 running
+    # requests, a mixed prefill+decode step builds a batch of 257 and SGLang
+    # crashes ("size of tensor a (257) must match ... (256)"), seen on cn19.
+    ap.add_argument("--concurrency", type=int, default=240,
+                    help="parallel requests; keep below 256 (server limit)")
     ap.add_argument("--sglang-args", default="",
                     help='extra server flags, e.g. "--attention-backend triton --sampling-backend pytorch"')
 
@@ -229,6 +235,7 @@ def load_sglang(args, propella):
         resp = client.chat.completions.create(
             model=args.model,
             messages=propella.create_messages(text, max_content_chars=args.max_chars),
+            max_tokens=args.max_new_tokens,
             response_format={"type": "json_schema", "json_schema": {
                 "name": "AnnotationResponse", "schema": schema, "strict": True}},
         )
