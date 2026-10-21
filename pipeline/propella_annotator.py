@@ -32,6 +32,7 @@ MULTI = ["content_type", "business_sector", "technical_content",
          "regional_relevance", "country_relevance"]
 FREE_TEXT = "one_sentence_description"
 FIELDS = [FREE_TEXT] + SINGLE + MULTI
+SGLANG_CONTEXT = 65536  # server --context-length (model maximum)
 
 
 def add_args(ap) -> None:
@@ -177,7 +178,7 @@ def start_sglang(args) -> str:
         s.bind(("127.0.0.1", 0))
         port = s.getsockname()[1]
     cmd = [sys.executable, "-m", "sglang.launch_server", "--model-path", args.model,
-           "--host", "127.0.0.1", "--port", str(port), "--context-length", "65536",
+           "--host", "127.0.0.1", "--port", str(port), "--context-length", str(SGLANG_CONTEXT),
            "--max-running-requests", "256", "--chunked-prefill-size", "8192",
            "--enable-mixed-chunk", "--num-continuous-decode-steps", "8",
            "--grammar-backend", "llguidance", "--mem-fraction-static", "0.7"]
@@ -221,24 +222,49 @@ def start_sglang(args) -> str:
 
 
 def load_sglang(args, propella):
+    import threading
     from concurrent.futures import ThreadPoolExecutor
 
-    from openai import OpenAI
+    from openai import BadRequestError, OpenAI
+    from transformers import AutoTokenizer
 
     client = OpenAI(base_url=args.base_url or start_sglang(args), api_key="EMPTY", timeout=600)
     schema = propella.get_annotation_response_schema(flatten=True, compact_whitespace=True)
     pool = ThreadPoolExecutor(max_workers=args.concurrency)
 
+    # The model card truncates by characters (50k), but token-dense text
+    # (symbols, emoji, base64, some scripts) can exceed the 65,536-token context
+    # even then; seen on stackexchange with 99k tokens. Cap the document's
+    # tokens too, leaving room for the prompt and the answer.
+    tok = AutoTokenizer.from_pretrained(args.model)
+    tok_lock = threading.Lock()  # fast tokenizers are not safe across threads
+    doc_budget = SGLANG_CONTEXT - 2048 - args.max_new_tokens
+
+    def fit(text: str) -> str:
+        text = text[: args.max_chars]
+        if len(text) * 4 <= doc_budget:  # a character is at most 4 tokens (byte-level BPE)
+            return text
+        with tok_lock:
+            ids = tok(text, add_special_tokens=False)["input_ids"]
+            if len(ids) <= doc_budget:
+                return text
+            return tok.decode(ids[:doc_budget]) + "\n" + propella.TRUNCATION_TAG
+
     def one(text: str) -> dict:
         # Server/connection errors propagate and stop the run (the shard stays
-        # partial and resumes); only unusable outputs are stored as ok=False.
-        resp = client.chat.completions.create(
-            model=args.model,
-            messages=propella.create_messages(text, max_content_chars=args.max_chars),
-            max_tokens=args.max_new_tokens,
-            response_format={"type": "json_schema", "json_schema": {
-                "name": "AnnotationResponse", "schema": schema, "strict": True}},
-        )
+        # partial and resumes); a request rejected for this document alone, or
+        # an unusable output, is stored as ok=False.
+        try:
+            resp = client.chat.completions.create(
+                model=args.model,
+                messages=propella.create_messages(fit(text), max_content_chars=args.max_chars),
+                max_tokens=args.max_new_tokens,
+                response_format={"type": "json_schema", "json_schema": {
+                    "name": "AnnotationResponse", "schema": schema, "strict": True}},
+            )
+        except BadRequestError as e:
+            logger.warning(f"document rejected by the server, stored as ok=False: {e}")
+            return to_row(None, propella)
         return to_row(parse_json(resp.choices[0].message.content or ""), propella)
 
     def annotate(texts: list[str]):
