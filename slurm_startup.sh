@@ -24,12 +24,15 @@ if [ -z "$CUDA_HOME" ] && command -v nvcc >/dev/null 2>&1; then
     export CUDA_HOME="$(dirname "$(dirname "$(command -v nvcc)")")"
 fi
 
-source "$ROOT/.venv/bin/activate" || return 1
+# VENV selects the environment: .venv (default; propella + SGLang, which needs
+# transformers 5) or .venv-weborganizer (WebOrganizer, needs transformers<5).
+source "$ROOT/${VENV:-.venv}/bin/activate" || return 1
 
 echo "gcc:       $(gcc --version | head -1)"
 echo "nvcc:      $(nvcc --version | tail -1)"
 echo "CUDA_HOME: ${CUDA_HOME:-NOT SET}"
 echo "python:    $(command -v python) ($(python --version 2>&1))"
+echo "transformers: $(python -c 'import transformers; print(transformers.__version__)')"
 echo "ninja:     $(command -v ninja || echo 'NOT FOUND')"
 if command -v nvidia-smi >/dev/null 2>&1; then
     echo "GPUs:      $(nvidia-smi --query-gpu=name --format=csv,noheader | paste -sd, -)"

@@ -66,6 +66,19 @@ uv pip install "sglang[all]" # GPU machines only: SGLang for fast propella (pins
 huggingface-cli login        # or export HF_TOKEN
 ```
 
+On GPU machines SGLang upgrades transformers to 5.x, which breaks WebOrganizer's
+model code. WebOrganizer therefore gets its own venv, with the pins from
+`pyproject.toml`:
+
+```bash
+uv venv .venv-weborganizer --python 3.12
+uv pip install --python .venv-weborganizer/bin/python -r pyproject.toml
+```
+
+Select it with `VENV=.venv-weborganizer` (read by `slurm_startup.sh`):
+`VENV=.venv-weborganizer source slurm_startup.sh` interactively, or
+`VENV=.venv-weborganizer sbatch … slurm/annotate.sbatch weborganizer` for jobs.
+
 Data goes to `./data` unless `ATTRIB_DATA` points elsewhere (e.g. a scratch
 filesystem on the cluster).
 
@@ -84,20 +97,21 @@ takes `2/3`. Both still
 follow the priority order. When one side runs out of work, sync
 `progress.tsv` and restart it without `--part` to pick up what is left.
 
-cir (external 4x A100): four independent processes, one per GPU. A100s don't
-support fp8, so `--fp8` is left off. SGLang's default flashinfer kernels fail
-to build on cir, so it uses the Triton attention backend and PyTorch sampling.
-Only start processes on GPUs that `nvidia-smi` shows as free.
+cir (external 4x A100): `local_run.sh` starts one background worker per GPU,
+by default on GPUs 3, 2, 1 (filled from the back; GPU 0 stays free for others).
+A100s don't support fp8, so `--fp8` is left off. Only use GPUs that
+`nvidia-smi` shows as free.
 
 ```bash
-for g in 0 1 2 3; do
-  CUDA_VISIBLE_DEVICES=$g nohup .venv/bin/python -m pipeline.run propella --part 2/3 --backend sglang \
-    --sglang-args "--attention-backend triton --sampling-backend pytorch" \
-    > logs/propella-gpu$g.log 2>&1 &
-  echo $! > logs/propella-gpu$g.pid
-done
-kill $(cat logs/propella-gpu2.pid)   # free GPU 2; its shard resumes later
+VENV=.venv-weborganizer bash local_run.sh weborganizer
+GPUS="3 2" bash local_run.sh propella --backend sglang
+tail -f logs/weborganizer-gpu3.log                 # watch one worker
+kill $(cat logs/weborganizer-gpu2.pid)              # free GPU 2; its file resumes later
 ```
+
+Before cir's driver update, SGLang needed the Triton fallback there
+(`--sglang-args "--attention-backend triton --sampling-backend pytorch"`),
+which was ~20x slower than expected.
 
 SLURM (cn11: 2x H100, cn19: 4x L40S, both fp8-capable; jobs share locks via
 the home directory). `slurm_startup.sh` loads `GCC/13.3.0 CUDA/12.6.0`, which SGLang needs
@@ -107,7 +121,7 @@ the home directory). `slurm_startup.sh` loads `GCC/13.3.0 CUDA/12.6.0`, which SG
 ```bash
 sbatch -w cn11 --array=0-1 slurm/annotate.sbatch propella --part 0,1/3 --backend sglang --fp8
 sbatch -w cn19 --array=0-3 slurm/annotate.sbatch propella --part 0,1/3 --backend sglang --fp8
-sbatch slurm/annotate.sbatch weborganizer   # only the cluster runs weborganizer, so no --part
+VENV=.venv-weborganizer sbatch slurm/annotate.sbatch weborganizer   # own venv (transformers<5); only the cluster runs it, so no --part
 ```
 
 Overview:

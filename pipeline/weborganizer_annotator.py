@@ -26,11 +26,22 @@ def add_args(ap) -> None:
 
 def load(args):
     import torch
+    import transformers
     from transformers import AutoModelForSequenceClassification, AutoTokenizer
+
+    # The gte remote code computes position ids / rotary tables at construction;
+    # transformers 5 leaves them uninitialised (IndexError on CPU, device-side
+    # assert on GPU). SGLang needs transformers 5, so WebOrganizer gets its own
+    # venv: VENV=.venv-weborganizer (see slurm_startup.sh).
+    if int(transformers.__version__.split(".")[0]) >= 5:
+        raise RuntimeError(f"WebOrganizer needs transformers<5, found {transformers.__version__}; "
+                           "use the WebOrganizer venv (VENV=.venv-weborganizer, see README)")
 
     device = "cuda" if torch.cuda.is_available() else "cpu"
     dtype = torch.bfloat16 if device == "cuda" else torch.float32
-    tok = AutoTokenizer.from_pretrained(MODELS["topic"])
+    # trust_remote_code also here: the config references the gte custom code, and
+    # without it transformers asks interactively (fatal in a batch job).
+    tok = AutoTokenizer.from_pretrained(MODELS["topic"], trust_remote_code=True)
     models, labels = {}, {}
     for name, repo in MODELS.items():
         m = AutoModelForSequenceClassification.from_pretrained(

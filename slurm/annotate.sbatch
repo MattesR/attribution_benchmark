@@ -3,7 +3,7 @@
 #
 #   sbatch -w cn19 --array=0-3 slurm/annotate.sbatch propella --part 0,1/3 --backend sglang --fp8
 #   sbatch -w cn11 --array=0-1 slurm/annotate.sbatch propella --part 0,1/3 --backend sglang --fp8
-#   sbatch slurm/annotate.sbatch weborganizer
+#   VENV=.venv-weborganizer sbatch slurm/annotate.sbatch weborganizer
 #
 # On the time limit SLURM sends SIGTERM: the lock is released and the
 # partial shard resumes in the next job.
