@@ -3,7 +3,7 @@
 #
 #   bash local_run.sh weborganizer                    # GPUs 3 2 1 (from the back; GPU 0 stays free)
 #   GPUS="3 2" bash local_run.sh propella --backend sglang
-#   VENV=.venv-weborganizer bash local_run.sh weborganizer
+#   ./local_run.sh weborganizer                       # inside an activated venv: uses that venv
 #
 # Logs:   logs/<annotator>-gpu<N>.log      (tail -f to watch)
 # Stop:   kill $(cat logs/<annotator>-gpu<N>.pid)   (one GPU; its file resumes later)
@@ -12,8 +12,11 @@
 cd "$(dirname "$0")" || exit 1
 annotator=${1:?usage: bash local_run.sh <annotator> [pipeline.run options]}
 shift
-python="${VENV:-.venv}/bin/python"
-[ -x "$python" ] || { echo "no python at $python (set VENV?)"; exit 1; }
+# Python: VENV if given, else the activated venv, else .venv.
+venv="${VENV:-${VIRTUAL_ENV:-.venv}}"
+python="$venv/bin/python"
+[ -x "$python" ] || { echo "no python at $python (activate a venv or set VENV)"; exit 1; }
+echo "using $python"
 
 for g in ${GPUS:-3 2 1}; do
     log="logs/$annotator-gpu$g.log"
