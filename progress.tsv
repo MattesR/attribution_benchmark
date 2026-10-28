@@ -1,0 +1,1409 @@
+time	host	event	annotator	shard	n_docs	n_failed	seconds
+2026-10-15T13:43:27	cn11.hpc.itu.dk	downloaded		cccc/cccc.chunk.01.jsonl.gz			9
+2026-10-15T14:38:11	cn11.hpc.itu.dk	downloaded		cccc/cccc.chunk.00.jsonl.gz			10
+2026-10-15T14:46:31	cn19.hpc.itu.dk	downloaded		cccc/cccc.chunk.03.jsonl.gz			10
+2026-10-15T14:57:07	cn19.hpc.itu.dk	downloaded		cccc/cccc.chunk.04.jsonl.gz			21
+2026-10-15T16:31:37	cn11.hpc.itu.dk	annotated	propella	cccc/cccc.chunk.01.jsonl.gz	107065	0	2687
+2026-10-15T16:31:52	cn11.hpc.itu.dk	downloaded		cccc/cccc.chunk.06.jsonl.gz			15
+2026-10-15T16:34:28	cn11.hpc.itu.dk	annotated	propella	cccc/cccc.chunk.00.jsonl.gz	107065	0	2853
+2026-10-15T16:34:40	cn11.hpc.itu.dk	downloaded		cccc/cccc.chunk.07.jsonl.gz			11
+2026-10-15T17:43:05	cn19.hpc.itu.dk	downloaded		cccc/cccc.chunk.09.jsonl.gz			18
+2026-10-15T18:22:16	cn11.hpc.itu.dk	annotated	propella	cccc/cccc.chunk.06.jsonl.gz	107065	0	6617
+2026-10-15T18:26:24	cn11.hpc.itu.dk	annotated	propella	cccc/cccc.chunk.07.jsonl.gz	107065	0	6697
+2026-10-15T18:26:36	cn11.hpc.itu.dk	downloaded		cccc/cccc.chunk.10.jsonl.gz			12
+2026-10-15T19:56:06	cn19.hpc.itu.dk	annotated	propella	cccc/cccc.chunk.03.jsonl.gz	107065	0	14979
+2026-10-15T20:11:08	cn11.hpc.itu.dk	annotated	propella	cccc/cccc.chunk.09.jsonl.gz	107065	0	6524
+2026-10-15T20:11:23	cn11.hpc.itu.dk	downloaded		cccc/cccc.chunk.12.jsonl.gz			15
+2026-10-15T20:18:33	cn11.hpc.itu.dk	annotated	propella	cccc/cccc.chunk.10.jsonl.gz	107065	0	6710
+2026-10-15T20:18:44	cn11.hpc.itu.dk	downloaded		cccc/cccc.chunk.13.jsonl.gz			11
+2026-10-15T21:18:24	cn19.hpc.itu.dk	annotated	propella	cccc/cccc.chunk.04.jsonl.gz	107065	0	4931
+2026-10-15T21:18:55	cn19.hpc.itu.dk	downloaded		cccc/cccc.chunk.15.jsonl.gz			30
+2026-10-15T22:00:42	cn11.hpc.itu.dk	annotated	propella	cccc/cccc.chunk.12.jsonl.gz	107065	0	6553
+2026-10-15T22:10:32	cn11.hpc.itu.dk	annotated	propella	cccc/cccc.chunk.13.jsonl.gz	107065	0	6701
+2026-10-15T22:10:43	cn11.hpc.itu.dk	downloaded		cccc/cccc.chunk.16.jsonl.gz			11
+2026-10-15T23:55:47	cn11.hpc.itu.dk	annotated	propella	cccc/cccc.chunk.15.jsonl.gz	107065	0	6898
+2026-10-15T23:56:00	cn11.hpc.itu.dk	downloaded		cccc/cccc.chunk.18.jsonl.gz			13
+2026-10-16T00:09:17	cn11.hpc.itu.dk	annotated	propella	cccc/cccc.chunk.16.jsonl.gz	107065	0	7106
+2026-10-16T00:09:26	cn11.hpc.itu.dk	downloaded		cccc/cccc.chunk.19.jsonl.gz			9
+2026-10-16T01:57:34	cn11.hpc.itu.dk	annotated	propella	cccc/cccc.chunk.18.jsonl.gz	107065	0	7285
+2026-10-16T01:57:50	cn11.hpc.itu.dk	downloaded		cccc/cccc.chunk.21.jsonl.gz			16
+2026-10-16T02:12:13	cn11.hpc.itu.dk	annotated	propella	cccc/cccc.chunk.19.jsonl.gz	107065	0	7359
+2026-10-16T02:12:24	cn11.hpc.itu.dk	downloaded		cccc/cccc.chunk.22.jsonl.gz			11
+2026-10-16T03:56:32	cn11.hpc.itu.dk	annotated	propella	cccc/cccc.chunk.21.jsonl.gz	107065	0	7114
+2026-10-16T03:56:40	cn11.hpc.itu.dk	downloaded		cccc/cccc.chunk.24.jsonl.gz			8
+2026-10-16T04:13:04	cn11.hpc.itu.dk	annotated	propella	cccc/cccc.chunk.22.jsonl.gz	107065	0	7232
+2026-10-16T04:13:12	cn11.hpc.itu.dk	downloaded		cccc/cccc.chunk.25.jsonl.gz			8
+2026-10-16T05:51:48	cn11.hpc.itu.dk	annotated	propella	cccc/cccc.chunk.24.jsonl.gz	107065	0	6900
+2026-10-16T05:51:56	cn11.hpc.itu.dk	downloaded		cccc/cccc.chunk.27.jsonl.gz			8
+2026-10-16T06:09:17	cn11.hpc.itu.dk	annotated	propella	cccc/cccc.chunk.25.jsonl.gz	107065	0	6958
+2026-10-16T06:09:24	cn11.hpc.itu.dk	downloaded		cccc/cccc.chunk.28.jsonl.gz			7
+2026-10-16T07:45:03	cn11.hpc.itu.dk	annotated	propella	cccc/cccc.chunk.27.jsonl.gz	107065	0	6779
+2026-10-16T07:45:12	cn11.hpc.itu.dk	downloaded		cccc/cccc.chunk.30.jsonl.gz			9
+2026-10-16T08:06:06	cn11.hpc.itu.dk	annotated	propella	cccc/cccc.chunk.28.jsonl.gz	107065	0	6994
+2026-10-16T08:06:20	cn11.hpc.itu.dk	downloaded		cccc/cccc.chunk.31.jsonl.gz			14
+2026-10-16T09:39:17	cn11.hpc.itu.dk	annotated	propella	cccc/cccc.chunk.30.jsonl.gz	107065	0	6837
+2026-10-16T09:39:35	cn11.hpc.itu.dk	downloaded		cccc/cccc.chunk.33.jsonl.gz			18
+2026-10-16T10:02:42	cn11.hpc.itu.dk	annotated	propella	cccc/cccc.chunk.31.jsonl.gz	107065	0	6974
+2026-10-16T10:03:01	cn11.hpc.itu.dk	downloaded		cccc/cccc.chunk.34.jsonl.gz			19
+2026-10-16T11:36:03	cn11.hpc.itu.dk	annotated	propella	cccc/cccc.chunk.33.jsonl.gz	107065	0	6980
+2026-10-16T11:36:15	cn11.hpc.itu.dk	downloaded		cccc/cccc.chunk.36.jsonl.gz			11
+2026-10-16T12:03:47	cn11.hpc.itu.dk	annotated	propella	cccc/cccc.chunk.34.jsonl.gz	107065	0	7239
+2026-10-16T12:04:03	cn11.hpc.itu.dk	downloaded		cccc/cccc.chunk.37.jsonl.gz			15
+2026-10-16T13:35:36	cn11.hpc.itu.dk	annotated	propella	cccc/cccc.chunk.36.jsonl.gz	107065	0	7151
+2026-10-16T13:35:45	cn11.hpc.itu.dk	downloaded		cccc/cccc.chunk.39.jsonl.gz			8
+2026-10-16T14:04:42	cn11.hpc.itu.dk	annotated	propella	cccc/cccc.chunk.37.jsonl.gz	107065	0	7229
+2026-10-16T14:05:10	cn11.hpc.itu.dk	downloaded		cccc/cccc.chunk.40.jsonl.gz			27
+2026-10-16T15:58:24	cn11.hpc.itu.dk	annotated	propella	cccc/cccc.chunk.39.jsonl.gz	107065	0	8548
+2026-10-16T15:58:47	cn11.hpc.itu.dk	downloaded		cccc/cccc.chunk.42.jsonl.gz			22
+2026-10-16T16:51:35	cn11.hpc.itu.dk	annotated	propella	cccc/cccc.chunk.40.jsonl.gz	107065	0	9975
+2026-10-16T16:53:04	cn11.hpc.itu.dk	downloaded		cccc/cccc.chunk.43.jsonl.gz			81
+2026-10-16T18:47:07	cn11.hpc.itu.dk	annotated	propella	cccc/cccc.chunk.42.jsonl.gz	107064	0	10090
+2026-10-16T18:47:28	cn11.hpc.itu.dk	downloaded		cccc/cccc.chunk.45.jsonl.gz			20
+2026-10-16T19:25:03	cn11.hpc.itu.dk	annotated	propella	cccc/cccc.chunk.43.jsonl.gz	107064	0	9093
+2026-10-16T19:25:35	cn11.hpc.itu.dk	downloaded		cccc/cccc.chunk.46.jsonl.gz			26
+2026-10-16T21:01:08	cn11.hpc.itu.dk	annotated	propella	cccc/cccc.chunk.45.jsonl.gz	107064	0	8009
+2026-10-16T21:03:36	cn11.hpc.itu.dk	downloaded		cccc/cccc.chunk.48.jsonl.gz			135
+2026-10-16T21:48:09	cn11.hpc.itu.dk	annotated	propella	cccc/cccc.chunk.46.jsonl.gz	107064	0	8540
+2026-10-16T21:48:42	cn11.hpc.itu.dk	downloaded		cccc/cccc.chunk.49.jsonl.gz			33
+2026-10-16T23:10:34	cn11.hpc.itu.dk	annotated	propella	cccc/cccc.chunk.48.jsonl.gz	107064	0	7593
+2026-10-16T23:10:54	cn11.hpc.itu.dk	downloaded		cccc/cccc.chunk.51.jsonl.gz			19
+2026-10-16T23:45:28	cn11.hpc.itu.dk	annotated	propella	cccc/cccc.chunk.49.jsonl.gz	107064	0	6990
+2026-10-16T23:45:47	cn11.hpc.itu.dk	downloaded		cccc/cccc.chunk.52.jsonl.gz			19
+2026-10-17T01:02:50	cn11.hpc.itu.dk	annotated	propella	cccc/cccc.chunk.51.jsonl.gz	107064	0	6708
+2026-10-17T01:03:24	cn11.hpc.itu.dk	downloaded		cccc/cccc.chunk.54.jsonl.gz			33
+2026-10-17T01:40:56	cn11.hpc.itu.dk	annotated	propella	cccc/cccc.chunk.52.jsonl.gz	107064	0	6900
+2026-10-17T01:41:04	cn11.hpc.itu.dk	downloaded		cccc/cccc.chunk.55.jsonl.gz			7
+2026-10-17T02:16:26	cn19.hpc.itu.dk	downloaded		cccc/cccc.chunk.57.jsonl.gz			9
+2026-10-17T02:55:32	cn11.hpc.itu.dk	annotated	propella	cccc/cccc.chunk.54.jsonl.gz	107064	0	6721
+2026-10-17T02:55:40	cn11.hpc.itu.dk	downloaded		cccc/cccc.chunk.58.jsonl.gz			8
+2026-10-17T03:35:01	cn11.hpc.itu.dk	annotated	propella	cccc/cccc.chunk.55.jsonl.gz	107064	0	6830
+2026-10-17T03:35:09	cn11.hpc.itu.dk	downloaded		cccc/cccc.chunk.60.jsonl.gz			8
+2026-10-17T04:47:56	cn11.hpc.itu.dk	annotated	propella	cccc/cccc.chunk.58.jsonl.gz	107064	0	6729
+2026-10-17T04:48:04	cn11.hpc.itu.dk	downloaded		cccc/cccc.chunk.61.jsonl.gz			7
+2026-10-17T04:54:07	cn19.hpc.itu.dk	downloaded		cccc/cccc.chunk.63.jsonl.gz			9
+2026-10-17T05:02:37	cn19.hpc.itu.dk	downloaded		news/news.chunk.00.jsonl.gz			2
+2026-10-17T05:04:08	cn19.hpc.itu.dk	annotated	propella	news/news.chunk.00.jsonl.gz	1980	0	91
+2026-10-17T05:04:10	cn19.hpc.itu.dk	downloaded		news/news.chunk.02.jsonl.gz			2
+2026-10-17T05:05:37	cn19.hpc.itu.dk	annotated	propella	news/news.chunk.02.jsonl.gz	1980	0	87
+2026-10-17T05:05:39	cn19.hpc.itu.dk	downloaded		news/news.chunk.03.jsonl.gz			2
+2026-10-17T05:07:07	cn19.hpc.itu.dk	annotated	propella	news/news.chunk.03.jsonl.gz	1980	1	88
+2026-10-17T05:07:09	cn19.hpc.itu.dk	downloaded		news/news.chunk.05.jsonl.gz			2
+2026-10-17T05:08:37	cn19.hpc.itu.dk	annotated	propella	news/news.chunk.05.jsonl.gz	1980	0	89
+2026-10-17T05:08:39	cn19.hpc.itu.dk	downloaded		news/news.chunk.06.jsonl.gz			2
+2026-10-17T05:10:12	cn19.hpc.itu.dk	annotated	propella	news/news.chunk.06.jsonl.gz	1980	2	92
+2026-10-17T05:10:13	cn19.hpc.itu.dk	downloaded		news/news.chunk.08.jsonl.gz			2
+2026-10-17T05:11:43	cn19.hpc.itu.dk	annotated	propella	news/news.chunk.08.jsonl.gz	1980	0	90
+2026-10-17T05:11:46	cn19.hpc.itu.dk	downloaded		news/news.chunk.09.jsonl.gz			2
+2026-10-17T05:13:09	cn19.hpc.itu.dk	annotated	propella	news/news.chunk.09.jsonl.gz	1980	0	83
+2026-10-17T05:13:11	cn19.hpc.itu.dk	downloaded		news/news.chunk.11.jsonl.gz			2
+2026-10-17T05:14:39	cn19.hpc.itu.dk	annotated	propella	news/news.chunk.11.jsonl.gz	1980	0	89
+2026-10-17T05:14:41	cn19.hpc.itu.dk	downloaded		news/news.chunk.12.jsonl.gz			2
+2026-10-17T05:16:14	cn19.hpc.itu.dk	annotated	propella	news/news.chunk.12.jsonl.gz	1980	1	93
+2026-10-17T05:16:17	cn19.hpc.itu.dk	downloaded		news/news.chunk.14.jsonl.gz			2
+2026-10-17T05:17:47	cn19.hpc.itu.dk	annotated	propella	news/news.chunk.14.jsonl.gz	1980	1	91
+2026-10-17T05:17:49	cn19.hpc.itu.dk	downloaded		news/news.chunk.15.jsonl.gz			2
+2026-10-17T05:19:18	cn19.hpc.itu.dk	annotated	propella	news/news.chunk.15.jsonl.gz	1980	1	89
+2026-10-17T05:19:20	cn19.hpc.itu.dk	downloaded		news/news.chunk.17.jsonl.gz			2
+2026-10-17T05:20:47	cn19.hpc.itu.dk	annotated	propella	news/news.chunk.17.jsonl.gz	1979	1	87
+2026-10-17T05:20:50	cn19.hpc.itu.dk	downloaded		news/news.chunk.18.jsonl.gz			2
+2026-10-17T05:22:17	cn19.hpc.itu.dk	annotated	propella	news/news.chunk.18.jsonl.gz	1979	0	87
+2026-10-17T05:22:19	cn19.hpc.itu.dk	downloaded		news/news.chunk.20.jsonl.gz			2
+2026-10-17T05:23:51	cn19.hpc.itu.dk	annotated	propella	news/news.chunk.20.jsonl.gz	1979	1	93
+2026-10-17T05:23:53	cn19.hpc.itu.dk	downloaded		news/news.chunk.21.jsonl.gz			2
+2026-10-17T05:25:20	cn19.hpc.itu.dk	annotated	propella	news/news.chunk.21.jsonl.gz	1979	1	87
+2026-10-17T05:25:22	cn19.hpc.itu.dk	downloaded		news/news.chunk.23.jsonl.gz			2
+2026-10-17T05:26:52	cn19.hpc.itu.dk	annotated	propella	news/news.chunk.23.jsonl.gz	1979	0	90
+2026-10-17T05:26:53	cn19.hpc.itu.dk	downloaded		news/news.chunk.24.jsonl.gz			2
+2026-10-17T05:28:18	cn19.hpc.itu.dk	annotated	propella	news/news.chunk.24.jsonl.gz	1979	0	84
+2026-10-17T05:28:19	cn19.hpc.itu.dk	downloaded		news/news.chunk.26.jsonl.gz			2
+2026-10-17T05:29:17	cn11.hpc.itu.dk	annotated	propella	cccc/cccc.chunk.60.jsonl.gz	107064	0	6841
+2026-10-17T05:29:19	cn11.hpc.itu.dk	downloaded		news/news.chunk.27.jsonl.gz			2
+2026-10-17T05:30:09	cn11.hpc.itu.dk	annotated	propella	news/news.chunk.27.jsonl.gz	1979	0	49
+2026-10-17T05:30:11	cn11.hpc.itu.dk	downloaded		news/news.chunk.29.jsonl.gz			2
+2026-10-17T05:29:51	cn19.hpc.itu.dk	annotated	propella	news/news.chunk.26.jsonl.gz	1979	0	91
+2026-10-17T05:29:52	cn19.hpc.itu.dk	downloaded		news/news.chunk.30.jsonl.gz			2
+2026-10-17T05:30:58	cn11.hpc.itu.dk	annotated	propella	news/news.chunk.29.jsonl.gz	1979	0	47
+2026-10-17T05:31:00	cn11.hpc.itu.dk	downloaded		news/news.chunk.32.jsonl.gz			2
+2026-10-17T05:31:47	cn11.hpc.itu.dk	annotated	propella	news/news.chunk.32.jsonl.gz	1979	0	46
+2026-10-17T05:31:49	cn11.hpc.itu.dk	downloaded		news/news.chunk.33.jsonl.gz			2
+2026-10-17T05:31:24	cn19.hpc.itu.dk	annotated	propella	news/news.chunk.30.jsonl.gz	1979	0	91
+2026-10-17T05:31:26	cn19.hpc.itu.dk	downloaded		news/news.chunk.35.jsonl.gz			2
+2026-10-17T05:32:36	cn11.hpc.itu.dk	annotated	propella	news/news.chunk.33.jsonl.gz	1979	0	47
+2026-10-17T05:32:38	cn11.hpc.itu.dk	downloaded		news/news.chunk.36.jsonl.gz			2
+2026-10-17T05:33:25	cn11.hpc.itu.dk	annotated	propella	news/news.chunk.36.jsonl.gz	1979	0	47
+2026-10-17T05:33:27	cn11.hpc.itu.dk	downloaded		news/news.chunk.38.jsonl.gz			2
+2026-10-17T05:32:54	cn19.hpc.itu.dk	annotated	propella	news/news.chunk.35.jsonl.gz	1979	0	88
+2026-10-17T05:32:56	cn19.hpc.itu.dk	downloaded		news/news.chunk.39.jsonl.gz			2
+2026-10-17T05:34:15	cn11.hpc.itu.dk	annotated	propella	news/news.chunk.38.jsonl.gz	1979	0	48
+2026-10-17T05:34:17	cn11.hpc.itu.dk	downloaded		news/news.chunk.41.jsonl.gz			2
+2026-10-17T05:35:04	cn11.hpc.itu.dk	annotated	propella	news/news.chunk.41.jsonl.gz	1979	0	47
+2026-10-17T05:35:06	cn11.hpc.itu.dk	downloaded		news/news.chunk.42.jsonl.gz			2
+2026-10-17T05:34:29	cn19.hpc.itu.dk	annotated	propella	news/news.chunk.39.jsonl.gz	1979	0	93
+2026-10-17T05:34:31	cn19.hpc.itu.dk	downloaded		news/news.chunk.44.jsonl.gz			2
+2026-10-17T05:35:55	cn11.hpc.itu.dk	annotated	propella	news/news.chunk.42.jsonl.gz	1979	0	49
+2026-10-17T05:35:57	cn11.hpc.itu.dk	downloaded		news/news.chunk.45.jsonl.gz			2
+2026-10-17T05:35:59	cn19.hpc.itu.dk	annotated	propella	news/news.chunk.44.jsonl.gz	1979	0	88
+2026-10-17T05:36:01	cn19.hpc.itu.dk	downloaded		news/news.chunk.47.jsonl.gz			2
+2026-10-17T05:36:43	cn11.hpc.itu.dk	annotated	propella	news/news.chunk.45.jsonl.gz	1979	0	46
+2026-10-17T05:36:45	cn11.hpc.itu.dk	downloaded		news/news.chunk.48.jsonl.gz			2
+2026-10-17T05:37:32	cn11.hpc.itu.dk	annotated	propella	news/news.chunk.48.jsonl.gz	1979	0	47
+2026-10-17T05:37:34	cn11.hpc.itu.dk	downloaded		news/news.chunk.50.jsonl.gz			2
+2026-10-17T05:37:35	cn19.hpc.itu.dk	annotated	propella	news/news.chunk.47.jsonl.gz	1979	1	94
+2026-10-17T05:37:38	cn19.hpc.itu.dk	downloaded		news/news.chunk.51.jsonl.gz			2
+2026-10-17T05:38:20	cn11.hpc.itu.dk	annotated	propella	news/news.chunk.50.jsonl.gz	1979	0	47
+2026-10-17T05:38:22	cn11.hpc.itu.dk	downloaded		news/news.chunk.53.jsonl.gz			2
+2026-10-17T05:39:10	cn11.hpc.itu.dk	annotated	propella	news/news.chunk.53.jsonl.gz	1979	0	48
+2026-10-17T05:39:12	cn11.hpc.itu.dk	downloaded		news/news.chunk.54.jsonl.gz			2
+2026-10-17T05:39:08	cn19.hpc.itu.dk	annotated	propella	news/news.chunk.51.jsonl.gz	1979	0	90
+2026-10-17T05:39:10	cn19.hpc.itu.dk	downloaded		news/news.chunk.56.jsonl.gz			2
+2026-10-17T05:39:59	cn11.hpc.itu.dk	annotated	propella	news/news.chunk.54.jsonl.gz	1979	0	47
+2026-10-17T05:40:01	cn11.hpc.itu.dk	downloaded		news/news.chunk.57.jsonl.gz			2
+2026-10-17T05:40:47	cn11.hpc.itu.dk	annotated	propella	news/news.chunk.57.jsonl.gz	1979	0	46
+2026-10-17T05:40:49	cn11.hpc.itu.dk	downloaded		news/news.chunk.59.jsonl.gz			2
+2026-10-17T05:40:37	cn19.hpc.itu.dk	annotated	propella	news/news.chunk.56.jsonl.gz	1979	0	87
+2026-10-17T05:40:39	cn19.hpc.itu.dk	downloaded		news/news.chunk.60.jsonl.gz			2
+2026-10-17T05:41:35	cn11.hpc.itu.dk	annotated	propella	news/news.chunk.59.jsonl.gz	1979	0	46
+2026-10-17T05:41:37	cn11.hpc.itu.dk	downloaded		news/news.chunk.62.jsonl.gz			2
+2026-10-17T05:42:25	cn11.hpc.itu.dk	annotated	propella	news/news.chunk.62.jsonl.gz	1979	0	47
+2026-10-17T05:42:27	cn11.hpc.itu.dk	downloaded		news/news.chunk.63.jsonl.gz			2
+2026-10-17T05:42:12	cn19.hpc.itu.dk	annotated	propella	news/news.chunk.60.jsonl.gz	1979	1	93
+2026-10-17T05:42:14	cn19.hpc.itu.dk	downloaded		foodista/foodista.chunk.01.jsonl.gz			2
+2026-10-17T05:43:14	cn11.hpc.itu.dk	annotated	propella	news/news.chunk.63.jsonl.gz	1979	0	48
+2026-10-17T05:43:16	cn11.hpc.itu.dk	downloaded		foodista/foodista.chunk.02.jsonl.gz			2
+2026-10-17T05:42:51	cn19.hpc.itu.dk	annotated	propella	foodista/foodista.chunk.01.jsonl.gz	1026	0	37
+2026-10-17T05:42:53	cn19.hpc.itu.dk	downloaded		foodista/foodista.chunk.04.jsonl.gz			2
+2026-10-17T05:43:37	cn11.hpc.itu.dk	annotated	propella	foodista/foodista.chunk.02.jsonl.gz	1026	0	21
+2026-10-17T05:43:39	cn11.hpc.itu.dk	downloaded		foodista/foodista.chunk.05.jsonl.gz			2
+2026-10-17T05:44:01	cn11.hpc.itu.dk	annotated	propella	foodista/foodista.chunk.05.jsonl.gz	1026	0	22
+2026-10-17T05:44:03	cn11.hpc.itu.dk	downloaded		foodista/foodista.chunk.07.jsonl.gz			2
+2026-10-17T05:43:29	cn19.hpc.itu.dk	annotated	propella	foodista/foodista.chunk.04.jsonl.gz	1026	0	36
+2026-10-17T05:43:31	cn19.hpc.itu.dk	downloaded		foodista/foodista.chunk.08.jsonl.gz			2
+2026-10-17T05:44:24	cn11.hpc.itu.dk	annotated	propella	foodista/foodista.chunk.07.jsonl.gz	1026	0	22
+2026-10-17T05:44:26	cn11.hpc.itu.dk	downloaded		foodista/foodista.chunk.10.jsonl.gz			2
+2026-10-17T05:44:07	cn19.hpc.itu.dk	annotated	propella	foodista/foodista.chunk.08.jsonl.gz	1026	0	36
+2026-10-17T05:44:10	cn19.hpc.itu.dk	downloaded		foodista/foodista.chunk.11.jsonl.gz			2
+2026-10-17T05:44:48	cn11.hpc.itu.dk	annotated	propella	foodista/foodista.chunk.10.jsonl.gz	1026	0	22
+2026-10-17T05:44:50	cn11.hpc.itu.dk	downloaded		foodista/foodista.chunk.13.jsonl.gz			2
+2026-10-17T05:45:12	cn11.hpc.itu.dk	annotated	propella	foodista/foodista.chunk.13.jsonl.gz	1026	0	22
+2026-10-17T05:45:14	cn11.hpc.itu.dk	downloaded		foodista/foodista.chunk.14.jsonl.gz			2
+2026-10-17T05:44:47	cn19.hpc.itu.dk	annotated	propella	foodista/foodista.chunk.11.jsonl.gz	1026	0	37
+2026-10-17T05:44:49	cn19.hpc.itu.dk	downloaded		foodista/foodista.chunk.16.jsonl.gz			2
+2026-10-17T05:45:35	cn11.hpc.itu.dk	annotated	propella	foodista/foodista.chunk.14.jsonl.gz	1026	0	21
+2026-10-17T05:45:36	cn11.hpc.itu.dk	downloaded		foodista/foodista.chunk.17.jsonl.gz			2
+2026-10-17T05:45:58	cn11.hpc.itu.dk	annotated	propella	foodista/foodista.chunk.17.jsonl.gz	1026	0	22
+2026-10-17T05:46:01	cn11.hpc.itu.dk	downloaded		foodista/foodista.chunk.19.jsonl.gz			2
+2026-10-17T05:45:26	cn19.hpc.itu.dk	annotated	propella	foodista/foodista.chunk.16.jsonl.gz	1026	1	37
+2026-10-17T05:45:28	cn19.hpc.itu.dk	downloaded		foodista/foodista.chunk.20.jsonl.gz			1
+2026-10-17T05:46:22	cn11.hpc.itu.dk	annotated	propella	foodista/foodista.chunk.19.jsonl.gz	1026	0	21
+2026-10-17T05:46:24	cn11.hpc.itu.dk	downloaded		foodista/foodista.chunk.22.jsonl.gz			2
+2026-10-17T05:46:03	cn19.hpc.itu.dk	annotated	propella	foodista/foodista.chunk.20.jsonl.gz	1026	0	36
+2026-10-17T05:46:05	cn19.hpc.itu.dk	downloaded		foodista/foodista.chunk.23.jsonl.gz			2
+2026-10-17T05:46:45	cn11.hpc.itu.dk	annotated	propella	foodista/foodista.chunk.22.jsonl.gz	1026	0	22
+2026-10-17T05:46:47	cn11.hpc.itu.dk	downloaded		foodista/foodista.chunk.25.jsonl.gz			2
+2026-10-17T05:47:08	cn11.hpc.itu.dk	annotated	propella	foodista/foodista.chunk.25.jsonl.gz	1026	0	21
+2026-10-17T05:47:10	cn11.hpc.itu.dk	downloaded		foodista/foodista.chunk.26.jsonl.gz			2
+2026-10-17T05:46:43	cn19.hpc.itu.dk	annotated	propella	foodista/foodista.chunk.23.jsonl.gz	1026	0	37
+2026-10-17T05:46:45	cn19.hpc.itu.dk	downloaded		foodista/foodista.chunk.28.jsonl.gz			2
+2026-10-17T05:47:32	cn11.hpc.itu.dk	annotated	propella	foodista/foodista.chunk.26.jsonl.gz	1026	0	21
+2026-10-17T05:47:34	cn11.hpc.itu.dk	downloaded		foodista/foodista.chunk.29.jsonl.gz			2
+2026-10-17T05:47:54	cn11.hpc.itu.dk	annotated	propella	foodista/foodista.chunk.29.jsonl.gz	1026	0	21
+2026-10-17T05:47:56	cn11.hpc.itu.dk	downloaded		foodista/foodista.chunk.31.jsonl.gz			2
+2026-10-17T05:47:22	cn19.hpc.itu.dk	annotated	propella	foodista/foodista.chunk.28.jsonl.gz	1026	0	38
+2026-10-17T05:47:24	cn19.hpc.itu.dk	downloaded		foodista/foodista.chunk.32.jsonl.gz			1
+2026-10-17T05:48:17	cn11.hpc.itu.dk	annotated	propella	foodista/foodista.chunk.31.jsonl.gz	1026	0	21
+2026-10-17T05:48:19	cn11.hpc.itu.dk	downloaded		foodista/foodista.chunk.34.jsonl.gz			2
+2026-10-17T05:48:01	cn19.hpc.itu.dk	annotated	propella	foodista/foodista.chunk.32.jsonl.gz	1026	0	37
+2026-10-17T05:48:03	cn19.hpc.itu.dk	downloaded		foodista/foodista.chunk.35.jsonl.gz			2
+2026-10-17T05:48:41	cn11.hpc.itu.dk	annotated	propella	foodista/foodista.chunk.34.jsonl.gz	1026	0	22
+2026-10-17T05:48:43	cn11.hpc.itu.dk	downloaded		foodista/foodista.chunk.37.jsonl.gz			2
+2026-10-17T05:49:04	cn11.hpc.itu.dk	annotated	propella	foodista/foodista.chunk.37.jsonl.gz	1026	0	21
+2026-10-17T05:49:06	cn11.hpc.itu.dk	downloaded		foodista/foodista.chunk.38.jsonl.gz			2
+2026-10-17T05:48:39	cn19.hpc.itu.dk	annotated	propella	foodista/foodista.chunk.35.jsonl.gz	1026	0	37
+2026-10-17T05:48:41	cn19.hpc.itu.dk	downloaded		foodista/foodista.chunk.40.jsonl.gz			2
+2026-10-17T05:49:28	cn11.hpc.itu.dk	annotated	propella	foodista/foodista.chunk.38.jsonl.gz	1026	0	22
+2026-10-17T05:49:30	cn11.hpc.itu.dk	downloaded		foodista/foodista.chunk.41.jsonl.gz			2
+2026-10-17T05:49:52	cn11.hpc.itu.dk	annotated	propella	foodista/foodista.chunk.41.jsonl.gz	1025	0	21
+2026-10-17T05:49:54	cn11.hpc.itu.dk	downloaded		foodista/foodista.chunk.43.jsonl.gz			2
+2026-10-17T05:49:19	cn19.hpc.itu.dk	annotated	propella	foodista/foodista.chunk.40.jsonl.gz	1025	0	37
+2026-10-17T05:49:20	cn19.hpc.itu.dk	downloaded		foodista/foodista.chunk.44.jsonl.gz			1
+2026-10-17T05:50:15	cn11.hpc.itu.dk	annotated	propella	foodista/foodista.chunk.43.jsonl.gz	1025	0	21
+2026-10-17T05:50:17	cn11.hpc.itu.dk	downloaded		foodista/foodista.chunk.46.jsonl.gz			2
+2026-10-17T05:49:57	cn19.hpc.itu.dk	annotated	propella	foodista/foodista.chunk.44.jsonl.gz	1025	0	37
+2026-10-17T05:50:00	cn19.hpc.itu.dk	downloaded		foodista/foodista.chunk.47.jsonl.gz			2
+2026-10-17T05:50:37	cn11.hpc.itu.dk	annotated	propella	foodista/foodista.chunk.46.jsonl.gz	1025	0	20
+2026-10-17T05:50:39	cn11.hpc.itu.dk	downloaded		foodista/foodista.chunk.49.jsonl.gz			2
+2026-10-17T05:51:00	cn11.hpc.itu.dk	annotated	propella	foodista/foodista.chunk.49.jsonl.gz	1025	0	21
+2026-10-17T05:51:02	cn11.hpc.itu.dk	downloaded		foodista/foodista.chunk.50.jsonl.gz			2
+2026-10-17T05:50:37	cn19.hpc.itu.dk	annotated	propella	foodista/foodista.chunk.47.jsonl.gz	1025	0	37
+2026-10-17T05:50:39	cn19.hpc.itu.dk	downloaded		foodista/foodista.chunk.52.jsonl.gz			2
+2026-10-17T05:51:22	cn11.hpc.itu.dk	annotated	propella	foodista/foodista.chunk.50.jsonl.gz	1025	0	20
+2026-10-17T05:51:24	cn11.hpc.itu.dk	downloaded		foodista/foodista.chunk.53.jsonl.gz			2
+2026-10-17T05:51:45	cn11.hpc.itu.dk	annotated	propella	foodista/foodista.chunk.53.jsonl.gz	1025	0	21
+2026-10-17T05:51:47	cn11.hpc.itu.dk	downloaded		foodista/foodista.chunk.55.jsonl.gz			2
+2026-10-17T05:51:16	cn19.hpc.itu.dk	annotated	propella	foodista/foodista.chunk.52.jsonl.gz	1025	0	37
+2026-10-17T05:51:18	cn19.hpc.itu.dk	downloaded		foodista/foodista.chunk.56.jsonl.gz			2
+2026-10-17T05:52:08	cn11.hpc.itu.dk	annotated	propella	foodista/foodista.chunk.55.jsonl.gz	1025	0	21
+2026-10-17T05:52:10	cn11.hpc.itu.dk	downloaded		foodista/foodista.chunk.58.jsonl.gz			2
+2026-10-17T05:51:54	cn19.hpc.itu.dk	annotated	propella	foodista/foodista.chunk.56.jsonl.gz	1025	1	36
+2026-10-17T05:52:32	cn11.hpc.itu.dk	annotated	propella	foodista/foodista.chunk.58.jsonl.gz	1025	0	22
+2026-10-17T05:51:56	cn19.hpc.itu.dk	downloaded		foodista/foodista.chunk.59.jsonl.gz			2
+2026-10-17T05:52:34	cn11.hpc.itu.dk	downloaded		foodista/foodista.chunk.61.jsonl.gz			2
+2026-10-17T05:52:55	cn11.hpc.itu.dk	annotated	propella	foodista/foodista.chunk.61.jsonl.gz	1025	0	21
+2026-10-17T05:52:57	cn11.hpc.itu.dk	downloaded		foodista/foodista.chunk.62.jsonl.gz			2
+2026-10-17T05:52:33	cn19.hpc.itu.dk	annotated	propella	foodista/foodista.chunk.59.jsonl.gz	1025	0	37
+2026-10-17T05:52:35	cn19.hpc.itu.dk	downloaded		public_domain_review/public_domain_review.chunk.00.jsonl.gz			1
+2026-10-17T05:52:38	cn19.hpc.itu.dk	annotated	propella	public_domain_review/public_domain_review.chunk.00.jsonl.gz	22	0	4
+2026-10-17T05:52:40	cn19.hpc.itu.dk	downloaded		public_domain_review/public_domain_review.chunk.01.jsonl.gz			1
+2026-10-17T05:53:18	cn11.hpc.itu.dk	annotated	propella	foodista/foodista.chunk.62.jsonl.gz	1025	0	22
+2026-10-17T05:52:43	cn19.hpc.itu.dk	annotated	propella	public_domain_review/public_domain_review.chunk.01.jsonl.gz	22	0	3
+2026-10-17T05:53:20	cn11.hpc.itu.dk	downloaded		public_domain_review/public_domain_review.chunk.03.jsonl.gz			1
+2026-10-17T05:52:44	cn19.hpc.itu.dk	downloaded		public_domain_review/public_domain_review.chunk.04.jsonl.gz			1
+2026-10-17T05:53:22	cn11.hpc.itu.dk	annotated	propella	public_domain_review/public_domain_review.chunk.03.jsonl.gz	22	0	2
+2026-10-17T05:53:23	cn11.hpc.itu.dk	downloaded		public_domain_review/public_domain_review.chunk.06.jsonl.gz			2
+2026-10-17T05:53:25	cn11.hpc.itu.dk	annotated	propella	public_domain_review/public_domain_review.chunk.06.jsonl.gz	22	0	2
+2026-10-17T05:52:48	cn19.hpc.itu.dk	annotated	propella	public_domain_review/public_domain_review.chunk.04.jsonl.gz	22	0	4
+2026-10-17T05:53:27	cn11.hpc.itu.dk	downloaded		public_domain_review/public_domain_review.chunk.07.jsonl.gz			1
+2026-10-17T05:52:50	cn19.hpc.itu.dk	downloaded		public_domain_review/public_domain_review.chunk.09.jsonl.gz			2
+2026-10-17T05:53:28	cn11.hpc.itu.dk	annotated	propella	public_domain_review/public_domain_review.chunk.07.jsonl.gz	22	0	1
+2026-10-17T05:53:30	cn11.hpc.itu.dk	downloaded		public_domain_review/public_domain_review.chunk.10.jsonl.gz			1
+2026-10-17T05:52:54	cn19.hpc.itu.dk	annotated	propella	public_domain_review/public_domain_review.chunk.09.jsonl.gz	22	0	5
+2026-10-17T05:53:32	cn11.hpc.itu.dk	annotated	propella	public_domain_review/public_domain_review.chunk.10.jsonl.gz	22	0	2
+2026-10-17T05:52:56	cn19.hpc.itu.dk	downloaded		public_domain_review/public_domain_review.chunk.12.jsonl.gz			2
+2026-10-17T05:53:34	cn11.hpc.itu.dk	downloaded		public_domain_review/public_domain_review.chunk.13.jsonl.gz			2
+2026-10-17T05:53:35	cn11.hpc.itu.dk	annotated	propella	public_domain_review/public_domain_review.chunk.13.jsonl.gz	22	0	1
+2026-10-17T05:53:36	cn11.hpc.itu.dk	downloaded		public_domain_review/public_domain_review.chunk.15.jsonl.gz			1
+2026-10-17T05:53:00	cn19.hpc.itu.dk	annotated	propella	public_domain_review/public_domain_review.chunk.12.jsonl.gz	22	0	3
+2026-10-17T05:53:38	cn11.hpc.itu.dk	annotated	propella	public_domain_review/public_domain_review.chunk.15.jsonl.gz	22	0	1
+2026-10-17T05:53:01	cn19.hpc.itu.dk	downloaded		public_domain_review/public_domain_review.chunk.16.jsonl.gz			1
+2026-10-17T05:53:39	cn11.hpc.itu.dk	downloaded		public_domain_review/public_domain_review.chunk.18.jsonl.gz			1
+2026-10-17T05:53:41	cn11.hpc.itu.dk	annotated	propella	public_domain_review/public_domain_review.chunk.18.jsonl.gz	22	0	2
+2026-10-17T05:53:04	cn19.hpc.itu.dk	annotated	propella	public_domain_review/public_domain_review.chunk.16.jsonl.gz	22	0	3
+2026-10-17T05:53:42	cn11.hpc.itu.dk	downloaded		public_domain_review/public_domain_review.chunk.19.jsonl.gz			1
+2026-10-17T05:53:06	cn19.hpc.itu.dk	downloaded		public_domain_review/public_domain_review.chunk.21.jsonl.gz			1
+2026-10-17T05:53:44	cn11.hpc.itu.dk	annotated	propella	public_domain_review/public_domain_review.chunk.19.jsonl.gz	22	0	2
+2026-10-17T05:53:46	cn11.hpc.itu.dk	downloaded		public_domain_review/public_domain_review.chunk.22.jsonl.gz			1
+2026-10-17T05:53:09	cn19.hpc.itu.dk	annotated	propella	public_domain_review/public_domain_review.chunk.21.jsonl.gz	22	0	3
+2026-10-17T05:53:47	cn11.hpc.itu.dk	annotated	propella	public_domain_review/public_domain_review.chunk.22.jsonl.gz	22	0	1
+2026-10-17T05:53:10	cn19.hpc.itu.dk	downloaded		public_domain_review/public_domain_review.chunk.24.jsonl.gz			1
+2026-10-17T05:53:49	cn11.hpc.itu.dk	downloaded		public_domain_review/public_domain_review.chunk.25.jsonl.gz			1
+2026-10-17T05:53:50	cn11.hpc.itu.dk	annotated	propella	public_domain_review/public_domain_review.chunk.25.jsonl.gz	22	0	1
+2026-10-17T05:53:13	cn19.hpc.itu.dk	annotated	propella	public_domain_review/public_domain_review.chunk.24.jsonl.gz	22	0	3
+2026-10-17T05:53:52	cn11.hpc.itu.dk	downloaded		public_domain_review/public_domain_review.chunk.27.jsonl.gz			1
+2026-10-17T05:53:15	cn19.hpc.itu.dk	downloaded		public_domain_review/public_domain_review.chunk.28.jsonl.gz			1
+2026-10-17T05:53:53	cn11.hpc.itu.dk	annotated	propella	public_domain_review/public_domain_review.chunk.27.jsonl.gz	22	0	1
+2026-10-17T05:53:55	cn11.hpc.itu.dk	downloaded		public_domain_review/public_domain_review.chunk.30.jsonl.gz			1
+2026-10-17T05:53:18	cn19.hpc.itu.dk	annotated	propella	public_domain_review/public_domain_review.chunk.28.jsonl.gz	22	0	3
+2026-10-17T05:53:56	cn11.hpc.itu.dk	annotated	propella	public_domain_review/public_domain_review.chunk.30.jsonl.gz	22	0	2
+2026-10-17T05:53:20	cn19.hpc.itu.dk	downloaded		public_domain_review/public_domain_review.chunk.31.jsonl.gz			1
+2026-10-17T05:53:58	cn11.hpc.itu.dk	downloaded		public_domain_review/public_domain_review.chunk.33.jsonl.gz			1
+2026-10-17T05:53:59	cn11.hpc.itu.dk	annotated	propella	public_domain_review/public_domain_review.chunk.33.jsonl.gz	22	0	2
+2026-10-17T05:54:01	cn11.hpc.itu.dk	downloaded		public_domain_review/public_domain_review.chunk.34.jsonl.gz			2
+2026-10-17T05:53:24	cn19.hpc.itu.dk	annotated	propella	public_domain_review/public_domain_review.chunk.31.jsonl.gz	22	0	4
+2026-10-17T05:54:02	cn11.hpc.itu.dk	annotated	propella	public_domain_review/public_domain_review.chunk.34.jsonl.gz	22	0	1
+2026-10-17T05:53:26	cn19.hpc.itu.dk	downloaded		public_domain_review/public_domain_review.chunk.36.jsonl.gz			2
+2026-10-17T05:54:04	cn11.hpc.itu.dk	downloaded		public_domain_review/public_domain_review.chunk.37.jsonl.gz			1
+2026-10-17T05:54:05	cn11.hpc.itu.dk	annotated	propella	public_domain_review/public_domain_review.chunk.37.jsonl.gz	22	0	2
+2026-10-17T05:53:29	cn19.hpc.itu.dk	annotated	propella	public_domain_review/public_domain_review.chunk.36.jsonl.gz	22	0	3
+2026-10-17T05:54:07	cn11.hpc.itu.dk	downloaded		public_domain_review/public_domain_review.chunk.39.jsonl.gz			1
+2026-10-17T05:53:30	cn19.hpc.itu.dk	downloaded		public_domain_review/public_domain_review.chunk.40.jsonl.gz			1
+2026-10-17T05:54:08	cn11.hpc.itu.dk	annotated	propella	public_domain_review/public_domain_review.chunk.39.jsonl.gz	22	0	2
+2026-10-17T05:54:10	cn11.hpc.itu.dk	downloaded		public_domain_review/public_domain_review.chunk.42.jsonl.gz			1
+2026-10-17T05:53:33	cn19.hpc.itu.dk	annotated	propella	public_domain_review/public_domain_review.chunk.40.jsonl.gz	22	0	3
+2026-10-17T05:54:11	cn11.hpc.itu.dk	annotated	propella	public_domain_review/public_domain_review.chunk.42.jsonl.gz	22	0	1
+2026-10-17T05:53:34	cn19.hpc.itu.dk	downloaded		public_domain_review/public_domain_review.chunk.43.jsonl.gz			1
+2026-10-17T05:54:13	cn11.hpc.itu.dk	downloaded		public_domain_review/public_domain_review.chunk.45.jsonl.gz			1
+2026-10-17T05:53:37	cn19.hpc.itu.dk	annotated	propella	public_domain_review/public_domain_review.chunk.43.jsonl.gz	22	0	3
+2026-10-17T05:54:14	cn11.hpc.itu.dk	annotated	propella	public_domain_review/public_domain_review.chunk.45.jsonl.gz	22	0	2
+2026-10-17T05:54:16	cn11.hpc.itu.dk	downloaded		public_domain_review/public_domain_review.chunk.46.jsonl.gz			2
+2026-10-17T05:53:39	cn19.hpc.itu.dk	downloaded		public_domain_review/public_domain_review.chunk.48.jsonl.gz			1
+2026-10-17T05:54:18	cn11.hpc.itu.dk	annotated	propella	public_domain_review/public_domain_review.chunk.46.jsonl.gz	22	0	2
+2026-10-17T05:54:20	cn11.hpc.itu.dk	downloaded		public_domain_review/public_domain_review.chunk.49.jsonl.gz			1
+2026-10-17T05:53:43	cn19.hpc.itu.dk	annotated	propella	public_domain_review/public_domain_review.chunk.48.jsonl.gz	22	0	4
+2026-10-17T05:54:21	cn11.hpc.itu.dk	annotated	propella	public_domain_review/public_domain_review.chunk.49.jsonl.gz	22	0	2
+2026-10-17T05:53:45	cn19.hpc.itu.dk	downloaded		public_domain_review/public_domain_review.chunk.51.jsonl.gz			2
+2026-10-17T05:54:23	cn11.hpc.itu.dk	downloaded		public_domain_review/public_domain_review.chunk.52.jsonl.gz			2
+2026-10-17T05:54:25	cn11.hpc.itu.dk	annotated	propella	public_domain_review/public_domain_review.chunk.52.jsonl.gz	22	0	1
+2026-10-17T05:53:48	cn19.hpc.itu.dk	annotated	propella	public_domain_review/public_domain_review.chunk.51.jsonl.gz	22	0	3
+2026-10-17T05:54:26	cn11.hpc.itu.dk	downloaded		public_domain_review/public_domain_review.chunk.54.jsonl.gz			1
+2026-10-17T05:53:50	cn19.hpc.itu.dk	downloaded		public_domain_review/public_domain_review.chunk.55.jsonl.gz			1
+2026-10-17T05:54:28	cn11.hpc.itu.dk	annotated	propella	public_domain_review/public_domain_review.chunk.54.jsonl.gz	22	0	2
+2026-10-17T05:54:29	cn11.hpc.itu.dk	downloaded		public_domain_review/public_domain_review.chunk.57.jsonl.gz			2
+2026-10-17T05:53:53	cn19.hpc.itu.dk	annotated	propella	public_domain_review/public_domain_review.chunk.55.jsonl.gz	22	0	3
+2026-10-17T05:54:31	cn11.hpc.itu.dk	annotated	propella	public_domain_review/public_domain_review.chunk.57.jsonl.gz	22	0	2
+2026-10-17T05:53:55	cn19.hpc.itu.dk	downloaded		public_domain_review/public_domain_review.chunk.58.jsonl.gz			2
+2026-10-17T05:54:33	cn11.hpc.itu.dk	downloaded		public_domain_review/public_domain_review.chunk.60.jsonl.gz			1
+2026-10-17T05:54:34	cn11.hpc.itu.dk	annotated	propella	public_domain_review/public_domain_review.chunk.60.jsonl.gz	22	0	1
+2026-10-17T05:54:35	cn11.hpc.itu.dk	downloaded		public_domain_review/public_domain_review.chunk.61.jsonl.gz			1
+2026-10-17T05:53:58	cn19.hpc.itu.dk	annotated	propella	public_domain_review/public_domain_review.chunk.58.jsonl.gz	22	0	4
+2026-10-17T05:54:37	cn11.hpc.itu.dk	annotated	propella	public_domain_review/public_domain_review.chunk.61.jsonl.gz	22	0	1
+2026-10-17T05:54:00	cn19.hpc.itu.dk	downloaded		public_domain_review/public_domain_review.chunk.63.jsonl.gz			1
+2026-10-17T05:54:02	cn19.hpc.itu.dk	annotated	propella	public_domain_review/public_domain_review.chunk.63.jsonl.gz	21	0	2
+2026-10-17T05:54:44	cn11.hpc.itu.dk	downloaded		wikimedia/wikimedia.chunk.00.jsonl.gz			7
+2026-10-17T05:54:11	cn19.hpc.itu.dk	downloaded		wikimedia/wikimedia.chunk.02.jsonl.gz			8
+2026-10-17T06:38:24	cn11.hpc.itu.dk	annotated	propella	cccc/cccc.chunk.61.jsonl.gz	107064	0	6613
+2026-10-17T06:38:32	cn11.hpc.itu.dk	downloaded		wikimedia/wikimedia.chunk.03.jsonl.gz			8
+2026-10-17T07:06:48	cn19.hpc.itu.dk	annotated	propella	cccc/cccc.chunk.57.jsonl.gz	107064	33	17414
+2026-10-17T07:06:57	cn19.hpc.itu.dk	downloaded		wikimedia/wikimedia.chunk.05.jsonl.gz			9
+2026-10-17T08:23:00	cn11.hpc.itu.dk	annotated	propella	wikimedia/wikimedia.chunk.00.jsonl.gz	254869	0	8888
+2026-10-17T08:23:08	cn11.hpc.itu.dk	downloaded		wikimedia/wikimedia.chunk.06.jsonl.gz			8
+2026-10-17T09:04:06	cn11.hpc.itu.dk	annotated	propella	wikimedia/wikimedia.chunk.03.jsonl.gz	254869	0	8727
+2026-10-17T09:04:18	cn11.hpc.itu.dk	downloaded		wikimedia/wikimedia.chunk.08.jsonl.gz			11
+2026-10-17T09:39:26	cn19.hpc.itu.dk	annotated	propella	cccc/cccc.chunk.63.jsonl.gz	107064	31	17111
+2026-10-17T09:39:53	cn19.hpc.itu.dk	downloaded		wikimedia/wikimedia.chunk.09.jsonl.gz			26
+2026-10-17T10:44:44	cn19.hpc.itu.dk	downloaded		wikimedia/wikimedia.chunk.11.jsonl.gz			25
+2026-10-17T10:52:47	cn11.hpc.itu.dk	annotated	propella	wikimedia/wikimedia.chunk.06.jsonl.gz	254869	0	8972
+2026-10-17T10:53:00	cn11.hpc.itu.dk	downloaded		wikimedia/wikimedia.chunk.12.jsonl.gz			12
+2026-10-17T11:08:34	cn19.hpc.itu.dk	annotated	propella	wikimedia/wikimedia.chunk.02.jsonl.gz	254869	383	18854
+2026-10-17T11:08:43	cn19.hpc.itu.dk	downloaded		wikimedia/wikimedia.chunk.14.jsonl.gz			9
+2026-10-17T11:28:12	cn11.hpc.itu.dk	annotated	propella	wikimedia/wikimedia.chunk.08.jsonl.gz	254869	0	8626
+2026-10-17T11:28:20	cn11.hpc.itu.dk	downloaded		wikimedia/wikimedia.chunk.15.jsonl.gz			8
+2026-10-17T12:20:58	cn19.hpc.itu.dk	annotated	propella	wikimedia/wikimedia.chunk.05.jsonl.gz	254869	389	18834
+2026-10-17T12:21:10	cn19.hpc.itu.dk	downloaded		wikimedia/wikimedia.chunk.17.jsonl.gz			10
+2026-10-17T13:18:51	cn11.hpc.itu.dk	annotated	propella	wikimedia/wikimedia.chunk.12.jsonl.gz	254869	0	8743
+2026-10-17T13:19:03	cn11.hpc.itu.dk	downloaded		wikimedia/wikimedia.chunk.18.jsonl.gz			12
+2026-10-17T13:51:32	cn11.hpc.itu.dk	annotated	propella	wikimedia/wikimedia.chunk.15.jsonl.gz	254869	0	8585
+2026-10-17T13:51:44	cn11.hpc.itu.dk	downloaded		wikimedia/wikimedia.chunk.20.jsonl.gz			11
+2026-10-17T14:49:52	cn19.hpc.itu.dk	annotated	propella	wikimedia/wikimedia.chunk.09.jsonl.gz	254869	402	18591
+2026-10-17T14:50:01	cn19.hpc.itu.dk	downloaded		wikimedia/wikimedia.chunk.21.jsonl.gz			9
+2026-10-17T15:43:58	cn11.hpc.itu.dk	annotated	propella	wikimedia/wikimedia.chunk.18.jsonl.gz	254869	0	8688
+2026-10-17T15:44:06	cn11.hpc.itu.dk	downloaded		wikimedia/wikimedia.chunk.23.jsonl.gz			7
+2026-10-17T16:05:20	cn19.hpc.itu.dk	annotated	propella	wikimedia/wikimedia.chunk.11.jsonl.gz	254869	376	19228
+2026-10-17T16:05:29	cn19.hpc.itu.dk	downloaded		wikimedia/wikimedia.chunk.24.jsonl.gz			9
+2026-10-17T16:13:16	cn11.hpc.itu.dk	annotated	propella	wikimedia/wikimedia.chunk.20.jsonl.gz	254869	0	8485
+2026-10-17T16:13:23	cn11.hpc.itu.dk	downloaded		wikimedia/wikimedia.chunk.26.jsonl.gz			7
+2026-10-17T16:22:26	cn19.hpc.itu.dk	annotated	propella	wikimedia/wikimedia.chunk.14.jsonl.gz	254869	416	18816
+2026-10-17T16:22:35	cn19.hpc.itu.dk	downloaded		wikimedia/wikimedia.chunk.27.jsonl.gz			9
+2026-10-17T17:39:06	cn19.hpc.itu.dk	annotated	propella	wikimedia/wikimedia.chunk.17.jsonl.gz	254869	386	19069
+2026-10-17T17:39:16	cn19.hpc.itu.dk	downloaded		wikimedia/wikimedia.chunk.29.jsonl.gz			10
+2026-10-17T18:08:37	cn11.hpc.itu.dk	annotated	propella	wikimedia/wikimedia.chunk.23.jsonl.gz	254868	0	8665
+2026-10-17T18:08:47	cn11.hpc.itu.dk	downloaded		wikimedia/wikimedia.chunk.30.jsonl.gz			8
+2026-10-17T18:35:11	cn11.hpc.itu.dk	annotated	propella	wikimedia/wikimedia.chunk.26.jsonl.gz	254868	0	8501
+2026-10-17T18:35:22	cn11.hpc.itu.dk	downloaded		wikimedia/wikimedia.chunk.32.jsonl.gz			9
+2026-10-17T20:00:53	cn19.hpc.itu.dk	annotated	propella	wikimedia/wikimedia.chunk.21.jsonl.gz	254869	392	18643
+2026-10-17T20:01:02	cn19.hpc.itu.dk	downloaded		wikimedia/wikimedia.chunk.33.jsonl.gz			9
+2026-10-17T20:34:30	cn11.hpc.itu.dk	annotated	propella	wikimedia/wikimedia.chunk.30.jsonl.gz	254868	0	8728
+2026-10-17T20:34:38	cn11.hpc.itu.dk	downloaded		wikimedia/wikimedia.chunk.35.jsonl.gz			7
+2026-10-17T20:57:50	cn11.hpc.itu.dk	annotated	propella	wikimedia/wikimedia.chunk.32.jsonl.gz	254868	0	8532
+2026-10-17T20:57:58	cn11.hpc.itu.dk	downloaded		wikimedia/wikimedia.chunk.36.jsonl.gz			7
+2026-10-17T21:18:21	cn19.hpc.itu.dk	annotated	propella	wikimedia/wikimedia.chunk.24.jsonl.gz	254868	396	18764
+2026-10-17T21:18:31	cn19.hpc.itu.dk	downloaded		wikimedia/wikimedia.chunk.38.jsonl.gz			9
+2026-10-17T21:37:04	cn19.hpc.itu.dk	annotated	propella	wikimedia/wikimedia.chunk.27.jsonl.gz	254868	352	18861
+2026-10-17T21:37:14	cn19.hpc.itu.dk	downloaded		wikimedia/wikimedia.chunk.39.jsonl.gz			10
+2026-10-17T22:57:22	cn19.hpc.itu.dk	annotated	propella	wikimedia/wikimedia.chunk.29.jsonl.gz	254868	394	19075
+2026-10-17T22:57:31	cn19.hpc.itu.dk	downloaded		wikimedia/wikimedia.chunk.41.jsonl.gz			9
+2026-10-17T23:00:19	cn11.hpc.itu.dk	annotated	propella	wikimedia/wikimedia.chunk.35.jsonl.gz	254868	0	8731
+2026-10-17T23:00:27	cn11.hpc.itu.dk	downloaded		wikimedia/wikimedia.chunk.42.jsonl.gz			8
+2026-10-17T23:20:08	cn11.hpc.itu.dk	annotated	propella	wikimedia/wikimedia.chunk.36.jsonl.gz	254868	0	8520
+2026-10-17T23:20:17	cn11.hpc.itu.dk	downloaded		wikimedia/wikimedia.chunk.44.jsonl.gz			8
+2026-10-18T01:12:50	cn19.hpc.itu.dk	annotated	propella	wikimedia/wikimedia.chunk.33.jsonl.gz	254868	412	18699
+2026-10-18T01:13:00	cn19.hpc.itu.dk	downloaded		wikimedia/wikimedia.chunk.45.jsonl.gz			9
+2026-10-18T01:26:42	cn11.hpc.itu.dk	annotated	propella	wikimedia/wikimedia.chunk.42.jsonl.gz	254868	0	8764
+2026-10-18T01:27:08	cn11.hpc.itu.dk	downloaded		wikimedia/wikimedia.chunk.47.jsonl.gz			26
+2026-10-18T01:43:35	cn11.hpc.itu.dk	annotated	propella	wikimedia/wikimedia.chunk.44.jsonl.gz	254868	0	8588
+2026-10-18T01:43:48	cn11.hpc.itu.dk	downloaded		wikimedia/wikimedia.chunk.48.jsonl.gz			13
+2026-10-18T02:34:19	cn19.hpc.itu.dk	annotated	propella	wikimedia/wikimedia.chunk.38.jsonl.gz	254868	417	18938
+2026-10-18T02:34:34	cn19.hpc.itu.dk	downloaded		wikimedia/wikimedia.chunk.50.jsonl.gz			14
+2026-10-18T02:54:58	cn19.hpc.itu.dk	annotated	propella	wikimedia/wikimedia.chunk.39.jsonl.gz	254868	378	19055
+2026-10-18T02:55:07	cn19.hpc.itu.dk	downloaded		wikimedia/wikimedia.chunk.51.jsonl.gz			9
+2026-10-18T03:52:59	cn11.hpc.itu.dk	annotated	propella	wikimedia/wikimedia.chunk.47.jsonl.gz	254868	0	8743
+2026-10-18T03:53:07	cn11.hpc.itu.dk	downloaded		wikimedia/wikimedia.chunk.53.jsonl.gz			7
+2026-10-18T04:06:41	cn11.hpc.itu.dk	annotated	propella	wikimedia/wikimedia.chunk.48.jsonl.gz	254868	0	8565
+2026-10-18T04:06:48	cn11.hpc.itu.dk	downloaded		wikimedia/wikimedia.chunk.54.jsonl.gz			7
+2026-10-18T04:15:54	cn19.hpc.itu.dk	annotated	propella	wikimedia/wikimedia.chunk.41.jsonl.gz	254868	396	19093
+2026-10-18T04:16:03	cn19.hpc.itu.dk	downloaded		wikimedia/wikimedia.chunk.56.jsonl.gz			9
+2026-10-18T06:18:50	cn11.hpc.itu.dk	annotated	propella	wikimedia/wikimedia.chunk.53.jsonl.gz	254868	0	8736
+2026-10-18T06:18:58	cn11.hpc.itu.dk	downloaded		wikimedia/wikimedia.chunk.57.jsonl.gz			8
+2026-10-18T06:26:16	cn19.hpc.itu.dk	annotated	propella	wikimedia/wikimedia.chunk.45.jsonl.gz	254868	383	18788
+2026-10-18T06:26:25	cn19.hpc.itu.dk	downloaded		wikimedia/wikimedia.chunk.59.jsonl.gz			9
+2026-10-18T06:29:44	cn11.hpc.itu.dk	annotated	propella	wikimedia/wikimedia.chunk.54.jsonl.gz	254868	0	8568
+2026-10-18T06:29:51	cn11.hpc.itu.dk	downloaded		wikimedia/wikimedia.chunk.60.jsonl.gz			7
+2026-10-18T07:48:58	cn19.hpc.itu.dk	annotated	propella	wikimedia/wikimedia.chunk.50.jsonl.gz	254868	414	18855
+2026-10-18T07:49:06	cn19.hpc.itu.dk	downloaded		wikimedia/wikimedia.chunk.62.jsonl.gz			8
+2026-10-18T08:09:49	cn19.hpc.itu.dk	annotated	propella	wikimedia/wikimedia.chunk.51.jsonl.gz	254868	405	18874
+2026-10-18T08:09:58	cn19.hpc.itu.dk	downloaded		wikimedia/wikimedia.chunk.63.jsonl.gz			8
+2026-10-18T08:44:01	cn11.hpc.itu.dk	annotated	propella	wikimedia/wikimedia.chunk.57.jsonl.gz	254868	0	8696
+2026-10-18T08:44:08	cn11.hpc.itu.dk	downloaded		wikiteam/00001_wikiteam.json.gz			5
+2026-10-18T08:52:37	cn11.hpc.itu.dk	annotated	propella	wikimedia/wikimedia.chunk.60.jsonl.gz	254868	0	8558
+2026-10-18T08:52:42	cn11.hpc.itu.dk	downloaded		wikiteam/00002_wikiteam.json.gz			5
+2026-10-18T09:31:33	cn19.hpc.itu.dk	annotated	propella	wikimedia/wikimedia.chunk.56.jsonl.gz	254868	365	18923
+2026-10-18T09:31:39	cn19.hpc.itu.dk	downloaded		wikiteam/00004_wikiteam.json.gz			6
+2026-10-18T09:41:53	cn11.hpc.itu.dk	annotated	propella	wikiteam/00001_wikiteam.json.gz	159879	0	3464
+2026-10-18T09:42:00	cn11.hpc.itu.dk	downloaded		wikiteam/00005_wikiteam.json.gz			6
+2026-10-18T09:48:25	cn11.hpc.itu.dk	annotated	propella	wikiteam/00002_wikiteam.json.gz	159879	0	3341
+2026-10-18T09:48:33	cn11.hpc.itu.dk	downloaded		wikiteam/00007_wikiteam.json.gz			8
+2026-10-18T10:39:30	cn11.hpc.itu.dk	annotated	propella	wikiteam/00005_wikiteam.json.gz	159879	0	3448
+2026-10-18T10:39:36	cn11.hpc.itu.dk	downloaded		wikiteam/00008_wikiteam.json.gz			5
+2026-10-18T10:43:40	cn11.hpc.itu.dk	annotated	propella	wikiteam/00007_wikiteam.json.gz	159879	0	3305
+2026-10-18T10:43:45	cn11.hpc.itu.dk	downloaded		wikiteam/00010_wikiteam.json.gz			4
+2026-10-18T11:06:48	cn19.hpc.itu.dk	annotated	propella	wikiteam/00004_wikiteam.json.gz	159879	45	5707
+2026-10-18T11:06:53	cn19.hpc.itu.dk	downloaded		wikiteam/00011_wikiteam.json.gz			4
+2026-10-18T11:36:28	cn11.hpc.itu.dk	annotated	propella	wikiteam/00008_wikiteam.json.gz	159879	0	3411
+2026-10-18T11:36:32	cn11.hpc.itu.dk	downloaded		wikiteam/00013_wikiteam.json.gz			4
+2026-10-18T11:36:11	cn19.hpc.itu.dk	annotated	propella	wikimedia/wikimedia.chunk.59.jsonl.gz	254868	386	18579
+2026-10-18T11:36:18	cn19.hpc.itu.dk	downloaded		wikiteam/00014_wikiteam.json.gz			6
+2026-10-18T11:38:39	cn11.hpc.itu.dk	annotated	propella	wikiteam/00010_wikiteam.json.gz	159879	0	3292
+2026-10-18T11:38:44	cn11.hpc.itu.dk	downloaded		wikiteam/00016_wikiteam.json.gz			4
+2026-10-18T12:33:26	cn11.hpc.itu.dk	annotated	propella	wikiteam/00016_wikiteam.json.gz	159879	0	3281
+2026-10-18T12:33:28	cn11.hpc.itu.dk	annotated	propella	wikiteam/00013_wikiteam.json.gz	159879	0	3414
+2026-10-18T12:33:31	cn11.hpc.itu.dk	downloaded		wikiteam/00017_wikiteam.json.gz			5
+2026-10-18T12:33:32	cn11.hpc.itu.dk	downloaded		wikiteam/00019_wikiteam.json.gz			4
+2026-10-18T12:40:57	cn19.hpc.itu.dk	annotated	propella	wikiteam/00011_wikiteam.json.gz	159879	35	5642
+2026-10-18T12:41:01	cn19.hpc.itu.dk	downloaded		wikiteam/00020_wikiteam.json.gz			4
+2026-10-18T13:05:18	cn19.hpc.itu.dk	annotated	propella	wikimedia/wikimedia.chunk.62.jsonl.gz	254868	402	18963
+2026-10-18T13:05:22	cn19.hpc.itu.dk	downloaded		wikiteam/00022_wikiteam.json.gz			4
+2026-10-18T13:09:25	cn19.hpc.itu.dk	annotated	propella	wikiteam/00014_wikiteam.json.gz	159879	41	5585
+2026-10-18T13:09:30	cn19.hpc.itu.dk	downloaded		wikiteam/00023_wikiteam.json.gz			4
+2026-10-18T13:26:01	cn19.hpc.itu.dk	annotated	propella	wikimedia/wikimedia.chunk.63.jsonl.gz	254868	370	18955
+2026-10-18T13:26:05	cn19.hpc.itu.dk	downloaded		wikiteam/00025_wikiteam.json.gz			4
+2026-10-18T13:27:59	cn11.hpc.itu.dk	annotated	propella	wikiteam/00017_wikiteam.json.gz	159879	0	3266
+2026-10-18T13:28:04	cn11.hpc.itu.dk	downloaded		wikiteam/00026_wikiteam.json.gz			4
+2026-10-18T13:30:09	cn11.hpc.itu.dk	annotated	propella	wikiteam/00019_wikiteam.json.gz	159879	0	3396
+2026-10-18T13:30:14	cn11.hpc.itu.dk	downloaded		wikiteam/00028_wikiteam.json.gz			4
+2026-10-18T14:16:30	cn19.hpc.itu.dk	annotated	propella	wikiteam/00020_wikiteam.json.gz	159879	36	5727
+2026-10-18T14:16:35	cn19.hpc.itu.dk	downloaded		wikiteam/00029_wikiteam.json.gz			4
+2026-10-18T14:22:51	cn11.hpc.itu.dk	annotated	propella	wikiteam/00026_wikiteam.json.gz	159878	0	3285
+2026-10-18T14:22:56	cn11.hpc.itu.dk	downloaded		wikiteam/00031_wikiteam.json.gz			4
+2026-10-18T14:26:55	cn11.hpc.itu.dk	annotated	propella	wikiteam/00028_wikiteam.json.gz	159878	0	3399
+2026-10-18T14:27:01	cn11.hpc.itu.dk	downloaded		wikiteam/00032_wikiteam.json.gz			5
+2026-10-18T14:41:17	cn19.hpc.itu.dk	annotated	propella	wikiteam/00022_wikiteam.json.gz	159878	46	5753
+2026-10-18T14:41:22	cn19.hpc.itu.dk	downloaded		wikiteam/00034_wikiteam.json.gz			5
+2026-10-18T14:44:40	cn19.hpc.itu.dk	annotated	propella	wikiteam/00023_wikiteam.json.gz	159878	39	5708
+2026-10-18T14:44:45	cn19.hpc.itu.dk	downloaded		wikiteam/00035_wikiteam.json.gz			5
+2026-10-18T15:01:29	cn19.hpc.itu.dk	annotated	propella	wikiteam/00025_wikiteam.json.gz	159878	42	5722
+2026-10-18T15:01:33	cn19.hpc.itu.dk	downloaded		wikiteam/00037_wikiteam.json.gz			4
+2026-10-18T15:17:46	cn11.hpc.itu.dk	annotated	propella	wikiteam/00031_wikiteam.json.gz	159878	0	3289
+2026-10-18T15:17:53	cn11.hpc.itu.dk	downloaded		wikiteam/00038_wikiteam.json.gz			6
+2026-10-18T15:23:34	cn11.hpc.itu.dk	annotated	propella	wikiteam/00032_wikiteam.json.gz	159878	0	3392
+2026-10-18T15:23:39	cn11.hpc.itu.dk	downloaded		wikiteam/00040_wikiteam.json.gz			4
+2026-10-18T15:52:16	cn19.hpc.itu.dk	annotated	propella	wikiteam/00029_wikiteam.json.gz	159878	31	5739
+2026-10-18T15:52:23	cn19.hpc.itu.dk	downloaded		wikiteam/00041_wikiteam.json.gz			6
+2026-10-18T16:12:36	cn11.hpc.itu.dk	annotated	propella	wikiteam/00038_wikiteam.json.gz	159878	0	3281
+2026-10-18T16:12:40	cn11.hpc.itu.dk	downloaded		wikiteam/00043_wikiteam.json.gz			4
+2026-10-18T16:17:17	cn19.hpc.itu.dk	annotated	propella	wikiteam/00034_wikiteam.json.gz	159878	30	5753
+2026-10-18T16:17:22	cn19.hpc.itu.dk	downloaded		wikiteam/00044_wikiteam.json.gz			5
+2026-10-18T16:18:26	cn19.hpc.itu.dk	annotated	propella	wikiteam/00035_wikiteam.json.gz	159878	43	5620
+2026-10-18T16:18:30	cn19.hpc.itu.dk	downloaded		wikiteam/00046_wikiteam.json.gz			4
+2026-10-18T16:20:28	cn11.hpc.itu.dk	annotated	propella	wikiteam/00040_wikiteam.json.gz	159878	0	3408
+2026-10-18T16:20:32	cn11.hpc.itu.dk	downloaded		wikiteam/00047_wikiteam.json.gz			4
+2026-10-18T16:36:59	cn19.hpc.itu.dk	annotated	propella	wikiteam/00037_wikiteam.json.gz	159878	36	5723
+2026-10-18T16:37:03	cn19.hpc.itu.dk	downloaded		wikiteam/00049_wikiteam.json.gz			4
+2026-10-18T17:07:33	cn11.hpc.itu.dk	annotated	propella	wikiteam/00043_wikiteam.json.gz	159878	0	3291
+2026-10-18T17:07:39	cn11.hpc.itu.dk	downloaded		wikiteam/00050_wikiteam.json.gz			6
+2026-10-18T17:17:36	cn11.hpc.itu.dk	annotated	propella	wikiteam/00047_wikiteam.json.gz	159878	0	3423
+2026-10-18T17:17:45	cn11.hpc.itu.dk	downloaded		wikiteam/00052_wikiteam.json.gz			8
+2026-10-18T17:28:54	cn19.hpc.itu.dk	annotated	propella	wikiteam/00041_wikiteam.json.gz	159878	37	5789
+2026-10-18T17:28:58	cn19.hpc.itu.dk	downloaded		wikiteam/00053_wikiteam.json.gz			4
+2026-10-18T17:52:16	cn19.hpc.itu.dk	annotated	propella	wikiteam/00044_wikiteam.json.gz	159878	37	5692
+2026-10-18T17:52:22	cn19.hpc.itu.dk	downloaded		wikiteam/00055_wikiteam.json.gz			5
+2026-10-18T17:54:17	cn19.hpc.itu.dk	annotated	propella	wikiteam/00046_wikiteam.json.gz	159878	41	5745
+2026-10-18T17:54:21	cn19.hpc.itu.dk	downloaded		wikiteam/00056_wikiteam.json.gz			4
+2026-10-18T18:03:04	cn11.hpc.itu.dk	annotated	propella	wikiteam/00050_wikiteam.json.gz	159878	0	3323
+2026-10-18T18:03:10	cn11.hpc.itu.dk	downloaded		wikiteam/00058_wikiteam.json.gz			5
+2026-10-18T18:13:09	cn19.hpc.itu.dk	annotated	propella	wikiteam/00049_wikiteam.json.gz	159878	43	5764
+2026-10-18T18:13:14	cn19.hpc.itu.dk	downloaded		wikiteam/00059_wikiteam.json.gz			4
+2026-10-18T18:15:02	cn11.hpc.itu.dk	annotated	propella	wikiteam/00052_wikiteam.json.gz	159878	0	3436
+2026-10-18T18:15:07	cn11.hpc.itu.dk	downloaded		wikiteam/00061_wikiteam.json.gz			5
+2026-10-18T18:58:51	cn11.hpc.itu.dk	annotated	propella	wikiteam/00058_wikiteam.json.gz	159878	0	3339
+2026-10-18T18:58:59	cn11.hpc.itu.dk	downloaded		wikiteam/00062_wikiteam.json.gz			8
+2026-10-18T19:05:30	cn19.hpc.itu.dk	annotated	propella	wikiteam/00053_wikiteam.json.gz	159878	41	5789
+2026-10-18T19:05:34	cn19.hpc.itu.dk	downloaded		wikiteam/wikiteam.chunk.00.jsonl.gz			4
+2026-10-18T19:11:44	cn11.hpc.itu.dk	annotated	propella	wikiteam/00061_wikiteam.json.gz	159878	0	3395
+2026-10-18T19:11:49	cn11.hpc.itu.dk	downloaded		wikiteam/wikiteam.chunk.01.jsonl.gz			4
+2026-10-18T19:28:39	cn19.hpc.itu.dk	annotated	propella	wikiteam/00056_wikiteam.json.gz	159878	36	5656
+2026-10-18T19:28:44	cn19.hpc.itu.dk	downloaded		wikiteam/wikiteam.chunk.03.jsonl.gz			5
+2026-10-18T19:28:50	cn19.hpc.itu.dk	annotated	propella	wikiteam/00055_wikiteam.json.gz	159878	28	5786
+2026-10-18T19:28:55	cn19.hpc.itu.dk	downloaded		wikiteam/wikiteam.chunk.04.jsonl.gz			5
+2026-10-18T19:48:18	cn19.hpc.itu.dk	annotated	propella	wikiteam/00059_wikiteam.json.gz	159878	40	5702
+2026-10-18T19:48:23	cn19.hpc.itu.dk	downloaded		wikiteam/wikiteam.chunk.06.jsonl.gz			5
+2026-10-18T19:54:21	cn11.hpc.itu.dk	annotated	propella	wikiteam/00062_wikiteam.json.gz	159878	0	3320
+2026-10-18T19:54:27	cn11.hpc.itu.dk	downloaded		wikiteam/wikiteam.chunk.07.jsonl.gz			5
+2026-10-18T21:26:52	cn11.hpc.itu.dk	annotated	propella	wikiteam/wikiteam.chunk.01.jsonl.gz	420810	0	8100
+2026-10-18T21:27:02	cn11.hpc.itu.dk	downloaded		wikiteam/wikiteam.chunk.09.jsonl.gz			10
+2026-10-18T22:04:12	cn11.hpc.itu.dk	annotated	propella	wikiteam/wikiteam.chunk.07.jsonl.gz	420810	0	7782
+2026-10-18T22:04:18	cn11.hpc.itu.dk	downloaded		wikiteam/wikiteam.chunk.10.jsonl.gz			5
+2026-10-18T22:24:53	cn19.hpc.itu.dk	annotated	propella	wikiteam/wikiteam.chunk.00.jsonl.gz	420810	72	11956
+2026-10-18T22:24:58	cn19.hpc.itu.dk	downloaded		wikiteam/wikiteam.chunk.12.jsonl.gz			4
+2026-10-18T22:44:13	cn19.hpc.itu.dk	annotated	propella	wikiteam/wikiteam.chunk.03.jsonl.gz	420810	64	11725
+2026-10-18T22:44:19	cn19.hpc.itu.dk	downloaded		wikiteam/wikiteam.chunk.13.jsonl.gz			5
+2026-10-18T22:48:00	cn19.hpc.itu.dk	annotated	propella	wikiteam/wikiteam.chunk.04.jsonl.gz	420810	65	11942
+2026-10-18T22:48:05	cn19.hpc.itu.dk	downloaded		wikiteam/wikiteam.chunk.15.jsonl.gz			4
+2026-10-18T23:05:24	cn19.hpc.itu.dk	annotated	propella	wikiteam/wikiteam.chunk.06.jsonl.gz	420810	56	11817
+2026-10-18T23:05:29	cn19.hpc.itu.dk	downloaded		wikiteam/wikiteam.chunk.16.jsonl.gz			5
+2026-10-18T23:41:44	cn11.hpc.itu.dk	annotated	propella	wikiteam/wikiteam.chunk.09.jsonl.gz	420810	0	8079
+2026-10-18T23:41:50	cn11.hpc.itu.dk	downloaded		wikiteam/wikiteam.chunk.18.jsonl.gz			5
+2026-10-19T00:14:00	cn11.hpc.itu.dk	annotated	propella	wikiteam/wikiteam.chunk.10.jsonl.gz	420810	0	7780
+2026-10-19T00:14:06	cn11.hpc.itu.dk	downloaded		wikiteam/wikiteam.chunk.19.jsonl.gz			5
+2026-10-19T01:44:53	cn19.hpc.itu.dk	annotated	propella	wikiteam/wikiteam.chunk.12.jsonl.gz	420810	63	11992
+2026-10-19T01:44:58	cn19.hpc.itu.dk	downloaded		wikiteam/wikiteam.chunk.21.jsonl.gz			4
+2026-10-19T01:56:28	cn11.hpc.itu.dk	annotated	propella	wikiteam/wikiteam.chunk.18.jsonl.gz	420810	0	8075
+2026-10-19T01:56:33	cn11.hpc.itu.dk	downloaded		wikiteam/wikiteam.chunk.22.jsonl.gz			5
+2026-10-19T01:59:55	cn19.hpc.itu.dk	annotated	propella	wikiteam/wikiteam.chunk.13.jsonl.gz	420810	44	11733
+2026-10-19T02:00:00	cn19.hpc.itu.dk	downloaded		wikiteam/wikiteam.chunk.24.jsonl.gz			5
+2026-10-19T02:05:41	cn19.hpc.itu.dk	annotated	propella	wikiteam/wikiteam.chunk.15.jsonl.gz	420810	61	11853
+2026-10-19T02:05:46	cn19.hpc.itu.dk	downloaded		wikiteam/wikiteam.chunk.25.jsonl.gz			5
+2026-10-19T02:22:50	cn19.hpc.itu.dk	annotated	propella	wikiteam/wikiteam.chunk.16.jsonl.gz	420810	64	11838
+2026-10-19T02:22:55	cn19.hpc.itu.dk	downloaded		wikiteam/wikiteam.chunk.27.jsonl.gz			5
+2026-10-19T02:24:03	cn11.hpc.itu.dk	annotated	propella	wikiteam/wikiteam.chunk.19.jsonl.gz	420810	0	7794
+2026-10-19T02:24:08	cn11.hpc.itu.dk	downloaded		wikiteam/wikiteam.chunk.28.jsonl.gz			5
+2026-10-19T04:11:05	cn11.hpc.itu.dk	annotated	propella	wikiteam/wikiteam.chunk.22.jsonl.gz	420810	0	8069
+2026-10-19T04:11:11	cn11.hpc.itu.dk	downloaded		wikiteam/wikiteam.chunk.30.jsonl.gz			5
+2026-10-19T04:33:51	cn11.hpc.itu.dk	annotated	propella	wikiteam/wikiteam.chunk.28.jsonl.gz	420810	0	7780
+2026-10-19T04:33:57	cn11.hpc.itu.dk	downloaded		wikiteam/wikiteam.chunk.31.jsonl.gz			5
+2026-10-19T05:05:44	cn19.hpc.itu.dk	annotated	propella	wikiteam/wikiteam.chunk.21.jsonl.gz	420810	56	12042
+2026-10-19T05:05:49	cn19.hpc.itu.dk	downloaded		wikiteam/wikiteam.chunk.33.jsonl.gz			5
+2026-10-19T05:15:36	cn19.hpc.itu.dk	annotated	propella	wikiteam/wikiteam.chunk.24.jsonl.gz	420810	74	11734
+2026-10-19T05:15:42	cn19.hpc.itu.dk	downloaded		wikiteam/wikiteam.chunk.34.jsonl.gz			5
+2026-10-19T05:24:58	cn19.hpc.itu.dk	annotated	propella	wikiteam/wikiteam.chunk.25.jsonl.gz	420810	61	11948
+2026-10-19T05:25:03	cn19.hpc.itu.dk	downloaded		wikiteam/wikiteam.chunk.36.jsonl.gz			5
+2026-10-19T05:40:34	cn19.hpc.itu.dk	annotated	propella	wikiteam/wikiteam.chunk.27.jsonl.gz	420810	60	11856
+2026-10-19T05:40:39	cn19.hpc.itu.dk	downloaded		wikiteam/wikiteam.chunk.37.jsonl.gz			4
+2026-10-19T06:25:43	cn11.hpc.itu.dk	annotated	propella	wikiteam/wikiteam.chunk.30.jsonl.gz	420810	0	8069
+2026-10-19T06:25:48	cn11.hpc.itu.dk	downloaded		wikiteam/wikiteam.chunk.39.jsonl.gz			5
+2026-10-19T06:44:04	cn11.hpc.itu.dk	annotated	propella	wikiteam/wikiteam.chunk.31.jsonl.gz	420809	0	7805
+2026-10-19T06:44:11	cn11.hpc.itu.dk	downloaded		wikiteam/wikiteam.chunk.40.jsonl.gz			6
+2026-10-19T08:26:34	cn19.hpc.itu.dk	annotated	propella	wikiteam/wikiteam.chunk.33.jsonl.gz	420809	48	12042
+2026-10-19T08:26:40	cn19.hpc.itu.dk	downloaded		wikiteam/wikiteam.chunk.42.jsonl.gz			5
+2026-10-19T08:32:31	cn19.hpc.itu.dk	annotated	propella	wikiteam/wikiteam.chunk.34.jsonl.gz	420809	58	11806
+2026-10-19T08:32:43	cn19.hpc.itu.dk	downloaded		wikiteam/wikiteam.chunk.43.jsonl.gz			11
+2026-10-19T08:41:11	cn11.hpc.itu.dk	annotated	propella	wikiteam/wikiteam.chunk.39.jsonl.gz	420809	0	8121
+2026-10-19T08:41:22	cn11.hpc.itu.dk	downloaded		wikiteam/wikiteam.chunk.45.jsonl.gz			10
+2026-10-19T08:43:48	cn19.hpc.itu.dk	annotated	propella	wikiteam/wikiteam.chunk.36.jsonl.gz	420809	69	11922
+2026-10-19T08:43:54	cn19.hpc.itu.dk	downloaded		wikiteam/wikiteam.chunk.46.jsonl.gz			6
+2026-10-19T08:54:18	cn11.hpc.itu.dk	annotated	propella	wikiteam/wikiteam.chunk.40.jsonl.gz	420809	0	7805
+2026-10-19T08:54:37	cn11.hpc.itu.dk	downloaded		wikiteam/wikiteam.chunk.48.jsonl.gz			18
+2026-10-19T08:58:06	cn19.hpc.itu.dk	annotated	propella	wikiteam/wikiteam.chunk.37.jsonl.gz	420809	53	11844
+2026-10-19T08:58:11	cn19.hpc.itu.dk	downloaded		wikiteam/wikiteam.chunk.49.jsonl.gz			5
+2026-10-19T10:55:49	cn11.hpc.itu.dk	annotated	propella	wikiteam/wikiteam.chunk.45.jsonl.gz	420809	0	8064
+2026-10-19T10:55:54	cn11.hpc.itu.dk	downloaded		wikiteam/wikiteam.chunk.51.jsonl.gz			5
+2026-10-19T11:03:58	cn11.hpc.itu.dk	annotated	propella	wikiteam/wikiteam.chunk.48.jsonl.gz	420809	0	7759
+2026-10-19T11:04:05	cn11.hpc.itu.dk	downloaded		wikiteam/wikiteam.chunk.52.jsonl.gz			6
+2026-10-19T11:48:47	cn19.hpc.itu.dk	annotated	propella	wikiteam/wikiteam.chunk.42.jsonl.gz	420809	62	12124
+2026-10-19T11:48:56	cn19.hpc.itu.dk	downloaded		wikiteam/wikiteam.chunk.54.jsonl.gz			9
+2026-10-19T11:49:03	cn19.hpc.itu.dk	annotated	propella	wikiteam/wikiteam.chunk.43.jsonl.gz	420809	47	11776
+2026-10-19T11:49:20	cn19.hpc.itu.dk	downloaded		wikiteam/wikiteam.chunk.55.jsonl.gz			17
+2026-10-19T12:03:28	cn19.hpc.itu.dk	annotated	propella	wikiteam/wikiteam.chunk.46.jsonl.gz	420809	68	11971
+2026-10-19T12:03:36	cn19.hpc.itu.dk	downloaded		wikiteam/wikiteam.chunk.57.jsonl.gz			7
+2026-10-19T12:17:27	cn19.hpc.itu.dk	annotated	propella	wikiteam/wikiteam.chunk.49.jsonl.gz	420809	62	11954
+2026-10-19T12:17:35	cn19.hpc.itu.dk	downloaded		wikiteam/wikiteam.chunk.58.jsonl.gz			7
+2026-10-19T13:10:11	cn11.hpc.itu.dk	annotated	propella	wikiteam/wikiteam.chunk.51.jsonl.gz	420809	0	8054
+2026-10-19T13:10:16	cn11.hpc.itu.dk	downloaded		wikiteam/wikiteam.chunk.60.jsonl.gz			4
+2026-10-19T13:14:34	cn11.hpc.itu.dk	annotated	propella	wikiteam/wikiteam.chunk.52.jsonl.gz	420809	0	7826
+2026-10-19T13:14:42	cn11.hpc.itu.dk	downloaded		wikiteam/wikiteam.chunk.61.jsonl.gz			7
+2026-10-19T15:06:25	cn19.hpc.itu.dk	annotated	propella	wikiteam/wikiteam.chunk.55.jsonl.gz	420809	64	11822
+2026-10-19T15:06:31	cn19.hpc.itu.dk	downloaded		wikiteam/wikiteam.chunk.63.jsonl.gz			5
+2026-10-19T15:11:22	cn19.hpc.itu.dk	annotated	propella	wikiteam/wikiteam.chunk.54.jsonl.gz	420809	49	12143
+2026-10-19T15:11:34	cn19.hpc.itu.dk	downloaded		stackexchange/stackexchange.chunk.00.jsonl.gz			12
+2026-10-19T15:23:13	cn19.hpc.itu.dk	annotated	propella	wikiteam/wikiteam.chunk.57.jsonl.gz	420809	80	11974
+2026-10-19T15:23:25	cn19.hpc.itu.dk	downloaded		stackexchange/stackexchange.chunk.02.jsonl.gz			12
+2026-10-19T15:24:33	cn11.hpc.itu.dk	annotated	propella	wikiteam/wikiteam.chunk.60.jsonl.gz	420809	0	8055
+2026-10-19T15:24:55	cn11.hpc.itu.dk	annotated	propella	wikiteam/wikiteam.chunk.61.jsonl.gz	420809	0	7810
+2026-10-19T15:25:02	cn11.hpc.itu.dk	downloaded		stackexchange/stackexchange.chunk.03.jsonl.gz			28
+2026-10-19T15:25:05	cn11.hpc.itu.dk	downloaded		stackexchange/stackexchange.chunk.05.jsonl.gz			9
+2026-10-19T15:36:29	cn19.hpc.itu.dk	annotated	propella	wikiteam/wikiteam.chunk.58.jsonl.gz	420809	62	11931
+2026-10-19T15:36:47	cn19.hpc.itu.dk	downloaded		stackexchange/stackexchange.chunk.06.jsonl.gz			18
+2026-10-19T18:21:58	cn19.hpc.itu.dk	annotated	propella	wikiteam/wikiteam.chunk.63.jsonl.gz	420809	55	11724
+2026-10-19T18:22:28	cn19.hpc.itu.dk	downloaded		stackexchange/stackexchange.chunk.08.jsonl.gz			29
+2026-10-19T19:07:00	cn11.hpc.itu.dk	annotated	propella	stackexchange/stackexchange.chunk.05.jsonl.gz	484185	0	13303
+2026-10-19T19:07:09	cn11.hpc.itu.dk	downloaded		stackexchange/stackexchange.chunk.09.jsonl.gz			9
+2026-10-19T19:12:20	cn11.hpc.itu.dk	annotated	propella	stackexchange/stackexchange.chunk.03.jsonl.gz	484185	0	13625
+2026-10-19T19:12:29	cn11.hpc.itu.dk	downloaded		stackexchange/stackexchange.chunk.11.jsonl.gz			9
+2026-10-19T22:47:59	cn11.hpc.itu.dk	annotated	propella	stackexchange/stackexchange.chunk.09.jsonl.gz	484185	0	13239
+2026-10-19T22:48:09	cn11.hpc.itu.dk	downloaded		stackexchange/stackexchange.chunk.12.jsonl.gz			9
+2026-10-19T22:58:40	cn11.hpc.itu.dk	annotated	propella	stackexchange/stackexchange.chunk.11.jsonl.gz	484185	0	13559
+2026-10-19T22:58:50	cn11.hpc.itu.dk	downloaded		stackexchange/stackexchange.chunk.14.jsonl.gz			10
+2026-10-19T23:11:14	cn19.hpc.itu.dk	annotated	propella	stackexchange/stackexchange.chunk.00.jsonl.gz	484185	105	28767
+2026-10-19T23:11:27	cn19.hpc.itu.dk	downloaded		stackexchange/stackexchange.chunk.15.jsonl.gz			13
+2026-10-19T23:39:06	cn19.hpc.itu.dk	annotated	propella	stackexchange/stackexchange.chunk.06.jsonl.gz	484185	111	28926
+2026-10-19T23:39:18	cn19.hpc.itu.dk	downloaded		stackexchange/stackexchange.chunk.17.jsonl.gz			11
+2026-10-20T02:17:34	cn19.hpc.itu.dk	annotated	propella	stackexchange/stackexchange.chunk.08.jsonl.gz	484185	105	28493
+2026-10-20T02:17:46	cn19.hpc.itu.dk	downloaded		stackexchange/stackexchange.chunk.18.jsonl.gz			12
+2026-10-20T02:29:26	cn11.hpc.itu.dk	annotated	propella	stackexchange/stackexchange.chunk.12.jsonl.gz	484185	0	13266
+2026-10-20T02:29:36	cn11.hpc.itu.dk	downloaded		stackexchange/stackexchange.chunk.20.jsonl.gz			9
+2026-10-20T02:44:46	cn11.hpc.itu.dk	annotated	propella	stackexchange/stackexchange.chunk.14.jsonl.gz	484185	0	13545
+2026-10-20T02:44:55	cn11.hpc.itu.dk	downloaded		stackexchange/stackexchange.chunk.21.jsonl.gz			9
+2026-10-20T06:10:32	cn11.hpc.itu.dk	annotated	propella	stackexchange/stackexchange.chunk.20.jsonl.gz	484185	0	13245
+2026-10-20T06:10:41	cn11.hpc.itu.dk	downloaded		stackexchange/stackexchange.chunk.23.jsonl.gz			9
+2026-10-20T06:30:42	cn11.hpc.itu.dk	annotated	propella	stackexchange/stackexchange.chunk.21.jsonl.gz	484185	0	13535
+2026-10-20T06:30:52	cn11.hpc.itu.dk	downloaded		stackexchange/stackexchange.chunk.24.jsonl.gz			9
+2026-10-20T07:07:15	cn19.hpc.itu.dk	annotated	propella	stackexchange/stackexchange.chunk.15.jsonl.gz	484185	91	28535
+2026-10-20T07:07:27	cn19.hpc.itu.dk	downloaded		stackexchange/stackexchange.chunk.26.jsonl.gz			11
+2026-10-20T07:37:37	cn19.hpc.itu.dk	annotated	propella	stackexchange/stackexchange.chunk.17.jsonl.gz	484185	95	28688
+2026-10-20T07:37:49	cn19.hpc.itu.dk	downloaded		stackexchange/stackexchange.chunk.27.jsonl.gz			12
+2026-10-20T09:52:07	cn11.hpc.itu.dk	annotated	propella	stackexchange/stackexchange.chunk.23.jsonl.gz	484185	0	13274
+2026-10-20T09:52:19	cn11.hpc.itu.dk	downloaded		stackexchange/stackexchange.chunk.29.jsonl.gz			10
+2026-10-20T10:12:16	cn19.hpc.itu.dk	annotated	propella	stackexchange/stackexchange.chunk.18.jsonl.gz	484185	105	28458
+2026-10-20T10:12:28	cn19.hpc.itu.dk	downloaded		stackexchange/stackexchange.chunk.30.jsonl.gz			12
+2026-10-20T10:16:48	cn11.hpc.itu.dk	annotated	propella	stackexchange/stackexchange.chunk.24.jsonl.gz	484185	0	13545
+2026-10-20T10:16:57	cn11.hpc.itu.dk	downloaded		stackexchange/stackexchange.chunk.32.jsonl.gz			9
+2026-10-20T13:33:01	cn11.hpc.itu.dk	annotated	propella	stackexchange/stackexchange.chunk.29.jsonl.gz	484185	0	13231
+2026-10-20T13:33:11	cn11.hpc.itu.dk	downloaded		stackexchange/stackexchange.chunk.33.jsonl.gz			10
+2026-10-20T14:02:39	cn11.hpc.itu.dk	annotated	propella	stackexchange/stackexchange.chunk.32.jsonl.gz	484185	0	13530
+2026-10-20T14:02:48	cn11.hpc.itu.dk	downloaded		stackexchange/stackexchange.chunk.35.jsonl.gz			9
+2026-10-20T15:02:36	cn19.hpc.itu.dk	annotated	propella	stackexchange/stackexchange.chunk.26.jsonl.gz	484185	101	28497
+2026-10-20T15:02:49	cn19.hpc.itu.dk	downloaded		stackexchange/stackexchange.chunk.36.jsonl.gz			13
+2026-10-20T15:35:41	cn19.hpc.itu.dk	annotated	propella	stackexchange/stackexchange.chunk.27.jsonl.gz	484185	124	28660
+2026-10-20T15:35:54	cn19.hpc.itu.dk	downloaded		stackexchange/stackexchange.chunk.38.jsonl.gz			12
+2026-10-20T17:13:53	cn11.hpc.itu.dk	annotated	propella	stackexchange/stackexchange.chunk.33.jsonl.gz	484185	0	13231
+2026-10-20T17:14:03	cn11.hpc.itu.dk	downloaded		stackexchange/stackexchange.chunk.39.jsonl.gz			9
+2026-10-20T17:48:45	cn11.hpc.itu.dk	annotated	propella	stackexchange/stackexchange.chunk.35.jsonl.gz	484185	0	13545
+2026-10-20T17:48:56	cn11.hpc.itu.dk	downloaded		stackexchange/stackexchange.chunk.41.jsonl.gz			10
+2026-10-20T18:07:11	cn19.hpc.itu.dk	annotated	propella	stackexchange/stackexchange.chunk.30.jsonl.gz	484185	116	28470
+2026-10-20T18:07:24	cn19.hpc.itu.dk	downloaded		stackexchange/stackexchange.chunk.42.jsonl.gz			12
+2026-10-20T20:54:39	cn11.hpc.itu.dk	annotated	propella	stackexchange/stackexchange.chunk.39.jsonl.gz	484184	0	13225
+2026-10-20T20:54:49	cn11.hpc.itu.dk	downloaded		stackexchange/stackexchange.chunk.44.jsonl.gz			9
+2026-10-20T21:34:09	cn11.hpc.itu.dk	annotated	propella	stackexchange/stackexchange.chunk.41.jsonl.gz	484184	0	13502
+2026-10-20T21:34:19	cn11.hpc.itu.dk	downloaded		stackexchange/stackexchange.chunk.45.jsonl.gz			9
+2026-10-20T23:00:13	cn19.hpc.itu.dk	annotated	propella	stackexchange/stackexchange.chunk.36.jsonl.gz	484185	105	28631
+2026-10-20T23:00:34	cn19.hpc.itu.dk	downloaded		stackexchange/stackexchange.chunk.47.jsonl.gz			20
+2026-10-20T23:33:14	cn19.hpc.itu.dk	annotated	propella	stackexchange/stackexchange.chunk.38.jsonl.gz	484184	102	28628
+2026-10-20T23:33:47	cn19.hpc.itu.dk	downloaded		stackexchange/stackexchange.chunk.48.jsonl.gz			32
+2026-10-21T00:36:26	cn11.hpc.itu.dk	annotated	propella	stackexchange/stackexchange.chunk.44.jsonl.gz	484184	0	13285
+2026-10-21T00:36:35	cn11.hpc.itu.dk	downloaded		stackexchange/stackexchange.chunk.50.jsonl.gz			9
+2026-10-21T01:20:19	cn11.hpc.itu.dk	annotated	propella	stackexchange/stackexchange.chunk.45.jsonl.gz	484184	0	13548
+2026-10-21T01:20:29	cn11.hpc.itu.dk	downloaded		stackexchange/stackexchange.chunk.51.jsonl.gz			9
+2026-10-21T02:02:10	cn19.hpc.itu.dk	annotated	propella	stackexchange/stackexchange.chunk.42.jsonl.gz	484184	104	28474
+2026-10-21T02:02:23	cn19.hpc.itu.dk	downloaded		stackexchange/stackexchange.chunk.53.jsonl.gz			12
+2026-10-21T04:16:45	cn11.hpc.itu.dk	annotated	propella	stackexchange/stackexchange.chunk.50.jsonl.gz	484184	0	13198
+2026-10-21T04:16:55	cn11.hpc.itu.dk	downloaded		stackexchange/stackexchange.chunk.54.jsonl.gz			9
+2026-10-21T05:06:01	cn11.hpc.itu.dk	annotated	propella	stackexchange/stackexchange.chunk.51.jsonl.gz	484184	0	13520
+2026-10-21T05:06:10	cn11.hpc.itu.dk	downloaded		stackexchange/stackexchange.chunk.56.jsonl.gz			9
+2026-10-21T06:56:37	cn19.hpc.itu.dk	annotated	propella	stackexchange/stackexchange.chunk.47.jsonl.gz	484184	111	28549
+2026-10-21T06:56:49	cn19.hpc.itu.dk	downloaded		stackexchange/stackexchange.chunk.57.jsonl.gz			12
+2026-10-21T07:32:32	cn19.hpc.itu.dk	annotated	propella	stackexchange/stackexchange.chunk.48.jsonl.gz	484184	116	28712
+2026-10-21T07:32:45	cn19.hpc.itu.dk	downloaded		stackexchange/stackexchange.chunk.59.jsonl.gz			12
+2026-10-21T07:57:19	cn11.hpc.itu.dk	annotated	propella	stackexchange/stackexchange.chunk.54.jsonl.gz	484184	0	13213
+2026-10-21T07:57:28	cn11.hpc.itu.dk	downloaded		stackexchange/stackexchange.chunk.60.jsonl.gz			9
+2026-10-21T08:51:21	cn11.hpc.itu.dk	annotated	propella	stackexchange/stackexchange.chunk.56.jsonl.gz	484184	0	13500
+2026-10-21T08:51:36	cn11.hpc.itu.dk	downloaded		stackexchange/stackexchange.chunk.62.jsonl.gz			14
+2026-10-21T09:56:32	cn19.hpc.itu.dk	annotated	propella	stackexchange/stackexchange.chunk.53.jsonl.gz	484184	102	28437
+2026-10-21T09:56:45	cn19.hpc.itu.dk	downloaded		stackexchange/stackexchange.chunk.63.jsonl.gz			12
+2026-10-21T11:38:28	cn11.hpc.itu.dk	annotated	propella	stackexchange/stackexchange.chunk.60.jsonl.gz	484184	0	13248
+2026-10-21T11:38:30	cn11.hpc.itu.dk	downloaded		libretexts/libretexts.chunk.01.jsonl.gz			2
+2026-10-21T11:39:07	cn11.hpc.itu.dk	annotated	propella	libretexts/libretexts.chunk.01.jsonl.gz	628	0	37
+2026-10-21T11:39:10	cn11.hpc.itu.dk	downloaded		libretexts/libretexts.chunk.02.jsonl.gz			2
+2026-10-21T11:39:47	cn11.hpc.itu.dk	annotated	propella	libretexts/libretexts.chunk.02.jsonl.gz	628	0	37
+2026-10-21T11:39:49	cn11.hpc.itu.dk	downloaded		libretexts/libretexts.chunk.04.jsonl.gz			2
+2026-10-21T11:40:25	cn11.hpc.itu.dk	annotated	propella	libretexts/libretexts.chunk.04.jsonl.gz	628	0	36
+2026-10-21T11:40:27	cn11.hpc.itu.dk	downloaded		libretexts/libretexts.chunk.05.jsonl.gz			2
+2026-10-21T11:41:06	cn11.hpc.itu.dk	annotated	propella	libretexts/libretexts.chunk.05.jsonl.gz	628	0	39
+2026-10-21T11:41:08	cn11.hpc.itu.dk	downloaded		libretexts/libretexts.chunk.07.jsonl.gz			2
+2026-10-21T11:41:44	cn11.hpc.itu.dk	annotated	propella	libretexts/libretexts.chunk.07.jsonl.gz	628	0	36
+2026-10-21T11:41:46	cn11.hpc.itu.dk	downloaded		libretexts/libretexts.chunk.08.jsonl.gz			2
+2026-10-21T11:42:23	cn11.hpc.itu.dk	annotated	propella	libretexts/libretexts.chunk.08.jsonl.gz	628	0	37
+2026-10-21T11:42:25	cn11.hpc.itu.dk	downloaded		libretexts/libretexts.chunk.10.jsonl.gz			2
+2026-10-21T11:43:09	cn11.hpc.itu.dk	annotated	propella	libretexts/libretexts.chunk.10.jsonl.gz	628	0	44
+2026-10-21T11:43:11	cn11.hpc.itu.dk	downloaded		libretexts/libretexts.chunk.11.jsonl.gz			2
+2026-10-21T11:43:53	cn11.hpc.itu.dk	annotated	propella	libretexts/libretexts.chunk.11.jsonl.gz	628	0	41
+2026-10-21T11:43:55	cn11.hpc.itu.dk	downloaded		libretexts/libretexts.chunk.13.jsonl.gz			2
+2026-10-21T11:44:31	cn11.hpc.itu.dk	annotated	propella	libretexts/libretexts.chunk.13.jsonl.gz	628	0	36
+2026-10-21T11:44:33	cn11.hpc.itu.dk	downloaded		libretexts/libretexts.chunk.14.jsonl.gz			2
+2026-10-21T11:45:07	cn11.hpc.itu.dk	annotated	propella	libretexts/libretexts.chunk.14.jsonl.gz	628	0	34
+2026-10-21T11:45:10	cn11.hpc.itu.dk	downloaded		libretexts/libretexts.chunk.16.jsonl.gz			2
+2026-10-21T11:45:47	cn11.hpc.itu.dk	annotated	propella	libretexts/libretexts.chunk.16.jsonl.gz	628	0	37
+2026-10-21T11:45:49	cn11.hpc.itu.dk	downloaded		libretexts/libretexts.chunk.17.jsonl.gz			2
+2026-10-21T11:46:30	cn11.hpc.itu.dk	annotated	propella	libretexts/libretexts.chunk.17.jsonl.gz	628	0	41
+2026-10-21T11:46:32	cn11.hpc.itu.dk	downloaded		libretexts/libretexts.chunk.19.jsonl.gz			2
+2026-10-21T11:47:08	cn11.hpc.itu.dk	annotated	propella	libretexts/libretexts.chunk.19.jsonl.gz	628	0	36
+2026-10-21T11:47:09	cn11.hpc.itu.dk	downloaded		libretexts/libretexts.chunk.20.jsonl.gz			2
+2026-10-21T11:47:48	cn11.hpc.itu.dk	annotated	propella	libretexts/libretexts.chunk.20.jsonl.gz	628	0	38
+2026-10-21T11:47:50	cn11.hpc.itu.dk	downloaded		libretexts/libretexts.chunk.22.jsonl.gz			2
+2026-10-21T11:48:28	cn11.hpc.itu.dk	annotated	propella	libretexts/libretexts.chunk.22.jsonl.gz	628	0	38
+2026-10-21T11:48:30	cn11.hpc.itu.dk	downloaded		libretexts/libretexts.chunk.23.jsonl.gz			2
+2026-10-21T11:49:07	cn11.hpc.itu.dk	annotated	propella	libretexts/libretexts.chunk.23.jsonl.gz	628	0	37
+2026-10-21T11:49:09	cn11.hpc.itu.dk	downloaded		libretexts/libretexts.chunk.25.jsonl.gz			1
+2026-10-21T11:49:46	cn11.hpc.itu.dk	annotated	propella	libretexts/libretexts.chunk.25.jsonl.gz	628	0	37
+2026-10-21T11:49:48	cn11.hpc.itu.dk	downloaded		libretexts/libretexts.chunk.26.jsonl.gz			2
+2026-10-21T11:50:27	cn11.hpc.itu.dk	annotated	propella	libretexts/libretexts.chunk.26.jsonl.gz	628	0	40
+2026-10-21T11:50:29	cn11.hpc.itu.dk	downloaded		libretexts/libretexts.chunk.28.jsonl.gz			1
+2026-10-21T11:51:04	cn11.hpc.itu.dk	annotated	propella	libretexts/libretexts.chunk.28.jsonl.gz	628	0	35
+2026-10-21T11:51:05	cn11.hpc.itu.dk	downloaded		libretexts/libretexts.chunk.29.jsonl.gz			2
+2026-10-21T11:51:41	cn11.hpc.itu.dk	annotated	propella	libretexts/libretexts.chunk.29.jsonl.gz	628	0	36
+2026-10-21T11:51:43	cn11.hpc.itu.dk	downloaded		libretexts/libretexts.chunk.31.jsonl.gz			1
+2026-10-21T11:52:22	cn11.hpc.itu.dk	annotated	propella	libretexts/libretexts.chunk.31.jsonl.gz	628	0	39
+2026-10-21T11:52:24	cn11.hpc.itu.dk	downloaded		libretexts/libretexts.chunk.32.jsonl.gz			1
+2026-10-21T11:53:02	cn11.hpc.itu.dk	annotated	propella	libretexts/libretexts.chunk.32.jsonl.gz	628	0	38
+2026-10-21T11:53:04	cn11.hpc.itu.dk	downloaded		libretexts/libretexts.chunk.34.jsonl.gz			2
+2026-10-21T11:53:40	cn11.hpc.itu.dk	annotated	propella	libretexts/libretexts.chunk.34.jsonl.gz	628	0	36
+2026-10-21T11:53:42	cn11.hpc.itu.dk	downloaded		libretexts/libretexts.chunk.35.jsonl.gz			1
+2026-10-21T11:54:22	cn11.hpc.itu.dk	annotated	propella	libretexts/libretexts.chunk.35.jsonl.gz	628	0	41
+2026-10-21T11:54:24	cn11.hpc.itu.dk	downloaded		libretexts/libretexts.chunk.37.jsonl.gz			1
+2026-10-21T11:55:01	cn11.hpc.itu.dk	annotated	propella	libretexts/libretexts.chunk.37.jsonl.gz	628	0	37
+2026-10-21T11:55:02	cn11.hpc.itu.dk	downloaded		libretexts/libretexts.chunk.38.jsonl.gz			1
+2026-10-21T11:55:39	cn11.hpc.itu.dk	annotated	propella	libretexts/libretexts.chunk.38.jsonl.gz	628	0	37
+2026-10-21T11:55:41	cn11.hpc.itu.dk	downloaded		libretexts/libretexts.chunk.40.jsonl.gz			1
+2026-10-21T11:56:18	cn11.hpc.itu.dk	annotated	propella	libretexts/libretexts.chunk.40.jsonl.gz	628	0	37
+2026-10-21T11:56:20	cn11.hpc.itu.dk	downloaded		libretexts/libretexts.chunk.41.jsonl.gz			2
+2026-10-21T11:56:56	cn11.hpc.itu.dk	annotated	propella	libretexts/libretexts.chunk.41.jsonl.gz	628	0	36
+2026-10-21T11:56:58	cn11.hpc.itu.dk	downloaded		libretexts/libretexts.chunk.43.jsonl.gz			1
+2026-10-21T11:57:38	cn11.hpc.itu.dk	annotated	propella	libretexts/libretexts.chunk.43.jsonl.gz	628	0	41
+2026-10-21T11:57:40	cn11.hpc.itu.dk	downloaded		libretexts/libretexts.chunk.44.jsonl.gz			2
+2026-10-21T11:58:14	cn11.hpc.itu.dk	annotated	propella	libretexts/libretexts.chunk.44.jsonl.gz	628	0	34
+2026-10-21T11:58:16	cn11.hpc.itu.dk	downloaded		libretexts/libretexts.chunk.46.jsonl.gz			1
+2026-10-21T11:58:51	cn11.hpc.itu.dk	annotated	propella	libretexts/libretexts.chunk.46.jsonl.gz	628	0	35
+2026-10-21T11:58:53	cn11.hpc.itu.dk	downloaded		libretexts/libretexts.chunk.47.jsonl.gz			2
+2026-10-21T11:59:30	cn11.hpc.itu.dk	annotated	propella	libretexts/libretexts.chunk.47.jsonl.gz	628	0	37
+2026-10-21T11:59:31	cn11.hpc.itu.dk	downloaded		libretexts/libretexts.chunk.49.jsonl.gz			2
+2026-10-21T12:00:07	cn11.hpc.itu.dk	annotated	propella	libretexts/libretexts.chunk.49.jsonl.gz	628	0	35
+2026-10-21T12:00:08	cn11.hpc.itu.dk	downloaded		libretexts/libretexts.chunk.50.jsonl.gz			1
+2026-10-21T12:00:45	cn11.hpc.itu.dk	annotated	propella	libretexts/libretexts.chunk.50.jsonl.gz	628	0	37
+2026-10-21T12:00:47	cn11.hpc.itu.dk	downloaded		libretexts/libretexts.chunk.52.jsonl.gz			2
+2026-10-21T12:01:25	cn11.hpc.itu.dk	annotated	propella	libretexts/libretexts.chunk.52.jsonl.gz	628	0	38
+2026-10-21T12:01:27	cn11.hpc.itu.dk	downloaded		libretexts/libretexts.chunk.53.jsonl.gz			2
+2026-10-21T12:02:03	cn11.hpc.itu.dk	annotated	propella	libretexts/libretexts.chunk.53.jsonl.gz	628	0	37
+2026-10-21T12:02:05	cn11.hpc.itu.dk	downloaded		libretexts/libretexts.chunk.55.jsonl.gz			2
+2026-10-21T12:02:41	cn11.hpc.itu.dk	annotated	propella	libretexts/libretexts.chunk.55.jsonl.gz	628	0	35
+2026-10-21T12:02:42	cn11.hpc.itu.dk	downloaded		libretexts/libretexts.chunk.56.jsonl.gz			1
+2026-10-21T12:03:21	cn11.hpc.itu.dk	annotated	propella	libretexts/libretexts.chunk.56.jsonl.gz	628	0	39
+2026-10-21T12:03:23	cn11.hpc.itu.dk	downloaded		libretexts/libretexts.chunk.58.jsonl.gz			1
+2026-10-21T12:04:01	cn11.hpc.itu.dk	annotated	propella	libretexts/libretexts.chunk.58.jsonl.gz	627	0	39
+2026-10-21T12:04:03	cn11.hpc.itu.dk	downloaded		libretexts/libretexts.chunk.59.jsonl.gz			2
+2026-10-21T12:04:39	cn11.hpc.itu.dk	annotated	propella	libretexts/libretexts.chunk.59.jsonl.gz	627	0	36
+2026-10-21T12:04:42	cn11.hpc.itu.dk	downloaded		libretexts/libretexts.chunk.61.jsonl.gz			3
+2026-10-21T12:05:21	cn11.hpc.itu.dk	annotated	propella	libretexts/libretexts.chunk.61.jsonl.gz	627	0	39
+2026-10-21T12:05:23	cn11.hpc.itu.dk	downloaded		libretexts/libretexts.chunk.62.jsonl.gz			2
+2026-10-21T12:05:58	cn11.hpc.itu.dk	annotated	propella	libretexts/libretexts.chunk.62.jsonl.gz	627	0	35
+2026-10-21T12:06:00	cn11.hpc.itu.dk	downloaded		pressbooks/pressbooks.chunk.00.jsonl.gz			2
+2026-10-21T12:06:57	cn11.hpc.itu.dk	annotated	propella	pressbooks/pressbooks.chunk.00.jsonl.gz	855	0	56
+2026-10-21T12:06:58	cn11.hpc.itu.dk	downloaded		pressbooks/pressbooks.chunk.01.jsonl.gz			2
+2026-10-21T12:07:55	cn11.hpc.itu.dk	annotated	propella	pressbooks/pressbooks.chunk.01.jsonl.gz	855	0	57
+2026-10-21T12:07:57	cn11.hpc.itu.dk	downloaded		pressbooks/pressbooks.chunk.03.jsonl.gz			2
+2026-10-21T12:08:51	cn11.hpc.itu.dk	annotated	propella	pressbooks/pressbooks.chunk.03.jsonl.gz	855	0	54
+2026-10-21T12:08:53	cn11.hpc.itu.dk	downloaded		pressbooks/pressbooks.chunk.04.jsonl.gz			2
+2026-10-21T12:09:49	cn11.hpc.itu.dk	annotated	propella	pressbooks/pressbooks.chunk.04.jsonl.gz	855	0	56
+2026-10-21T12:09:51	cn11.hpc.itu.dk	downloaded		pressbooks/pressbooks.chunk.06.jsonl.gz			2
+2026-10-21T12:10:44	cn11.hpc.itu.dk	annotated	propella	pressbooks/pressbooks.chunk.06.jsonl.gz	855	0	53
+2026-10-21T12:10:45	cn11.hpc.itu.dk	downloaded		pressbooks/pressbooks.chunk.07.jsonl.gz			2
+2026-10-21T12:11:39	cn11.hpc.itu.dk	annotated	propella	pressbooks/pressbooks.chunk.07.jsonl.gz	855	0	54
+2026-10-21T12:11:41	cn11.hpc.itu.dk	downloaded		pressbooks/pressbooks.chunk.09.jsonl.gz			2
+2026-10-21T12:12:38	cn11.hpc.itu.dk	annotated	propella	pressbooks/pressbooks.chunk.09.jsonl.gz	855	0	57
+2026-10-21T12:12:40	cn11.hpc.itu.dk	downloaded		pressbooks/pressbooks.chunk.10.jsonl.gz			2
+2026-10-21T12:13:36	cn11.hpc.itu.dk	annotated	propella	pressbooks/pressbooks.chunk.10.jsonl.gz	855	0	56
+2026-10-21T12:13:38	cn11.hpc.itu.dk	downloaded		pressbooks/pressbooks.chunk.12.jsonl.gz			2
+2026-10-21T12:14:31	cn11.hpc.itu.dk	annotated	propella	pressbooks/pressbooks.chunk.12.jsonl.gz	855	0	53
+2026-10-21T12:14:33	cn11.hpc.itu.dk	downloaded		pressbooks/pressbooks.chunk.13.jsonl.gz			2
+2026-10-21T12:15:25	cn11.hpc.itu.dk	annotated	propella	pressbooks/pressbooks.chunk.13.jsonl.gz	855	0	53
+2026-10-21T12:15:27	cn11.hpc.itu.dk	downloaded		pressbooks/pressbooks.chunk.15.jsonl.gz			1
+2026-10-21T12:16:20	cn11.hpc.itu.dk	annotated	propella	pressbooks/pressbooks.chunk.15.jsonl.gz	855	0	53
+2026-10-21T12:16:21	cn11.hpc.itu.dk	downloaded		pressbooks/pressbooks.chunk.16.jsonl.gz			2
+2026-10-21T12:17:16	cn11.hpc.itu.dk	annotated	propella	pressbooks/pressbooks.chunk.16.jsonl.gz	855	0	54
+2026-10-21T12:17:18	cn11.hpc.itu.dk	downloaded		pressbooks/pressbooks.chunk.18.jsonl.gz			2
+2026-10-21T12:18:09	cn11.hpc.itu.dk	annotated	propella	pressbooks/pressbooks.chunk.18.jsonl.gz	855	0	51
+2026-10-21T12:18:11	cn11.hpc.itu.dk	downloaded		pressbooks/pressbooks.chunk.19.jsonl.gz			2
+2026-10-21T12:19:04	cn11.hpc.itu.dk	annotated	propella	pressbooks/pressbooks.chunk.19.jsonl.gz	855	0	53
+2026-10-21T12:19:06	cn11.hpc.itu.dk	downloaded		pressbooks/pressbooks.chunk.21.jsonl.gz			2
+2026-10-21T12:19:59	cn11.hpc.itu.dk	annotated	propella	pressbooks/pressbooks.chunk.21.jsonl.gz	855	0	53
+2026-10-21T12:20:01	cn11.hpc.itu.dk	downloaded		pressbooks/pressbooks.chunk.22.jsonl.gz			2
+2026-10-21T12:20:53	cn11.hpc.itu.dk	annotated	propella	pressbooks/pressbooks.chunk.22.jsonl.gz	855	0	52
+2026-10-21T12:20:55	cn11.hpc.itu.dk	downloaded		pressbooks/pressbooks.chunk.24.jsonl.gz			2
+2026-10-21T12:21:52	cn11.hpc.itu.dk	annotated	propella	pressbooks/pressbooks.chunk.24.jsonl.gz	855	0	56
+2026-10-21T12:21:53	cn11.hpc.itu.dk	downloaded		pressbooks/pressbooks.chunk.25.jsonl.gz			2
+2026-10-21T12:22:47	cn11.hpc.itu.dk	annotated	propella	pressbooks/pressbooks.chunk.25.jsonl.gz	855	0	54
+2026-10-21T12:22:49	cn11.hpc.itu.dk	downloaded		pressbooks/pressbooks.chunk.27.jsonl.gz			2
+2026-10-21T12:23:43	cn11.hpc.itu.dk	annotated	propella	pressbooks/pressbooks.chunk.27.jsonl.gz	855	0	53
+2026-10-21T12:23:45	cn11.hpc.itu.dk	downloaded		pressbooks/pressbooks.chunk.28.jsonl.gz			2
+2026-10-21T12:24:41	cn11.hpc.itu.dk	annotated	propella	pressbooks/pressbooks.chunk.28.jsonl.gz	855	0	56
+2026-10-21T12:24:43	cn11.hpc.itu.dk	downloaded		pressbooks/pressbooks.chunk.30.jsonl.gz			2
+2026-10-21T12:25:33	cn11.hpc.itu.dk	annotated	propella	pressbooks/pressbooks.chunk.30.jsonl.gz	855	0	50
+2026-10-21T12:25:35	cn11.hpc.itu.dk	downloaded		pressbooks/pressbooks.chunk.31.jsonl.gz			2
+2026-10-21T12:26:27	cn11.hpc.itu.dk	annotated	propella	pressbooks/pressbooks.chunk.31.jsonl.gz	855	0	52
+2026-10-21T12:26:29	cn11.hpc.itu.dk	downloaded		pressbooks/pressbooks.chunk.33.jsonl.gz			2
+2026-10-21T12:27:21	cn11.hpc.itu.dk	annotated	propella	pressbooks/pressbooks.chunk.33.jsonl.gz	855	0	51
+2026-10-21T12:27:22	cn11.hpc.itu.dk	downloaded		pressbooks/pressbooks.chunk.34.jsonl.gz			2
+2026-10-21T12:28:17	cn11.hpc.itu.dk	annotated	propella	pressbooks/pressbooks.chunk.34.jsonl.gz	855	0	55
+2026-10-21T12:28:19	cn11.hpc.itu.dk	downloaded		pressbooks/pressbooks.chunk.36.jsonl.gz			2
+2026-10-21T12:29:12	cn11.hpc.itu.dk	annotated	propella	pressbooks/pressbooks.chunk.36.jsonl.gz	855	0	53
+2026-10-21T12:29:14	cn11.hpc.itu.dk	downloaded		pressbooks/pressbooks.chunk.37.jsonl.gz			2
+2026-10-21T12:30:06	cn11.hpc.itu.dk	annotated	propella	pressbooks/pressbooks.chunk.37.jsonl.gz	855	0	52
+2026-10-21T12:30:08	cn11.hpc.itu.dk	downloaded		pressbooks/pressbooks.chunk.39.jsonl.gz			2
+2026-10-21T12:31:02	cn11.hpc.itu.dk	annotated	propella	pressbooks/pressbooks.chunk.39.jsonl.gz	855	0	54
+2026-10-21T12:31:04	cn11.hpc.itu.dk	downloaded		pressbooks/pressbooks.chunk.40.jsonl.gz			2
+2026-10-21T12:31:59	cn11.hpc.itu.dk	annotated	propella	pressbooks/pressbooks.chunk.40.jsonl.gz	854	0	56
+2026-10-21T12:32:02	cn11.hpc.itu.dk	downloaded		pressbooks/pressbooks.chunk.42.jsonl.gz			2
+2026-10-21T12:32:58	cn11.hpc.itu.dk	annotated	propella	pressbooks/pressbooks.chunk.42.jsonl.gz	854	0	56
+2026-10-21T12:32:59	cn11.hpc.itu.dk	downloaded		pressbooks/pressbooks.chunk.43.jsonl.gz			1
+2026-10-21T12:33:55	cn11.hpc.itu.dk	annotated	propella	pressbooks/pressbooks.chunk.43.jsonl.gz	854	0	55
+2026-10-21T12:33:57	cn11.hpc.itu.dk	downloaded		pressbooks/pressbooks.chunk.45.jsonl.gz			2
+2026-10-21T12:34:47	cn11.hpc.itu.dk	annotated	propella	pressbooks/pressbooks.chunk.45.jsonl.gz	854	0	50
+2026-10-21T12:34:49	cn11.hpc.itu.dk	downloaded		pressbooks/pressbooks.chunk.46.jsonl.gz			2
+2026-10-21T12:35:41	cn11.hpc.itu.dk	annotated	propella	pressbooks/pressbooks.chunk.46.jsonl.gz	854	0	52
+2026-10-21T12:35:43	cn11.hpc.itu.dk	downloaded		pressbooks/pressbooks.chunk.48.jsonl.gz			2
+2026-10-21T12:36:38	cn11.hpc.itu.dk	annotated	propella	pressbooks/pressbooks.chunk.48.jsonl.gz	854	0	55
+2026-10-21T12:36:40	cn11.hpc.itu.dk	downloaded		pressbooks/pressbooks.chunk.49.jsonl.gz			2
+2026-10-21T12:37:35	cn11.hpc.itu.dk	annotated	propella	pressbooks/pressbooks.chunk.49.jsonl.gz	854	0	55
+2026-10-21T12:37:37	cn11.hpc.itu.dk	downloaded		pressbooks/pressbooks.chunk.51.jsonl.gz			2
+2026-10-21T12:38:25	cn11.hpc.itu.dk	annotated	propella	pressbooks/pressbooks.chunk.51.jsonl.gz	854	0	48
+2026-10-21T12:38:27	cn11.hpc.itu.dk	downloaded		pressbooks/pressbooks.chunk.52.jsonl.gz			2
+2026-10-21T12:39:17	cn11.hpc.itu.dk	annotated	propella	pressbooks/pressbooks.chunk.52.jsonl.gz	854	0	51
+2026-10-21T12:39:19	cn11.hpc.itu.dk	downloaded		pressbooks/pressbooks.chunk.54.jsonl.gz			2
+2026-10-21T12:40:14	cn11.hpc.itu.dk	annotated	propella	pressbooks/pressbooks.chunk.54.jsonl.gz	854	0	54
+2026-10-21T12:40:16	cn11.hpc.itu.dk	downloaded		pressbooks/pressbooks.chunk.55.jsonl.gz			2
+2026-10-21T12:41:10	cn11.hpc.itu.dk	annotated	propella	pressbooks/pressbooks.chunk.55.jsonl.gz	854	0	55
+2026-10-21T12:41:12	cn11.hpc.itu.dk	downloaded		pressbooks/pressbooks.chunk.57.jsonl.gz			2
+2026-10-21T12:42:08	cn11.hpc.itu.dk	annotated	propella	pressbooks/pressbooks.chunk.57.jsonl.gz	854	0	55
+2026-10-21T12:42:09	cn11.hpc.itu.dk	downloaded		pressbooks/pressbooks.chunk.58.jsonl.gz			2
+2026-10-21T12:43:04	cn11.hpc.itu.dk	annotated	propella	pressbooks/pressbooks.chunk.58.jsonl.gz	854	0	54
+2026-10-21T12:43:06	cn11.hpc.itu.dk	downloaded		pressbooks/pressbooks.chunk.60.jsonl.gz			2
+2026-10-21T12:44:04	cn11.hpc.itu.dk	annotated	propella	pressbooks/pressbooks.chunk.60.jsonl.gz	854	0	58
+2026-10-21T12:44:05	cn11.hpc.itu.dk	downloaded		pressbooks/pressbooks.chunk.61.jsonl.gz			2
+2026-10-21T12:45:01	cn11.hpc.itu.dk	annotated	propella	pressbooks/pressbooks.chunk.61.jsonl.gz	854	0	55
+2026-10-21T12:45:03	cn11.hpc.itu.dk	downloaded		pressbooks/pressbooks.chunk.63.jsonl.gz			2
+2026-10-21T12:45:57	cn11.hpc.itu.dk	annotated	propella	pressbooks/pressbooks.chunk.63.jsonl.gz	854	0	55
+2026-10-21T12:45:59	cn11.hpc.itu.dk	downloaded		oercommons/oercommons.chunk.00.jsonl.gz			1
+2026-10-21T12:46:05	cn11.hpc.itu.dk	annotated	propella	oercommons/oercommons.chunk.00.jsonl.gz	84	0	6
+2026-10-21T12:46:07	cn11.hpc.itu.dk	downloaded		oercommons/oercommons.chunk.02.jsonl.gz			1
+2026-10-21T12:46:11	cn11.hpc.itu.dk	annotated	propella	oercommons/oercommons.chunk.02.jsonl.gz	84	0	5
+2026-10-21T12:46:12	cn11.hpc.itu.dk	downloaded		oercommons/oercommons.chunk.03.jsonl.gz			1
+2026-10-21T12:46:17	cn11.hpc.itu.dk	annotated	propella	oercommons/oercommons.chunk.03.jsonl.gz	84	0	5
+2026-10-21T12:46:18	cn11.hpc.itu.dk	downloaded		oercommons/oercommons.chunk.05.jsonl.gz			1
+2026-10-21T12:46:24	cn11.hpc.itu.dk	annotated	propella	oercommons/oercommons.chunk.05.jsonl.gz	83	0	6
+2026-10-21T12:46:25	cn11.hpc.itu.dk	downloaded		oercommons/oercommons.chunk.06.jsonl.gz			1
+2026-10-21T12:46:31	cn11.hpc.itu.dk	annotated	propella	oercommons/oercommons.chunk.06.jsonl.gz	83	0	6
+2026-10-21T12:46:32	cn11.hpc.itu.dk	downloaded		oercommons/oercommons.chunk.08.jsonl.gz			1
+2026-10-21T12:46:37	cn11.hpc.itu.dk	annotated	propella	oercommons/oercommons.chunk.08.jsonl.gz	83	0	5
+2026-10-21T12:46:39	cn11.hpc.itu.dk	downloaded		oercommons/oercommons.chunk.09.jsonl.gz			1
+2026-10-21T12:46:41	cn11.hpc.itu.dk	annotated	propella	stackexchange/stackexchange.chunk.62.jsonl.gz	484184	0	14093
+2026-10-21T12:46:43	cn11.hpc.itu.dk	downloaded		oercommons/oercommons.chunk.11.jsonl.gz			1
+2026-10-21T12:46:43	cn11.hpc.itu.dk	annotated	propella	oercommons/oercommons.chunk.09.jsonl.gz	83	0	5
+2026-10-21T12:46:45	cn11.hpc.itu.dk	downloaded		oercommons/oercommons.chunk.12.jsonl.gz			1
+2026-10-21T12:46:49	cn11.hpc.itu.dk	annotated	propella	oercommons/oercommons.chunk.11.jsonl.gz	83	0	6
+2026-10-21T12:46:50	cn11.hpc.itu.dk	annotated	propella	oercommons/oercommons.chunk.12.jsonl.gz	83	0	5
+2026-10-21T12:46:50	cn11.hpc.itu.dk	downloaded		oercommons/oercommons.chunk.14.jsonl.gz			1
+2026-10-21T12:46:52	cn11.hpc.itu.dk	downloaded		oercommons/oercommons.chunk.15.jsonl.gz			1
+2026-10-21T12:46:55	cn11.hpc.itu.dk	annotated	propella	oercommons/oercommons.chunk.14.jsonl.gz	83	0	5
+2026-10-21T12:46:56	cn11.hpc.itu.dk	annotated	propella	oercommons/oercommons.chunk.15.jsonl.gz	83	0	5
+2026-10-21T12:46:57	cn11.hpc.itu.dk	downloaded		oercommons/oercommons.chunk.17.jsonl.gz			1
+2026-10-21T12:46:58	cn11.hpc.itu.dk	downloaded		oercommons/oercommons.chunk.18.jsonl.gz			1
+2026-10-21T12:47:01	cn11.hpc.itu.dk	annotated	propella	oercommons/oercommons.chunk.17.jsonl.gz	83	0	4
+2026-10-21T12:47:02	cn11.hpc.itu.dk	annotated	propella	oercommons/oercommons.chunk.18.jsonl.gz	83	0	4
+2026-10-21T12:47:02	cn11.hpc.itu.dk	downloaded		oercommons/oercommons.chunk.20.jsonl.gz			1
+2026-10-21T12:47:04	cn11.hpc.itu.dk	downloaded		oercommons/oercommons.chunk.21.jsonl.gz			1
+2026-10-21T12:47:07	cn11.hpc.itu.dk	annotated	propella	oercommons/oercommons.chunk.20.jsonl.gz	83	0	5
+2026-10-21T12:47:08	cn11.hpc.itu.dk	annotated	propella	oercommons/oercommons.chunk.21.jsonl.gz	83	0	4
+2026-10-21T12:47:08	cn11.hpc.itu.dk	downloaded		oercommons/oercommons.chunk.23.jsonl.gz			1
+2026-10-21T12:47:09	cn11.hpc.itu.dk	downloaded		oercommons/oercommons.chunk.24.jsonl.gz			1
+2026-10-21T12:47:13	cn11.hpc.itu.dk	annotated	propella	oercommons/oercommons.chunk.23.jsonl.gz	83	0	4
+2026-10-21T12:47:14	cn11.hpc.itu.dk	annotated	propella	oercommons/oercommons.chunk.24.jsonl.gz	83	0	5
+2026-10-21T12:47:14	cn11.hpc.itu.dk	downloaded		oercommons/oercommons.chunk.26.jsonl.gz			2
+2026-10-21T12:47:15	cn11.hpc.itu.dk	downloaded		oercommons/oercommons.chunk.27.jsonl.gz			1
+2026-10-21T12:47:19	cn11.hpc.itu.dk	annotated	propella	oercommons/oercommons.chunk.27.jsonl.gz	83	0	4
+2026-10-21T12:47:20	cn11.hpc.itu.dk	annotated	propella	oercommons/oercommons.chunk.26.jsonl.gz	83	0	5
+2026-10-21T12:47:21	cn11.hpc.itu.dk	downloaded		oercommons/oercommons.chunk.29.jsonl.gz			1
+2026-10-21T12:47:21	cn11.hpc.itu.dk	downloaded		oercommons/oercommons.chunk.30.jsonl.gz			1
+2026-10-21T12:47:25	cn11.hpc.itu.dk	annotated	propella	oercommons/oercommons.chunk.29.jsonl.gz	83	0	5
+2026-10-21T12:47:26	cn11.hpc.itu.dk	annotated	propella	oercommons/oercommons.chunk.30.jsonl.gz	83	0	5
+2026-10-21T12:47:27	cn11.hpc.itu.dk	downloaded		oercommons/oercommons.chunk.32.jsonl.gz			1
+2026-10-21T12:47:27	cn11.hpc.itu.dk	downloaded		oercommons/oercommons.chunk.33.jsonl.gz			1
+2026-10-21T12:47:32	cn11.hpc.itu.dk	annotated	propella	oercommons/oercommons.chunk.32.jsonl.gz	83	0	5
+2026-10-21T12:47:32	cn11.hpc.itu.dk	annotated	propella	oercommons/oercommons.chunk.33.jsonl.gz	83	0	5
+2026-10-21T12:47:33	cn11.hpc.itu.dk	downloaded		oercommons/oercommons.chunk.35.jsonl.gz			1
+2026-10-21T12:47:34	cn11.hpc.itu.dk	downloaded		oercommons/oercommons.chunk.36.jsonl.gz			1
+2026-10-21T12:47:38	cn11.hpc.itu.dk	annotated	propella	oercommons/oercommons.chunk.35.jsonl.gz	83	0	5
+2026-10-21T12:47:39	cn11.hpc.itu.dk	annotated	propella	oercommons/oercommons.chunk.36.jsonl.gz	83	0	5
+2026-10-21T12:47:39	cn11.hpc.itu.dk	downloaded		oercommons/oercommons.chunk.38.jsonl.gz			1
+2026-10-21T12:47:40	cn11.hpc.itu.dk	downloaded		oercommons/oercommons.chunk.39.jsonl.gz			1
+2026-10-21T12:47:44	cn11.hpc.itu.dk	annotated	propella	oercommons/oercommons.chunk.38.jsonl.gz	83	0	4
+2026-10-21T12:47:45	cn11.hpc.itu.dk	downloaded		oercommons/oercommons.chunk.41.jsonl.gz			1
+2026-10-21T12:47:45	cn11.hpc.itu.dk	annotated	propella	oercommons/oercommons.chunk.39.jsonl.gz	83	0	6
+2026-10-21T12:47:47	cn11.hpc.itu.dk	downloaded		oercommons/oercommons.chunk.42.jsonl.gz			1
+2026-10-21T12:47:50	cn11.hpc.itu.dk	annotated	propella	oercommons/oercommons.chunk.41.jsonl.gz	83	0	5
+2026-10-21T12:47:51	cn11.hpc.itu.dk	downloaded		oercommons/oercommons.chunk.44.jsonl.gz			1
+2026-10-21T12:47:53	cn11.hpc.itu.dk	annotated	propella	oercommons/oercommons.chunk.42.jsonl.gz	83	0	6
+2026-10-21T12:47:54	cn11.hpc.itu.dk	downloaded		oercommons/oercommons.chunk.45.jsonl.gz			1
+2026-10-21T12:47:55	cn11.hpc.itu.dk	annotated	propella	oercommons/oercommons.chunk.44.jsonl.gz	83	0	4
+2026-10-21T12:47:56	cn11.hpc.itu.dk	downloaded		oercommons/oercommons.chunk.47.jsonl.gz			1
+2026-10-21T12:47:58	cn11.hpc.itu.dk	annotated	propella	oercommons/oercommons.chunk.45.jsonl.gz	83	0	4
+2026-10-21T12:48:00	cn11.hpc.itu.dk	downloaded		oercommons/oercommons.chunk.48.jsonl.gz			1
+2026-10-21T12:48:01	cn11.hpc.itu.dk	annotated	propella	oercommons/oercommons.chunk.47.jsonl.gz	83	0	5
+2026-10-21T12:48:03	cn11.hpc.itu.dk	downloaded		oercommons/oercommons.chunk.50.jsonl.gz			1
+2026-10-21T12:48:05	cn11.hpc.itu.dk	annotated	propella	oercommons/oercommons.chunk.48.jsonl.gz	83	0	5
+2026-10-21T12:48:06	cn11.hpc.itu.dk	downloaded		oercommons/oercommons.chunk.51.jsonl.gz			1
+2026-10-21T12:48:07	cn11.hpc.itu.dk	annotated	propella	oercommons/oercommons.chunk.50.jsonl.gz	83	0	4
+2026-10-21T12:48:09	cn11.hpc.itu.dk	downloaded		oercommons/oercommons.chunk.53.jsonl.gz			1
+2026-10-21T12:48:11	cn11.hpc.itu.dk	annotated	propella	oercommons/oercommons.chunk.51.jsonl.gz	83	0	5
+2026-10-21T12:48:12	cn11.hpc.itu.dk	downloaded		oercommons/oercommons.chunk.54.jsonl.gz			1
+2026-10-21T12:48:13	cn11.hpc.itu.dk	annotated	propella	oercommons/oercommons.chunk.53.jsonl.gz	83	0	5
+2026-10-21T12:48:15	cn11.hpc.itu.dk	downloaded		oercommons/oercommons.chunk.56.jsonl.gz			1
+2026-10-21T12:48:17	cn11.hpc.itu.dk	annotated	propella	oercommons/oercommons.chunk.54.jsonl.gz	83	0	4
+2026-10-21T12:48:18	cn11.hpc.itu.dk	downloaded		oercommons/oercommons.chunk.57.jsonl.gz			1
+2026-10-21T12:48:20	cn11.hpc.itu.dk	annotated	propella	oercommons/oercommons.chunk.56.jsonl.gz	83	0	5
+2026-10-21T12:48:21	cn11.hpc.itu.dk	downloaded		oercommons/oercommons.chunk.59.jsonl.gz			1
+2026-10-21T12:48:23	cn11.hpc.itu.dk	annotated	propella	oercommons/oercommons.chunk.57.jsonl.gz	83	0	5
+2026-10-21T12:48:25	cn11.hpc.itu.dk	downloaded		oercommons/oercommons.chunk.60.jsonl.gz			1
+2026-10-21T12:48:26	cn11.hpc.itu.dk	annotated	propella	oercommons/oercommons.chunk.59.jsonl.gz	83	0	5
+2026-10-21T12:48:28	cn11.hpc.itu.dk	downloaded		oercommons/oercommons.chunk.62.jsonl.gz			1
+2026-10-21T12:48:29	cn11.hpc.itu.dk	annotated	propella	oercommons/oercommons.chunk.60.jsonl.gz	83	0	4
+2026-10-21T12:48:30	cn11.hpc.itu.dk	downloaded		oercommons/oercommons.chunk.63.jsonl.gz			1
+2026-10-21T12:48:33	cn11.hpc.itu.dk	annotated	propella	oercommons/oercommons.chunk.62.jsonl.gz	83	0	5
+2026-10-21T12:48:34	cn11.hpc.itu.dk	annotated	propella	oercommons/oercommons.chunk.63.jsonl.gz	83	0	4
+2026-10-21T14:46:12	cn11.hpc.itu.dk	annotated	propella	stackexchange/stackexchange.chunk.02.jsonl.gz	484185	120	27
+2026-10-21T14:49:44	cn11.hpc.itu.dk	annotated	propella	stackexchange/stackexchange.chunk.57.jsonl.gz	484184	117	136
+2026-10-21T14:56:03	cn19.hpc.itu.dk	downloaded		cccc/cccc.chunk.02.jsonl.gz			9
+2026-10-21T14:58:58	cn11.hpc.itu.dk	downloaded		cccc/cccc.chunk.05.jsonl.gz			8
+2026-10-21T15:26:53	cn19.hpc.itu.dk	downloaded		cccc/cccc.chunk.08.jsonl.gz			10
+2026-10-21T15:32:51	cn19.hpc.itu.dk	annotated	propella	stackexchange/stackexchange.chunk.59.jsonl.gz	484184	112	2712
+2026-10-21T15:34:10	cn19.hpc.itu.dk	downloaded		cccc/cccc.chunk.11.jsonl.gz			10
+2026-10-21T16:50:26	cn11.hpc.itu.dk	annotated	propella	cccc/cccc.chunk.05.jsonl.gz	107065	26	6679
+2026-10-21T16:50:34	cn11.hpc.itu.dk	downloaded		cccc/cccc.chunk.14.jsonl.gz			8
+2026-10-21T17:53:13	cn19.hpc.itu.dk	annotated	propella	stackexchange/stackexchange.chunk.63.jsonl.gz	484184	110	11135
+2026-10-21T17:55:38	cn19.hpc.itu.dk	downloaded		cccc/cccc.chunk.17.jsonl.gz			9
+2026-10-21T18:42:04	cn11.hpc.itu.dk	annotated	propella	cccc/cccc.chunk.14.jsonl.gz	107065	29	6683
+2026-10-21T18:42:12	cn11.hpc.itu.dk	downloaded		cccc/cccc.chunk.20.jsonl.gz			8
+2026-10-21T19:42:07	cn19.hpc.itu.dk	annotated	propella	cccc/cccc.chunk.02.jsonl.gz	107065	29	17157
+2026-10-21T19:42:17	cn19.hpc.itu.dk	downloaded		cccc/cccc.chunk.23.jsonl.gz			9
+2026-10-21T20:16:18	cn19.hpc.itu.dk	annotated	propella	cccc/cccc.chunk.08.jsonl.gz	107065	31	17356
+2026-10-21T20:16:27	cn19.hpc.itu.dk	downloaded		cccc/cccc.chunk.26.jsonl.gz			9
+2026-10-21T20:19:38	cn19.hpc.itu.dk	annotated	propella	cccc/cccc.chunk.11.jsonl.gz	107065	24	17120
+2026-10-21T20:19:47	cn19.hpc.itu.dk	downloaded		cccc/cccc.chunk.29.jsonl.gz			9
+2026-10-21T20:33:07	cn11.hpc.itu.dk	annotated	propella	cccc/cccc.chunk.20.jsonl.gz	107065	21	6648
+2026-10-21T20:33:15	cn11.hpc.itu.dk	downloaded		cccc/cccc.chunk.32.jsonl.gz			8
+2026-10-21T22:22:58	cn11.hpc.itu.dk	downloaded		cccc/cccc.chunk.35.jsonl.gz			10
+2026-10-21T22:24:41	cn11.hpc.itu.dk	annotated	propella	cccc/cccc.chunk.32.jsonl.gz	107065	20	6679
+2026-10-21T22:24:49	cn11.hpc.itu.dk	downloaded		cccc/cccc.chunk.38.jsonl.gz			7
+2026-10-21T22:41:44	cn19.hpc.itu.dk	annotated	propella	cccc/cccc.chunk.17.jsonl.gz	107065	29	17158
+2026-10-21T22:41:53	cn19.hpc.itu.dk	downloaded		cccc/cccc.chunk.41.jsonl.gz			8
+2026-10-22T00:12:26	cn11.hpc.itu.dk	annotated	propella	cccc/cccc.chunk.35.jsonl.gz	107065	25	6561
+2026-10-22T00:12:34	cn11.hpc.itu.dk	downloaded		cccc/cccc.chunk.44.jsonl.gz			7
+2026-10-22T00:16:28	cn11.hpc.itu.dk	annotated	propella	cccc/cccc.chunk.38.jsonl.gz	107065	13	6693
+2026-10-22T00:16:36	cn11.hpc.itu.dk	downloaded		cccc/cccc.chunk.47.jsonl.gz			7
+2026-10-22T00:28:00	cn19.hpc.itu.dk	annotated	propella	cccc/cccc.chunk.23.jsonl.gz	107065	27	17135
+2026-10-22T00:28:09	cn19.hpc.itu.dk	downloaded		cccc/cccc.chunk.50.jsonl.gz			9
+2026-10-22T01:02:50	cn19.hpc.itu.dk	annotated	propella	cccc/cccc.chunk.26.jsonl.gz	107065	27	17175
+2026-10-22T01:02:59	cn19.hpc.itu.dk	downloaded		cccc/cccc.chunk.53.jsonl.gz			9
+2026-10-22T01:06:46	cn19.hpc.itu.dk	annotated	propella	cccc/cccc.chunk.29.jsonl.gz	107065	21	17211
+2026-10-22T01:06:55	cn19.hpc.itu.dk	downloaded		cccc/cccc.chunk.56.jsonl.gz			9
+2026-10-22T02:03:36	cn11.hpc.itu.dk	annotated	propella	cccc/cccc.chunk.44.jsonl.gz	107064	21	6655
+2026-10-22T02:03:44	cn11.hpc.itu.dk	downloaded		cccc/cccc.chunk.59.jsonl.gz			8
+2026-10-22T02:09:15	cn11.hpc.itu.dk	annotated	propella	cccc/cccc.chunk.47.jsonl.gz	107064	21	6752
+2026-10-22T02:09:23	cn11.hpc.itu.dk	downloaded		cccc/cccc.chunk.62.jsonl.gz			7
+2026-10-22T03:28:40	cn19.hpc.itu.dk	annotated	propella	cccc/cccc.chunk.41.jsonl.gz	107064	23	17200
+2026-10-22T03:28:43	cn19.hpc.itu.dk	downloaded		news/news.chunk.01.jsonl.gz			2
+2026-10-22T03:30:09	cn19.hpc.itu.dk	annotated	propella	news/news.chunk.01.jsonl.gz	1980	0	86
+2026-10-22T03:30:11	cn19.hpc.itu.dk	downloaded		news/news.chunk.04.jsonl.gz			2
+2026-10-22T03:31:40	cn19.hpc.itu.dk	annotated	propella	news/news.chunk.04.jsonl.gz	1980	0	89
+2026-10-22T03:31:42	cn19.hpc.itu.dk	downloaded		news/news.chunk.07.jsonl.gz			2
+2026-10-22T03:33:08	cn19.hpc.itu.dk	annotated	propella	news/news.chunk.07.jsonl.gz	1980	0	86
+2026-10-22T03:33:10	cn19.hpc.itu.dk	downloaded		news/news.chunk.10.jsonl.gz			2
+2026-10-22T03:34:36	cn19.hpc.itu.dk	annotated	propella	news/news.chunk.10.jsonl.gz	1980	0	85
+2026-10-22T03:34:38	cn19.hpc.itu.dk	downloaded		news/news.chunk.13.jsonl.gz			2
+2026-10-22T03:36:09	cn19.hpc.itu.dk	annotated	propella	news/news.chunk.13.jsonl.gz	1980	0	91
+2026-10-22T03:36:11	cn19.hpc.itu.dk	downloaded		news/news.chunk.16.jsonl.gz			2
+2026-10-22T03:37:38	cn19.hpc.itu.dk	annotated	propella	news/news.chunk.16.jsonl.gz	1980	0	87
+2026-10-22T03:37:40	cn19.hpc.itu.dk	downloaded		news/news.chunk.19.jsonl.gz			2
+2026-10-22T03:39:06	cn19.hpc.itu.dk	annotated	propella	news/news.chunk.19.jsonl.gz	1979	0	86
+2026-10-22T03:39:08	cn19.hpc.itu.dk	downloaded		news/news.chunk.22.jsonl.gz			2
+2026-10-22T03:40:38	cn19.hpc.itu.dk	annotated	propella	news/news.chunk.22.jsonl.gz	1979	1	90
+2026-10-22T03:40:40	cn19.hpc.itu.dk	downloaded		news/news.chunk.25.jsonl.gz			2
+2026-10-22T03:42:11	cn19.hpc.itu.dk	annotated	propella	news/news.chunk.25.jsonl.gz	1979	2	90
+2026-10-22T03:42:13	cn19.hpc.itu.dk	downloaded		news/news.chunk.28.jsonl.gz			2
+2026-10-22T03:43:39	cn19.hpc.itu.dk	annotated	propella	news/news.chunk.28.jsonl.gz	1979	0	87
+2026-10-22T03:43:41	cn19.hpc.itu.dk	downloaded		news/news.chunk.31.jsonl.gz			2
+2026-10-22T03:45:10	cn19.hpc.itu.dk	annotated	propella	news/news.chunk.31.jsonl.gz	1979	1	88
+2026-10-22T03:45:12	cn19.hpc.itu.dk	downloaded		news/news.chunk.34.jsonl.gz			2
+2026-10-22T03:46:38	cn19.hpc.itu.dk	annotated	propella	news/news.chunk.34.jsonl.gz	1979	1	86
+2026-10-22T03:46:40	cn19.hpc.itu.dk	downloaded		news/news.chunk.37.jsonl.gz			2
+2026-10-22T03:48:08	cn19.hpc.itu.dk	annotated	propella	news/news.chunk.37.jsonl.gz	1979	0	88
+2026-10-22T03:48:10	cn19.hpc.itu.dk	downloaded		news/news.chunk.40.jsonl.gz			2
+2026-10-22T03:49:39	cn19.hpc.itu.dk	annotated	propella	news/news.chunk.40.jsonl.gz	1979	1	90
+2026-10-22T03:49:41	cn19.hpc.itu.dk	downloaded		news/news.chunk.43.jsonl.gz			2
+2026-10-22T03:51:12	cn19.hpc.itu.dk	annotated	propella	news/news.chunk.43.jsonl.gz	1979	0	90
+2026-10-22T03:51:14	cn19.hpc.itu.dk	downloaded		news/news.chunk.46.jsonl.gz			2
+2026-10-22T03:52:45	cn19.hpc.itu.dk	annotated	propella	news/news.chunk.46.jsonl.gz	1979	0	91
+2026-10-22T03:52:47	cn19.hpc.itu.dk	downloaded		news/news.chunk.49.jsonl.gz			2
+2026-10-22T03:54:17	cn19.hpc.itu.dk	annotated	propella	news/news.chunk.49.jsonl.gz	1979	0	90
+2026-10-22T03:54:19	cn19.hpc.itu.dk	downloaded		news/news.chunk.52.jsonl.gz			2
+2026-10-22T03:56:15	cn11.hpc.itu.dk	annotated	propella	cccc/cccc.chunk.59.jsonl.gz	107064	27	6740
+2026-10-22T03:56:18	cn11.hpc.itu.dk	downloaded		news/news.chunk.55.jsonl.gz			2
+2026-10-22T03:55:46	cn19.hpc.itu.dk	annotated	propella	news/news.chunk.52.jsonl.gz	1979	0	86
+2026-10-22T03:55:49	cn19.hpc.itu.dk	downloaded		news/news.chunk.58.jsonl.gz			3
+2026-10-22T03:57:07	cn11.hpc.itu.dk	annotated	propella	news/news.chunk.55.jsonl.gz	1979	0	49
+2026-10-22T03:57:10	cn11.hpc.itu.dk	downloaded		news/news.chunk.61.jsonl.gz			2
+2026-10-22T03:57:15	cn19.hpc.itu.dk	annotated	propella	news/news.chunk.58.jsonl.gz	1979	0	86
+2026-10-22T03:57:17	cn19.hpc.itu.dk	downloaded		foodista/foodista.chunk.00.jsonl.gz			2
+2026-10-22T03:58:01	cn11.hpc.itu.dk	annotated	propella	news/news.chunk.61.jsonl.gz	1979	1	51
+2026-10-22T03:58:04	cn11.hpc.itu.dk	downloaded		foodista/foodista.chunk.03.jsonl.gz			2
+2026-10-22T03:58:27	cn11.hpc.itu.dk	annotated	propella	foodista/foodista.chunk.03.jsonl.gz	1026	0	23
+2026-10-22T03:58:29	cn11.hpc.itu.dk	downloaded		foodista/foodista.chunk.06.jsonl.gz			2
+2026-10-22T03:58:03	cn19.hpc.itu.dk	annotated	propella	foodista/foodista.chunk.00.jsonl.gz	1026	0	45
+2026-10-22T03:58:05	cn19.hpc.itu.dk	downloaded		foodista/foodista.chunk.09.jsonl.gz			2
+2026-10-22T03:58:57	cn11.hpc.itu.dk	annotated	propella	foodista/foodista.chunk.06.jsonl.gz	1026	0	28
+2026-10-22T03:59:00	cn11.hpc.itu.dk	downloaded		foodista/foodista.chunk.12.jsonl.gz			2
+2026-10-22T03:58:43	cn19.hpc.itu.dk	annotated	propella	foodista/foodista.chunk.09.jsonl.gz	1026	0	37
+2026-10-22T03:59:23	cn11.hpc.itu.dk	annotated	propella	foodista/foodista.chunk.12.jsonl.gz	1026	0	23
+2026-10-22T03:58:45	cn19.hpc.itu.dk	downloaded		foodista/foodista.chunk.15.jsonl.gz			2
+2026-10-22T03:59:25	cn11.hpc.itu.dk	downloaded		foodista/foodista.chunk.18.jsonl.gz			2
+2026-10-22T03:59:49	cn11.hpc.itu.dk	annotated	propella	foodista/foodista.chunk.18.jsonl.gz	1026	0	23
+2026-10-22T03:59:51	cn11.hpc.itu.dk	downloaded		foodista/foodista.chunk.21.jsonl.gz			2
+2026-10-22T03:59:22	cn19.hpc.itu.dk	annotated	propella	foodista/foodista.chunk.15.jsonl.gz	1026	0	37
+2026-10-22T03:59:24	cn19.hpc.itu.dk	downloaded		foodista/foodista.chunk.24.jsonl.gz			2
+2026-10-22T04:00:15	cn11.hpc.itu.dk	annotated	propella	foodista/foodista.chunk.21.jsonl.gz	1026	1	24
+2026-10-22T04:00:17	cn11.hpc.itu.dk	downloaded		foodista/foodista.chunk.27.jsonl.gz			2
+2026-10-22T04:00:40	cn11.hpc.itu.dk	annotated	propella	foodista/foodista.chunk.27.jsonl.gz	1026	0	23
+2026-10-22T04:00:01	cn19.hpc.itu.dk	annotated	propella	foodista/foodista.chunk.24.jsonl.gz	1026	0	37
+2026-10-22T04:00:42	cn11.hpc.itu.dk	downloaded		foodista/foodista.chunk.30.jsonl.gz			2
+2026-10-22T04:00:03	cn19.hpc.itu.dk	downloaded		foodista/foodista.chunk.33.jsonl.gz			2
+2026-10-22T04:01:05	cn11.hpc.itu.dk	annotated	propella	foodista/foodista.chunk.30.jsonl.gz	1026	0	23
+2026-10-22T04:01:07	cn11.hpc.itu.dk	downloaded		foodista/foodista.chunk.36.jsonl.gz			2
+2026-10-22T04:00:40	cn19.hpc.itu.dk	annotated	propella	foodista/foodista.chunk.33.jsonl.gz	1026	0	36
+2026-10-22T04:00:42	cn19.hpc.itu.dk	downloaded		foodista/foodista.chunk.39.jsonl.gz			2
+2026-10-22T04:01:28	cn11.hpc.itu.dk	annotated	propella	cccc/cccc.chunk.62.jsonl.gz	107064	29	6713
+2026-10-22T04:01:31	cn11.hpc.itu.dk	annotated	propella	foodista/foodista.chunk.36.jsonl.gz	1026	0	23
+2026-10-22T04:01:31	cn11.hpc.itu.dk	downloaded		foodista/foodista.chunk.42.jsonl.gz			2
+2026-10-22T04:01:33	cn11.hpc.itu.dk	downloaded		foodista/foodista.chunk.45.jsonl.gz			2
+2026-10-22T04:01:53	cn11.hpc.itu.dk	annotated	propella	foodista/foodista.chunk.42.jsonl.gz	1025	0	21
+2026-10-22T04:01:55	cn11.hpc.itu.dk	downloaded		foodista/foodista.chunk.48.jsonl.gz			2
+2026-10-22T04:01:56	cn11.hpc.itu.dk	annotated	propella	foodista/foodista.chunk.45.jsonl.gz	1025	0	23
+2026-10-22T04:01:58	cn11.hpc.itu.dk	downloaded		foodista/foodista.chunk.51.jsonl.gz			2
+2026-10-22T04:01:19	cn19.hpc.itu.dk	annotated	propella	foodista/foodista.chunk.39.jsonl.gz	1026	0	37
+2026-10-22T04:01:21	cn19.hpc.itu.dk	downloaded		foodista/foodista.chunk.54.jsonl.gz			1
+2026-10-22T04:02:16	cn11.hpc.itu.dk	annotated	propella	foodista/foodista.chunk.48.jsonl.gz	1025	0	21
+2026-10-22T04:02:19	cn11.hpc.itu.dk	downloaded		foodista/foodista.chunk.57.jsonl.gz			2
+2026-10-22T04:02:21	cn11.hpc.itu.dk	annotated	propella	foodista/foodista.chunk.51.jsonl.gz	1025	0	23
+2026-10-22T04:02:23	cn11.hpc.itu.dk	downloaded		foodista/foodista.chunk.60.jsonl.gz			2
+2026-10-22T04:01:57	cn19.hpc.itu.dk	annotated	propella	foodista/foodista.chunk.54.jsonl.gz	1025	0	37
+2026-10-22T04:02:00	cn19.hpc.itu.dk	downloaded		foodista/foodista.chunk.63.jsonl.gz			2
+2026-10-22T04:02:41	cn11.hpc.itu.dk	annotated	propella	foodista/foodista.chunk.57.jsonl.gz	1025	0	21
+2026-10-22T04:02:43	cn11.hpc.itu.dk	downloaded		public_domain_review/public_domain_review.chunk.02.jsonl.gz			2
+2026-10-22T04:02:45	cn11.hpc.itu.dk	annotated	propella	public_domain_review/public_domain_review.chunk.02.jsonl.gz	22	0	2
+2026-10-22T04:02:47	cn11.hpc.itu.dk	annotated	propella	foodista/foodista.chunk.60.jsonl.gz	1025	0	23
+2026-10-22T04:02:47	cn11.hpc.itu.dk	downloaded		public_domain_review/public_domain_review.chunk.05.jsonl.gz			2
+2026-10-22T04:02:49	cn11.hpc.itu.dk	downloaded		public_domain_review/public_domain_review.chunk.08.jsonl.gz			2
+2026-10-22T04:02:49	cn11.hpc.itu.dk	annotated	propella	public_domain_review/public_domain_review.chunk.05.jsonl.gz	22	0	2
+2026-10-22T04:02:51	cn11.hpc.itu.dk	annotated	propella	public_domain_review/public_domain_review.chunk.08.jsonl.gz	22	0	2
+2026-10-22T04:02:51	cn11.hpc.itu.dk	downloaded		public_domain_review/public_domain_review.chunk.11.jsonl.gz			2
+2026-10-22T04:02:53	cn11.hpc.itu.dk	downloaded		public_domain_review/public_domain_review.chunk.14.jsonl.gz			2
+2026-10-22T04:02:54	cn11.hpc.itu.dk	annotated	propella	public_domain_review/public_domain_review.chunk.14.jsonl.gz	22	0	2
+2026-10-22T04:02:55	cn11.hpc.itu.dk	annotated	propella	public_domain_review/public_domain_review.chunk.11.jsonl.gz	22	1	3
+2026-10-22T04:02:57	cn11.hpc.itu.dk	downloaded		public_domain_review/public_domain_review.chunk.17.jsonl.gz			2
+2026-10-22T04:02:57	cn11.hpc.itu.dk	downloaded		public_domain_review/public_domain_review.chunk.20.jsonl.gz			2
+2026-10-22T04:02:59	cn11.hpc.itu.dk	annotated	propella	public_domain_review/public_domain_review.chunk.17.jsonl.gz	22	0	2
+2026-10-22T04:02:59	cn11.hpc.itu.dk	annotated	propella	public_domain_review/public_domain_review.chunk.20.jsonl.gz	22	0	2
+2026-10-22T04:03:02	cn11.hpc.itu.dk	downloaded		public_domain_review/public_domain_review.chunk.23.jsonl.gz			2
+2026-10-22T04:03:02	cn11.hpc.itu.dk	downloaded		public_domain_review/public_domain_review.chunk.26.jsonl.gz			2
+2026-10-22T04:03:03	cn11.hpc.itu.dk	annotated	propella	public_domain_review/public_domain_review.chunk.23.jsonl.gz	22	0	2
+2026-10-22T04:03:04	cn11.hpc.itu.dk	annotated	propella	public_domain_review/public_domain_review.chunk.26.jsonl.gz	22	0	2
+2026-10-22T04:03:05	cn11.hpc.itu.dk	downloaded		public_domain_review/public_domain_review.chunk.29.jsonl.gz			2
+2026-10-22T04:03:06	cn11.hpc.itu.dk	downloaded		public_domain_review/public_domain_review.chunk.32.jsonl.gz			2
+2026-10-22T04:03:07	cn11.hpc.itu.dk	annotated	propella	public_domain_review/public_domain_review.chunk.29.jsonl.gz	22	0	2
+2026-10-22T04:03:08	cn11.hpc.itu.dk	annotated	propella	public_domain_review/public_domain_review.chunk.32.jsonl.gz	22	0	2
+2026-10-22T04:03:09	cn11.hpc.itu.dk	downloaded		public_domain_review/public_domain_review.chunk.35.jsonl.gz			2
+2026-10-22T04:03:10	cn11.hpc.itu.dk	downloaded		public_domain_review/public_domain_review.chunk.38.jsonl.gz			2
+2026-10-22T04:03:11	cn11.hpc.itu.dk	annotated	propella	public_domain_review/public_domain_review.chunk.35.jsonl.gz	22	0	1
+2026-10-22T04:03:11	cn11.hpc.itu.dk	annotated	propella	public_domain_review/public_domain_review.chunk.38.jsonl.gz	22	0	1
+2026-10-22T04:03:13	cn11.hpc.itu.dk	downloaded		public_domain_review/public_domain_review.chunk.41.jsonl.gz			2
+2026-10-22T04:03:13	cn11.hpc.itu.dk	downloaded		public_domain_review/public_domain_review.chunk.44.jsonl.gz			2
+2026-10-22T04:03:14	cn11.hpc.itu.dk	annotated	propella	public_domain_review/public_domain_review.chunk.41.jsonl.gz	22	0	2
+2026-10-22T04:03:15	cn11.hpc.itu.dk	annotated	propella	public_domain_review/public_domain_review.chunk.44.jsonl.gz	22	0	2
+2026-10-22T04:02:36	cn19.hpc.itu.dk	annotated	propella	foodista/foodista.chunk.63.jsonl.gz	1025	0	36
+2026-10-22T04:03:17	cn11.hpc.itu.dk	downloaded		public_domain_review/public_domain_review.chunk.47.jsonl.gz			2
+2026-10-22T04:03:17	cn11.hpc.itu.dk	downloaded		public_domain_review/public_domain_review.chunk.50.jsonl.gz			2
+2026-10-22T04:02:38	cn19.hpc.itu.dk	downloaded		public_domain_review/public_domain_review.chunk.53.jsonl.gz			1
+2026-10-22T04:03:19	cn11.hpc.itu.dk	annotated	propella	public_domain_review/public_domain_review.chunk.50.jsonl.gz	22	0	1
+2026-10-22T04:03:20	cn11.hpc.itu.dk	annotated	propella	public_domain_review/public_domain_review.chunk.47.jsonl.gz	22	1	3
+2026-10-22T04:03:21	cn11.hpc.itu.dk	downloaded		public_domain_review/public_domain_review.chunk.56.jsonl.gz			2
+2026-10-22T04:02:42	cn19.hpc.itu.dk	annotated	propella	public_domain_review/public_domain_review.chunk.53.jsonl.gz	22	0	4
+2026-10-22T04:03:22	cn11.hpc.itu.dk	annotated	propella	public_domain_review/public_domain_review.chunk.56.jsonl.gz	22	0	1
+2026-10-22T04:03:23	cn11.hpc.itu.dk	downloaded		public_domain_review/public_domain_review.chunk.59.jsonl.gz			2
+2026-10-22T04:02:44	cn19.hpc.itu.dk	downloaded		public_domain_review/public_domain_review.chunk.62.jsonl.gz			2
+2026-10-22T04:03:24	cn11.hpc.itu.dk	annotated	propella	public_domain_review/public_domain_review.chunk.59.jsonl.gz	22	0	2
+2026-10-22T04:02:47	cn19.hpc.itu.dk	annotated	propella	public_domain_review/public_domain_review.chunk.62.jsonl.gz	21	0	3
+2026-10-22T04:03:33	cn11.hpc.itu.dk	downloaded		wikimedia/wikimedia.chunk.01.jsonl.gz			10
+2026-10-22T04:03:35	cn11.hpc.itu.dk	downloaded		wikimedia/wikimedia.chunk.04.jsonl.gz			10
+2026-10-22T04:02:56	cn19.hpc.itu.dk	downloaded		wikimedia/wikimedia.chunk.07.jsonl.gz			9
+2026-10-22T05:12:00	cn19.hpc.itu.dk	annotated	propella	cccc/cccc.chunk.50.jsonl.gz	107064	32	17024
+2026-10-22T05:12:11	cn19.hpc.itu.dk	downloaded		wikimedia/wikimedia.chunk.10.jsonl.gz			9
+2026-10-22T05:49:01	cn19.hpc.itu.dk	annotated	propella	cccc/cccc.chunk.56.jsonl.gz	107064	28	16918
+2026-10-22T05:49:10	cn19.hpc.itu.dk	downloaded		wikimedia/wikimedia.chunk.13.jsonl.gz			9
+2026-10-22T05:53:45	cn19.hpc.itu.dk	annotated	propella	cccc/cccc.chunk.53.jsonl.gz	107064	37	17438
+2026-10-22T05:53:55	cn19.hpc.itu.dk	downloaded		wikimedia/wikimedia.chunk.16.jsonl.gz			9
+2026-10-22T06:31:45	cn11.hpc.itu.dk	annotated	propella	wikimedia/wikimedia.chunk.04.jsonl.gz	254869	333	8879
+2026-10-22T06:31:55	cn11.hpc.itu.dk	downloaded		wikimedia/wikimedia.chunk.19.jsonl.gz			9
+2026-10-22T06:35:54	cn11.hpc.itu.dk	annotated	propella	wikimedia/wikimedia.chunk.01.jsonl.gz	254869	296	9129
+2026-10-22T06:36:03	cn11.hpc.itu.dk	downloaded		wikimedia/wikimedia.chunk.22.jsonl.gz			8
+2026-10-22T09:00:45	cn11.hpc.itu.dk	annotated	propella	wikimedia/wikimedia.chunk.19.jsonl.gz	254869	282	8919
+2026-10-22T09:00:58	cn11.hpc.itu.dk	downloaded		wikimedia/wikimedia.chunk.25.jsonl.gz			12
+2026-10-22T09:08:52	cn11.hpc.itu.dk	annotated	propella	wikimedia/wikimedia.chunk.22.jsonl.gz	254868	343	9157
+2026-10-22T09:09:07	cn11.hpc.itu.dk	downloaded		wikimedia/wikimedia.chunk.28.jsonl.gz			15
+2026-10-22T09:19:23	cn19.hpc.itu.dk	annotated	propella	wikimedia/wikimedia.chunk.07.jsonl.gz	254869	426	18977
+2026-10-22T09:19:36	cn19.hpc.itu.dk	downloaded		wikimedia/wikimedia.chunk.31.jsonl.gz			12
+2026-10-22T10:23:45	cn19.hpc.itu.dk	annotated	propella	wikimedia/wikimedia.chunk.10.jsonl.gz	254869	405	18687
+2026-10-22T10:23:54	cn19.hpc.itu.dk	downloaded		wikimedia/wikimedia.chunk.34.jsonl.gz			9
+2026-10-22T11:05:23	cn19.hpc.itu.dk	annotated	propella	wikimedia/wikimedia.chunk.13.jsonl.gz	254869	381	18965
+2026-10-22T11:05:33	cn19.hpc.itu.dk	downloaded		wikimedia/wikimedia.chunk.37.jsonl.gz			9
+2026-10-22T11:10:45	cn19.hpc.itu.dk	annotated	propella	wikimedia/wikimedia.chunk.16.jsonl.gz	254869	374	19002
+2026-10-22T11:10:55	cn19.hpc.itu.dk	downloaded		wikimedia/wikimedia.chunk.40.jsonl.gz			9
+2026-10-22T11:29:58	cn11.hpc.itu.dk	annotated	propella	wikimedia/wikimedia.chunk.25.jsonl.gz	254868	311	8929
+2026-10-22T11:30:08	cn11.hpc.itu.dk	downloaded		wikimedia/wikimedia.chunk.43.jsonl.gz			9
+2026-10-22T11:43:55	cn11.hpc.itu.dk	annotated	propella	wikimedia/wikimedia.chunk.28.jsonl.gz	254868	290	9275
+2026-10-22T11:44:04	cn11.hpc.itu.dk	downloaded		wikimedia/wikimedia.chunk.46.jsonl.gz			8
+2026-10-22T13:58:43	cn11.hpc.itu.dk	annotated	propella	wikimedia/wikimedia.chunk.43.jsonl.gz	254868	293	8902
+2026-10-22T13:58:51	cn11.hpc.itu.dk	downloaded		wikimedia/wikimedia.chunk.49.jsonl.gz			8
+2026-10-22T14:21:13	cn11.hpc.itu.dk	annotated	propella	wikimedia/wikimedia.chunk.46.jsonl.gz	254868	324	9418
+2026-10-22T14:21:21	cn11.hpc.itu.dk	downloaded		wikimedia/wikimedia.chunk.52.jsonl.gz			8
+2026-10-22T14:36:59	cn19.hpc.itu.dk	annotated	propella	wikimedia/wikimedia.chunk.31.jsonl.gz	254868	373	19033
+2026-10-22T14:37:15	cn19.hpc.itu.dk	downloaded		wikimedia/wikimedia.chunk.55.jsonl.gz			15
+2026-10-22T15:38:17	cn19.hpc.itu.dk	annotated	propella	wikimedia/wikimedia.chunk.34.jsonl.gz	254868	415	18855
+2026-10-22T15:38:27	cn19.hpc.itu.dk	downloaded		wikimedia/wikimedia.chunk.58.jsonl.gz			10
+2026-10-22T16:24:29	cn19.hpc.itu.dk	annotated	propella	wikimedia/wikimedia.chunk.37.jsonl.gz	254868	416	19129
+2026-10-22T16:24:38	cn19.hpc.itu.dk	downloaded		wikimedia/wikimedia.chunk.61.jsonl.gz			9
+2026-10-22T16:26:27	cn19.hpc.itu.dk	annotated	propella	wikimedia/wikimedia.chunk.40.jsonl.gz	254868	377	18924
+2026-10-22T16:26:31	cn19.hpc.itu.dk	downloaded		wikiteam/00000_wikiteam.json.gz			4
+2026-10-22T16:27:15	cn11.hpc.itu.dk	annotated	propella	wikimedia/wikimedia.chunk.49.jsonl.gz	254868	288	8890
+2026-10-22T16:27:21	cn11.hpc.itu.dk	downloaded		wikiteam/00003_wikiteam.json.gz			4
+2026-10-22T16:59:07	cn11.hpc.itu.dk	annotated	propella	wikimedia/wikimedia.chunk.52.jsonl.gz	254868	309	9454
+2026-10-22T16:59:13	cn11.hpc.itu.dk	downloaded		wikiteam/00006_wikiteam.json.gz			5
+2026-10-22T17:27:05	cn11.hpc.itu.dk	annotated	propella	wikiteam/00003_wikiteam.json.gz	159879	36	3581
+2026-10-22T17:27:11	cn11.hpc.itu.dk	downloaded		wikiteam/00009_wikiteam.json.gz			5
+2026-10-22T18:01:47	cn19.hpc.itu.dk	annotated	propella	wikiteam/00000_wikiteam.json.gz	159879	34	5714
+2026-10-22T18:01:52	cn19.hpc.itu.dk	downloaded		wikiteam/00012_wikiteam.json.gz			5
+2026-10-22T18:07:31	cn11.hpc.itu.dk	annotated	propella	wikiteam/00006_wikiteam.json.gz	159879	24	4093
+2026-10-22T18:07:36	cn11.hpc.itu.dk	downloaded		wikiteam/00015_wikiteam.json.gz			5
+2026-10-22T18:26:57	cn11.hpc.itu.dk	annotated	propella	wikiteam/00009_wikiteam.json.gz	159879	31	3583
+2026-10-22T18:27:04	cn11.hpc.itu.dk	downloaded		wikiteam/00018_wikiteam.json.gz			7
+2026-10-22T19:16:18	cn11.hpc.itu.dk	annotated	propella	wikiteam/00015_wikiteam.json.gz	159879	37	4118
+2026-10-22T19:16:23	cn11.hpc.itu.dk	downloaded		wikiteam/00021_wikiteam.json.gz			5
+2026-10-22T19:27:07	cn11.hpc.itu.dk	annotated	propella	wikiteam/00018_wikiteam.json.gz	159879	38	3599
+2026-10-22T19:27:12	cn11.hpc.itu.dk	downloaded		wikiteam/00024_wikiteam.json.gz			5
+2026-10-22T19:34:22	cn19.hpc.itu.dk	annotated	propella	wikiteam/00012_wikiteam.json.gz	159879	45	5549
+2026-10-22T19:34:27	cn19.hpc.itu.dk	downloaded		wikiteam/00027_wikiteam.json.gz			4
+2026-10-22T19:54:47	cn19.hpc.itu.dk	annotated	propella	wikimedia/wikimedia.chunk.55.jsonl.gz	254868	382	19043
+2026-10-22T19:54:52	cn19.hpc.itu.dk	downloaded		wikiteam/00030_wikiteam.json.gz			5
+2026-10-22T20:24:43	cn11.hpc.itu.dk	annotated	propella	wikiteam/00021_wikiteam.json.gz	159878	28	4097
+2026-10-22T20:24:48	cn11.hpc.itu.dk	downloaded		wikiteam/00033_wikiteam.json.gz			5
+2026-10-22T20:27:09	cn11.hpc.itu.dk	annotated	propella	wikiteam/00024_wikiteam.json.gz	159878	26	3593
+2026-10-22T20:27:15	cn11.hpc.itu.dk	downloaded		wikiteam/00036_wikiteam.json.gz			5
+2026-10-22T20:54:34	cn19.hpc.itu.dk	annotated	propella	wikimedia/wikimedia.chunk.58.jsonl.gz	254868	381	18959
+2026-10-22T20:54:39	cn19.hpc.itu.dk	downloaded		wikiteam/00039_wikiteam.json.gz			4
+2026-10-22T21:07:19	cn19.hpc.itu.dk	annotated	propella	wikiteam/00027_wikiteam.json.gz	159878	39	5570
+2026-10-22T21:07:24	cn19.hpc.itu.dk	downloaded		wikiteam/00042_wikiteam.json.gz			5
+2026-10-22T21:26:54	cn11.hpc.itu.dk	annotated	propella	wikiteam/00036_wikiteam.json.gz	159878	31	3576
+2026-10-22T21:26:59	cn11.hpc.itu.dk	downloaded		wikiteam/00045_wikiteam.json.gz			5
+2026-10-22T21:30:04	cn19.hpc.itu.dk	annotated	propella	wikiteam/00030_wikiteam.json.gz	159878	50	5710
+2026-10-22T21:30:09	cn19.hpc.itu.dk	downloaded		wikiteam/00048_wikiteam.json.gz			4
+2026-10-22T21:32:43	cn11.hpc.itu.dk	annotated	propella	wikiteam/00033_wikiteam.json.gz	159878	37	4072
+2026-10-22T21:32:51	cn11.hpc.itu.dk	downloaded		wikiteam/00051_wikiteam.json.gz			7
+2026-10-22T21:40:17	cn19.hpc.itu.dk	annotated	propella	wikimedia/wikimedia.chunk.61.jsonl.gz	254868	400	18931
+2026-10-22T21:40:22	cn19.hpc.itu.dk	downloaded		wikiteam/00054_wikiteam.json.gz			5
+2026-10-22T22:28:01	cn11.hpc.itu.dk	annotated	propella	wikiteam/00045_wikiteam.json.gz	159878	27	3659
+2026-10-22T22:28:06	cn11.hpc.itu.dk	downloaded		wikiteam/00057_wikiteam.json.gz			5
+2026-10-22T22:28:29	cn19.hpc.itu.dk	annotated	propella	wikiteam/00039_wikiteam.json.gz	159878	42	5629
+2026-10-22T22:28:34	cn19.hpc.itu.dk	downloaded		wikiteam/00060_wikiteam.json.gz			4
+2026-10-22T22:41:42	cn11.hpc.itu.dk	annotated	propella	wikiteam/00051_wikiteam.json.gz	159878	31	4128
+2026-10-22T22:41:47	cn11.hpc.itu.dk	downloaded		wikiteam/00063_wikiteam.json.gz			4
+2026-10-22T22:42:22	cn19.hpc.itu.dk	annotated	propella	wikiteam/00042_wikiteam.json.gz	159878	40	5696
+2026-10-22T22:42:27	cn19.hpc.itu.dk	downloaded		wikiteam/wikiteam.chunk.02.jsonl.gz			4
+2026-10-22T23:09:08	cn19.hpc.itu.dk	annotated	propella	wikiteam/00048_wikiteam.json.gz	159878	44	5937
+2026-10-22T23:09:13	cn19.hpc.itu.dk	downloaded		wikiteam/wikiteam.chunk.05.jsonl.gz			4
+2026-10-22T23:15:29	cn19.hpc.itu.dk	annotated	propella	wikiteam/00054_wikiteam.json.gz	159878	44	5705
+2026-10-22T23:15:34	cn19.hpc.itu.dk	downloaded		wikiteam/wikiteam.chunk.08.jsonl.gz			5
+2026-10-22T23:27:58	cn11.hpc.itu.dk	annotated	propella	wikiteam/00057_wikiteam.json.gz	159878	38	3588
+2026-10-22T23:28:05	cn11.hpc.itu.dk	downloaded		wikiteam/wikiteam.chunk.11.jsonl.gz			6
+2026-10-22T23:49:48	cn11.hpc.itu.dk	annotated	propella	wikiteam/00063_wikiteam.json.gz	159878	29	4078
+2026-10-22T23:49:57	cn11.hpc.itu.dk	downloaded		wikiteam/wikiteam.chunk.14.jsonl.gz			7
+2026-10-23T00:02:54	cn19.hpc.itu.dk	annotated	propella	wikiteam/00060_wikiteam.json.gz	159878	37	5658
+2026-10-23T00:02:59	cn19.hpc.itu.dk	downloaded		wikiteam/wikiteam.chunk.17.jsonl.gz			5
+2026-10-23T01:54:34	cn11.hpc.itu.dk	annotated	propella	wikiteam/wikiteam.chunk.11.jsonl.gz	420810	57	8784
+2026-10-23T01:54:39	cn11.hpc.itu.dk	downloaded		wikiteam/wikiteam.chunk.20.jsonl.gz			4
+2026-10-23T01:56:08	cn19.hpc.itu.dk	annotated	propella	wikiteam/wikiteam.chunk.02.jsonl.gz	420810	55	11619
+2026-10-23T01:56:13	cn19.hpc.itu.dk	downloaded		wikiteam/wikiteam.chunk.23.jsonl.gz			4
+2026-10-23T02:27:34	cn19.hpc.itu.dk	annotated	propella	wikiteam/wikiteam.chunk.08.jsonl.gz	420810	50	11517
+2026-10-23T02:27:39	cn19.hpc.itu.dk	downloaded		wikiteam/wikiteam.chunk.26.jsonl.gz			4
+2026-10-23T02:30:19	cn19.hpc.itu.dk	annotated	propella	wikiteam/wikiteam.chunk.05.jsonl.gz	420810	57	12063
+2026-10-23T02:30:24	cn19.hpc.itu.dk	downloaded		wikiteam/wikiteam.chunk.29.jsonl.gz			4
+2026-10-23T02:56:31	cn11.hpc.itu.dk	annotated	propella	wikiteam/wikiteam.chunk.14.jsonl.gz	420810	35	11190
+2026-10-23T02:56:36	cn11.hpc.itu.dk	downloaded		wikiteam/wikiteam.chunk.32.jsonl.gz			4
+2026-10-23T03:15:44	cn19.hpc.itu.dk	annotated	propella	wikiteam/wikiteam.chunk.17.jsonl.gz	420810	62	11561
+2026-10-23T03:15:49	cn19.hpc.itu.dk	downloaded		wikiteam/wikiteam.chunk.35.jsonl.gz			4
+2026-10-23T04:25:31	cn11.hpc.itu.dk	annotated	propella	wikiteam/wikiteam.chunk.20.jsonl.gz	420810	57	9049
+2026-10-23T04:25:35	cn11.hpc.itu.dk	downloaded		wikiteam/wikiteam.chunk.38.jsonl.gz			4
+2026-10-23T05:12:35	cn19.hpc.itu.dk	annotated	propella	wikiteam/wikiteam.chunk.23.jsonl.gz	420810	49	11779
+2026-10-23T05:12:39	cn19.hpc.itu.dk	downloaded		wikiteam/wikiteam.chunk.41.jsonl.gz			4
+2026-10-23T05:51:29	cn19.hpc.itu.dk	annotated	propella	wikiteam/wikiteam.chunk.26.jsonl.gz	420810	50	12228
+2026-10-23T05:51:34	cn19.hpc.itu.dk	downloaded		wikiteam/wikiteam.chunk.44.jsonl.gz			4
+2026-10-23T05:53:57	cn11.hpc.itu.dk	annotated	propella	wikiteam/wikiteam.chunk.32.jsonl.gz	420809	44	10637
+2026-10-23T05:54:02	cn11.hpc.itu.dk	downloaded		wikiteam/wikiteam.chunk.47.jsonl.gz			4
+2026-10-23T05:55:22	cn19.hpc.itu.dk	annotated	propella	wikiteam/wikiteam.chunk.29.jsonl.gz	420810	66	12296
+2026-10-23T05:55:27	cn19.hpc.itu.dk	downloaded		wikiteam/wikiteam.chunk.50.jsonl.gz			4
+2026-10-23T06:33:48	cn19.hpc.itu.dk	annotated	propella	wikiteam/wikiteam.chunk.35.jsonl.gz	420809	68	11877
+2026-10-23T06:33:53	cn19.hpc.itu.dk	downloaded		wikiteam/wikiteam.chunk.53.jsonl.gz			4
+2026-10-23T06:53:05	cn11.hpc.itu.dk	annotated	propella	wikiteam/wikiteam.chunk.38.jsonl.gz	420809	51	8847
+2026-10-23T06:53:10	cn11.hpc.itu.dk	downloaded		wikiteam/wikiteam.chunk.56.jsonl.gz			4
+2026-10-23T08:28:32	cn11.hpc.itu.dk	annotated	propella	wikiteam/wikiteam.chunk.47.jsonl.gz	420809	48	9268
+2026-10-23T08:28:37	cn11.hpc.itu.dk	downloaded		wikiteam/wikiteam.chunk.59.jsonl.gz			4
+2026-10-23T08:33:11	cn19.hpc.itu.dk	annotated	propella	wikiteam/wikiteam.chunk.41.jsonl.gz	420809	55	12029
+2026-10-23T08:33:17	cn19.hpc.itu.dk	downloaded		wikiteam/wikiteam.chunk.62.jsonl.gz			5
+2026-10-23T09:08:58	cn19.hpc.itu.dk	annotated	propella	wikiteam/wikiteam.chunk.44.jsonl.gz	420809	73	11841
+2026-10-23T09:09:14	cn19.hpc.itu.dk	downloaded		stackexchange/stackexchange.chunk.01.jsonl.gz			15
+2026-10-23T09:19:34	cn11.hpc.itu.dk	annotated	propella	wikiteam/wikiteam.chunk.56.jsonl.gz	420809	53	8781
+2026-10-23T09:19:47	cn11.hpc.itu.dk	downloaded		stackexchange/stackexchange.chunk.04.jsonl.gz			13
+2026-10-23T09:34:59	cn19.hpc.itu.dk	annotated	propella	wikiteam/wikiteam.chunk.50.jsonl.gz	420809	70	13169
+2026-10-23T09:35:11	cn19.hpc.itu.dk	downloaded		stackexchange/stackexchange.chunk.07.jsonl.gz			11
+2026-10-23T09:55:16	cn19.hpc.itu.dk	annotated	propella	wikiteam/wikiteam.chunk.53.jsonl.gz	420809	51	12080
+2026-10-23T09:55:28	cn19.hpc.itu.dk	downloaded		stackexchange/stackexchange.chunk.10.jsonl.gz			12
+2026-10-23T11:05:51	cn11.hpc.itu.dk	annotated	propella	wikiteam/wikiteam.chunk.59.jsonl.gz	420809	51	9432
+2026-10-23T11:06:01	cn11.hpc.itu.dk	downloaded		stackexchange/stackexchange.chunk.13.jsonl.gz			9
+2026-10-23T11:52:51	cn19.hpc.itu.dk	annotated	propella	wikiteam/wikiteam.chunk.62.jsonl.gz	420809	59	11971
+2026-10-23T11:53:03	cn19.hpc.itu.dk	downloaded		stackexchange/stackexchange.chunk.16.jsonl.gz			11
+2026-10-23T13:13:34	cn11.hpc.itu.dk	annotated	propella	stackexchange/stackexchange.chunk.04.jsonl.gz	484185	73	14014
+2026-10-23T13:13:44	cn11.hpc.itu.dk	downloaded		stackexchange/stackexchange.chunk.19.jsonl.gz			9
+2026-10-23T17:08:52	cn19.hpc.itu.dk	annotated	propella	stackexchange/stackexchange.chunk.01.jsonl.gz	484185	107	28765
+2026-10-23T17:41:20	cn19.hpc.itu.dk	annotated	propella	stackexchange/stackexchange.chunk.07.jsonl.gz	484185	105	29156
+2026-10-23T17:56:08	cn19.hpc.itu.dk	annotated	propella	stackexchange/stackexchange.chunk.13.jsonl.gz	484185	85	2811
+2026-10-23T17:56:22	cn19.hpc.itu.dk	downloaded		stackexchange/stackexchange.chunk.22.jsonl.gz			13
+2026-10-23T17:59:43	cn19.hpc.itu.dk	annotated	propella	stackexchange/stackexchange.chunk.10.jsonl.gz	484185	107	29042
+2026-10-23T17:59:55	cn19.hpc.itu.dk	downloaded		stackexchange/stackexchange.chunk.25.jsonl.gz			11
+2026-10-23T19:55:40	cn19.hpc.itu.dk	annotated	propella	stackexchange/stackexchange.chunk.16.jsonl.gz	484185	95	28944
+2026-10-23T19:55:53	cn19.hpc.itu.dk	downloaded		stackexchange/stackexchange.chunk.28.jsonl.gz			12
+2026-10-23T23:16:45	cn19.hpc.itu.dk	annotated	propella	stackexchange/stackexchange.chunk.19.jsonl.gz	484185	81	20107
+2026-10-23T23:16:58	cn19.hpc.itu.dk	downloaded		stackexchange/stackexchange.chunk.31.jsonl.gz			12
+2026-10-24T01:54:05	cn19.hpc.itu.dk	annotated	propella	stackexchange/stackexchange.chunk.22.jsonl.gz	484185	115	28651
+2026-10-24T01:54:17	cn19.hpc.itu.dk	downloaded		stackexchange/stackexchange.chunk.34.jsonl.gz			12
+2026-10-24T02:05:01	cn19.hpc.itu.dk	annotated	propella	stackexchange/stackexchange.chunk.25.jsonl.gz	484185	107	29094
+2026-10-24T02:05:14	cn19.hpc.itu.dk	downloaded		stackexchange/stackexchange.chunk.37.jsonl.gz			12
+2026-10-24T03:59:09	cn19.hpc.itu.dk	annotated	propella	stackexchange/stackexchange.chunk.28.jsonl.gz	484185	98	28984
+2026-10-24T03:59:24	cn19.hpc.itu.dk	downloaded		stackexchange/stackexchange.chunk.40.jsonl.gz			14
+2026-10-24T07:22:45	cn19.hpc.itu.dk	annotated	propella	stackexchange/stackexchange.chunk.31.jsonl.gz	484185	119	29133
+2026-10-24T07:22:58	cn19.hpc.itu.dk	downloaded		stackexchange/stackexchange.chunk.43.jsonl.gz			12
+2026-10-24T09:52:56	cn19.hpc.itu.dk	annotated	propella	stackexchange/stackexchange.chunk.34.jsonl.gz	484185	107	28706
+2026-10-24T09:53:09	cn19.hpc.itu.dk	downloaded		stackexchange/stackexchange.chunk.46.jsonl.gz			12
+2026-10-24T10:08:14	cn19.hpc.itu.dk	annotated	propella	stackexchange/stackexchange.chunk.37.jsonl.gz	484185	106	28968
+2026-10-24T10:08:27	cn19.hpc.itu.dk	downloaded		stackexchange/stackexchange.chunk.49.jsonl.gz			12
+2026-10-24T12:02:32	cn19.hpc.itu.dk	annotated	propella	stackexchange/stackexchange.chunk.40.jsonl.gz	484184	134	28976
+2026-10-24T12:02:45	cn19.hpc.itu.dk	downloaded		stackexchange/stackexchange.chunk.52.jsonl.gz			12
+2026-10-24T15:28:33	cn19.hpc.itu.dk	annotated	propella	stackexchange/stackexchange.chunk.43.jsonl.gz	484184	98	29123
+2026-10-24T15:28:46	cn19.hpc.itu.dk	downloaded		stackexchange/stackexchange.chunk.55.jsonl.gz			12
+2026-10-24T17:49:33	cn19.hpc.itu.dk	annotated	propella	stackexchange/stackexchange.chunk.46.jsonl.gz	484184	96	28572
+2026-10-24T17:49:46	cn19.hpc.itu.dk	downloaded		stackexchange/stackexchange.chunk.58.jsonl.gz			12
+2026-10-24T18:21:14	cn19.hpc.itu.dk	annotated	propella	stackexchange/stackexchange.chunk.49.jsonl.gz	484184	121	29555
+2026-10-24T18:21:27	cn19.hpc.itu.dk	downloaded		stackexchange/stackexchange.chunk.61.jsonl.gz			12
+2026-10-24T20:02:56	cn19.hpc.itu.dk	annotated	propella	stackexchange/stackexchange.chunk.52.jsonl.gz	484184	119	28798
+2026-10-24T20:02:59	cn19.hpc.itu.dk	downloaded		libretexts/libretexts.chunk.00.jsonl.gz			2
+2026-10-24T20:04:28	cn19.hpc.itu.dk	annotated	propella	libretexts/libretexts.chunk.00.jsonl.gz	628	0	89
+2026-10-24T20:04:31	cn19.hpc.itu.dk	downloaded		libretexts/libretexts.chunk.03.jsonl.gz			3
+2026-10-24T20:06:19	cn19.hpc.itu.dk	annotated	propella	libretexts/libretexts.chunk.03.jsonl.gz	628	0	108
+2026-10-24T20:06:21	cn19.hpc.itu.dk	downloaded		libretexts/libretexts.chunk.06.jsonl.gz			2
+2026-10-24T20:08:00	cn19.hpc.itu.dk	annotated	propella	libretexts/libretexts.chunk.06.jsonl.gz	628	0	99
+2026-10-24T20:08:02	cn19.hpc.itu.dk	downloaded		libretexts/libretexts.chunk.09.jsonl.gz			2
+2026-10-24T20:09:36	cn19.hpc.itu.dk	annotated	propella	libretexts/libretexts.chunk.09.jsonl.gz	628	0	94
+2026-10-24T20:09:39	cn19.hpc.itu.dk	downloaded		libretexts/libretexts.chunk.12.jsonl.gz			2
+2026-10-24T20:11:13	cn19.hpc.itu.dk	annotated	propella	libretexts/libretexts.chunk.12.jsonl.gz	628	0	94
+2026-10-24T20:11:15	cn19.hpc.itu.dk	downloaded		libretexts/libretexts.chunk.15.jsonl.gz			2
+2026-10-24T20:12:47	cn19.hpc.itu.dk	annotated	propella	libretexts/libretexts.chunk.15.jsonl.gz	628	0	92
+2026-10-24T20:12:49	cn19.hpc.itu.dk	downloaded		libretexts/libretexts.chunk.18.jsonl.gz			2
+2026-10-24T20:14:26	cn19.hpc.itu.dk	annotated	propella	libretexts/libretexts.chunk.18.jsonl.gz	628	0	97
+2026-10-24T20:14:28	cn19.hpc.itu.dk	downloaded		libretexts/libretexts.chunk.21.jsonl.gz			2
+2026-10-24T20:15:58	cn19.hpc.itu.dk	annotated	propella	libretexts/libretexts.chunk.21.jsonl.gz	628	0	89
+2026-10-24T20:16:00	cn19.hpc.itu.dk	downloaded		libretexts/libretexts.chunk.24.jsonl.gz			2
+2026-10-24T20:17:48	cn19.hpc.itu.dk	annotated	propella	libretexts/libretexts.chunk.24.jsonl.gz	628	0	108
+2026-10-24T20:17:50	cn19.hpc.itu.dk	downloaded		libretexts/libretexts.chunk.27.jsonl.gz			2
+2026-10-24T20:19:29	cn19.hpc.itu.dk	annotated	propella	libretexts/libretexts.chunk.27.jsonl.gz	628	0	99
+2026-10-24T20:19:33	cn19.hpc.itu.dk	downloaded		libretexts/libretexts.chunk.30.jsonl.gz			3
+2026-10-24T20:21:09	cn19.hpc.itu.dk	annotated	propella	libretexts/libretexts.chunk.30.jsonl.gz	628	1	96
+2026-10-24T20:21:12	cn19.hpc.itu.dk	downloaded		libretexts/libretexts.chunk.33.jsonl.gz			2
+2026-10-24T20:22:41	cn19.hpc.itu.dk	annotated	propella	libretexts/libretexts.chunk.33.jsonl.gz	628	0	89
+2026-10-24T20:22:43	cn19.hpc.itu.dk	downloaded		libretexts/libretexts.chunk.36.jsonl.gz			2
+2026-10-24T20:24:20	cn19.hpc.itu.dk	annotated	propella	libretexts/libretexts.chunk.36.jsonl.gz	628	0	97
+2026-10-24T20:24:22	cn19.hpc.itu.dk	downloaded		libretexts/libretexts.chunk.39.jsonl.gz			2
+2026-10-24T20:25:54	cn19.hpc.itu.dk	annotated	propella	libretexts/libretexts.chunk.39.jsonl.gz	628	0	92
+2026-10-24T20:25:56	cn19.hpc.itu.dk	downloaded		libretexts/libretexts.chunk.42.jsonl.gz			2
+2026-10-24T20:27:35	cn19.hpc.itu.dk	annotated	propella	libretexts/libretexts.chunk.42.jsonl.gz	628	0	99
+2026-10-24T20:27:37	cn19.hpc.itu.dk	downloaded		libretexts/libretexts.chunk.45.jsonl.gz			2
+2026-10-24T20:29:20	cn19.hpc.itu.dk	annotated	propella	libretexts/libretexts.chunk.45.jsonl.gz	628	0	103
+2026-10-24T20:29:23	cn19.hpc.itu.dk	downloaded		libretexts/libretexts.chunk.48.jsonl.gz			2
+2026-10-24T20:30:55	cn19.hpc.itu.dk	annotated	propella	libretexts/libretexts.chunk.48.jsonl.gz	628	0	92
+2026-10-24T20:30:57	cn19.hpc.itu.dk	downloaded		libretexts/libretexts.chunk.51.jsonl.gz			2
+2026-10-24T20:32:39	cn19.hpc.itu.dk	annotated	propella	libretexts/libretexts.chunk.51.jsonl.gz	628	0	102
+2026-10-24T20:32:41	cn19.hpc.itu.dk	downloaded		libretexts/libretexts.chunk.54.jsonl.gz			2
+2026-10-24T20:34:16	cn19.hpc.itu.dk	annotated	propella	libretexts/libretexts.chunk.54.jsonl.gz	628	0	95
+2026-10-24T20:34:18	cn19.hpc.itu.dk	downloaded		libretexts/libretexts.chunk.57.jsonl.gz			2
+2026-10-24T20:35:55	cn19.hpc.itu.dk	annotated	propella	libretexts/libretexts.chunk.57.jsonl.gz	627	0	97
+2026-10-24T20:35:57	cn19.hpc.itu.dk	downloaded		libretexts/libretexts.chunk.60.jsonl.gz			2
+2026-10-24T20:37:32	cn19.hpc.itu.dk	annotated	propella	libretexts/libretexts.chunk.60.jsonl.gz	627	0	94
+2026-10-24T20:37:34	cn19.hpc.itu.dk	downloaded		libretexts/libretexts.chunk.63.jsonl.gz			2
+2026-10-24T20:39:13	cn19.hpc.itu.dk	annotated	propella	libretexts/libretexts.chunk.63.jsonl.gz	627	0	99
+2026-10-24T20:39:15	cn19.hpc.itu.dk	downloaded		pressbooks/pressbooks.chunk.02.jsonl.gz			2
+2026-10-24T20:41:38	cn19.hpc.itu.dk	annotated	propella	pressbooks/pressbooks.chunk.02.jsonl.gz	855	0	143
+2026-10-24T20:41:41	cn19.hpc.itu.dk	downloaded		pressbooks/pressbooks.chunk.05.jsonl.gz			2
+2026-10-24T20:43:57	cn19.hpc.itu.dk	annotated	propella	pressbooks/pressbooks.chunk.05.jsonl.gz	855	0	137
+2026-10-24T20:44:00	cn19.hpc.itu.dk	downloaded		pressbooks/pressbooks.chunk.08.jsonl.gz			2
+2026-10-24T20:46:24	cn19.hpc.itu.dk	annotated	propella	pressbooks/pressbooks.chunk.08.jsonl.gz	855	1	144
+2026-10-24T20:46:26	cn19.hpc.itu.dk	downloaded		pressbooks/pressbooks.chunk.11.jsonl.gz			2
+2026-10-24T20:48:50	cn19.hpc.itu.dk	annotated	propella	pressbooks/pressbooks.chunk.11.jsonl.gz	855	0	143
+2026-10-24T20:48:53	cn19.hpc.itu.dk	downloaded		pressbooks/pressbooks.chunk.14.jsonl.gz			3
+2026-10-24T20:51:14	cn19.hpc.itu.dk	annotated	propella	pressbooks/pressbooks.chunk.14.jsonl.gz	855	0	141
+2026-10-24T20:51:16	cn19.hpc.itu.dk	downloaded		pressbooks/pressbooks.chunk.17.jsonl.gz			2
+2026-10-24T20:53:28	cn19.hpc.itu.dk	annotated	propella	pressbooks/pressbooks.chunk.17.jsonl.gz	855	0	132
+2026-10-24T20:53:30	cn19.hpc.itu.dk	downloaded		pressbooks/pressbooks.chunk.20.jsonl.gz			2
+2026-10-24T20:55:50	cn19.hpc.itu.dk	annotated	propella	pressbooks/pressbooks.chunk.20.jsonl.gz	855	0	140
+2026-10-24T20:55:53	cn19.hpc.itu.dk	downloaded		pressbooks/pressbooks.chunk.23.jsonl.gz			2
+2026-10-24T20:58:17	cn19.hpc.itu.dk	annotated	propella	pressbooks/pressbooks.chunk.23.jsonl.gz	855	0	145
+2026-10-24T20:58:19	cn19.hpc.itu.dk	downloaded		pressbooks/pressbooks.chunk.26.jsonl.gz			2
+2026-10-24T21:00:47	cn19.hpc.itu.dk	annotated	propella	pressbooks/pressbooks.chunk.26.jsonl.gz	855	1	147
+2026-10-24T21:00:49	cn19.hpc.itu.dk	downloaded		pressbooks/pressbooks.chunk.29.jsonl.gz			2
+2026-10-24T21:03:25	cn19.hpc.itu.dk	annotated	propella	pressbooks/pressbooks.chunk.29.jsonl.gz	855	0	156
+2026-10-24T21:03:27	cn19.hpc.itu.dk	downloaded		pressbooks/pressbooks.chunk.32.jsonl.gz			2
+2026-10-24T21:05:45	cn19.hpc.itu.dk	annotated	propella	pressbooks/pressbooks.chunk.32.jsonl.gz	855	0	137
+2026-10-24T21:05:47	cn19.hpc.itu.dk	downloaded		pressbooks/pressbooks.chunk.35.jsonl.gz			2
+2026-10-24T21:08:02	cn19.hpc.itu.dk	annotated	propella	pressbooks/pressbooks.chunk.35.jsonl.gz	855	0	135
+2026-10-24T21:08:05	cn19.hpc.itu.dk	downloaded		pressbooks/pressbooks.chunk.38.jsonl.gz			2
+2026-10-24T21:10:24	cn19.hpc.itu.dk	annotated	propella	pressbooks/pressbooks.chunk.38.jsonl.gz	855	0	139
+2026-10-24T21:10:26	cn19.hpc.itu.dk	downloaded		pressbooks/pressbooks.chunk.41.jsonl.gz			2
+2026-10-24T21:12:46	cn19.hpc.itu.dk	annotated	propella	pressbooks/pressbooks.chunk.41.jsonl.gz	854	0	139
+2026-10-24T21:12:48	cn19.hpc.itu.dk	downloaded		pressbooks/pressbooks.chunk.44.jsonl.gz			2
+2026-10-24T21:15:16	cn19.hpc.itu.dk	annotated	propella	pressbooks/pressbooks.chunk.44.jsonl.gz	854	0	148
+2026-10-24T21:15:18	cn19.hpc.itu.dk	downloaded		pressbooks/pressbooks.chunk.47.jsonl.gz			2
+2026-10-24T21:17:43	cn19.hpc.itu.dk	annotated	propella	pressbooks/pressbooks.chunk.47.jsonl.gz	854	0	145
+2026-10-24T21:17:46	cn19.hpc.itu.dk	downloaded		pressbooks/pressbooks.chunk.50.jsonl.gz			2
+2026-10-24T21:20:03	cn19.hpc.itu.dk	annotated	propella	pressbooks/pressbooks.chunk.50.jsonl.gz	854	0	137
+2026-10-24T21:20:05	cn19.hpc.itu.dk	downloaded		pressbooks/pressbooks.chunk.53.jsonl.gz			2
+2026-10-24T21:22:25	cn19.hpc.itu.dk	annotated	propella	pressbooks/pressbooks.chunk.53.jsonl.gz	854	0	139
+2026-10-24T21:22:27	cn19.hpc.itu.dk	downloaded		pressbooks/pressbooks.chunk.56.jsonl.gz			2
+2026-10-24T21:24:43	cn19.hpc.itu.dk	annotated	propella	pressbooks/pressbooks.chunk.56.jsonl.gz	854	0	136
+2026-10-24T21:24:46	cn19.hpc.itu.dk	downloaded		pressbooks/pressbooks.chunk.59.jsonl.gz			2
+2026-10-24T21:27:02	cn19.hpc.itu.dk	annotated	propella	pressbooks/pressbooks.chunk.59.jsonl.gz	854	0	136
+2026-10-24T21:27:04	cn19.hpc.itu.dk	downloaded		pressbooks/pressbooks.chunk.62.jsonl.gz			2
+2026-10-24T21:29:25	cn19.hpc.itu.dk	annotated	propella	pressbooks/pressbooks.chunk.62.jsonl.gz	854	0	141
+2026-10-24T21:29:27	cn19.hpc.itu.dk	downloaded		oercommons/oercommons.chunk.01.jsonl.gz			2
+2026-10-24T21:29:39	cn19.hpc.itu.dk	annotated	propella	oercommons/oercommons.chunk.01.jsonl.gz	84	0	11
+2026-10-24T21:29:40	cn19.hpc.itu.dk	downloaded		oercommons/oercommons.chunk.04.jsonl.gz			2
+2026-10-24T21:29:53	cn19.hpc.itu.dk	annotated	propella	oercommons/oercommons.chunk.04.jsonl.gz	84	0	12
+2026-10-24T21:29:55	cn19.hpc.itu.dk	downloaded		oercommons/oercommons.chunk.07.jsonl.gz			2
+2026-10-24T21:30:04	cn19.hpc.itu.dk	annotated	propella	oercommons/oercommons.chunk.07.jsonl.gz	83	0	9
+2026-10-24T21:30:07	cn19.hpc.itu.dk	downloaded		oercommons/oercommons.chunk.10.jsonl.gz			2
+2026-10-24T21:30:18	cn19.hpc.itu.dk	annotated	propella	oercommons/oercommons.chunk.10.jsonl.gz	83	0	11
+2026-10-24T21:30:20	cn19.hpc.itu.dk	downloaded		oercommons/oercommons.chunk.13.jsonl.gz			2
+2026-10-24T21:30:31	cn19.hpc.itu.dk	annotated	propella	oercommons/oercommons.chunk.13.jsonl.gz	83	0	10
+2026-10-24T21:30:33	cn19.hpc.itu.dk	downloaded		oercommons/oercommons.chunk.16.jsonl.gz			2
+2026-10-24T21:30:46	cn19.hpc.itu.dk	annotated	propella	oercommons/oercommons.chunk.16.jsonl.gz	83	0	14
+2026-10-24T21:30:48	cn19.hpc.itu.dk	downloaded		oercommons/oercommons.chunk.19.jsonl.gz			2
+2026-10-24T21:31:01	cn19.hpc.itu.dk	annotated	propella	oercommons/oercommons.chunk.19.jsonl.gz	83	0	13
+2026-10-24T21:31:03	cn19.hpc.itu.dk	downloaded		oercommons/oercommons.chunk.22.jsonl.gz			2
+2026-10-24T21:31:17	cn19.hpc.itu.dk	annotated	propella	oercommons/oercommons.chunk.22.jsonl.gz	83	0	13
+2026-10-24T21:31:19	cn19.hpc.itu.dk	downloaded		oercommons/oercommons.chunk.25.jsonl.gz			2
+2026-10-24T21:31:28	cn19.hpc.itu.dk	annotated	propella	oercommons/oercommons.chunk.25.jsonl.gz	83	0	9
+2026-10-24T21:31:30	cn19.hpc.itu.dk	downloaded		oercommons/oercommons.chunk.28.jsonl.gz			2
+2026-10-24T21:31:43	cn19.hpc.itu.dk	annotated	propella	oercommons/oercommons.chunk.28.jsonl.gz	83	0	13
+2026-10-24T21:31:45	cn19.hpc.itu.dk	downloaded		oercommons/oercommons.chunk.31.jsonl.gz			2
+2026-10-24T21:31:58	cn19.hpc.itu.dk	annotated	propella	oercommons/oercommons.chunk.31.jsonl.gz	83	0	12
+2026-10-24T21:32:00	cn19.hpc.itu.dk	downloaded		oercommons/oercommons.chunk.34.jsonl.gz			2
+2026-10-24T21:32:09	cn19.hpc.itu.dk	annotated	propella	oercommons/oercommons.chunk.34.jsonl.gz	83	0	9
+2026-10-24T21:32:11	cn19.hpc.itu.dk	downloaded		oercommons/oercommons.chunk.37.jsonl.gz			2
+2026-10-24T21:32:24	cn19.hpc.itu.dk	annotated	propella	oercommons/oercommons.chunk.37.jsonl.gz	83	0	13
+2026-10-24T21:32:26	cn19.hpc.itu.dk	downloaded		oercommons/oercommons.chunk.40.jsonl.gz			2
+2026-10-24T21:32:39	cn19.hpc.itu.dk	annotated	propella	oercommons/oercommons.chunk.40.jsonl.gz	83	0	12
+2026-10-24T21:32:40	cn19.hpc.itu.dk	downloaded		oercommons/oercommons.chunk.43.jsonl.gz			2
+2026-10-24T21:32:54	cn19.hpc.itu.dk	annotated	propella	oercommons/oercommons.chunk.43.jsonl.gz	83	0	13
+2026-10-24T21:32:56	cn19.hpc.itu.dk	downloaded		oercommons/oercommons.chunk.46.jsonl.gz			2
+2026-10-24T21:33:08	cn19.hpc.itu.dk	annotated	propella	oercommons/oercommons.chunk.46.jsonl.gz	83	0	12
+2026-10-24T21:33:10	cn19.hpc.itu.dk	downloaded		oercommons/oercommons.chunk.49.jsonl.gz			2
+2026-10-24T21:33:24	cn19.hpc.itu.dk	annotated	propella	oercommons/oercommons.chunk.49.jsonl.gz	83	0	14
+2026-10-24T21:33:27	cn19.hpc.itu.dk	downloaded		oercommons/oercommons.chunk.52.jsonl.gz			2
+2026-10-24T21:33:38	cn19.hpc.itu.dk	annotated	propella	oercommons/oercommons.chunk.52.jsonl.gz	83	0	12
+2026-10-24T21:33:40	cn19.hpc.itu.dk	downloaded		oercommons/oercommons.chunk.55.jsonl.gz			2
+2026-10-24T21:33:53	cn19.hpc.itu.dk	annotated	propella	oercommons/oercommons.chunk.55.jsonl.gz	83	0	13
+2026-10-24T21:33:55	cn19.hpc.itu.dk	downloaded		oercommons/oercommons.chunk.58.jsonl.gz			2
+2026-10-24T21:34:05	cn19.hpc.itu.dk	annotated	propella	oercommons/oercommons.chunk.58.jsonl.gz	83	0	10
+2026-10-24T21:34:07	cn19.hpc.itu.dk	downloaded		oercommons/oercommons.chunk.61.jsonl.gz			2
+2026-10-24T21:34:20	cn19.hpc.itu.dk	annotated	propella	oercommons/oercommons.chunk.61.jsonl.gz	83	0	12
+2026-10-24T23:33:47	cn19.hpc.itu.dk	annotated	propella	stackexchange/stackexchange.chunk.55.jsonl.gz	484184	99	29088
+2026-10-25T01:46:32	cn19.hpc.itu.dk	annotated	propella	stackexchange/stackexchange.chunk.58.jsonl.gz	484184	92	28594
+2026-10-25T02:25:05	cn19.hpc.itu.dk	annotated	propella	stackexchange/stackexchange.chunk.61.jsonl.gz	484184	101	29005
