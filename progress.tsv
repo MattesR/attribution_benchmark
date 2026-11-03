@@ -1407,3 +1407,1411 @@ time	host	event	annotator	shard	n_docs	n_failed	seconds
 2026-10-24T23:33:47	cn19.hpc.itu.dk	annotated	propella	stackexchange/stackexchange.chunk.55.jsonl.gz	484184	99	29088
 2026-10-25T01:46:32	cn19.hpc.itu.dk	annotated	propella	stackexchange/stackexchange.chunk.58.jsonl.gz	484184	92	28594
 2026-10-25T02:25:05	cn19.hpc.itu.dk	annotated	propella	stackexchange/stackexchange.chunk.61.jsonl.gz	484184	101	29005
+2026-10-28T15:46:28	cir	downloaded		news/news.chunk.00.jsonl.gz			1
+2026-10-28T15:46:36	cir	annotated	weborganizer	news/news.chunk.00.jsonl.gz	1980	0	7
+2026-10-28T15:54:25	cir	downloaded		cccc/cccc.chunk.00.jsonl.gz			6
+2026-10-28T15:54:28	cir	downloaded		cccc/cccc.chunk.01.jsonl.gz			6
+2026-10-28T16:30:47	cir	annotated	weborganizer	cccc/cccc.chunk.02.jsonl.gz	107065	0	2172
+2026-10-28T16:30:53	cir	downloaded		cccc/cccc.chunk.03.jsonl.gz			6
+2026-10-28T16:31:04	cir	annotated	weborganizer	cccc/cccc.chunk.01.jsonl.gz	107065	0	2188
+2026-10-28T16:31:09	cir	downloaded		cccc/cccc.chunk.04.jsonl.gz			5
+2026-10-28T16:32:05	cir	annotated	weborganizer	cccc/cccc.chunk.00.jsonl.gz	107065	0	2252
+2026-10-28T16:32:11	cir	downloaded		cccc/cccc.chunk.05.jsonl.gz			6
+2026-10-28T17:07:45	cir	annotated	weborganizer	cccc/cccc.chunk.03.jsonl.gz	107065	0	2204
+2026-10-28T17:07:50	cir	annotated	weborganizer	cccc/cccc.chunk.04.jsonl.gz	107065	0	2192
+2026-10-28T17:07:51	cir	downloaded		cccc/cccc.chunk.06.jsonl.gz			5
+2026-10-28T17:07:55	cir	downloaded		cccc/cccc.chunk.07.jsonl.gz			5
+2026-10-28T17:09:42	cir	annotated	weborganizer	cccc/cccc.chunk.05.jsonl.gz	107065	0	2243
+2026-10-28T17:09:48	cir	downloaded		cccc/cccc.chunk.08.jsonl.gz			5
+2026-10-28T17:44:30	cir	annotated	weborganizer	cccc/cccc.chunk.06.jsonl.gz	107065	0	2191
+2026-10-28T17:44:36	cir	downloaded		cccc/cccc.chunk.09.jsonl.gz			5
+2026-10-28T17:44:38	cir	annotated	weborganizer	cccc/cccc.chunk.07.jsonl.gz	107065	0	2194
+2026-10-28T17:44:44	cir	downloaded		cccc/cccc.chunk.10.jsonl.gz			5
+2026-10-28T17:47:31	cir	annotated	weborganizer	cccc/cccc.chunk.08.jsonl.gz	107065	0	2254
+2026-10-28T17:47:38	cir	downloaded		cccc/cccc.chunk.11.jsonl.gz			7
+2026-10-28T18:20:47	cir	annotated	weborganizer	cccc/cccc.chunk.09.jsonl.gz	107065	0	2162
+2026-10-28T18:20:53	cir	downloaded		cccc/cccc.chunk.12.jsonl.gz			6
+2026-10-28T18:21:29	cir	annotated	weborganizer	cccc/cccc.chunk.10.jsonl.gz	107065	0	2197
+2026-10-28T18:21:35	cir	downloaded		cccc/cccc.chunk.13.jsonl.gz			6
+2026-10-28T18:25:07	cir	annotated	weborganizer	cccc/cccc.chunk.11.jsonl.gz	107065	0	2240
+2026-10-28T18:25:13	cir	downloaded		cccc/cccc.chunk.14.jsonl.gz			5
+2026-10-28T18:57:07	cir	annotated	weborganizer	cccc/cccc.chunk.12.jsonl.gz	107065	0	2165
+2026-10-28T18:57:12	cir	downloaded		cccc/cccc.chunk.15.jsonl.gz			5
+2026-10-28T18:58:20	cir	annotated	weborganizer	cccc/cccc.chunk.13.jsonl.gz	107065	0	2196
+2026-10-28T18:58:26	cir	downloaded		cccc/cccc.chunk.16.jsonl.gz			6
+2026-10-28T19:02:45	cir	annotated	weborganizer	cccc/cccc.chunk.14.jsonl.gz	107065	0	2243
+2026-10-28T19:02:50	cir	downloaded		cccc/cccc.chunk.17.jsonl.gz			5
+2026-10-28T19:33:53	cir	annotated	weborganizer	cccc/cccc.chunk.15.jsonl.gz	107065	0	2191
+2026-10-28T19:33:58	cir	downloaded		cccc/cccc.chunk.18.jsonl.gz			5
+2026-10-28T19:35:18	cir	annotated	weborganizer	cccc/cccc.chunk.16.jsonl.gz	107065	0	2203
+2026-10-28T19:35:24	cir	downloaded		cccc/cccc.chunk.19.jsonl.gz			5
+2026-10-28T19:40:21	cir	annotated	weborganizer	cccc/cccc.chunk.17.jsonl.gz	107065	0	2242
+2026-10-28T19:40:27	cir	downloaded		cccc/cccc.chunk.20.jsonl.gz			5
+2026-10-28T20:10:44	cir	annotated	weborganizer	cccc/cccc.chunk.18.jsonl.gz	107065	0	2197
+2026-10-28T20:10:49	cir	downloaded		cccc/cccc.chunk.21.jsonl.gz			5
+2026-10-28T20:12:17	cir	annotated	weborganizer	cccc/cccc.chunk.19.jsonl.gz	107065	0	2204
+2026-10-28T20:12:22	cir	downloaded		cccc/cccc.chunk.22.jsonl.gz			5
+2026-10-28T20:17:47	cir	annotated	weborganizer	cccc/cccc.chunk.20.jsonl.gz	107065	0	2232
+2026-10-28T20:17:53	cir	downloaded		cccc/cccc.chunk.23.jsonl.gz			5
+2026-10-28T20:47:17	cir	annotated	weborganizer	cccc/cccc.chunk.21.jsonl.gz	107065	0	2179
+2026-10-28T20:47:23	cir	downloaded		cccc/cccc.chunk.24.jsonl.gz			5
+2026-10-28T20:49:17	cir	annotated	weborganizer	cccc/cccc.chunk.22.jsonl.gz	107065	0	2206
+2026-10-28T20:49:22	cir	downloaded		cccc/cccc.chunk.25.jsonl.gz			5
+2026-10-28T20:55:14	cir	annotated	weborganizer	cccc/cccc.chunk.23.jsonl.gz	107065	0	2233
+2026-10-28T20:55:21	cir	downloaded		cccc/cccc.chunk.26.jsonl.gz			6
+2026-10-28T21:23:47	cir	annotated	weborganizer	cccc/cccc.chunk.24.jsonl.gz	107065	0	2175
+2026-10-28T21:23:53	cir	downloaded		cccc/cccc.chunk.27.jsonl.gz			5
+2026-10-28T21:25:58	cir	annotated	weborganizer	cccc/cccc.chunk.25.jsonl.gz	107065	0	2188
+2026-10-28T21:26:05	cir	downloaded		cccc/cccc.chunk.28.jsonl.gz			6
+2026-10-28T21:32:31	cir	annotated	weborganizer	cccc/cccc.chunk.26.jsonl.gz	107065	0	2222
+2026-10-28T21:32:37	cir	downloaded		cccc/cccc.chunk.29.jsonl.gz			5
+2026-10-28T21:59:53	cir	annotated	weborganizer	cccc/cccc.chunk.27.jsonl.gz	107065	0	2152
+2026-10-28T21:59:59	cir	downloaded		cccc/cccc.chunk.30.jsonl.gz			5
+2026-10-28T22:02:50	cir	annotated	weborganizer	cccc/cccc.chunk.28.jsonl.gz	107065	0	2196
+2026-10-28T22:02:55	cir	downloaded		cccc/cccc.chunk.31.jsonl.gz			6
+2026-10-28T22:10:29	cir	annotated	weborganizer	cccc/cccc.chunk.29.jsonl.gz	107065	0	2264
+2026-10-28T22:10:35	cir	downloaded		cccc/cccc.chunk.32.jsonl.gz			6
+2026-10-28T22:36:22	cir	annotated	weborganizer	cccc/cccc.chunk.30.jsonl.gz	107065	0	2174
+2026-10-28T22:36:27	cir	downloaded		cccc/cccc.chunk.33.jsonl.gz			5
+2026-10-28T22:39:34	cir	annotated	weborganizer	cccc/cccc.chunk.31.jsonl.gz	107065	0	2190
+2026-10-28T22:39:39	cir	downloaded		cccc/cccc.chunk.34.jsonl.gz			5
+2026-10-28T22:48:09	cir	annotated	weborganizer	cccc/cccc.chunk.32.jsonl.gz	107065	0	2245
+2026-10-28T22:48:14	cir	downloaded		cccc/cccc.chunk.35.jsonl.gz			5
+2026-10-28T23:12:56	cir	annotated	weborganizer	cccc/cccc.chunk.33.jsonl.gz	107065	0	2180
+2026-10-28T23:13:02	cir	downloaded		cccc/cccc.chunk.36.jsonl.gz			5
+2026-10-28T23:16:25	cir	annotated	weborganizer	cccc/cccc.chunk.34.jsonl.gz	107065	0	2197
+2026-10-28T23:16:30	cir	downloaded		cccc/cccc.chunk.37.jsonl.gz			5
+2026-10-28T23:25:42	cir	annotated	weborganizer	cccc/cccc.chunk.35.jsonl.gz	107065	0	2240
+2026-10-28T23:25:47	cir	downloaded		cccc/cccc.chunk.38.jsonl.gz			5
+2026-10-28T23:49:23	cir	annotated	weborganizer	cccc/cccc.chunk.36.jsonl.gz	107065	0	2173
+2026-10-28T23:49:28	cir	downloaded		cccc/cccc.chunk.39.jsonl.gz			5
+2026-10-28T23:53:24	cir	annotated	weborganizer	cccc/cccc.chunk.37.jsonl.gz	107065	0	2204
+2026-10-28T23:53:29	cir	downloaded		cccc/cccc.chunk.40.jsonl.gz			5
+2026-10-29T00:03:24	cir	annotated	weborganizer	cccc/cccc.chunk.38.jsonl.gz	107065	0	2248
+2026-10-29T00:03:30	cir	downloaded		cccc/cccc.chunk.41.jsonl.gz			5
+2026-10-29T00:25:53	cir	annotated	weborganizer	cccc/cccc.chunk.39.jsonl.gz	107065	0	2176
+2026-10-29T00:25:59	cir	downloaded		cccc/cccc.chunk.42.jsonl.gz			5
+2026-10-29T00:29:48	cir	annotated	weborganizer	cccc/cccc.chunk.40.jsonl.gz	107065	0	2170
+2026-10-29T00:29:54	cir	downloaded		cccc/cccc.chunk.43.jsonl.gz			6
+2026-10-29T00:41:18	cir	annotated	weborganizer	cccc/cccc.chunk.41.jsonl.gz	107064	0	2260
+2026-10-29T00:41:24	cir	downloaded		cccc/cccc.chunk.44.jsonl.gz			5
+2026-10-29T01:02:20	cir	annotated	weborganizer	cccc/cccc.chunk.42.jsonl.gz	107064	0	2172
+2026-10-29T01:02:26	cir	downloaded		cccc/cccc.chunk.45.jsonl.gz			6
+2026-10-29T01:06:48	cir	annotated	weborganizer	cccc/cccc.chunk.43.jsonl.gz	107064	0	2205
+2026-10-29T01:06:53	cir	downloaded		cccc/cccc.chunk.46.jsonl.gz			5
+2026-10-29T01:18:42	cir	annotated	weborganizer	cccc/cccc.chunk.44.jsonl.gz	107064	0	2230
+2026-10-29T01:18:48	cir	downloaded		cccc/cccc.chunk.47.jsonl.gz			5
+2026-10-29T01:38:35	cir	annotated	weborganizer	cccc/cccc.chunk.45.jsonl.gz	107064	0	2161
+2026-10-29T01:38:41	cir	downloaded		cccc/cccc.chunk.48.jsonl.gz			6
+2026-10-29T01:43:15	cir	annotated	weborganizer	cccc/cccc.chunk.46.jsonl.gz	107064	0	2173
+2026-10-29T01:43:20	cir	downloaded		cccc/cccc.chunk.49.jsonl.gz			5
+2026-10-29T01:56:34	cir	annotated	weborganizer	cccc/cccc.chunk.47.jsonl.gz	107064	0	2257
+2026-10-29T01:56:39	cir	downloaded		cccc/cccc.chunk.50.jsonl.gz			5
+2026-10-29T02:14:46	cir	annotated	weborganizer	cccc/cccc.chunk.48.jsonl.gz	107064	0	2156
+2026-10-29T02:14:51	cir	downloaded		cccc/cccc.chunk.51.jsonl.gz			5
+2026-10-29T02:19:51	cir	annotated	weborganizer	cccc/cccc.chunk.49.jsonl.gz	107064	0	2182
+2026-10-29T02:19:56	cir	downloaded		cccc/cccc.chunk.52.jsonl.gz			5
+2026-10-29T02:33:51	cir	annotated	weborganizer	cccc/cccc.chunk.50.jsonl.gz	107064	0	2223
+2026-10-29T02:33:56	cir	downloaded		cccc/cccc.chunk.53.jsonl.gz			5
+2026-10-29T02:51:02	cir	annotated	weborganizer	cccc/cccc.chunk.51.jsonl.gz	107064	0	2163
+2026-10-29T02:51:08	cir	downloaded		cccc/cccc.chunk.54.jsonl.gz			5
+2026-10-29T02:57:01	cir	annotated	weborganizer	cccc/cccc.chunk.52.jsonl.gz	107064	0	2216
+2026-10-29T02:57:06	cir	downloaded		cccc/cccc.chunk.55.jsonl.gz			5
+2026-10-29T03:11:44	cir	annotated	weborganizer	cccc/cccc.chunk.53.jsonl.gz	107064	0	2259
+2026-10-29T03:11:49	cir	downloaded		cccc/cccc.chunk.56.jsonl.gz			5
+2026-10-29T03:27:42	cir	annotated	weborganizer	cccc/cccc.chunk.54.jsonl.gz	107064	0	2186
+2026-10-29T03:27:47	cir	downloaded		cccc/cccc.chunk.57.jsonl.gz			5
+2026-10-29T03:33:43	cir	annotated	weborganizer	cccc/cccc.chunk.55.jsonl.gz	107064	0	2188
+2026-10-29T03:33:49	cir	downloaded		cccc/cccc.chunk.58.jsonl.gz			6
+2026-10-29T03:48:53	cir	annotated	weborganizer	cccc/cccc.chunk.56.jsonl.gz	107064	0	2215
+2026-10-29T03:48:59	cir	downloaded		cccc/cccc.chunk.59.jsonl.gz			6
+2026-10-29T04:03:46	cir	annotated	weborganizer	cccc/cccc.chunk.57.jsonl.gz	107064	0	2150
+2026-10-29T04:03:52	cir	downloaded		cccc/cccc.chunk.60.jsonl.gz			5
+2026-10-29T04:10:41	cir	annotated	weborganizer	cccc/cccc.chunk.58.jsonl.gz	107064	0	2203
+2026-10-29T04:10:46	cir	downloaded		cccc/cccc.chunk.61.jsonl.gz			5
+2026-10-29T04:26:04	cir	annotated	weborganizer	cccc/cccc.chunk.59.jsonl.gz	107064	0	2217
+2026-10-29T04:26:09	cir	downloaded		cccc/cccc.chunk.62.jsonl.gz			5
+2026-10-29T04:40:21	cir	annotated	weborganizer	cccc/cccc.chunk.60.jsonl.gz	107064	0	2181
+2026-10-29T04:40:27	cir	downloaded		cccc/cccc.chunk.63.jsonl.gz			5
+2026-10-29T04:46:54	cir	annotated	weborganizer	cccc/cccc.chunk.61.jsonl.gz	107064	0	2158
+2026-10-29T04:46:55	cir	downloaded		news/news.chunk.01.jsonl.gz			1
+2026-10-29T04:47:02	cir	annotated	weborganizer	news/news.chunk.01.jsonl.gz	1980	0	7
+2026-10-29T04:47:03	cir	downloaded		news/news.chunk.02.jsonl.gz			1
+2026-10-29T04:47:10	cir	annotated	weborganizer	news/news.chunk.02.jsonl.gz	1980	0	7
+2026-10-29T04:47:11	cir	downloaded		news/news.chunk.03.jsonl.gz			1
+2026-10-29T04:47:18	cir	annotated	weborganizer	news/news.chunk.03.jsonl.gz	1980	0	7
+2026-10-29T04:47:19	cir	downloaded		news/news.chunk.04.jsonl.gz			1
+2026-10-29T04:47:26	cir	annotated	weborganizer	news/news.chunk.04.jsonl.gz	1980	0	7
+2026-10-29T04:47:27	cir	downloaded		news/news.chunk.05.jsonl.gz			1
+2026-10-29T04:47:34	cir	annotated	weborganizer	news/news.chunk.05.jsonl.gz	1980	0	7
+2026-10-29T04:47:35	cir	downloaded		news/news.chunk.06.jsonl.gz			1
+2026-10-29T04:47:42	cir	annotated	weborganizer	news/news.chunk.06.jsonl.gz	1980	0	7
+2026-10-29T04:47:43	cir	downloaded		news/news.chunk.07.jsonl.gz			1
+2026-10-29T04:47:50	cir	annotated	weborganizer	news/news.chunk.07.jsonl.gz	1980	0	7
+2026-10-29T04:47:51	cir	downloaded		news/news.chunk.08.jsonl.gz			1
+2026-10-29T04:47:58	cir	annotated	weborganizer	news/news.chunk.08.jsonl.gz	1980	0	7
+2026-10-29T04:47:59	cir	downloaded		news/news.chunk.09.jsonl.gz			1
+2026-10-29T04:48:05	cir	annotated	weborganizer	news/news.chunk.09.jsonl.gz	1980	0	6
+2026-10-29T04:48:06	cir	downloaded		news/news.chunk.10.jsonl.gz			1
+2026-10-29T04:48:12	cir	annotated	weborganizer	news/news.chunk.10.jsonl.gz	1980	0	6
+2026-10-29T04:48:13	cir	downloaded		news/news.chunk.11.jsonl.gz			1
+2026-10-29T04:48:20	cir	annotated	weborganizer	news/news.chunk.11.jsonl.gz	1980	0	7
+2026-10-29T04:48:21	cir	downloaded		news/news.chunk.12.jsonl.gz			1
+2026-10-29T04:48:28	cir	annotated	weborganizer	news/news.chunk.12.jsonl.gz	1980	0	7
+2026-10-29T04:48:29	cir	downloaded		news/news.chunk.13.jsonl.gz			1
+2026-10-29T04:48:36	cir	annotated	weborganizer	news/news.chunk.13.jsonl.gz	1980	0	7
+2026-10-29T04:48:38	cir	downloaded		news/news.chunk.14.jsonl.gz			2
+2026-10-29T04:48:45	cir	annotated	weborganizer	news/news.chunk.14.jsonl.gz	1980	0	7
+2026-10-29T04:48:46	cir	downloaded		news/news.chunk.15.jsonl.gz			1
+2026-10-29T04:48:53	cir	annotated	weborganizer	news/news.chunk.15.jsonl.gz	1980	0	7
+2026-10-29T04:48:54	cir	downloaded		news/news.chunk.16.jsonl.gz			1
+2026-10-29T04:49:00	cir	annotated	weborganizer	news/news.chunk.16.jsonl.gz	1980	0	7
+2026-10-29T04:49:01	cir	downloaded		news/news.chunk.17.jsonl.gz			1
+2026-10-29T04:49:08	cir	annotated	weborganizer	news/news.chunk.17.jsonl.gz	1979	0	7
+2026-10-29T04:49:09	cir	downloaded		news/news.chunk.18.jsonl.gz			1
+2026-10-29T04:49:16	cir	annotated	weborganizer	news/news.chunk.18.jsonl.gz	1979	0	7
+2026-10-29T04:49:16	cir	downloaded		news/news.chunk.19.jsonl.gz			1
+2026-10-29T04:49:23	cir	annotated	weborganizer	news/news.chunk.19.jsonl.gz	1979	0	7
+2026-10-29T04:49:24	cir	downloaded		news/news.chunk.20.jsonl.gz			1
+2026-10-29T04:49:31	cir	annotated	weborganizer	news/news.chunk.20.jsonl.gz	1979	0	7
+2026-10-29T04:49:32	cir	downloaded		news/news.chunk.21.jsonl.gz			1
+2026-10-29T04:49:39	cir	annotated	weborganizer	news/news.chunk.21.jsonl.gz	1979	0	7
+2026-10-29T04:49:40	cir	downloaded		news/news.chunk.22.jsonl.gz			1
+2026-10-29T04:49:47	cir	annotated	weborganizer	news/news.chunk.22.jsonl.gz	1979	0	7
+2026-10-29T04:49:47	cir	downloaded		news/news.chunk.23.jsonl.gz			1
+2026-10-29T04:49:54	cir	annotated	weborganizer	news/news.chunk.23.jsonl.gz	1979	0	7
+2026-10-29T04:49:56	cir	downloaded		news/news.chunk.24.jsonl.gz			1
+2026-10-29T04:50:02	cir	annotated	weborganizer	news/news.chunk.24.jsonl.gz	1979	0	7
+2026-10-29T04:50:03	cir	downloaded		news/news.chunk.25.jsonl.gz			1
+2026-10-29T04:50:10	cir	annotated	weborganizer	news/news.chunk.25.jsonl.gz	1979	0	7
+2026-10-29T04:50:11	cir	downloaded		news/news.chunk.26.jsonl.gz			1
+2026-10-29T04:50:18	cir	annotated	weborganizer	news/news.chunk.26.jsonl.gz	1979	0	7
+2026-10-29T04:50:19	cir	downloaded		news/news.chunk.27.jsonl.gz			1
+2026-10-29T04:50:26	cir	annotated	weborganizer	news/news.chunk.27.jsonl.gz	1979	0	7
+2026-10-29T04:50:27	cir	downloaded		news/news.chunk.28.jsonl.gz			1
+2026-10-29T04:50:33	cir	annotated	weborganizer	news/news.chunk.28.jsonl.gz	1979	0	7
+2026-10-29T04:50:34	cir	downloaded		news/news.chunk.29.jsonl.gz			1
+2026-10-29T04:50:41	cir	annotated	weborganizer	news/news.chunk.29.jsonl.gz	1979	0	7
+2026-10-29T04:50:42	cir	downloaded		news/news.chunk.30.jsonl.gz			1
+2026-10-29T04:50:49	cir	annotated	weborganizer	news/news.chunk.30.jsonl.gz	1979	0	7
+2026-10-29T04:50:50	cir	downloaded		news/news.chunk.31.jsonl.gz			1
+2026-10-29T04:50:57	cir	annotated	weborganizer	news/news.chunk.31.jsonl.gz	1979	0	7
+2026-10-29T04:50:58	cir	downloaded		news/news.chunk.32.jsonl.gz			1
+2026-10-29T04:51:05	cir	annotated	weborganizer	news/news.chunk.32.jsonl.gz	1979	0	7
+2026-10-29T04:51:06	cir	downloaded		news/news.chunk.33.jsonl.gz			1
+2026-10-29T04:51:13	cir	annotated	weborganizer	news/news.chunk.33.jsonl.gz	1979	0	7
+2026-10-29T04:51:14	cir	downloaded		news/news.chunk.34.jsonl.gz			1
+2026-10-29T04:51:21	cir	annotated	weborganizer	news/news.chunk.34.jsonl.gz	1979	0	7
+2026-10-29T04:51:21	cir	downloaded		news/news.chunk.35.jsonl.gz			1
+2026-10-29T04:51:28	cir	annotated	weborganizer	news/news.chunk.35.jsonl.gz	1979	0	7
+2026-10-29T04:51:29	cir	downloaded		news/news.chunk.36.jsonl.gz			1
+2026-10-29T04:51:36	cir	annotated	weborganizer	news/news.chunk.36.jsonl.gz	1979	0	7
+2026-10-29T04:51:37	cir	downloaded		news/news.chunk.37.jsonl.gz			1
+2026-10-29T04:51:43	cir	annotated	weborganizer	news/news.chunk.37.jsonl.gz	1979	0	7
+2026-10-29T04:51:44	cir	downloaded		news/news.chunk.38.jsonl.gz			1
+2026-10-29T04:51:51	cir	annotated	weborganizer	news/news.chunk.38.jsonl.gz	1979	0	7
+2026-10-29T04:51:52	cir	downloaded		news/news.chunk.39.jsonl.gz			1
+2026-10-29T04:52:00	cir	annotated	weborganizer	news/news.chunk.39.jsonl.gz	1979	0	7
+2026-10-29T04:52:01	cir	downloaded		news/news.chunk.40.jsonl.gz			1
+2026-10-29T04:52:07	cir	annotated	weborganizer	news/news.chunk.40.jsonl.gz	1979	0	7
+2026-10-29T04:52:08	cir	downloaded		news/news.chunk.41.jsonl.gz			1
+2026-10-29T04:52:15	cir	annotated	weborganizer	news/news.chunk.41.jsonl.gz	1979	0	7
+2026-10-29T04:52:16	cir	downloaded		news/news.chunk.42.jsonl.gz			1
+2026-10-29T04:52:23	cir	annotated	weborganizer	news/news.chunk.42.jsonl.gz	1979	0	7
+2026-10-29T04:52:24	cir	downloaded		news/news.chunk.43.jsonl.gz			1
+2026-10-29T04:52:31	cir	annotated	weborganizer	news/news.chunk.43.jsonl.gz	1979	0	7
+2026-10-29T04:52:32	cir	downloaded		news/news.chunk.44.jsonl.gz			1
+2026-10-29T04:52:39	cir	annotated	weborganizer	news/news.chunk.44.jsonl.gz	1979	0	7
+2026-10-29T04:52:39	cir	downloaded		news/news.chunk.45.jsonl.gz			1
+2026-10-29T04:52:46	cir	annotated	weborganizer	news/news.chunk.45.jsonl.gz	1979	0	7
+2026-10-29T04:52:47	cir	downloaded		news/news.chunk.46.jsonl.gz			1
+2026-10-29T04:52:55	cir	annotated	weborganizer	news/news.chunk.46.jsonl.gz	1979	0	7
+2026-10-29T04:52:55	cir	downloaded		news/news.chunk.47.jsonl.gz			1
+2026-10-29T04:53:03	cir	annotated	weborganizer	news/news.chunk.47.jsonl.gz	1979	0	8
+2026-10-29T04:53:04	cir	downloaded		news/news.chunk.48.jsonl.gz			1
+2026-10-29T04:53:11	cir	annotated	weborganizer	news/news.chunk.48.jsonl.gz	1979	0	7
+2026-10-29T04:53:12	cir	downloaded		news/news.chunk.49.jsonl.gz			1
+2026-10-29T04:53:19	cir	annotated	weborganizer	news/news.chunk.49.jsonl.gz	1979	0	7
+2026-10-29T04:53:20	cir	downloaded		news/news.chunk.50.jsonl.gz			1
+2026-10-29T04:53:27	cir	annotated	weborganizer	news/news.chunk.50.jsonl.gz	1979	0	7
+2026-10-29T04:53:28	cir	downloaded		news/news.chunk.51.jsonl.gz			1
+2026-10-29T04:53:35	cir	annotated	weborganizer	news/news.chunk.51.jsonl.gz	1979	0	7
+2026-10-29T04:53:36	cir	downloaded		news/news.chunk.52.jsonl.gz			1
+2026-10-29T04:53:42	cir	annotated	weborganizer	news/news.chunk.52.jsonl.gz	1979	0	7
+2026-10-29T04:53:43	cir	downloaded		news/news.chunk.53.jsonl.gz			1
+2026-10-29T04:53:50	cir	annotated	weborganizer	news/news.chunk.53.jsonl.gz	1979	0	7
+2026-10-29T04:53:51	cir	downloaded		news/news.chunk.54.jsonl.gz			1
+2026-10-29T04:53:58	cir	annotated	weborganizer	news/news.chunk.54.jsonl.gz	1979	0	7
+2026-10-29T04:53:59	cir	downloaded		news/news.chunk.55.jsonl.gz			1
+2026-10-29T04:54:06	cir	annotated	weborganizer	news/news.chunk.55.jsonl.gz	1979	0	7
+2026-10-29T04:54:07	cir	downloaded		news/news.chunk.56.jsonl.gz			1
+2026-10-29T04:54:13	cir	annotated	weborganizer	news/news.chunk.56.jsonl.gz	1979	0	7
+2026-10-29T04:54:14	cir	downloaded		news/news.chunk.57.jsonl.gz			1
+2026-10-29T04:54:21	cir	annotated	weborganizer	news/news.chunk.57.jsonl.gz	1979	0	7
+2026-10-29T04:54:22	cir	downloaded		news/news.chunk.58.jsonl.gz			1
+2026-10-29T04:54:28	cir	annotated	weborganizer	news/news.chunk.58.jsonl.gz	1979	0	6
+2026-10-29T04:54:29	cir	downloaded		news/news.chunk.59.jsonl.gz			1
+2026-10-29T04:54:36	cir	annotated	weborganizer	news/news.chunk.59.jsonl.gz	1979	0	7
+2026-10-29T04:54:37	cir	downloaded		news/news.chunk.60.jsonl.gz			1
+2026-10-29T04:54:44	cir	annotated	weborganizer	news/news.chunk.60.jsonl.gz	1979	0	7
+2026-10-29T04:54:45	cir	downloaded		news/news.chunk.61.jsonl.gz			1
+2026-10-29T04:54:52	cir	annotated	weborganizer	news/news.chunk.61.jsonl.gz	1979	0	7
+2026-10-29T04:54:53	cir	downloaded		news/news.chunk.62.jsonl.gz			1
+2026-10-29T04:55:00	cir	annotated	weborganizer	news/news.chunk.62.jsonl.gz	1979	0	7
+2026-10-29T04:55:00	cir	downloaded		news/news.chunk.63.jsonl.gz			1
+2026-10-29T04:55:07	cir	annotated	weborganizer	news/news.chunk.63.jsonl.gz	1979	0	7
+2026-10-29T04:55:08	cir	downloaded		foodista/foodista.chunk.00.jsonl.gz			1
+2026-10-29T04:55:10	cir	annotated	weborganizer	foodista/foodista.chunk.00.jsonl.gz	1026	0	2
+2026-10-29T04:55:11	cir	downloaded		foodista/foodista.chunk.01.jsonl.gz			1
+2026-10-29T04:55:14	cir	annotated	weborganizer	foodista/foodista.chunk.01.jsonl.gz	1026	0	2
+2026-10-29T04:55:14	cir	downloaded		foodista/foodista.chunk.02.jsonl.gz			1
+2026-10-29T04:55:17	cir	annotated	weborganizer	foodista/foodista.chunk.02.jsonl.gz	1026	0	3
+2026-10-29T04:55:18	cir	downloaded		foodista/foodista.chunk.03.jsonl.gz			1
+2026-10-29T04:55:20	cir	annotated	weborganizer	foodista/foodista.chunk.03.jsonl.gz	1026	0	2
+2026-10-29T04:55:21	cir	downloaded		foodista/foodista.chunk.04.jsonl.gz			1
+2026-10-29T04:55:23	cir	annotated	weborganizer	foodista/foodista.chunk.04.jsonl.gz	1026	0	2
+2026-10-29T04:55:24	cir	downloaded		foodista/foodista.chunk.05.jsonl.gz			1
+2026-10-29T04:55:27	cir	annotated	weborganizer	foodista/foodista.chunk.05.jsonl.gz	1026	0	2
+2026-10-29T04:55:28	cir	downloaded		foodista/foodista.chunk.06.jsonl.gz			1
+2026-10-29T04:55:30	cir	annotated	weborganizer	foodista/foodista.chunk.06.jsonl.gz	1026	0	2
+2026-10-29T04:55:31	cir	downloaded		foodista/foodista.chunk.07.jsonl.gz			1
+2026-10-29T04:55:33	cir	annotated	weborganizer	foodista/foodista.chunk.07.jsonl.gz	1026	0	2
+2026-10-29T04:55:34	cir	downloaded		foodista/foodista.chunk.08.jsonl.gz			1
+2026-10-29T04:55:36	cir	annotated	weborganizer	foodista/foodista.chunk.08.jsonl.gz	1026	0	2
+2026-10-29T04:55:37	cir	downloaded		foodista/foodista.chunk.09.jsonl.gz			1
+2026-10-29T04:55:40	cir	annotated	weborganizer	foodista/foodista.chunk.09.jsonl.gz	1026	0	2
+2026-10-29T04:55:40	cir	downloaded		foodista/foodista.chunk.10.jsonl.gz			1
+2026-10-29T04:55:43	cir	annotated	weborganizer	foodista/foodista.chunk.10.jsonl.gz	1026	0	3
+2026-10-29T04:55:44	cir	downloaded		foodista/foodista.chunk.11.jsonl.gz			1
+2026-10-29T04:55:46	cir	annotated	weborganizer	foodista/foodista.chunk.11.jsonl.gz	1026	0	2
+2026-10-29T04:55:47	cir	downloaded		foodista/foodista.chunk.12.jsonl.gz			1
+2026-10-29T04:55:50	cir	annotated	weborganizer	foodista/foodista.chunk.12.jsonl.gz	1026	0	3
+2026-10-29T04:55:50	cir	downloaded		foodista/foodista.chunk.13.jsonl.gz			1
+2026-10-29T04:55:53	cir	annotated	weborganizer	foodista/foodista.chunk.13.jsonl.gz	1026	0	2
+2026-10-29T04:55:54	cir	downloaded		foodista/foodista.chunk.14.jsonl.gz			1
+2026-10-29T04:55:56	cir	annotated	weborganizer	foodista/foodista.chunk.14.jsonl.gz	1026	0	2
+2026-10-29T04:55:57	cir	downloaded		foodista/foodista.chunk.15.jsonl.gz			1
+2026-10-29T04:55:59	cir	annotated	weborganizer	foodista/foodista.chunk.15.jsonl.gz	1026	0	2
+2026-10-29T04:56:00	cir	downloaded		foodista/foodista.chunk.16.jsonl.gz			1
+2026-10-29T04:56:03	cir	annotated	weborganizer	foodista/foodista.chunk.16.jsonl.gz	1026	0	2
+2026-10-29T04:56:03	cir	downloaded		foodista/foodista.chunk.17.jsonl.gz			1
+2026-10-29T04:56:06	cir	annotated	weborganizer	foodista/foodista.chunk.17.jsonl.gz	1026	0	2
+2026-10-29T04:56:06	cir	downloaded		foodista/foodista.chunk.18.jsonl.gz			1
+2026-10-29T04:56:09	cir	annotated	weborganizer	foodista/foodista.chunk.18.jsonl.gz	1026	0	3
+2026-10-29T04:56:10	cir	downloaded		foodista/foodista.chunk.19.jsonl.gz			1
+2026-10-29T04:56:12	cir	annotated	weborganizer	foodista/foodista.chunk.19.jsonl.gz	1026	0	2
+2026-10-29T04:56:14	cir	downloaded		foodista/foodista.chunk.20.jsonl.gz			1
+2026-10-29T04:56:16	cir	annotated	weborganizer	foodista/foodista.chunk.20.jsonl.gz	1026	0	2
+2026-10-29T04:56:17	cir	downloaded		foodista/foodista.chunk.21.jsonl.gz			1
+2026-10-29T04:56:19	cir	annotated	weborganizer	foodista/foodista.chunk.21.jsonl.gz	1026	0	3
+2026-10-29T04:56:20	cir	downloaded		foodista/foodista.chunk.22.jsonl.gz			1
+2026-10-29T04:56:23	cir	annotated	weborganizer	foodista/foodista.chunk.22.jsonl.gz	1026	0	2
+2026-10-29T04:56:23	cir	downloaded		foodista/foodista.chunk.23.jsonl.gz			1
+2026-10-29T04:56:26	cir	annotated	weborganizer	foodista/foodista.chunk.23.jsonl.gz	1026	0	2
+2026-10-29T04:56:27	cir	downloaded		foodista/foodista.chunk.24.jsonl.gz			1
+2026-10-29T04:56:29	cir	annotated	weborganizer	foodista/foodista.chunk.24.jsonl.gz	1026	0	2
+2026-10-29T04:56:30	cir	downloaded		foodista/foodista.chunk.25.jsonl.gz			1
+2026-10-29T04:56:33	cir	annotated	weborganizer	foodista/foodista.chunk.25.jsonl.gz	1026	0	2
+2026-10-29T04:56:34	cir	downloaded		foodista/foodista.chunk.26.jsonl.gz			1
+2026-10-29T04:56:36	cir	annotated	weborganizer	foodista/foodista.chunk.26.jsonl.gz	1026	0	2
+2026-10-29T04:56:37	cir	downloaded		foodista/foodista.chunk.27.jsonl.gz			1
+2026-10-29T04:56:39	cir	annotated	weborganizer	foodista/foodista.chunk.27.jsonl.gz	1026	0	2
+2026-10-29T04:56:40	cir	downloaded		foodista/foodista.chunk.28.jsonl.gz			1
+2026-10-29T04:56:42	cir	annotated	weborganizer	foodista/foodista.chunk.28.jsonl.gz	1026	0	2
+2026-10-29T04:56:43	cir	downloaded		foodista/foodista.chunk.29.jsonl.gz			1
+2026-10-29T04:56:46	cir	annotated	weborganizer	foodista/foodista.chunk.29.jsonl.gz	1026	0	2
+2026-10-29T04:56:47	cir	downloaded		foodista/foodista.chunk.30.jsonl.gz			1
+2026-10-29T04:56:49	cir	annotated	weborganizer	foodista/foodista.chunk.30.jsonl.gz	1026	0	2
+2026-10-29T04:56:50	cir	downloaded		foodista/foodista.chunk.31.jsonl.gz			1
+2026-10-29T04:56:52	cir	annotated	weborganizer	foodista/foodista.chunk.31.jsonl.gz	1026	0	2
+2026-10-29T04:56:53	cir	downloaded		foodista/foodista.chunk.32.jsonl.gz			1
+2026-10-29T04:56:55	cir	annotated	weborganizer	foodista/foodista.chunk.32.jsonl.gz	1026	0	2
+2026-10-29T04:56:56	cir	downloaded		foodista/foodista.chunk.33.jsonl.gz			1
+2026-10-29T04:56:59	cir	annotated	weborganizer	foodista/foodista.chunk.33.jsonl.gz	1026	0	2
+2026-10-29T04:57:00	cir	downloaded		foodista/foodista.chunk.34.jsonl.gz			1
+2026-10-29T04:57:02	cir	annotated	weborganizer	foodista/foodista.chunk.34.jsonl.gz	1026	0	2
+2026-10-29T04:57:03	cir	downloaded		foodista/foodista.chunk.35.jsonl.gz			1
+2026-10-29T04:57:05	cir	annotated	weborganizer	foodista/foodista.chunk.35.jsonl.gz	1026	0	2
+2026-10-29T04:57:06	cir	downloaded		foodista/foodista.chunk.36.jsonl.gz			1
+2026-10-29T04:57:09	cir	annotated	weborganizer	foodista/foodista.chunk.36.jsonl.gz	1026	0	3
+2026-10-29T04:57:10	cir	downloaded		foodista/foodista.chunk.37.jsonl.gz			1
+2026-10-29T04:57:12	cir	annotated	weborganizer	foodista/foodista.chunk.37.jsonl.gz	1026	0	2
+2026-10-29T04:57:13	cir	downloaded		foodista/foodista.chunk.38.jsonl.gz			1
+2026-10-29T04:57:15	cir	annotated	weborganizer	foodista/foodista.chunk.38.jsonl.gz	1026	0	2
+2026-10-29T04:57:16	cir	downloaded		foodista/foodista.chunk.39.jsonl.gz			1
+2026-10-29T04:57:19	cir	annotated	weborganizer	foodista/foodista.chunk.39.jsonl.gz	1026	0	2
+2026-10-29T04:57:19	cir	downloaded		foodista/foodista.chunk.40.jsonl.gz			1
+2026-10-29T04:57:22	cir	annotated	weborganizer	foodista/foodista.chunk.40.jsonl.gz	1025	0	3
+2026-10-29T04:57:23	cir	downloaded		foodista/foodista.chunk.41.jsonl.gz			1
+2026-10-29T04:57:25	cir	annotated	weborganizer	foodista/foodista.chunk.41.jsonl.gz	1025	0	2
+2026-10-29T04:57:26	cir	downloaded		foodista/foodista.chunk.42.jsonl.gz			1
+2026-10-29T04:57:28	cir	annotated	weborganizer	foodista/foodista.chunk.42.jsonl.gz	1025	0	2
+2026-10-29T04:57:29	cir	downloaded		foodista/foodista.chunk.43.jsonl.gz			1
+2026-10-29T04:57:32	cir	annotated	weborganizer	foodista/foodista.chunk.43.jsonl.gz	1025	0	2
+2026-10-29T04:57:33	cir	downloaded		foodista/foodista.chunk.44.jsonl.gz			1
+2026-10-29T04:57:35	cir	annotated	weborganizer	foodista/foodista.chunk.44.jsonl.gz	1025	0	2
+2026-10-29T04:57:36	cir	downloaded		foodista/foodista.chunk.45.jsonl.gz			1
+2026-10-29T04:57:38	cir	annotated	weborganizer	foodista/foodista.chunk.45.jsonl.gz	1025	0	2
+2026-10-29T04:57:39	cir	downloaded		foodista/foodista.chunk.46.jsonl.gz			1
+2026-10-29T04:57:42	cir	annotated	weborganizer	foodista/foodista.chunk.46.jsonl.gz	1025	0	2
+2026-10-29T04:57:42	cir	downloaded		foodista/foodista.chunk.47.jsonl.gz			1
+2026-10-29T04:57:45	cir	annotated	weborganizer	foodista/foodista.chunk.47.jsonl.gz	1025	0	2
+2026-10-29T04:57:46	cir	downloaded		foodista/foodista.chunk.48.jsonl.gz			1
+2026-10-29T04:57:48	cir	annotated	weborganizer	foodista/foodista.chunk.48.jsonl.gz	1025	0	2
+2026-10-29T04:57:49	cir	downloaded		foodista/foodista.chunk.49.jsonl.gz			1
+2026-10-29T04:57:51	cir	annotated	weborganizer	foodista/foodista.chunk.49.jsonl.gz	1025	0	2
+2026-10-29T04:57:52	cir	downloaded		foodista/foodista.chunk.50.jsonl.gz			1
+2026-10-29T04:57:55	cir	annotated	weborganizer	foodista/foodista.chunk.50.jsonl.gz	1025	0	2
+2026-10-29T04:57:56	cir	downloaded		foodista/foodista.chunk.51.jsonl.gz			1
+2026-10-29T04:57:58	cir	annotated	weborganizer	foodista/foodista.chunk.51.jsonl.gz	1025	0	2
+2026-10-29T04:57:59	cir	downloaded		foodista/foodista.chunk.52.jsonl.gz			1
+2026-10-29T04:58:01	cir	annotated	weborganizer	foodista/foodista.chunk.52.jsonl.gz	1025	0	2
+2026-10-29T04:58:02	cir	downloaded		foodista/foodista.chunk.53.jsonl.gz			1
+2026-10-29T04:58:04	cir	annotated	weborganizer	foodista/foodista.chunk.53.jsonl.gz	1025	0	2
+2026-10-29T04:58:05	cir	downloaded		foodista/foodista.chunk.54.jsonl.gz			1
+2026-10-29T04:58:08	cir	annotated	weborganizer	foodista/foodista.chunk.54.jsonl.gz	1025	0	3
+2026-10-29T04:58:09	cir	downloaded		foodista/foodista.chunk.55.jsonl.gz			1
+2026-10-29T04:58:11	cir	annotated	weborganizer	foodista/foodista.chunk.55.jsonl.gz	1025	0	2
+2026-10-29T04:58:12	cir	downloaded		foodista/foodista.chunk.56.jsonl.gz			1
+2026-10-29T04:58:14	cir	annotated	weborganizer	foodista/foodista.chunk.56.jsonl.gz	1025	0	2
+2026-10-29T04:58:15	cir	downloaded		foodista/foodista.chunk.57.jsonl.gz			1
+2026-10-29T04:58:17	cir	annotated	weborganizer	foodista/foodista.chunk.57.jsonl.gz	1025	0	2
+2026-10-29T04:58:18	cir	downloaded		foodista/foodista.chunk.58.jsonl.gz			1
+2026-10-29T04:58:21	cir	annotated	weborganizer	foodista/foodista.chunk.58.jsonl.gz	1025	0	2
+2026-10-29T04:58:21	cir	downloaded		foodista/foodista.chunk.59.jsonl.gz			1
+2026-10-29T04:58:24	cir	annotated	weborganizer	foodista/foodista.chunk.59.jsonl.gz	1025	0	2
+2026-10-29T04:58:25	cir	downloaded		foodista/foodista.chunk.60.jsonl.gz			1
+2026-10-29T04:58:27	cir	annotated	weborganizer	foodista/foodista.chunk.60.jsonl.gz	1025	0	3
+2026-10-29T04:58:28	cir	downloaded		foodista/foodista.chunk.61.jsonl.gz			1
+2026-10-29T04:58:31	cir	annotated	weborganizer	foodista/foodista.chunk.61.jsonl.gz	1025	0	2
+2026-10-29T04:58:31	cir	downloaded		foodista/foodista.chunk.62.jsonl.gz			1
+2026-10-29T04:58:34	cir	annotated	weborganizer	foodista/foodista.chunk.62.jsonl.gz	1025	0	2
+2026-10-29T04:58:35	cir	downloaded		foodista/foodista.chunk.63.jsonl.gz			1
+2026-10-29T04:58:37	cir	annotated	weborganizer	foodista/foodista.chunk.63.jsonl.gz	1025	0	2
+2026-10-29T04:58:38	cir	downloaded		public_domain_review/public_domain_review.chunk.00.jsonl.gz			1
+2026-10-29T04:58:38	cir	annotated	weborganizer	public_domain_review/public_domain_review.chunk.00.jsonl.gz	22	0	1
+2026-10-29T04:58:39	cir	downloaded		public_domain_review/public_domain_review.chunk.01.jsonl.gz			1
+2026-10-29T04:58:40	cir	annotated	weborganizer	public_domain_review/public_domain_review.chunk.01.jsonl.gz	22	0	0
+2026-10-29T04:58:41	cir	downloaded		public_domain_review/public_domain_review.chunk.02.jsonl.gz			1
+2026-10-29T04:58:41	cir	annotated	weborganizer	public_domain_review/public_domain_review.chunk.02.jsonl.gz	22	0	1
+2026-10-29T04:58:42	cir	downloaded		public_domain_review/public_domain_review.chunk.03.jsonl.gz			1
+2026-10-29T04:58:42	cir	annotated	weborganizer	public_domain_review/public_domain_review.chunk.03.jsonl.gz	22	0	0
+2026-10-29T04:58:43	cir	downloaded		public_domain_review/public_domain_review.chunk.04.jsonl.gz			1
+2026-10-29T04:58:44	cir	annotated	weborganizer	public_domain_review/public_domain_review.chunk.04.jsonl.gz	22	0	1
+2026-10-29T04:58:45	cir	downloaded		public_domain_review/public_domain_review.chunk.05.jsonl.gz			1
+2026-10-29T04:58:45	cir	annotated	weborganizer	public_domain_review/public_domain_review.chunk.05.jsonl.gz	22	0	0
+2026-10-29T04:58:46	cir	downloaded		public_domain_review/public_domain_review.chunk.06.jsonl.gz			1
+2026-10-29T04:58:46	cir	annotated	weborganizer	public_domain_review/public_domain_review.chunk.06.jsonl.gz	22	0	0
+2026-10-29T04:58:47	cir	downloaded		public_domain_review/public_domain_review.chunk.07.jsonl.gz			1
+2026-10-29T04:58:47	cir	annotated	weborganizer	public_domain_review/public_domain_review.chunk.07.jsonl.gz	22	0	0
+2026-10-29T04:58:48	cir	downloaded		public_domain_review/public_domain_review.chunk.08.jsonl.gz			1
+2026-10-29T04:58:48	cir	annotated	weborganizer	public_domain_review/public_domain_review.chunk.08.jsonl.gz	22	0	0
+2026-10-29T04:58:49	cir	downloaded		public_domain_review/public_domain_review.chunk.09.jsonl.gz			1
+2026-10-29T04:58:50	cir	annotated	weborganizer	public_domain_review/public_domain_review.chunk.09.jsonl.gz	22	0	0
+2026-10-29T04:58:51	cir	downloaded		public_domain_review/public_domain_review.chunk.10.jsonl.gz			1
+2026-10-29T04:58:51	cir	annotated	weborganizer	public_domain_review/public_domain_review.chunk.10.jsonl.gz	22	0	0
+2026-10-29T04:58:52	cir	downloaded		public_domain_review/public_domain_review.chunk.11.jsonl.gz			1
+2026-10-29T04:58:52	cir	annotated	weborganizer	public_domain_review/public_domain_review.chunk.11.jsonl.gz	22	0	0
+2026-10-29T04:58:53	cir	downloaded		public_domain_review/public_domain_review.chunk.12.jsonl.gz			1
+2026-10-29T04:58:53	cir	annotated	weborganizer	public_domain_review/public_domain_review.chunk.12.jsonl.gz	22	0	1
+2026-10-29T04:58:54	cir	downloaded		public_domain_review/public_domain_review.chunk.13.jsonl.gz			1
+2026-10-29T04:58:54	cir	annotated	weborganizer	public_domain_review/public_domain_review.chunk.13.jsonl.gz	22	0	0
+2026-10-29T04:58:55	cir	downloaded		public_domain_review/public_domain_review.chunk.14.jsonl.gz			1
+2026-10-29T04:58:56	cir	annotated	weborganizer	public_domain_review/public_domain_review.chunk.14.jsonl.gz	22	0	0
+2026-10-29T04:58:56	cir	downloaded		public_domain_review/public_domain_review.chunk.15.jsonl.gz			1
+2026-10-29T04:58:57	cir	annotated	weborganizer	public_domain_review/public_domain_review.chunk.15.jsonl.gz	22	0	0
+2026-10-29T04:58:58	cir	downloaded		public_domain_review/public_domain_review.chunk.16.jsonl.gz			1
+2026-10-29T04:58:58	cir	annotated	weborganizer	public_domain_review/public_domain_review.chunk.16.jsonl.gz	22	0	1
+2026-10-29T04:58:59	cir	downloaded		public_domain_review/public_domain_review.chunk.17.jsonl.gz			1
+2026-10-29T04:58:59	cir	annotated	weborganizer	public_domain_review/public_domain_review.chunk.17.jsonl.gz	22	0	1
+2026-10-29T04:59:00	cir	downloaded		public_domain_review/public_domain_review.chunk.18.jsonl.gz			1
+2026-10-29T04:59:01	cir	annotated	weborganizer	public_domain_review/public_domain_review.chunk.18.jsonl.gz	22	0	0
+2026-10-29T04:59:02	cir	downloaded		public_domain_review/public_domain_review.chunk.19.jsonl.gz			1
+2026-10-29T04:59:02	cir	annotated	weborganizer	public_domain_review/public_domain_review.chunk.19.jsonl.gz	22	0	1
+2026-10-29T04:59:03	cir	downloaded		public_domain_review/public_domain_review.chunk.20.jsonl.gz			1
+2026-10-29T04:59:03	cir	annotated	weborganizer	public_domain_review/public_domain_review.chunk.20.jsonl.gz	22	0	0
+2026-10-29T04:59:04	cir	downloaded		public_domain_review/public_domain_review.chunk.21.jsonl.gz			1
+2026-10-29T04:59:05	cir	annotated	weborganizer	public_domain_review/public_domain_review.chunk.21.jsonl.gz	22	0	0
+2026-10-29T04:59:05	cir	downloaded		public_domain_review/public_domain_review.chunk.22.jsonl.gz			1
+2026-10-29T04:59:06	cir	annotated	weborganizer	public_domain_review/public_domain_review.chunk.22.jsonl.gz	22	0	0
+2026-10-29T04:59:07	cir	downloaded		public_domain_review/public_domain_review.chunk.23.jsonl.gz			1
+2026-10-29T04:59:07	cir	annotated	weborganizer	public_domain_review/public_domain_review.chunk.23.jsonl.gz	22	0	0
+2026-10-29T04:59:08	cir	downloaded		public_domain_review/public_domain_review.chunk.24.jsonl.gz			1
+2026-10-29T04:59:08	cir	annotated	weborganizer	public_domain_review/public_domain_review.chunk.24.jsonl.gz	22	0	0
+2026-10-29T04:59:09	cir	downloaded		public_domain_review/public_domain_review.chunk.25.jsonl.gz			1
+2026-10-29T04:59:09	cir	annotated	weborganizer	public_domain_review/public_domain_review.chunk.25.jsonl.gz	22	0	0
+2026-10-29T04:59:10	cir	downloaded		public_domain_review/public_domain_review.chunk.26.jsonl.gz			1
+2026-10-29T04:59:11	cir	annotated	weborganizer	public_domain_review/public_domain_review.chunk.26.jsonl.gz	22	0	1
+2026-10-29T04:59:11	cir	downloaded		public_domain_review/public_domain_review.chunk.27.jsonl.gz			1
+2026-10-29T04:59:12	cir	annotated	weborganizer	public_domain_review/public_domain_review.chunk.27.jsonl.gz	22	0	0
+2026-10-29T04:59:12	cir	downloaded		public_domain_review/public_domain_review.chunk.28.jsonl.gz			1
+2026-10-29T04:59:13	cir	annotated	weborganizer	public_domain_review/public_domain_review.chunk.28.jsonl.gz	22	0	0
+2026-10-29T04:59:14	cir	downloaded		public_domain_review/public_domain_review.chunk.29.jsonl.gz			1
+2026-10-29T04:59:14	cir	annotated	weborganizer	public_domain_review/public_domain_review.chunk.29.jsonl.gz	22	0	0
+2026-10-29T04:59:15	cir	downloaded		public_domain_review/public_domain_review.chunk.30.jsonl.gz			1
+2026-10-29T04:59:15	cir	annotated	weborganizer	public_domain_review/public_domain_review.chunk.30.jsonl.gz	22	0	0
+2026-10-29T04:59:16	cir	downloaded		public_domain_review/public_domain_review.chunk.31.jsonl.gz			1
+2026-10-29T04:59:17	cir	annotated	weborganizer	public_domain_review/public_domain_review.chunk.31.jsonl.gz	22	0	1
+2026-10-29T04:59:17	cir	downloaded		public_domain_review/public_domain_review.chunk.32.jsonl.gz			1
+2026-10-29T04:59:18	cir	annotated	weborganizer	public_domain_review/public_domain_review.chunk.32.jsonl.gz	22	0	0
+2026-10-29T04:59:18	cir	downloaded		public_domain_review/public_domain_review.chunk.33.jsonl.gz			1
+2026-10-29T04:59:19	cir	annotated	weborganizer	public_domain_review/public_domain_review.chunk.33.jsonl.gz	22	0	1
+2026-10-29T04:59:20	cir	downloaded		public_domain_review/public_domain_review.chunk.34.jsonl.gz			1
+2026-10-29T04:59:20	cir	annotated	weborganizer	public_domain_review/public_domain_review.chunk.34.jsonl.gz	22	0	0
+2026-10-29T04:59:21	cir	downloaded		public_domain_review/public_domain_review.chunk.35.jsonl.gz			1
+2026-10-29T04:59:21	cir	annotated	weborganizer	public_domain_review/public_domain_review.chunk.35.jsonl.gz	22	0	0
+2026-10-29T04:59:22	cir	downloaded		public_domain_review/public_domain_review.chunk.36.jsonl.gz			1
+2026-10-29T04:59:22	cir	annotated	weborganizer	public_domain_review/public_domain_review.chunk.36.jsonl.gz	22	0	0
+2026-10-29T04:59:23	cir	downloaded		public_domain_review/public_domain_review.chunk.37.jsonl.gz			1
+2026-10-29T04:59:24	cir	annotated	weborganizer	public_domain_review/public_domain_review.chunk.37.jsonl.gz	22	0	1
+2026-10-29T04:59:25	cir	downloaded		public_domain_review/public_domain_review.chunk.38.jsonl.gz			1
+2026-10-29T04:59:25	cir	annotated	weborganizer	public_domain_review/public_domain_review.chunk.38.jsonl.gz	22	0	0
+2026-10-29T04:59:26	cir	downloaded		public_domain_review/public_domain_review.chunk.39.jsonl.gz			1
+2026-10-29T04:59:26	cir	annotated	weborganizer	public_domain_review/public_domain_review.chunk.39.jsonl.gz	22	0	1
+2026-10-29T04:59:27	cir	downloaded		public_domain_review/public_domain_review.chunk.40.jsonl.gz			1
+2026-10-29T04:59:28	cir	annotated	weborganizer	public_domain_review/public_domain_review.chunk.40.jsonl.gz	22	0	0
+2026-10-29T04:59:28	cir	downloaded		public_domain_review/public_domain_review.chunk.41.jsonl.gz			1
+2026-10-29T04:59:29	cir	annotated	weborganizer	public_domain_review/public_domain_review.chunk.41.jsonl.gz	22	0	1
+2026-10-29T04:59:30	cir	downloaded		public_domain_review/public_domain_review.chunk.42.jsonl.gz			1
+2026-10-29T04:59:30	cir	annotated	weborganizer	public_domain_review/public_domain_review.chunk.42.jsonl.gz	22	0	0
+2026-10-29T04:59:31	cir	downloaded		public_domain_review/public_domain_review.chunk.43.jsonl.gz			1
+2026-10-29T04:59:31	cir	annotated	weborganizer	public_domain_review/public_domain_review.chunk.43.jsonl.gz	22	0	0
+2026-10-29T04:59:32	cir	downloaded		public_domain_review/public_domain_review.chunk.44.jsonl.gz			1
+2026-10-29T04:59:32	cir	annotated	weborganizer	public_domain_review/public_domain_review.chunk.44.jsonl.gz	22	0	1
+2026-10-29T04:59:33	cir	downloaded		public_domain_review/public_domain_review.chunk.45.jsonl.gz			1
+2026-10-29T04:59:33	cir	annotated	weborganizer	public_domain_review/public_domain_review.chunk.45.jsonl.gz	22	0	0
+2026-10-29T04:59:34	cir	downloaded		public_domain_review/public_domain_review.chunk.46.jsonl.gz			1
+2026-10-29T04:59:35	cir	annotated	weborganizer	public_domain_review/public_domain_review.chunk.46.jsonl.gz	22	0	1
+2026-10-29T04:59:36	cir	downloaded		public_domain_review/public_domain_review.chunk.47.jsonl.gz			1
+2026-10-29T04:59:36	cir	annotated	weborganizer	public_domain_review/public_domain_review.chunk.47.jsonl.gz	22	0	0
+2026-10-29T04:59:37	cir	downloaded		public_domain_review/public_domain_review.chunk.48.jsonl.gz			1
+2026-10-29T04:59:37	cir	annotated	weborganizer	public_domain_review/public_domain_review.chunk.48.jsonl.gz	22	0	1
+2026-10-29T04:59:38	cir	downloaded		public_domain_review/public_domain_review.chunk.49.jsonl.gz			1
+2026-10-29T04:59:39	cir	annotated	weborganizer	public_domain_review/public_domain_review.chunk.49.jsonl.gz	22	0	1
+2026-10-29T04:59:40	cir	downloaded		public_domain_review/public_domain_review.chunk.50.jsonl.gz			1
+2026-10-29T04:59:40	cir	annotated	weborganizer	public_domain_review/public_domain_review.chunk.50.jsonl.gz	22	0	0
+2026-10-29T04:59:41	cir	downloaded		public_domain_review/public_domain_review.chunk.51.jsonl.gz			1
+2026-10-29T04:59:41	cir	annotated	weborganizer	public_domain_review/public_domain_review.chunk.51.jsonl.gz	22	0	0
+2026-10-29T04:59:42	cir	downloaded		public_domain_review/public_domain_review.chunk.52.jsonl.gz			1
+2026-10-29T04:59:42	cir	annotated	weborganizer	public_domain_review/public_domain_review.chunk.52.jsonl.gz	22	0	0
+2026-10-29T04:59:43	cir	downloaded		public_domain_review/public_domain_review.chunk.53.jsonl.gz			1
+2026-10-29T04:59:43	cir	annotated	weborganizer	public_domain_review/public_domain_review.chunk.53.jsonl.gz	22	0	1
+2026-10-29T04:59:44	cir	downloaded		public_domain_review/public_domain_review.chunk.54.jsonl.gz			1
+2026-10-29T04:59:45	cir	annotated	weborganizer	public_domain_review/public_domain_review.chunk.54.jsonl.gz	22	0	0
+2026-10-29T04:59:45	cir	downloaded		public_domain_review/public_domain_review.chunk.55.jsonl.gz			1
+2026-10-29T04:59:46	cir	annotated	weborganizer	public_domain_review/public_domain_review.chunk.55.jsonl.gz	22	0	0
+2026-10-29T04:59:46	cir	downloaded		public_domain_review/public_domain_review.chunk.56.jsonl.gz			1
+2026-10-29T04:59:47	cir	annotated	weborganizer	public_domain_review/public_domain_review.chunk.56.jsonl.gz	22	0	0
+2026-10-29T04:59:47	cir	downloaded		public_domain_review/public_domain_review.chunk.57.jsonl.gz			1
+2026-10-29T04:59:48	cir	annotated	weborganizer	public_domain_review/public_domain_review.chunk.57.jsonl.gz	22	0	1
+2026-10-29T04:59:49	cir	downloaded		public_domain_review/public_domain_review.chunk.58.jsonl.gz			1
+2026-10-29T04:59:49	cir	annotated	weborganizer	public_domain_review/public_domain_review.chunk.58.jsonl.gz	22	0	1
+2026-10-29T04:59:50	cir	downloaded		public_domain_review/public_domain_review.chunk.59.jsonl.gz			1
+2026-10-29T04:59:50	cir	annotated	weborganizer	public_domain_review/public_domain_review.chunk.59.jsonl.gz	22	0	0
+2026-10-29T04:59:51	cir	downloaded		public_domain_review/public_domain_review.chunk.60.jsonl.gz			1
+2026-10-29T04:59:52	cir	annotated	weborganizer	public_domain_review/public_domain_review.chunk.60.jsonl.gz	22	0	0
+2026-10-29T04:59:52	cir	downloaded		public_domain_review/public_domain_review.chunk.61.jsonl.gz			1
+2026-10-29T04:59:52	cir	annotated	weborganizer	public_domain_review/public_domain_review.chunk.61.jsonl.gz	22	0	0
+2026-10-29T04:59:53	cir	downloaded		public_domain_review/public_domain_review.chunk.62.jsonl.gz			1
+2026-10-29T04:59:54	cir	annotated	weborganizer	public_domain_review/public_domain_review.chunk.62.jsonl.gz	21	0	0
+2026-10-29T04:59:54	cir	downloaded		public_domain_review/public_domain_review.chunk.63.jsonl.gz			1
+2026-10-29T04:59:55	cir	annotated	weborganizer	public_domain_review/public_domain_review.chunk.63.jsonl.gz	21	0	0
+2026-10-29T04:59:59	cir	downloaded		wikimedia/wikimedia.chunk.00.jsonl.gz			5
+2026-10-29T05:03:17	cir	annotated	weborganizer	cccc/cccc.chunk.62.jsonl.gz	107064	0	2219
+2026-10-29T05:03:25	cir	downloaded		wikimedia/wikimedia.chunk.01.jsonl.gz			7
+2026-10-29T05:16:50	cir	annotated	weborganizer	cccc/cccc.chunk.63.jsonl.gz	107064	0	2174
+2026-10-29T05:16:56	cir	downloaded		wikimedia/wikimedia.chunk.02.jsonl.gz			5
+2026-10-29T05:29:46	cir	annotated	weborganizer	wikimedia/wikimedia.chunk.00.jsonl.gz	254869	0	1778
+2026-10-29T05:29:52	cir	downloaded		wikimedia/wikimedia.chunk.03.jsonl.gz			5
+2026-10-29T05:33:39	cir	annotated	weborganizer	wikimedia/wikimedia.chunk.01.jsonl.gz	254869	0	1805
+2026-10-29T05:33:45	cir	downloaded		wikimedia/wikimedia.chunk.04.jsonl.gz			6
+2026-10-29T05:46:32	cir	annotated	weborganizer	wikimedia/wikimedia.chunk.02.jsonl.gz	254869	0	1767
+2026-10-29T05:46:37	cir	downloaded		wikimedia/wikimedia.chunk.05.jsonl.gz			5
+2026-10-29T05:59:37	cir	annotated	weborganizer	wikimedia/wikimedia.chunk.03.jsonl.gz	254869	0	1776
+2026-10-29T05:59:43	cir	downloaded		wikimedia/wikimedia.chunk.06.jsonl.gz			5
+2026-10-29T06:04:23	cir	annotated	weborganizer	wikimedia/wikimedia.chunk.04.jsonl.gz	254869	0	1829
+2026-10-29T06:04:29	cir	downloaded		wikimedia/wikimedia.chunk.07.jsonl.gz			5
+2026-10-29T06:16:10	cir	annotated	weborganizer	wikimedia/wikimedia.chunk.05.jsonl.gz	254869	0	1765
+2026-10-29T06:16:16	cir	downloaded		wikimedia/wikimedia.chunk.08.jsonl.gz			5
+2026-10-29T06:29:39	cir	annotated	weborganizer	wikimedia/wikimedia.chunk.06.jsonl.gz	254869	0	1787
+2026-10-29T06:29:46	cir	downloaded		wikimedia/wikimedia.chunk.09.jsonl.gz			6
+2026-10-29T06:34:58	cir	annotated	weborganizer	wikimedia/wikimedia.chunk.07.jsonl.gz	254869	0	1820
+2026-10-29T06:35:04	cir	downloaded		wikimedia/wikimedia.chunk.10.jsonl.gz			6
+2026-10-29T06:45:50	cir	annotated	weborganizer	wikimedia/wikimedia.chunk.08.jsonl.gz	254869	0	1765
+2026-10-29T06:45:55	cir	downloaded		wikimedia/wikimedia.chunk.11.jsonl.gz			5
+2026-10-29T06:59:35	cir	annotated	weborganizer	wikimedia/wikimedia.chunk.09.jsonl.gz	254869	0	1780
+2026-10-29T06:59:41	cir	downloaded		wikimedia/wikimedia.chunk.12.jsonl.gz			5
+2026-10-29T07:05:02	cir	annotated	weborganizer	wikimedia/wikimedia.chunk.10.jsonl.gz	254869	0	1789
+2026-10-29T07:05:08	cir	downloaded		wikimedia/wikimedia.chunk.13.jsonl.gz			5
+2026-10-29T07:15:59	cir	annotated	weborganizer	wikimedia/wikimedia.chunk.11.jsonl.gz	254869	0	1795
+2026-10-29T07:16:05	cir	downloaded		wikimedia/wikimedia.chunk.14.jsonl.gz			5
+2026-10-29T07:29:22	cir	annotated	weborganizer	wikimedia/wikimedia.chunk.12.jsonl.gz	254869	0	1773
+2026-10-29T07:29:28	cir	downloaded		wikimedia/wikimedia.chunk.15.jsonl.gz			5
+2026-10-29T07:35:28	cir	annotated	weborganizer	wikimedia/wikimedia.chunk.13.jsonl.gz	254869	0	1811
+2026-10-29T07:35:34	cir	downloaded		wikimedia/wikimedia.chunk.16.jsonl.gz			6
+2026-10-29T07:45:30	cir	annotated	weborganizer	wikimedia/wikimedia.chunk.14.jsonl.gz	254869	0	1757
+2026-10-29T07:45:36	cir	downloaded		wikimedia/wikimedia.chunk.17.jsonl.gz			5
+2026-10-29T07:59:16	cir	annotated	weborganizer	wikimedia/wikimedia.chunk.15.jsonl.gz	254869	0	1779
+2026-10-29T07:59:21	cir	downloaded		wikimedia/wikimedia.chunk.18.jsonl.gz			5
+2026-10-29T08:05:57	cir	annotated	weborganizer	wikimedia/wikimedia.chunk.16.jsonl.gz	254869	0	1815
+2026-10-29T08:06:03	cir	downloaded		wikimedia/wikimedia.chunk.19.jsonl.gz			5
+2026-10-29T08:15:11	cir	annotated	weborganizer	wikimedia/wikimedia.chunk.17.jsonl.gz	254869	0	1767
+2026-10-29T08:15:16	cir	downloaded		wikimedia/wikimedia.chunk.20.jsonl.gz			5
+2026-10-29T08:29:15	cir	annotated	weborganizer	wikimedia/wikimedia.chunk.18.jsonl.gz	254869	0	1785
+2026-10-29T08:29:22	cir	downloaded		wikimedia/wikimedia.chunk.21.jsonl.gz			6
+2026-10-29T08:36:38	cir	annotated	weborganizer	wikimedia/wikimedia.chunk.19.jsonl.gz	254869	0	1826
+2026-10-29T08:36:44	cir	downloaded		wikimedia/wikimedia.chunk.22.jsonl.gz			6
+2026-10-29T08:44:37	cir	annotated	weborganizer	wikimedia/wikimedia.chunk.20.jsonl.gz	254869	0	1752
+2026-10-29T08:44:43	cir	downloaded		wikimedia/wikimedia.chunk.23.jsonl.gz			6
+2026-10-29T08:59:04	cir	annotated	weborganizer	wikimedia/wikimedia.chunk.21.jsonl.gz	254869	0	1773
+2026-10-29T08:59:10	cir	downloaded		wikimedia/wikimedia.chunk.24.jsonl.gz			6
+2026-10-29T09:07:08	cir	annotated	weborganizer	wikimedia/wikimedia.chunk.22.jsonl.gz	254868	0	1815
+2026-10-29T09:07:14	cir	downloaded		wikimedia/wikimedia.chunk.25.jsonl.gz			5
+2026-10-29T09:13:57	cir	annotated	weborganizer	wikimedia/wikimedia.chunk.23.jsonl.gz	254868	0	1745
+2026-10-29T09:14:03	cir	downloaded		wikimedia/wikimedia.chunk.26.jsonl.gz			5
+2026-10-29T09:28:41	cir	annotated	weborganizer	wikimedia/wikimedia.chunk.24.jsonl.gz	254868	0	1762
+2026-10-29T09:28:47	cir	downloaded		wikimedia/wikimedia.chunk.27.jsonl.gz			6
+2026-10-29T09:38:07	cir	annotated	weborganizer	wikimedia/wikimedia.chunk.25.jsonl.gz	254868	0	1843
+2026-10-29T09:38:13	cir	downloaded		wikimedia/wikimedia.chunk.28.jsonl.gz			6
+2026-10-29T09:43:26	cir	annotated	weborganizer	wikimedia/wikimedia.chunk.26.jsonl.gz	254868	0	1755
+2026-10-29T09:43:32	cir	downloaded		wikimedia/wikimedia.chunk.29.jsonl.gz			5
+2026-10-29T09:58:33	cir	annotated	weborganizer	wikimedia/wikimedia.chunk.27.jsonl.gz	254868	0	1778
+2026-10-29T09:58:39	cir	downloaded		wikimedia/wikimedia.chunk.30.jsonl.gz			6
+2026-10-29T10:08:21	cir	annotated	weborganizer	wikimedia/wikimedia.chunk.28.jsonl.gz	254868	0	1799
+2026-10-29T10:08:27	cir	downloaded		wikimedia/wikimedia.chunk.31.jsonl.gz			5
+2026-10-29T10:13:08	cir	annotated	weborganizer	wikimedia/wikimedia.chunk.29.jsonl.gz	254868	0	1767
+2026-10-29T10:13:14	cir	downloaded		wikimedia/wikimedia.chunk.32.jsonl.gz			5
+2026-10-29T10:28:20	cir	annotated	weborganizer	wikimedia/wikimedia.chunk.30.jsonl.gz	254868	0	1772
+2026-10-29T10:28:26	cir	downloaded		wikimedia/wikimedia.chunk.33.jsonl.gz			6
+2026-10-29T10:38:50	cir	annotated	weborganizer	wikimedia/wikimedia.chunk.31.jsonl.gz	254868	0	1814
+2026-10-29T10:38:56	cir	downloaded		wikimedia/wikimedia.chunk.34.jsonl.gz			5
+2026-10-29T10:43:00	cir	annotated	weborganizer	wikimedia/wikimedia.chunk.32.jsonl.gz	254868	0	1776
+2026-10-29T10:43:06	cir	downloaded		wikimedia/wikimedia.chunk.35.jsonl.gz			5
+2026-10-29T10:58:15	cir	annotated	weborganizer	wikimedia/wikimedia.chunk.33.jsonl.gz	254868	0	1780
+2026-10-29T10:58:21	cir	downloaded		wikimedia/wikimedia.chunk.36.jsonl.gz			5
+2026-10-29T11:09:19	cir	annotated	weborganizer	wikimedia/wikimedia.chunk.34.jsonl.gz	254868	0	1813
+2026-10-29T11:09:25	cir	downloaded		wikimedia/wikimedia.chunk.37.jsonl.gz			6
+2026-10-29T11:12:49	cir	annotated	weborganizer	wikimedia/wikimedia.chunk.35.jsonl.gz	254868	0	1774
+2026-10-29T11:12:55	cir	downloaded		wikimedia/wikimedia.chunk.38.jsonl.gz			5
+2026-10-29T11:27:56	cir	annotated	weborganizer	wikimedia/wikimedia.chunk.36.jsonl.gz	254868	0	1766
+2026-10-29T11:28:01	cir	downloaded		wikimedia/wikimedia.chunk.39.jsonl.gz			5
+2026-10-29T11:39:55	cir	annotated	weborganizer	wikimedia/wikimedia.chunk.37.jsonl.gz	254868	0	1821
+2026-10-29T11:40:00	cir	downloaded		wikimedia/wikimedia.chunk.40.jsonl.gz			5
+2026-10-29T11:42:31	cir	annotated	weborganizer	wikimedia/wikimedia.chunk.38.jsonl.gz	254868	0	1767
+2026-10-29T11:42:37	cir	downloaded		wikimedia/wikimedia.chunk.41.jsonl.gz			5
+2026-10-29T11:58:10	cir	annotated	weborganizer	wikimedia/wikimedia.chunk.39.jsonl.gz	254868	0	1800
+2026-10-29T11:58:16	cir	downloaded		wikimedia/wikimedia.chunk.42.jsonl.gz			6
+2026-10-29T12:10:31	cir	annotated	weborganizer	wikimedia/wikimedia.chunk.40.jsonl.gz	254868	0	1821
+2026-10-29T12:10:37	cir	downloaded		wikimedia/wikimedia.chunk.43.jsonl.gz			5
+2026-10-29T12:12:00	cir	annotated	weborganizer	wikimedia/wikimedia.chunk.41.jsonl.gz	254868	0	1755
+2026-10-29T12:12:06	cir	downloaded		wikimedia/wikimedia.chunk.44.jsonl.gz			5
+2026-10-29T12:28:06	cir	annotated	weborganizer	wikimedia/wikimedia.chunk.42.jsonl.gz	254868	0	1781
+2026-10-29T12:28:11	cir	downloaded		wikimedia/wikimedia.chunk.45.jsonl.gz			5
+2026-10-29T12:41:17	cir	annotated	weborganizer	wikimedia/wikimedia.chunk.43.jsonl.gz	254868	0	1830
+2026-10-29T12:41:23	cir	downloaded		wikimedia/wikimedia.chunk.46.jsonl.gz			5
+2026-10-29T12:41:49	cir	annotated	weborganizer	wikimedia/wikimedia.chunk.44.jsonl.gz	254868	0	1774
+2026-10-29T12:41:55	cir	downloaded		wikimedia/wikimedia.chunk.47.jsonl.gz			6
+2026-10-29T12:58:05	cir	annotated	weborganizer	wikimedia/wikimedia.chunk.45.jsonl.gz	254868	0	1785
+2026-10-29T12:58:11	cir	downloaded		wikimedia/wikimedia.chunk.48.jsonl.gz			5
+2026-10-29T13:11:21	cir	annotated	weborganizer	wikimedia/wikimedia.chunk.47.jsonl.gz	254868	0	1758
+2026-10-29T13:11:27	cir	downloaded		wikimedia/wikimedia.chunk.49.jsonl.gz			6
+2026-10-29T13:11:56	cir	annotated	weborganizer	wikimedia/wikimedia.chunk.46.jsonl.gz	254868	0	1823
+2026-10-29T13:12:02	cir	downloaded		wikimedia/wikimedia.chunk.50.jsonl.gz			6
+2026-10-29T13:27:59	cir	annotated	weborganizer	wikimedia/wikimedia.chunk.48.jsonl.gz	254868	0	1780
+2026-10-29T13:28:05	cir	downloaded		wikimedia/wikimedia.chunk.51.jsonl.gz			5
+2026-10-29T13:40:54	cir	annotated	weborganizer	wikimedia/wikimedia.chunk.49.jsonl.gz	254868	0	1758
+2026-10-29T13:41:00	cir	downloaded		wikimedia/wikimedia.chunk.52.jsonl.gz			5
+2026-10-29T13:42:33	cir	annotated	weborganizer	wikimedia/wikimedia.chunk.50.jsonl.gz	254868	0	1822
+2026-10-29T13:42:39	cir	downloaded		wikimedia/wikimedia.chunk.53.jsonl.gz			6
+2026-10-29T13:57:45	cir	annotated	weborganizer	wikimedia/wikimedia.chunk.51.jsonl.gz	254868	0	1771
+2026-10-29T13:57:51	cir	downloaded		wikimedia/wikimedia.chunk.54.jsonl.gz			5
+2026-10-29T14:10:28	cir	annotated	weborganizer	wikimedia/wikimedia.chunk.52.jsonl.gz	254868	0	1759
+2026-10-29T14:10:34	cir	downloaded		wikimedia/wikimedia.chunk.55.jsonl.gz			5
+2026-10-29T14:13:11	cir	annotated	weborganizer	wikimedia/wikimedia.chunk.53.jsonl.gz	254868	0	1823
+2026-10-29T14:13:16	cir	downloaded		wikimedia/wikimedia.chunk.56.jsonl.gz			5
+2026-10-29T14:27:37	cir	annotated	weborganizer	wikimedia/wikimedia.chunk.54.jsonl.gz	254868	0	1778
+2026-10-29T14:27:43	cir	downloaded		wikimedia/wikimedia.chunk.57.jsonl.gz			5
+2026-10-29T14:40:13	cir	annotated	weborganizer	wikimedia/wikimedia.chunk.55.jsonl.gz	254868	0	1771
+2026-10-29T14:40:19	cir	downloaded		wikimedia/wikimedia.chunk.58.jsonl.gz			6
+2026-10-29T14:43:30	cir	annotated	weborganizer	wikimedia/wikimedia.chunk.56.jsonl.gz	254868	0	1805
+2026-10-29T14:43:36	cir	downloaded		wikimedia/wikimedia.chunk.59.jsonl.gz			6
+2026-10-29T14:57:29	cir	annotated	weborganizer	wikimedia/wikimedia.chunk.57.jsonl.gz	254868	0	1777
+2026-10-29T14:57:35	cir	downloaded		wikimedia/wikimedia.chunk.60.jsonl.gz			5
+2026-10-29T15:09:56	cir	annotated	weborganizer	wikimedia/wikimedia.chunk.58.jsonl.gz	254868	0	1769
+2026-10-29T15:10:03	cir	downloaded		wikimedia/wikimedia.chunk.61.jsonl.gz			6
+2026-10-29T15:13:57	cir	annotated	weborganizer	wikimedia/wikimedia.chunk.59.jsonl.gz	254868	0	1812
+2026-10-29T15:14:03	cir	downloaded		wikimedia/wikimedia.chunk.62.jsonl.gz			6
+2026-10-29T15:27:31	cir	annotated	weborganizer	wikimedia/wikimedia.chunk.60.jsonl.gz	254868	0	1787
+2026-10-29T15:27:36	cir	downloaded		wikimedia/wikimedia.chunk.63.jsonl.gz			5
+2026-10-29T15:39:39	cir	annotated	weborganizer	wikimedia/wikimedia.chunk.61.jsonl.gz	254868	0	1767
+2026-10-29T15:39:42	cir	downloaded		wikiteam/00000_wikiteam.json.gz			3
+2026-10-29T15:44:46	cir	annotated	weborganizer	wikimedia/wikimedia.chunk.62.jsonl.gz	254868	0	1834
+2026-10-29T15:44:50	cir	downloaded		wikiteam/00001_wikiteam.json.gz			3
+2026-10-29T15:45:18	cir	annotated	weborganizer	wikiteam/00000_wikiteam.json.gz	159879	0	334
+2026-10-29T15:45:22	cir	downloaded		wikiteam/00002_wikiteam.json.gz			3
+2026-10-29T15:50:44	cir	annotated	weborganizer	wikiteam/00001_wikiteam.json.gz	159879	0	352
+2026-10-29T15:50:48	cir	downloaded		wikiteam/00003_wikiteam.json.gz			3
+2026-10-29T15:50:57	cir	annotated	weborganizer	wikiteam/00002_wikiteam.json.gz	159879	0	333
+2026-10-29T15:51:00	cir	downloaded		wikiteam/00004_wikiteam.json.gz			3
+2026-10-29T15:56:41	cir	annotated	weborganizer	wikiteam/00004_wikiteam.json.gz	159879	0	339
+2026-10-29T15:56:42	cir	annotated	weborganizer	wikiteam/00003_wikiteam.json.gz	159879	0	352
+2026-10-29T15:56:44	cir	downloaded		wikiteam/00005_wikiteam.json.gz			3
+2026-10-29T15:56:45	cir	downloaded		wikiteam/00006_wikiteam.json.gz			4
+2026-10-29T15:57:16	cir	annotated	weborganizer	wikimedia/wikimedia.chunk.63.jsonl.gz	254868	0	1771
+2026-10-29T15:57:20	cir	downloaded		wikiteam/00007_wikiteam.json.gz			3
+2026-10-29T16:02:27	cir	annotated	weborganizer	wikiteam/00005_wikiteam.json.gz	159879	0	341
+2026-10-29T16:02:30	cir	downloaded		wikiteam/00008_wikiteam.json.gz			3
+2026-10-29T16:02:34	cir	annotated	weborganizer	wikiteam/00006_wikiteam.json.gz	159879	0	346
+2026-10-29T16:02:37	cir	downloaded		wikiteam/00009_wikiteam.json.gz			3
+2026-10-29T16:02:51	cir	annotated	weborganizer	wikiteam/00007_wikiteam.json.gz	159879	0	329
+2026-10-29T16:02:55	cir	downloaded		wikiteam/00010_wikiteam.json.gz			3
+2026-10-29T16:08:06	cir	annotated	weborganizer	wikiteam/00008_wikiteam.json.gz	159879	0	334
+2026-10-29T16:08:10	cir	downloaded		wikiteam/00011_wikiteam.json.gz			3
+2026-10-29T16:08:23	cir	annotated	weborganizer	wikiteam/00009_wikiteam.json.gz	159879	0	344
+2026-10-29T16:08:28	cir	downloaded		wikiteam/00012_wikiteam.json.gz			4
+2026-10-29T16:08:32	cir	annotated	weborganizer	wikiteam/00010_wikiteam.json.gz	159879	0	336
+2026-10-29T16:08:36	cir	downloaded		wikiteam/00013_wikiteam.json.gz			3
+2026-10-29T16:13:49	cir	annotated	weborganizer	wikiteam/00011_wikiteam.json.gz	159879	0	338
+2026-10-29T16:13:53	cir	downloaded		wikiteam/00014_wikiteam.json.gz			3
+2026-10-29T16:14:16	cir	annotated	weborganizer	wikiteam/00013_wikiteam.json.gz	159879	0	338
+2026-10-29T16:14:17	cir	annotated	weborganizer	wikiteam/00012_wikiteam.json.gz	159879	0	347
+2026-10-29T16:14:20	cir	downloaded		wikiteam/00015_wikiteam.json.gz			3
+2026-10-29T16:14:20	cir	downloaded		wikiteam/00016_wikiteam.json.gz			3
+2026-10-29T16:19:30	cir	annotated	weborganizer	wikiteam/00014_wikiteam.json.gz	159879	0	335
+2026-10-29T16:19:35	cir	downloaded		wikiteam/00017_wikiteam.json.gz			4
+2026-10-29T16:20:04	cir	annotated	weborganizer	wikiteam/00015_wikiteam.json.gz	159879	0	342
+2026-10-29T16:20:07	cir	downloaded		wikiteam/00018_wikiteam.json.gz			3
+2026-10-29T16:20:07	cir	annotated	weborganizer	wikiteam/00016_wikiteam.json.gz	159879	0	345
+2026-10-29T16:20:11	cir	downloaded		wikiteam/00019_wikiteam.json.gz			3
+2026-10-29T16:25:08	cir	annotated	weborganizer	wikiteam/00017_wikiteam.json.gz	159879	0	331
+2026-10-29T16:25:12	cir	downloaded		wikiteam/00020_wikiteam.json.gz			3
+2026-10-29T16:25:47	cir	annotated	weborganizer	wikiteam/00018_wikiteam.json.gz	159879	0	338
+2026-10-29T16:25:51	cir	downloaded		wikiteam/00021_wikiteam.json.gz			4
+2026-10-29T16:26:01	cir	annotated	weborganizer	wikiteam/00019_wikiteam.json.gz	159879	0	348
+2026-10-29T16:26:05	cir	downloaded		wikiteam/00022_wikiteam.json.gz			3
+2026-10-29T16:30:46	cir	annotated	weborganizer	wikiteam/00020_wikiteam.json.gz	159879	0	333
+2026-10-29T16:30:50	cir	downloaded		wikiteam/00023_wikiteam.json.gz			3
+2026-10-29T16:31:36	cir	annotated	weborganizer	wikiteam/00021_wikiteam.json.gz	159878	0	342
+2026-10-29T16:31:40	cir	downloaded		wikiteam/00024_wikiteam.json.gz			4
+2026-10-29T16:31:53	cir	annotated	weborganizer	wikiteam/00022_wikiteam.json.gz	159878	0	346
+2026-10-29T16:31:56	cir	downloaded		wikiteam/00025_wikiteam.json.gz			3
+2026-10-29T16:36:29	cir	annotated	weborganizer	wikiteam/00023_wikiteam.json.gz	159878	0	337
+2026-10-29T16:36:32	cir	downloaded		wikiteam/00026_wikiteam.json.gz			3
+2026-10-29T16:37:24	cir	annotated	weborganizer	wikiteam/00024_wikiteam.json.gz	159878	0	342
+2026-10-29T16:37:27	cir	downloaded		wikiteam/00027_wikiteam.json.gz			3
+2026-10-29T16:37:45	cir	annotated	weborganizer	wikiteam/00025_wikiteam.json.gz	159878	0	347
+2026-10-29T16:37:48	cir	downloaded		wikiteam/00028_wikiteam.json.gz			3
+2026-10-29T16:42:13	cir	annotated	weborganizer	wikiteam/00026_wikiteam.json.gz	159878	0	339
+2026-10-29T16:42:17	cir	downloaded		wikiteam/00029_wikiteam.json.gz			3
+2026-10-29T16:43:11	cir	annotated	weborganizer	wikiteam/00027_wikiteam.json.gz	159878	0	341
+2026-10-29T16:43:14	cir	downloaded		wikiteam/00030_wikiteam.json.gz			3
+2026-10-29T16:43:39	cir	annotated	weborganizer	wikiteam/00028_wikiteam.json.gz	159878	0	349
+2026-10-29T16:43:43	cir	downloaded		wikiteam/00031_wikiteam.json.gz			3
+2026-10-29T16:47:49	cir	annotated	weborganizer	wikiteam/00029_wikiteam.json.gz	159878	0	330
+2026-10-29T16:47:53	cir	downloaded		wikiteam/00032_wikiteam.json.gz			3
+2026-10-29T16:48:51	cir	annotated	weborganizer	wikiteam/00030_wikiteam.json.gz	159878	0	335
+2026-10-29T16:48:54	cir	downloaded		wikiteam/00033_wikiteam.json.gz			3
+2026-10-29T16:49:31	cir	annotated	weborganizer	wikiteam/00031_wikiteam.json.gz	159878	0	346
+2026-10-29T16:49:34	cir	downloaded		wikiteam/00034_wikiteam.json.gz			3
+2026-10-29T16:53:28	cir	annotated	weborganizer	wikiteam/00032_wikiteam.json.gz	159878	0	333
+2026-10-29T16:53:32	cir	downloaded		wikiteam/00035_wikiteam.json.gz			4
+2026-10-29T16:54:32	cir	annotated	weborganizer	wikiteam/00033_wikiteam.json.gz	159878	0	335
+2026-10-29T16:54:35	cir	downloaded		wikiteam/00036_wikiteam.json.gz			3
+2026-10-29T16:55:25	cir	annotated	weborganizer	wikiteam/00034_wikiteam.json.gz	159878	0	349
+2026-10-29T16:55:28	cir	downloaded		wikiteam/00037_wikiteam.json.gz			3
+2026-10-29T16:59:04	cir	annotated	weborganizer	wikiteam/00035_wikiteam.json.gz	159878	0	329
+2026-10-29T16:59:07	cir	downloaded		wikiteam/00038_wikiteam.json.gz			3
+2026-10-29T17:00:15	cir	annotated	weborganizer	wikiteam/00036_wikiteam.json.gz	159878	0	338
+2026-10-29T17:00:19	cir	downloaded		wikiteam/00039_wikiteam.json.gz			3
+2026-10-29T17:01:19	cir	annotated	weborganizer	wikiteam/00037_wikiteam.json.gz	159878	0	349
+2026-10-29T17:01:23	cir	downloaded		wikiteam/00040_wikiteam.json.gz			3
+2026-10-29T17:04:44	cir	annotated	weborganizer	wikiteam/00038_wikiteam.json.gz	159878	0	334
+2026-10-29T17:04:48	cir	downloaded		wikiteam/00041_wikiteam.json.gz			4
+2026-10-29T17:05:57	cir	annotated	weborganizer	wikiteam/00039_wikiteam.json.gz	159878	0	337
+2026-10-29T17:06:01	cir	downloaded		wikiteam/00042_wikiteam.json.gz			3
+2026-10-29T17:07:18	cir	annotated	weborganizer	wikiteam/00040_wikiteam.json.gz	159878	0	352
+2026-10-29T17:07:21	cir	downloaded		wikiteam/00043_wikiteam.json.gz			3
+2026-10-29T17:10:29	cir	annotated	weborganizer	wikiteam/00041_wikiteam.json.gz	159878	0	339
+2026-10-29T17:10:32	cir	downloaded		wikiteam/00044_wikiteam.json.gz			3
+2026-10-29T17:11:44	cir	annotated	weborganizer	wikiteam/00042_wikiteam.json.gz	159878	0	341
+2026-10-29T17:11:47	cir	downloaded		wikiteam/00045_wikiteam.json.gz			3
+2026-10-29T17:13:07	cir	annotated	weborganizer	wikiteam/00043_wikiteam.json.gz	159878	0	343
+2026-10-29T17:13:10	cir	downloaded		wikiteam/00046_wikiteam.json.gz			3
+2026-10-29T17:16:04	cir	annotated	weborganizer	wikiteam/00044_wikiteam.json.gz	159878	0	330
+2026-10-29T17:16:08	cir	downloaded		wikiteam/00047_wikiteam.json.gz			3
+2026-10-29T17:17:30	cir	annotated	weborganizer	wikiteam/00045_wikiteam.json.gz	159878	0	340
+2026-10-29T17:17:33	cir	downloaded		wikiteam/00048_wikiteam.json.gz			3
+2026-10-29T17:19:02	cir	annotated	weborganizer	wikiteam/00046_wikiteam.json.gz	159878	0	350
+2026-10-29T17:19:06	cir	downloaded		wikiteam/00049_wikiteam.json.gz			3
+2026-10-29T17:21:50	cir	annotated	weborganizer	wikiteam/00047_wikiteam.json.gz	159878	0	340
+2026-10-29T17:21:54	cir	downloaded		wikiteam/00050_wikiteam.json.gz			3
+2026-10-29T17:23:19	cir	annotated	weborganizer	wikiteam/00048_wikiteam.json.gz	159878	0	343
+2026-10-29T17:23:22	cir	downloaded		wikiteam/00051_wikiteam.json.gz			3
+2026-10-29T17:24:57	cir	annotated	weborganizer	wikiteam/00049_wikiteam.json.gz	159878	0	349
+2026-10-29T17:25:01	cir	downloaded		wikiteam/00052_wikiteam.json.gz			4
+2026-10-29T17:27:35	cir	annotated	weborganizer	wikiteam/00050_wikiteam.json.gz	159878	0	339
+2026-10-29T17:27:38	cir	downloaded		wikiteam/00053_wikiteam.json.gz			3
+2026-10-29T17:29:04	cir	annotated	weborganizer	wikiteam/00051_wikiteam.json.gz	159878	0	340
+2026-10-29T17:29:07	cir	downloaded		wikiteam/00054_wikiteam.json.gz			3
+2026-10-29T17:30:48	cir	annotated	weborganizer	wikiteam/00052_wikiteam.json.gz	159878	0	344
+2026-10-29T17:30:51	cir	downloaded		wikiteam/00055_wikiteam.json.gz			3
+2026-10-29T17:33:16	cir	annotated	weborganizer	wikiteam/00053_wikiteam.json.gz	159878	0	336
+2026-10-29T17:33:20	cir	downloaded		wikiteam/00056_wikiteam.json.gz			3
+2026-10-29T17:34:50	cir	annotated	weborganizer	wikiteam/00054_wikiteam.json.gz	159878	0	340
+2026-10-29T17:34:53	cir	downloaded		wikiteam/00057_wikiteam.json.gz			3
+2026-10-29T17:36:46	cir	annotated	weborganizer	wikiteam/00055_wikiteam.json.gz	159878	0	353
+2026-10-29T17:36:49	cir	downloaded		wikiteam/00058_wikiteam.json.gz			3
+2026-10-29T17:38:51	cir	annotated	weborganizer	wikiteam/00056_wikiteam.json.gz	159878	0	329
+2026-10-29T17:38:54	cir	downloaded		wikiteam/00059_wikiteam.json.gz			3
+2026-10-29T17:40:34	cir	annotated	weborganizer	wikiteam/00057_wikiteam.json.gz	159878	0	338
+2026-10-29T17:40:38	cir	downloaded		wikiteam/00060_wikiteam.json.gz			4
+2026-10-29T17:42:41	cir	annotated	weborganizer	wikiteam/00058_wikiteam.json.gz	159878	0	350
+2026-10-29T17:42:44	cir	downloaded		wikiteam/00061_wikiteam.json.gz			3
+2026-10-29T17:44:30	cir	annotated	weborganizer	wikiteam/00059_wikiteam.json.gz	159878	0	333
+2026-10-29T17:44:33	cir	downloaded		wikiteam/00062_wikiteam.json.gz			3
+2026-10-29T17:46:19	cir	annotated	weborganizer	wikiteam/00060_wikiteam.json.gz	159878	0	339
+2026-10-29T17:46:23	cir	downloaded		wikiteam/00063_wikiteam.json.gz			4
+2026-10-29T17:48:38	cir	annotated	weborganizer	wikiteam/00061_wikiteam.json.gz	159878	0	351
+2026-10-29T17:48:41	cir	downloaded		wikiteam/wikiteam.chunk.00.jsonl.gz			3
+2026-10-29T17:50:21	cir	annotated	weborganizer	wikiteam/00062_wikiteam.json.gz	159878	0	346
+2026-10-29T17:50:26	cir	downloaded		wikiteam/wikiteam.chunk.01.jsonl.gz			4
+2026-10-29T17:52:08	cir	annotated	weborganizer	wikiteam/00063_wikiteam.json.gz	159878	0	344
+2026-10-29T17:52:11	cir	downloaded		wikiteam/wikiteam.chunk.02.jsonl.gz			3
+2026-10-29T17:56:49	cir	annotated	weborganizer	wikiteam/wikiteam.chunk.00.jsonl.gz	420810	0	485
+2026-10-29T17:56:53	cir	downloaded		wikiteam/wikiteam.chunk.03.jsonl.gz			3
+2026-10-29T17:58:20	cir	annotated	weborganizer	wikiteam/wikiteam.chunk.01.jsonl.gz	420810	0	471
+2026-10-29T17:58:25	cir	downloaded		wikiteam/wikiteam.chunk.04.jsonl.gz			4
+2026-10-29T18:00:09	cir	annotated	weborganizer	wikiteam/wikiteam.chunk.02.jsonl.gz	420810	0	475
+2026-10-29T18:00:13	cir	downloaded		wikiteam/wikiteam.chunk.05.jsonl.gz			3
+2026-10-29T18:04:57	cir	annotated	weborganizer	wikiteam/wikiteam.chunk.03.jsonl.gz	420810	0	482
+2026-10-29T18:05:02	cir	downloaded		wikiteam/wikiteam.chunk.06.jsonl.gz			4
+2026-10-29T18:06:26	cir	annotated	weborganizer	wikiteam/wikiteam.chunk.04.jsonl.gz	420810	0	477
+2026-10-29T18:06:30	cir	downloaded		wikiteam/wikiteam.chunk.07.jsonl.gz			4
+2026-10-29T18:08:09	cir	annotated	weborganizer	wikiteam/wikiteam.chunk.05.jsonl.gz	420810	0	473
+2026-10-29T18:08:14	cir	downloaded		wikiteam/wikiteam.chunk.08.jsonl.gz			3
+2026-10-29T18:13:11	cir	annotated	weborganizer	wikiteam/wikiteam.chunk.06.jsonl.gz	420810	0	486
+2026-10-29T18:13:16	cir	downloaded		wikiteam/wikiteam.chunk.09.jsonl.gz			4
+2026-10-29T18:14:22	cir	annotated	weborganizer	wikiteam/wikiteam.chunk.07.jsonl.gz	420810	0	468
+2026-10-29T18:14:26	cir	downloaded		wikiteam/wikiteam.chunk.10.jsonl.gz			3
+2026-10-29T18:16:16	cir	annotated	weborganizer	wikiteam/wikiteam.chunk.08.jsonl.gz	420810	0	479
+2026-10-29T18:16:20	cir	downloaded		wikiteam/wikiteam.chunk.11.jsonl.gz			4
+2026-10-29T18:21:29	cir	annotated	weborganizer	wikiteam/wikiteam.chunk.09.jsonl.gz	420810	0	490
+2026-10-29T18:21:34	cir	downloaded		wikiteam/wikiteam.chunk.12.jsonl.gz			3
+2026-10-29T18:22:18	cir	annotated	weborganizer	wikiteam/wikiteam.chunk.10.jsonl.gz	420810	0	470
+2026-10-29T18:22:22	cir	downloaded		wikiteam/wikiteam.chunk.13.jsonl.gz			3
+2026-10-29T18:24:21	cir	annotated	weborganizer	wikiteam/wikiteam.chunk.11.jsonl.gz	420810	0	477
+2026-10-29T18:24:26	cir	downloaded		wikiteam/wikiteam.chunk.14.jsonl.gz			4
+2026-10-29T18:29:46	cir	annotated	weborganizer	wikiteam/wikiteam.chunk.12.jsonl.gz	420810	0	489
+2026-10-29T18:29:50	cir	downloaded		wikiteam/wikiteam.chunk.15.jsonl.gz			4
+2026-10-29T18:30:19	cir	annotated	weborganizer	wikiteam/wikiteam.chunk.13.jsonl.gz	420810	0	473
+2026-10-29T18:30:23	cir	downloaded		wikiteam/wikiteam.chunk.16.jsonl.gz			3
+2026-10-29T18:32:25	cir	annotated	weborganizer	wikiteam/wikiteam.chunk.14.jsonl.gz	420810	0	476
+2026-10-29T18:32:30	cir	downloaded		wikiteam/wikiteam.chunk.17.jsonl.gz			3
+2026-10-29T18:38:02	cir	annotated	weborganizer	wikiteam/wikiteam.chunk.15.jsonl.gz	420810	0	488
+2026-10-29T18:38:06	cir	downloaded		wikiteam/wikiteam.chunk.18.jsonl.gz			3
+2026-10-29T18:38:13	cir	annotated	weborganizer	wikiteam/wikiteam.chunk.16.jsonl.gz	420810	0	468
+2026-10-29T18:38:17	cir	downloaded		wikiteam/wikiteam.chunk.19.jsonl.gz			3
+2026-10-29T18:40:24	cir	annotated	weborganizer	wikiteam/wikiteam.chunk.17.jsonl.gz	420810	0	471
+2026-10-29T18:40:28	cir	downloaded		wikiteam/wikiteam.chunk.20.jsonl.gz			4
+2026-10-29T18:46:10	cir	annotated	weborganizer	wikiteam/wikiteam.chunk.19.jsonl.gz	420810	0	470
+2026-10-29T18:46:15	cir	downloaded		wikiteam/wikiteam.chunk.21.jsonl.gz			4
+2026-10-29T18:46:17	cir	annotated	weborganizer	wikiteam/wikiteam.chunk.18.jsonl.gz	420810	0	488
+2026-10-29T18:46:21	cir	downloaded		wikiteam/wikiteam.chunk.22.jsonl.gz			3
+2026-10-29T18:48:27	cir	annotated	weborganizer	wikiteam/wikiteam.chunk.20.jsonl.gz	420810	0	475
+2026-10-29T18:48:31	cir	downloaded		wikiteam/wikiteam.chunk.23.jsonl.gz			4
+2026-10-29T18:54:11	cir	annotated	weborganizer	wikiteam/wikiteam.chunk.21.jsonl.gz	420810	0	473
+2026-10-29T18:54:16	cir	downloaded		wikiteam/wikiteam.chunk.24.jsonl.gz			3
+2026-10-29T18:54:33	cir	annotated	weborganizer	wikiteam/wikiteam.chunk.22.jsonl.gz	420810	0	489
+2026-10-29T18:54:38	cir	downloaded		wikiteam/wikiteam.chunk.25.jsonl.gz			4
+2026-10-29T18:56:32	cir	annotated	weborganizer	wikiteam/wikiteam.chunk.23.jsonl.gz	420810	0	478
+2026-10-29T18:56:36	cir	downloaded		wikiteam/wikiteam.chunk.26.jsonl.gz			4
+2026-10-29T19:02:06	cir	annotated	weborganizer	wikiteam/wikiteam.chunk.24.jsonl.gz	420810	0	468
+2026-10-29T19:02:10	cir	downloaded		wikiteam/wikiteam.chunk.27.jsonl.gz			3
+2026-10-29T19:02:58	cir	annotated	weborganizer	wikiteam/wikiteam.chunk.25.jsonl.gz	420810	0	497
+2026-10-29T19:03:02	cir	downloaded		wikiteam/wikiteam.chunk.28.jsonl.gz			3
+2026-10-29T19:04:38	cir	annotated	weborganizer	wikiteam/wikiteam.chunk.26.jsonl.gz	420810	0	479
+2026-10-29T19:04:43	cir	downloaded		wikiteam/wikiteam.chunk.29.jsonl.gz			4
+2026-10-29T19:10:06	cir	annotated	weborganizer	wikiteam/wikiteam.chunk.27.jsonl.gz	420810	0	473
+2026-10-29T19:10:11	cir	downloaded		wikiteam/wikiteam.chunk.30.jsonl.gz			3
+2026-10-29T19:11:11	cir	annotated	weborganizer	wikiteam/wikiteam.chunk.28.jsonl.gz	420810	0	486
+2026-10-29T19:11:15	cir	downloaded		wikiteam/wikiteam.chunk.31.jsonl.gz			4
+2026-10-29T19:12:42	cir	annotated	weborganizer	wikiteam/wikiteam.chunk.29.jsonl.gz	420810	0	476
+2026-10-29T19:12:47	cir	downloaded		wikiteam/wikiteam.chunk.32.jsonl.gz			4
+2026-10-29T19:18:06	cir	annotated	weborganizer	wikiteam/wikiteam.chunk.30.jsonl.gz	420810	0	472
+2026-10-29T19:18:10	cir	downloaded		wikiteam/wikiteam.chunk.33.jsonl.gz			3
+2026-10-29T19:19:23	cir	annotated	weborganizer	wikiteam/wikiteam.chunk.31.jsonl.gz	420809	0	484
+2026-10-29T19:19:27	cir	downloaded		wikiteam/wikiteam.chunk.34.jsonl.gz			4
+2026-10-29T19:20:45	cir	annotated	weborganizer	wikiteam/wikiteam.chunk.32.jsonl.gz	420809	0	475
+2026-10-29T19:20:49	cir	downloaded		wikiteam/wikiteam.chunk.35.jsonl.gz			4
+2026-10-29T19:26:04	cir	annotated	weborganizer	wikiteam/wikiteam.chunk.33.jsonl.gz	420809	0	471
+2026-10-29T19:26:08	cir	downloaded		wikiteam/wikiteam.chunk.36.jsonl.gz			3
+2026-10-29T19:27:33	cir	annotated	weborganizer	wikiteam/wikiteam.chunk.34.jsonl.gz	420809	0	483
+2026-10-29T19:27:38	cir	downloaded		wikiteam/wikiteam.chunk.37.jsonl.gz			4
+2026-10-29T19:28:54	cir	annotated	weborganizer	wikiteam/wikiteam.chunk.35.jsonl.gz	420809	0	482
+2026-10-29T19:28:58	cir	downloaded		wikiteam/wikiteam.chunk.38.jsonl.gz			4
+2026-10-29T19:34:07	cir	annotated	weborganizer	wikiteam/wikiteam.chunk.36.jsonl.gz	420809	0	476
+2026-10-29T19:34:11	cir	downloaded		wikiteam/wikiteam.chunk.39.jsonl.gz			3
+2026-10-29T19:35:42	cir	annotated	weborganizer	wikiteam/wikiteam.chunk.37.jsonl.gz	420809	0	481
+2026-10-29T19:35:45	cir	downloaded		wikiteam/wikiteam.chunk.40.jsonl.gz			3
+2026-10-29T19:36:59	cir	annotated	weborganizer	wikiteam/wikiteam.chunk.38.jsonl.gz	420809	0	478
+2026-10-29T19:37:03	cir	downloaded		wikiteam/wikiteam.chunk.41.jsonl.gz			3
+2026-10-29T19:42:08	cir	annotated	weborganizer	wikiteam/wikiteam.chunk.39.jsonl.gz	420809	0	474
+2026-10-29T19:42:13	cir	downloaded		wikiteam/wikiteam.chunk.42.jsonl.gz			4
+2026-10-29T19:43:51	cir	annotated	weborganizer	wikiteam/wikiteam.chunk.40.jsonl.gz	420809	0	483
+2026-10-29T19:43:56	cir	downloaded		wikiteam/wikiteam.chunk.43.jsonl.gz			4
+2026-10-29T19:45:08	cir	annotated	weborganizer	wikiteam/wikiteam.chunk.41.jsonl.gz	420809	0	482
+2026-10-29T19:45:13	cir	downloaded		wikiteam/wikiteam.chunk.44.jsonl.gz			3
+2026-10-29T19:50:09	cir	annotated	weborganizer	wikiteam/wikiteam.chunk.42.jsonl.gz	420809	0	473
+2026-10-29T19:50:13	cir	downloaded		wikiteam/wikiteam.chunk.45.jsonl.gz			3
+2026-10-29T19:51:58	cir	annotated	weborganizer	wikiteam/wikiteam.chunk.43.jsonl.gz	420809	0	478
+2026-10-29T19:52:02	cir	downloaded		wikiteam/wikiteam.chunk.46.jsonl.gz			3
+2026-10-29T19:53:17	cir	annotated	weborganizer	wikiteam/wikiteam.chunk.44.jsonl.gz	420809	0	481
+2026-10-29T19:53:21	cir	downloaded		wikiteam/wikiteam.chunk.47.jsonl.gz			3
+2026-10-29T19:58:02	cir	annotated	weborganizer	wikiteam/wikiteam.chunk.45.jsonl.gz	420809	0	466
+2026-10-29T19:58:06	cir	downloaded		wikiteam/wikiteam.chunk.48.jsonl.gz			3
+2026-10-29T20:00:06	cir	annotated	weborganizer	wikiteam/wikiteam.chunk.46.jsonl.gz	420809	0	481
+2026-10-29T20:00:10	cir	downloaded		wikiteam/wikiteam.chunk.49.jsonl.gz			4
+2026-10-29T20:01:32	cir	annotated	weborganizer	wikiteam/wikiteam.chunk.47.jsonl.gz	420809	0	487
+2026-10-29T20:01:36	cir	downloaded		wikiteam/wikiteam.chunk.50.jsonl.gz			3
+2026-10-29T20:06:00	cir	annotated	weborganizer	wikiteam/wikiteam.chunk.48.jsonl.gz	420809	0	471
+2026-10-29T20:06:06	cir	downloaded		wikiteam/wikiteam.chunk.51.jsonl.gz			5
+2026-10-29T20:08:17	cir	annotated	weborganizer	wikiteam/wikiteam.chunk.49.jsonl.gz	420809	0	484
+2026-10-29T20:08:22	cir	downloaded		wikiteam/wikiteam.chunk.52.jsonl.gz			4
+2026-10-29T20:09:43	cir	annotated	weborganizer	wikiteam/wikiteam.chunk.50.jsonl.gz	420809	0	484
+2026-10-29T20:09:56	cir	downloaded		wikiteam/wikiteam.chunk.53.jsonl.gz			12
+2026-10-29T20:13:58	cir	annotated	weborganizer	wikiteam/wikiteam.chunk.51.jsonl.gz	420809	0	469
+2026-10-29T20:14:02	cir	downloaded		wikiteam/wikiteam.chunk.54.jsonl.gz			3
+2026-10-29T20:16:29	cir	annotated	weborganizer	wikiteam/wikiteam.chunk.52.jsonl.gz	420809	0	485
+2026-10-29T20:16:33	cir	downloaded		wikiteam/wikiteam.chunk.55.jsonl.gz			3
+2026-10-29T20:18:08	cir	annotated	weborganizer	wikiteam/wikiteam.chunk.53.jsonl.gz	420809	0	488
+2026-10-29T20:18:12	cir	downloaded		wikiteam/wikiteam.chunk.56.jsonl.gz			4
+2026-10-29T20:21:53	cir	annotated	weborganizer	wikiteam/wikiteam.chunk.54.jsonl.gz	420809	0	468
+2026-10-29T20:21:57	cir	downloaded		wikiteam/wikiteam.chunk.57.jsonl.gz			4
+2026-10-29T20:24:40	cir	annotated	weborganizer	wikiteam/wikiteam.chunk.55.jsonl.gz	420809	0	483
+2026-10-29T20:24:43	cir	downloaded		wikiteam/wikiteam.chunk.58.jsonl.gz			3
+2026-10-29T20:26:19	cir	annotated	weborganizer	wikiteam/wikiteam.chunk.56.jsonl.gz	420809	0	484
+2026-10-29T20:26:23	cir	downloaded		wikiteam/wikiteam.chunk.59.jsonl.gz			4
+2026-10-29T20:29:57	cir	annotated	weborganizer	wikiteam/wikiteam.chunk.57.jsonl.gz	420809	0	476
+2026-10-29T20:30:01	cir	downloaded		wikiteam/wikiteam.chunk.60.jsonl.gz			3
+2026-10-29T20:32:51	cir	annotated	weborganizer	wikiteam/wikiteam.chunk.58.jsonl.gz	420809	0	484
+2026-10-29T20:32:54	cir	downloaded		wikiteam/wikiteam.chunk.61.jsonl.gz			3
+2026-10-29T20:34:24	cir	annotated	weborganizer	wikiteam/wikiteam.chunk.59.jsonl.gz	420809	0	478
+2026-10-29T20:34:28	cir	downloaded		wikiteam/wikiteam.chunk.62.jsonl.gz			3
+2026-10-29T20:37:53	cir	annotated	weborganizer	wikiteam/wikiteam.chunk.60.jsonl.gz	420809	0	469
+2026-10-29T20:37:57	cir	downloaded		wikiteam/wikiteam.chunk.63.jsonl.gz			3
+2026-10-29T20:40:57	cir	annotated	weborganizer	wikiteam/wikiteam.chunk.61.jsonl.gz	420809	0	480
+2026-10-29T20:41:05	cir	downloaded		stackexchange/stackexchange.chunk.00.jsonl.gz			7
+2026-10-29T20:42:40	cir	annotated	weborganizer	wikiteam/wikiteam.chunk.62.jsonl.gz	420809	0	488
+2026-10-29T20:42:49	cir	downloaded		stackexchange/stackexchange.chunk.01.jsonl.gz			8
+2026-10-29T20:45:49	cir	annotated	weborganizer	wikiteam/wikiteam.chunk.63.jsonl.gz	420809	0	469
+2026-10-29T20:46:01	cir	downloaded		stackexchange/stackexchange.chunk.02.jsonl.gz			11
+2026-10-29T21:32:15	cir	annotated	weborganizer	stackexchange/stackexchange.chunk.00.jsonl.gz	484185	0	3057
+2026-10-29T21:32:24	cir	downloaded		stackexchange/stackexchange.chunk.03.jsonl.gz			8
+2026-10-29T21:33:21	cir	annotated	weborganizer	stackexchange/stackexchange.chunk.01.jsonl.gz	484185	0	3017
+2026-10-29T21:33:36	cir	downloaded		stackexchange/stackexchange.chunk.04.jsonl.gz			14
+2026-10-29T21:35:50	cir	annotated	weborganizer	stackexchange/stackexchange.chunk.02.jsonl.gz	484185	0	2975
+2026-10-29T21:35:58	cir	downloaded		stackexchange/stackexchange.chunk.05.jsonl.gz			7
+2026-10-29T22:23:33	cir	annotated	weborganizer	stackexchange/stackexchange.chunk.03.jsonl.gz	484185	0	3055
+2026-10-29T22:23:41	cir	downloaded		stackexchange/stackexchange.chunk.06.jsonl.gz			7
+2026-10-29T22:23:55	cir	annotated	weborganizer	stackexchange/stackexchange.chunk.04.jsonl.gz	484185	0	3005
+2026-10-29T22:24:03	cir	downloaded		stackexchange/stackexchange.chunk.07.jsonl.gz			7
+2026-10-29T22:25:57	cir	annotated	weborganizer	stackexchange/stackexchange.chunk.05.jsonl.gz	484185	0	2986
+2026-10-29T22:26:06	cir	downloaded		stackexchange/stackexchange.chunk.08.jsonl.gz			7
+2026-10-29T23:14:15	cir	annotated	weborganizer	stackexchange/stackexchange.chunk.07.jsonl.gz	484185	0	2998
+2026-10-29T23:14:22	cir	downloaded		stackexchange/stackexchange.chunk.09.jsonl.gz			7
+2026-10-29T23:15:05	cir	annotated	weborganizer	stackexchange/stackexchange.chunk.06.jsonl.gz	484185	0	3071
+2026-10-29T23:15:13	cir	downloaded		stackexchange/stackexchange.chunk.10.jsonl.gz			7
+2026-10-29T23:16:05	cir	annotated	weborganizer	stackexchange/stackexchange.chunk.08.jsonl.gz	484185	0	2985
+2026-10-29T23:16:15	cir	downloaded		stackexchange/stackexchange.chunk.11.jsonl.gz			10
+2026-10-30T00:04:43	cir	annotated	weborganizer	stackexchange/stackexchange.chunk.09.jsonl.gz	484185	0	3006
+2026-10-30T00:04:51	cir	downloaded		stackexchange/stackexchange.chunk.12.jsonl.gz			7
+2026-10-30T00:06:18	cir	annotated	weborganizer	stackexchange/stackexchange.chunk.10.jsonl.gz	484185	0	3052
+2026-10-30T00:06:26	cir	downloaded		stackexchange/stackexchange.chunk.13.jsonl.gz			6
+2026-10-30T00:06:29	cir	annotated	weborganizer	stackexchange/stackexchange.chunk.11.jsonl.gz	484185	0	2998
+2026-10-30T00:06:37	cir	downloaded		stackexchange/stackexchange.chunk.14.jsonl.gz			7
+2026-10-30T00:55:07	cir	annotated	weborganizer	stackexchange/stackexchange.chunk.12.jsonl.gz	484185	0	3002
+2026-10-30T00:55:15	cir	downloaded		stackexchange/stackexchange.chunk.15.jsonl.gz			7
+2026-10-30T00:56:33	cir	annotated	weborganizer	stackexchange/stackexchange.chunk.14.jsonl.gz	484185	0	2983
+2026-10-30T00:56:40	cir	downloaded		stackexchange/stackexchange.chunk.16.jsonl.gz			7
+2026-10-30T00:57:24	cir	annotated	weborganizer	stackexchange/stackexchange.chunk.13.jsonl.gz	484185	0	3045
+2026-10-30T00:57:31	cir	downloaded		stackexchange/stackexchange.chunk.17.jsonl.gz			6
+2026-10-30T01:45:25	cir	annotated	weborganizer	stackexchange/stackexchange.chunk.15.jsonl.gz	484185	0	2996
+2026-10-30T01:45:32	cir	downloaded		stackexchange/stackexchange.chunk.18.jsonl.gz			7
+2026-10-30T01:46:40	cir	annotated	weborganizer	stackexchange/stackexchange.chunk.16.jsonl.gz	484185	0	2986
+2026-10-30T01:46:48	cir	downloaded		stackexchange/stackexchange.chunk.19.jsonl.gz			7
+2026-10-30T01:48:35	cir	annotated	weborganizer	stackexchange/stackexchange.chunk.17.jsonl.gz	484185	0	3051
+2026-10-30T01:48:43	cir	downloaded		stackexchange/stackexchange.chunk.20.jsonl.gz			7
+2026-10-30T02:35:48	cir	annotated	weborganizer	stackexchange/stackexchange.chunk.18.jsonl.gz	484185	0	3002
+2026-10-30T02:35:56	cir	downloaded		stackexchange/stackexchange.chunk.21.jsonl.gz			7
+2026-10-30T02:36:52	cir	annotated	weborganizer	stackexchange/stackexchange.chunk.19.jsonl.gz	484185	0	2989
+2026-10-30T02:37:00	cir	downloaded		stackexchange/stackexchange.chunk.22.jsonl.gz			7
+2026-10-30T02:39:39	cir	annotated	weborganizer	stackexchange/stackexchange.chunk.20.jsonl.gz	484185	0	3043
+2026-10-30T02:39:46	cir	downloaded		stackexchange/stackexchange.chunk.23.jsonl.gz			6
+2026-10-30T03:26:10	cir	annotated	weborganizer	stackexchange/stackexchange.chunk.21.jsonl.gz	484185	0	3000
+2026-10-30T03:26:17	cir	downloaded		stackexchange/stackexchange.chunk.24.jsonl.gz			7
+2026-10-30T03:26:55	cir	annotated	weborganizer	stackexchange/stackexchange.chunk.22.jsonl.gz	484185	0	2980
+2026-10-30T03:27:03	cir	downloaded		stackexchange/stackexchange.chunk.25.jsonl.gz			7
+2026-10-30T03:31:17	cir	annotated	weborganizer	stackexchange/stackexchange.chunk.23.jsonl.gz	484185	0	3077
+2026-10-30T03:31:24	cir	downloaded		stackexchange/stackexchange.chunk.26.jsonl.gz			7
+2026-10-30T04:16:18	cir	annotated	weborganizer	stackexchange/stackexchange.chunk.24.jsonl.gz	484185	0	2988
+2026-10-30T04:16:26	cir	downloaded		stackexchange/stackexchange.chunk.27.jsonl.gz			7
+2026-10-30T04:17:08	cir	annotated	weborganizer	stackexchange/stackexchange.chunk.25.jsonl.gz	484185	0	2991
+2026-10-30T04:17:16	cir	downloaded		stackexchange/stackexchange.chunk.28.jsonl.gz			7
+2026-10-30T04:22:36	cir	annotated	weborganizer	stackexchange/stackexchange.chunk.26.jsonl.gz	484185	0	3058
+2026-10-30T04:22:46	cir	downloaded		stackexchange/stackexchange.chunk.29.jsonl.gz			7
+2026-10-30T05:06:29	cir	annotated	weborganizer	stackexchange/stackexchange.chunk.27.jsonl.gz	484185	0	2990
+2026-10-30T05:06:37	cir	downloaded		stackexchange/stackexchange.chunk.30.jsonl.gz			7
+2026-10-30T05:06:53	cir	annotated	weborganizer	stackexchange/stackexchange.chunk.28.jsonl.gz	484185	0	2962
+2026-10-30T05:07:01	cir	downloaded		stackexchange/stackexchange.chunk.31.jsonl.gz			7
+2026-10-30T05:14:10	cir	annotated	weborganizer	stackexchange/stackexchange.chunk.29.jsonl.gz	484185	0	3070
+2026-10-30T05:14:19	cir	downloaded		stackexchange/stackexchange.chunk.32.jsonl.gz			7
+2026-10-30T05:56:42	cir	annotated	weborganizer	stackexchange/stackexchange.chunk.31.jsonl.gz	484185	0	2968
+2026-10-30T05:56:50	cir	downloaded		stackexchange/stackexchange.chunk.33.jsonl.gz			7
+2026-10-30T05:56:57	cir	annotated	weborganizer	stackexchange/stackexchange.chunk.30.jsonl.gz	484185	0	3006
+2026-10-30T05:57:04	cir	downloaded		stackexchange/stackexchange.chunk.34.jsonl.gz			6
+2026-10-30T06:05:43	cir	annotated	weborganizer	stackexchange/stackexchange.chunk.32.jsonl.gz	484185	0	3070
+2026-10-30T06:05:51	cir	downloaded		stackexchange/stackexchange.chunk.35.jsonl.gz			7
+2026-10-30T06:46:44	cir	annotated	weborganizer	stackexchange/stackexchange.chunk.33.jsonl.gz	484185	0	2981
+2026-10-30T06:46:52	cir	downloaded		stackexchange/stackexchange.chunk.36.jsonl.gz			7
+2026-10-30T06:47:22	cir	annotated	weborganizer	stackexchange/stackexchange.chunk.34.jsonl.gz	484185	0	3003
+2026-10-30T06:47:30	cir	downloaded		stackexchange/stackexchange.chunk.37.jsonl.gz			7
+2026-10-30T06:57:01	cir	annotated	weborganizer	stackexchange/stackexchange.chunk.35.jsonl.gz	484185	0	3056
+2026-10-30T06:57:10	cir	downloaded		stackexchange/stackexchange.chunk.38.jsonl.gz			7
+2026-10-30T07:36:48	cir	annotated	weborganizer	stackexchange/stackexchange.chunk.36.jsonl.gz	484185	0	2982
+2026-10-30T07:36:56	cir	downloaded		stackexchange/stackexchange.chunk.39.jsonl.gz			7
+2026-10-30T07:37:41	cir	annotated	weborganizer	stackexchange/stackexchange.chunk.37.jsonl.gz	484185	0	2997
+2026-10-30T07:37:49	cir	downloaded		stackexchange/stackexchange.chunk.40.jsonl.gz			7
+2026-10-30T07:48:27	cir	annotated	weborganizer	stackexchange/stackexchange.chunk.38.jsonl.gz	484184	0	3063
+2026-10-30T07:48:36	cir	downloaded		stackexchange/stackexchange.chunk.41.jsonl.gz			7
+2026-10-30T08:26:41	cir	annotated	weborganizer	stackexchange/stackexchange.chunk.39.jsonl.gz	484184	0	2970
+2026-10-30T08:26:48	cir	downloaded		stackexchange/stackexchange.chunk.42.jsonl.gz			7
+2026-10-30T08:28:04	cir	annotated	weborganizer	stackexchange/stackexchange.chunk.40.jsonl.gz	484184	0	3001
+2026-10-30T08:28:12	cir	downloaded		stackexchange/stackexchange.chunk.43.jsonl.gz			7
+2026-10-30T08:40:00	cir	annotated	weborganizer	stackexchange/stackexchange.chunk.41.jsonl.gz	484184	0	3070
+2026-10-30T08:40:08	cir	downloaded		stackexchange/stackexchange.chunk.44.jsonl.gz			7
+2026-10-30T09:16:35	cir	annotated	weborganizer	stackexchange/stackexchange.chunk.42.jsonl.gz	484184	0	2973
+2026-10-30T09:16:42	cir	downloaded		stackexchange/stackexchange.chunk.45.jsonl.gz			7
+2026-10-30T09:18:32	cir	annotated	weborganizer	stackexchange/stackexchange.chunk.43.jsonl.gz	484184	0	3005
+2026-10-30T09:18:39	cir	downloaded		stackexchange/stackexchange.chunk.46.jsonl.gz			7
+2026-10-30T09:31:40	cir	annotated	weborganizer	stackexchange/stackexchange.chunk.44.jsonl.gz	484184	0	3077
+2026-10-30T09:31:48	cir	downloaded		stackexchange/stackexchange.chunk.47.jsonl.gz			7
+2026-10-30T10:06:24	cir	annotated	weborganizer	stackexchange/stackexchange.chunk.45.jsonl.gz	484184	0	2969
+2026-10-30T10:06:33	cir	downloaded		stackexchange/stackexchange.chunk.48.jsonl.gz			7
+2026-10-30T10:08:49	cir	annotated	weborganizer	stackexchange/stackexchange.chunk.46.jsonl.gz	484184	0	2995
+2026-10-30T10:08:57	cir	downloaded		stackexchange/stackexchange.chunk.49.jsonl.gz			8
+2026-10-30T10:23:07	cir	annotated	weborganizer	stackexchange/stackexchange.chunk.47.jsonl.gz	484184	0	3065
+2026-10-30T10:23:15	cir	downloaded		stackexchange/stackexchange.chunk.50.jsonl.gz			7
+2026-10-30T10:56:18	cir	annotated	weborganizer	stackexchange/stackexchange.chunk.48.jsonl.gz	484184	0	2970
+2026-10-30T10:56:26	cir	downloaded		stackexchange/stackexchange.chunk.51.jsonl.gz			7
+2026-10-30T10:59:15	cir	annotated	weborganizer	stackexchange/stackexchange.chunk.49.jsonl.gz	484184	0	3004
+2026-10-30T10:59:22	cir	downloaded		stackexchange/stackexchange.chunk.52.jsonl.gz			7
+2026-10-30T11:14:32	cir	annotated	weborganizer	stackexchange/stackexchange.chunk.50.jsonl.gz	484184	0	3063
+2026-10-30T11:14:42	cir	downloaded		stackexchange/stackexchange.chunk.53.jsonl.gz			7
+2026-10-30T11:46:29	cir	annotated	weborganizer	stackexchange/stackexchange.chunk.51.jsonl.gz	484184	0	2989
+2026-10-30T11:46:37	cir	downloaded		stackexchange/stackexchange.chunk.54.jsonl.gz			7
+2026-10-30T11:49:30	cir	annotated	weborganizer	stackexchange/stackexchange.chunk.52.jsonl.gz	484184	0	2994
+2026-10-30T11:49:38	cir	downloaded		stackexchange/stackexchange.chunk.55.jsonl.gz			7
+2026-10-30T12:06:12	cir	annotated	weborganizer	stackexchange/stackexchange.chunk.53.jsonl.gz	484184	0	3075
+2026-10-30T12:06:21	cir	downloaded		stackexchange/stackexchange.chunk.56.jsonl.gz			7
+2026-10-30T12:36:16	cir	annotated	weborganizer	stackexchange/stackexchange.chunk.54.jsonl.gz	484184	0	2966
+2026-10-30T12:36:23	cir	downloaded		stackexchange/stackexchange.chunk.57.jsonl.gz			7
+2026-10-30T12:40:04	cir	annotated	weborganizer	stackexchange/stackexchange.chunk.55.jsonl.gz	484184	0	3012
+2026-10-30T12:40:11	cir	downloaded		stackexchange/stackexchange.chunk.58.jsonl.gz			7
+2026-10-30T12:57:32	cir	annotated	weborganizer	stackexchange/stackexchange.chunk.56.jsonl.gz	484184	0	3056
+2026-10-30T12:57:40	cir	downloaded		stackexchange/stackexchange.chunk.59.jsonl.gz			7
+2026-10-30T13:26:00	cir	annotated	weborganizer	stackexchange/stackexchange.chunk.57.jsonl.gz	484184	0	2963
+2026-10-30T13:26:17	cir	downloaded		stackexchange/stackexchange.chunk.60.jsonl.gz			16
+2026-10-30T13:29:59	cir	annotated	weborganizer	stackexchange/stackexchange.chunk.58.jsonl.gz	484184	0	2974
+2026-10-30T13:30:07	cir	downloaded		stackexchange/stackexchange.chunk.61.jsonl.gz			7
+2026-10-30T13:48:53	cir	annotated	weborganizer	stackexchange/stackexchange.chunk.59.jsonl.gz	484184	0	3060
+2026-10-30T13:49:01	cir	downloaded		stackexchange/stackexchange.chunk.62.jsonl.gz			7
+2026-10-30T14:16:04	cir	annotated	weborganizer	stackexchange/stackexchange.chunk.60.jsonl.gz	484184	0	2974
+2026-10-30T14:16:12	cir	downloaded		stackexchange/stackexchange.chunk.63.jsonl.gz			7
+2026-10-30T14:20:24	cir	annotated	weborganizer	stackexchange/stackexchange.chunk.61.jsonl.gz	484184	0	3004
+2026-10-30T14:20:27	cir	downloaded		libretexts/libretexts.chunk.00.jsonl.gz			2
+2026-10-30T14:20:40	cir	annotated	weborganizer	libretexts/libretexts.chunk.00.jsonl.gz	628	0	13
+2026-10-30T14:20:41	cir	downloaded		libretexts/libretexts.chunk.01.jsonl.gz			1
+2026-10-30T14:20:55	cir	annotated	weborganizer	libretexts/libretexts.chunk.01.jsonl.gz	628	0	14
+2026-10-30T14:20:56	cir	downloaded		libretexts/libretexts.chunk.02.jsonl.gz			1
+2026-10-30T14:21:11	cir	annotated	weborganizer	libretexts/libretexts.chunk.02.jsonl.gz	628	0	14
+2026-10-30T14:21:12	cir	downloaded		libretexts/libretexts.chunk.03.jsonl.gz			1
+2026-10-30T14:21:28	cir	annotated	weborganizer	libretexts/libretexts.chunk.03.jsonl.gz	628	0	17
+2026-10-30T14:21:29	cir	downloaded		libretexts/libretexts.chunk.04.jsonl.gz			1
+2026-10-30T14:21:43	cir	annotated	weborganizer	libretexts/libretexts.chunk.04.jsonl.gz	628	0	14
+2026-10-30T14:21:45	cir	downloaded		libretexts/libretexts.chunk.05.jsonl.gz			1
+2026-10-30T14:22:00	cir	annotated	weborganizer	libretexts/libretexts.chunk.05.jsonl.gz	628	0	16
+2026-10-30T14:22:01	cir	downloaded		libretexts/libretexts.chunk.06.jsonl.gz			1
+2026-10-30T14:22:17	cir	annotated	weborganizer	libretexts/libretexts.chunk.06.jsonl.gz	628	0	15
+2026-10-30T14:22:18	cir	downloaded		libretexts/libretexts.chunk.07.jsonl.gz			1
+2026-10-30T14:22:31	cir	annotated	weborganizer	libretexts/libretexts.chunk.07.jsonl.gz	628	0	14
+2026-10-30T14:22:32	cir	downloaded		libretexts/libretexts.chunk.08.jsonl.gz			1
+2026-10-30T14:22:47	cir	annotated	weborganizer	libretexts/libretexts.chunk.08.jsonl.gz	628	0	14
+2026-10-30T14:22:48	cir	downloaded		libretexts/libretexts.chunk.09.jsonl.gz			1
+2026-10-30T14:23:02	cir	annotated	weborganizer	libretexts/libretexts.chunk.09.jsonl.gz	628	0	14
+2026-10-30T14:23:03	cir	downloaded		libretexts/libretexts.chunk.10.jsonl.gz			1
+2026-10-30T14:23:19	cir	annotated	weborganizer	libretexts/libretexts.chunk.10.jsonl.gz	628	0	15
+2026-10-30T14:23:20	cir	downloaded		libretexts/libretexts.chunk.11.jsonl.gz			1
+2026-10-30T14:23:37	cir	annotated	weborganizer	libretexts/libretexts.chunk.11.jsonl.gz	628	0	17
+2026-10-30T14:23:38	cir	downloaded		libretexts/libretexts.chunk.12.jsonl.gz			1
+2026-10-30T14:23:52	cir	annotated	weborganizer	libretexts/libretexts.chunk.12.jsonl.gz	628	0	14
+2026-10-30T14:23:53	cir	downloaded		libretexts/libretexts.chunk.13.jsonl.gz			1
+2026-10-30T14:24:07	cir	annotated	weborganizer	libretexts/libretexts.chunk.13.jsonl.gz	628	0	14
+2026-10-30T14:24:08	cir	downloaded		libretexts/libretexts.chunk.14.jsonl.gz			1
+2026-10-30T14:24:21	cir	annotated	weborganizer	libretexts/libretexts.chunk.14.jsonl.gz	628	0	13
+2026-10-30T14:24:22	cir	downloaded		libretexts/libretexts.chunk.15.jsonl.gz			1
+2026-10-30T14:24:36	cir	annotated	weborganizer	libretexts/libretexts.chunk.15.jsonl.gz	628	0	14
+2026-10-30T14:24:37	cir	downloaded		libretexts/libretexts.chunk.16.jsonl.gz			1
+2026-10-30T14:24:52	cir	annotated	weborganizer	libretexts/libretexts.chunk.16.jsonl.gz	628	0	15
+2026-10-30T14:24:54	cir	downloaded		libretexts/libretexts.chunk.17.jsonl.gz			1
+2026-10-30T14:25:09	cir	annotated	weborganizer	libretexts/libretexts.chunk.17.jsonl.gz	628	0	15
+2026-10-30T14:25:10	cir	downloaded		libretexts/libretexts.chunk.18.jsonl.gz			1
+2026-10-30T14:25:24	cir	annotated	weborganizer	libretexts/libretexts.chunk.18.jsonl.gz	628	0	14
+2026-10-30T14:25:26	cir	downloaded		libretexts/libretexts.chunk.19.jsonl.gz			1
+2026-10-30T14:25:39	cir	annotated	weborganizer	libretexts/libretexts.chunk.19.jsonl.gz	628	0	14
+2026-10-30T14:25:41	cir	downloaded		libretexts/libretexts.chunk.20.jsonl.gz			1
+2026-10-30T14:25:55	cir	annotated	weborganizer	libretexts/libretexts.chunk.20.jsonl.gz	628	0	15
+2026-10-30T14:25:56	cir	downloaded		libretexts/libretexts.chunk.21.jsonl.gz			1
+2026-10-30T14:26:09	cir	annotated	weborganizer	libretexts/libretexts.chunk.21.jsonl.gz	628	0	13
+2026-10-30T14:26:11	cir	downloaded		libretexts/libretexts.chunk.22.jsonl.gz			1
+2026-10-30T14:26:26	cir	annotated	weborganizer	libretexts/libretexts.chunk.22.jsonl.gz	628	0	15
+2026-10-30T14:26:27	cir	downloaded		libretexts/libretexts.chunk.23.jsonl.gz			1
+2026-10-30T14:26:41	cir	annotated	weborganizer	libretexts/libretexts.chunk.23.jsonl.gz	628	0	14
+2026-10-30T14:26:42	cir	downloaded		libretexts/libretexts.chunk.24.jsonl.gz			1
+2026-10-30T14:26:59	cir	annotated	weborganizer	libretexts/libretexts.chunk.24.jsonl.gz	628	0	16
+2026-10-30T14:27:00	cir	downloaded		libretexts/libretexts.chunk.25.jsonl.gz			1
+2026-10-30T14:27:15	cir	annotated	weborganizer	libretexts/libretexts.chunk.25.jsonl.gz	628	0	15
+2026-10-30T14:27:16	cir	downloaded		libretexts/libretexts.chunk.26.jsonl.gz			1
+2026-10-30T14:27:31	cir	annotated	weborganizer	libretexts/libretexts.chunk.26.jsonl.gz	628	0	16
+2026-10-30T14:27:32	cir	downloaded		libretexts/libretexts.chunk.27.jsonl.gz			1
+2026-10-30T14:27:47	cir	annotated	weborganizer	libretexts/libretexts.chunk.27.jsonl.gz	628	0	15
+2026-10-30T14:27:48	cir	downloaded		libretexts/libretexts.chunk.28.jsonl.gz			1
+2026-10-30T14:28:02	cir	annotated	weborganizer	libretexts/libretexts.chunk.28.jsonl.gz	628	0	13
+2026-10-30T14:28:03	cir	downloaded		libretexts/libretexts.chunk.29.jsonl.gz			1
+2026-10-30T14:28:17	cir	annotated	weborganizer	libretexts/libretexts.chunk.29.jsonl.gz	628	0	14
+2026-10-30T14:28:18	cir	downloaded		libretexts/libretexts.chunk.30.jsonl.gz			1
+2026-10-30T14:28:32	cir	annotated	weborganizer	libretexts/libretexts.chunk.30.jsonl.gz	628	0	14
+2026-10-30T14:28:33	cir	downloaded		libretexts/libretexts.chunk.31.jsonl.gz			1
+2026-10-30T14:28:48	cir	annotated	weborganizer	libretexts/libretexts.chunk.31.jsonl.gz	628	0	15
+2026-10-30T14:28:49	cir	downloaded		libretexts/libretexts.chunk.32.jsonl.gz			1
+2026-10-30T14:29:04	cir	annotated	weborganizer	libretexts/libretexts.chunk.32.jsonl.gz	628	0	15
+2026-10-30T14:29:06	cir	downloaded		libretexts/libretexts.chunk.33.jsonl.gz			1
+2026-10-30T14:29:19	cir	annotated	weborganizer	libretexts/libretexts.chunk.33.jsonl.gz	628	0	13
+2026-10-30T14:29:20	cir	downloaded		libretexts/libretexts.chunk.34.jsonl.gz			1
+2026-10-30T14:29:35	cir	annotated	weborganizer	libretexts/libretexts.chunk.34.jsonl.gz	628	0	14
+2026-10-30T14:29:36	cir	downloaded		libretexts/libretexts.chunk.35.jsonl.gz			1
+2026-10-30T14:29:52	cir	annotated	weborganizer	libretexts/libretexts.chunk.35.jsonl.gz	628	0	16
+2026-10-30T14:29:53	cir	downloaded		libretexts/libretexts.chunk.36.jsonl.gz			1
+2026-10-30T14:30:08	cir	annotated	weborganizer	libretexts/libretexts.chunk.36.jsonl.gz	628	0	15
+2026-10-30T14:30:09	cir	downloaded		libretexts/libretexts.chunk.37.jsonl.gz			1
+2026-10-30T14:30:24	cir	annotated	weborganizer	libretexts/libretexts.chunk.37.jsonl.gz	628	0	14
+2026-10-30T14:30:25	cir	downloaded		libretexts/libretexts.chunk.38.jsonl.gz			1
+2026-10-30T14:30:39	cir	annotated	weborganizer	libretexts/libretexts.chunk.38.jsonl.gz	628	0	14
+2026-10-30T14:30:40	cir	downloaded		libretexts/libretexts.chunk.39.jsonl.gz			1
+2026-10-30T14:30:54	cir	annotated	weborganizer	libretexts/libretexts.chunk.39.jsonl.gz	628	0	14
+2026-10-30T14:30:55	cir	downloaded		libretexts/libretexts.chunk.40.jsonl.gz			1
+2026-10-30T14:31:10	cir	annotated	weborganizer	libretexts/libretexts.chunk.40.jsonl.gz	628	0	15
+2026-10-30T14:31:11	cir	downloaded		libretexts/libretexts.chunk.41.jsonl.gz			1
+2026-10-30T14:31:26	cir	annotated	weborganizer	libretexts/libretexts.chunk.41.jsonl.gz	628	0	14
+2026-10-30T14:31:27	cir	downloaded		libretexts/libretexts.chunk.42.jsonl.gz			1
+2026-10-30T14:31:42	cir	annotated	weborganizer	libretexts/libretexts.chunk.42.jsonl.gz	628	0	15
+2026-10-30T14:31:43	cir	downloaded		libretexts/libretexts.chunk.43.jsonl.gz			1
+2026-10-30T14:31:59	cir	annotated	weborganizer	libretexts/libretexts.chunk.43.jsonl.gz	628	0	15
+2026-10-30T14:32:00	cir	downloaded		libretexts/libretexts.chunk.44.jsonl.gz			1
+2026-10-30T14:32:13	cir	annotated	weborganizer	libretexts/libretexts.chunk.44.jsonl.gz	628	0	13
+2026-10-30T14:32:14	cir	downloaded		libretexts/libretexts.chunk.45.jsonl.gz			1
+2026-10-30T14:32:29	cir	annotated	weborganizer	libretexts/libretexts.chunk.45.jsonl.gz	628	0	15
+2026-10-30T14:32:30	cir	downloaded		libretexts/libretexts.chunk.46.jsonl.gz			1
+2026-10-30T14:32:44	cir	annotated	weborganizer	libretexts/libretexts.chunk.46.jsonl.gz	628	0	13
+2026-10-30T14:32:45	cir	downloaded		libretexts/libretexts.chunk.47.jsonl.gz			1
+2026-10-30T14:32:59	cir	annotated	weborganizer	libretexts/libretexts.chunk.47.jsonl.gz	628	0	14
+2026-10-30T14:33:00	cir	downloaded		libretexts/libretexts.chunk.48.jsonl.gz			1
+2026-10-30T14:33:14	cir	annotated	weborganizer	libretexts/libretexts.chunk.48.jsonl.gz	628	0	13
+2026-10-30T14:33:15	cir	downloaded		libretexts/libretexts.chunk.49.jsonl.gz			1
+2026-10-30T14:33:29	cir	annotated	weborganizer	libretexts/libretexts.chunk.49.jsonl.gz	628	0	14
+2026-10-30T14:33:30	cir	downloaded		libretexts/libretexts.chunk.50.jsonl.gz			1
+2026-10-30T14:33:44	cir	annotated	weborganizer	libretexts/libretexts.chunk.50.jsonl.gz	628	0	14
+2026-10-30T14:33:45	cir	downloaded		libretexts/libretexts.chunk.51.jsonl.gz			1
+2026-10-30T14:34:01	cir	annotated	weborganizer	libretexts/libretexts.chunk.51.jsonl.gz	628	0	16
+2026-10-30T14:34:03	cir	downloaded		libretexts/libretexts.chunk.52.jsonl.gz			1
+2026-10-30T14:34:18	cir	annotated	weborganizer	libretexts/libretexts.chunk.52.jsonl.gz	628	0	15
+2026-10-30T14:34:19	cir	downloaded		libretexts/libretexts.chunk.53.jsonl.gz			1
+2026-10-30T14:34:33	cir	annotated	weborganizer	libretexts/libretexts.chunk.53.jsonl.gz	628	0	14
+2026-10-30T14:34:34	cir	downloaded		libretexts/libretexts.chunk.54.jsonl.gz			1
+2026-10-30T14:34:48	cir	annotated	weborganizer	libretexts/libretexts.chunk.54.jsonl.gz	628	0	14
+2026-10-30T14:34:49	cir	downloaded		libretexts/libretexts.chunk.55.jsonl.gz			1
+2026-10-30T14:35:03	cir	annotated	weborganizer	libretexts/libretexts.chunk.55.jsonl.gz	628	0	14
+2026-10-30T14:35:04	cir	downloaded		libretexts/libretexts.chunk.56.jsonl.gz			1
+2026-10-30T14:35:20	cir	annotated	weborganizer	libretexts/libretexts.chunk.56.jsonl.gz	628	0	16
+2026-10-30T14:35:21	cir	downloaded		libretexts/libretexts.chunk.57.jsonl.gz			1
+2026-10-30T14:35:36	cir	annotated	weborganizer	libretexts/libretexts.chunk.57.jsonl.gz	627	0	14
+2026-10-30T14:35:37	cir	downloaded		libretexts/libretexts.chunk.58.jsonl.gz			1
+2026-10-30T14:35:52	cir	annotated	weborganizer	libretexts/libretexts.chunk.58.jsonl.gz	627	0	15
+2026-10-30T14:35:53	cir	downloaded		libretexts/libretexts.chunk.59.jsonl.gz			1
+2026-10-30T14:36:07	cir	annotated	weborganizer	libretexts/libretexts.chunk.59.jsonl.gz	627	0	14
+2026-10-30T14:36:09	cir	downloaded		libretexts/libretexts.chunk.60.jsonl.gz			2
+2026-10-30T14:36:23	cir	annotated	weborganizer	libretexts/libretexts.chunk.60.jsonl.gz	627	0	15
+2026-10-30T14:36:24	cir	downloaded		libretexts/libretexts.chunk.61.jsonl.gz			1
+2026-10-30T14:36:39	cir	annotated	weborganizer	libretexts/libretexts.chunk.61.jsonl.gz	627	0	15
+2026-10-30T14:36:41	cir	downloaded		libretexts/libretexts.chunk.62.jsonl.gz			1
+2026-10-30T14:36:54	cir	annotated	weborganizer	libretexts/libretexts.chunk.62.jsonl.gz	627	0	13
+2026-10-30T14:36:55	cir	downloaded		libretexts/libretexts.chunk.63.jsonl.gz			1
+2026-10-30T14:37:10	cir	annotated	weborganizer	libretexts/libretexts.chunk.63.jsonl.gz	627	0	15
+2026-10-30T14:37:11	cir	downloaded		pressbooks/pressbooks.chunk.00.jsonl.gz			1
+2026-10-30T14:37:33	cir	annotated	weborganizer	pressbooks/pressbooks.chunk.00.jsonl.gz	855	0	22
+2026-10-30T14:37:34	cir	downloaded		pressbooks/pressbooks.chunk.01.jsonl.gz			1
+2026-10-30T14:37:56	cir	annotated	weborganizer	pressbooks/pressbooks.chunk.01.jsonl.gz	855	0	22
+2026-10-30T14:37:57	cir	downloaded		pressbooks/pressbooks.chunk.02.jsonl.gz			1
+2026-10-30T14:38:19	cir	annotated	weborganizer	pressbooks/pressbooks.chunk.02.jsonl.gz	855	0	21
+2026-10-30T14:38:20	cir	downloaded		pressbooks/pressbooks.chunk.03.jsonl.gz			1
+2026-10-30T14:38:41	cir	annotated	weborganizer	pressbooks/pressbooks.chunk.03.jsonl.gz	855	0	21
+2026-10-30T14:38:42	cir	downloaded		pressbooks/pressbooks.chunk.04.jsonl.gz			2
+2026-10-30T14:39:04	cir	annotated	weborganizer	pressbooks/pressbooks.chunk.04.jsonl.gz	855	0	21
+2026-10-30T14:39:05	cir	downloaded		pressbooks/pressbooks.chunk.05.jsonl.gz			1
+2026-10-30T14:39:25	cir	annotated	weborganizer	pressbooks/pressbooks.chunk.05.jsonl.gz	855	0	20
+2026-10-30T14:39:27	cir	downloaded		pressbooks/pressbooks.chunk.06.jsonl.gz			2
+2026-10-30T14:39:47	cir	annotated	weborganizer	pressbooks/pressbooks.chunk.06.jsonl.gz	855	0	20
+2026-10-30T14:39:48	cir	downloaded		pressbooks/pressbooks.chunk.07.jsonl.gz			1
+2026-10-30T14:40:09	cir	annotated	weborganizer	pressbooks/pressbooks.chunk.07.jsonl.gz	855	0	21
+2026-10-30T14:40:10	cir	downloaded		pressbooks/pressbooks.chunk.08.jsonl.gz			1
+2026-10-30T14:40:23	cir	annotated	weborganizer	stackexchange/stackexchange.chunk.62.jsonl.gz	484184	0	3068
+2026-10-30T14:40:26	cir	downloaded		pressbooks/pressbooks.chunk.09.jsonl.gz			2
+2026-10-30T14:40:32	cir	annotated	weborganizer	pressbooks/pressbooks.chunk.08.jsonl.gz	855	0	21
+2026-10-30T14:40:33	cir	downloaded		pressbooks/pressbooks.chunk.10.jsonl.gz			1
+2026-10-30T14:40:50	cir	annotated	weborganizer	pressbooks/pressbooks.chunk.09.jsonl.gz	855	0	23
+2026-10-30T14:40:51	cir	downloaded		pressbooks/pressbooks.chunk.11.jsonl.gz			1
+2026-10-30T14:40:55	cir	annotated	weborganizer	pressbooks/pressbooks.chunk.10.jsonl.gz	855	0	22
+2026-10-30T14:40:56	cir	downloaded		pressbooks/pressbooks.chunk.12.jsonl.gz			1
+2026-10-30T14:41:12	cir	annotated	weborganizer	pressbooks/pressbooks.chunk.11.jsonl.gz	855	0	21
+2026-10-30T14:41:13	cir	downloaded		pressbooks/pressbooks.chunk.13.jsonl.gz			1
+2026-10-30T14:41:16	cir	annotated	weborganizer	pressbooks/pressbooks.chunk.12.jsonl.gz	855	0	20
+2026-10-30T14:41:17	cir	downloaded		pressbooks/pressbooks.chunk.14.jsonl.gz			1
+2026-10-30T14:41:34	cir	annotated	weborganizer	pressbooks/pressbooks.chunk.13.jsonl.gz	855	0	21
+2026-10-30T14:41:36	cir	downloaded		pressbooks/pressbooks.chunk.15.jsonl.gz			2
+2026-10-30T14:41:38	cir	annotated	weborganizer	pressbooks/pressbooks.chunk.14.jsonl.gz	855	0	20
+2026-10-30T14:41:39	cir	downloaded		pressbooks/pressbooks.chunk.16.jsonl.gz			1
+2026-10-30T14:41:56	cir	annotated	weborganizer	pressbooks/pressbooks.chunk.15.jsonl.gz	855	0	21
+2026-10-30T14:41:57	cir	downloaded		pressbooks/pressbooks.chunk.17.jsonl.gz			1
+2026-10-30T14:42:00	cir	annotated	weborganizer	pressbooks/pressbooks.chunk.16.jsonl.gz	855	0	21
+2026-10-30T14:42:01	cir	downloaded		pressbooks/pressbooks.chunk.18.jsonl.gz			1
+2026-10-30T14:42:17	cir	annotated	weborganizer	pressbooks/pressbooks.chunk.17.jsonl.gz	855	0	20
+2026-10-30T14:42:18	cir	downloaded		pressbooks/pressbooks.chunk.19.jsonl.gz			1
+2026-10-30T14:42:20	cir	annotated	weborganizer	pressbooks/pressbooks.chunk.18.jsonl.gz	855	0	19
+2026-10-30T14:42:21	cir	downloaded		pressbooks/pressbooks.chunk.20.jsonl.gz			1
+2026-10-30T14:42:39	cir	annotated	weborganizer	pressbooks/pressbooks.chunk.19.jsonl.gz	855	0	21
+2026-10-30T14:42:40	cir	downloaded		pressbooks/pressbooks.chunk.21.jsonl.gz			1
+2026-10-30T14:42:42	cir	annotated	weborganizer	pressbooks/pressbooks.chunk.20.jsonl.gz	855	0	21
+2026-10-30T14:42:43	cir	downloaded		pressbooks/pressbooks.chunk.22.jsonl.gz			1
+2026-10-30T14:43:01	cir	annotated	weborganizer	pressbooks/pressbooks.chunk.21.jsonl.gz	855	0	21
+2026-10-30T14:43:02	cir	downloaded		pressbooks/pressbooks.chunk.23.jsonl.gz			1
+2026-10-30T14:43:03	cir	annotated	weborganizer	pressbooks/pressbooks.chunk.22.jsonl.gz	855	0	20
+2026-10-30T14:43:04	cir	downloaded		pressbooks/pressbooks.chunk.24.jsonl.gz			1
+2026-10-30T14:43:24	cir	annotated	weborganizer	pressbooks/pressbooks.chunk.23.jsonl.gz	855	0	21
+2026-10-30T14:43:25	cir	downloaded		pressbooks/pressbooks.chunk.25.jsonl.gz			1
+2026-10-30T14:43:27	cir	annotated	weborganizer	pressbooks/pressbooks.chunk.24.jsonl.gz	855	0	22
+2026-10-30T14:43:28	cir	downloaded		pressbooks/pressbooks.chunk.26.jsonl.gz			1
+2026-10-30T14:43:46	cir	annotated	weborganizer	pressbooks/pressbooks.chunk.25.jsonl.gz	855	0	21
+2026-10-30T14:43:47	cir	downloaded		pressbooks/pressbooks.chunk.27.jsonl.gz			1
+2026-10-30T14:43:49	cir	annotated	weborganizer	pressbooks/pressbooks.chunk.26.jsonl.gz	855	0	22
+2026-10-30T14:43:50	cir	downloaded		pressbooks/pressbooks.chunk.28.jsonl.gz			1
+2026-10-30T14:44:08	cir	annotated	weborganizer	pressbooks/pressbooks.chunk.27.jsonl.gz	855	0	20
+2026-10-30T14:44:09	cir	downloaded		pressbooks/pressbooks.chunk.29.jsonl.gz			1
+2026-10-30T14:44:12	cir	annotated	weborganizer	pressbooks/pressbooks.chunk.28.jsonl.gz	855	0	21
+2026-10-30T14:44:13	cir	downloaded		pressbooks/pressbooks.chunk.30.jsonl.gz			1
+2026-10-30T14:44:32	cir	annotated	weborganizer	pressbooks/pressbooks.chunk.30.jsonl.gz	855	0	19
+2026-10-30T14:44:32	cir	annotated	weborganizer	pressbooks/pressbooks.chunk.29.jsonl.gz	855	0	23
+2026-10-30T14:44:33	cir	downloaded		pressbooks/pressbooks.chunk.31.jsonl.gz			1
+2026-10-30T14:44:33	cir	downloaded		pressbooks/pressbooks.chunk.32.jsonl.gz			1
+2026-10-30T14:44:53	cir	annotated	weborganizer	pressbooks/pressbooks.chunk.31.jsonl.gz	855	0	20
+2026-10-30T14:44:54	cir	downloaded		pressbooks/pressbooks.chunk.33.jsonl.gz			1
+2026-10-30T14:44:54	cir	annotated	weborganizer	pressbooks/pressbooks.chunk.32.jsonl.gz	855	0	21
+2026-10-30T14:44:55	cir	downloaded		pressbooks/pressbooks.chunk.34.jsonl.gz			1
+2026-10-30T14:45:13	cir	annotated	weborganizer	pressbooks/pressbooks.chunk.33.jsonl.gz	855	0	19
+2026-10-30T14:45:14	cir	downloaded		pressbooks/pressbooks.chunk.35.jsonl.gz			1
+2026-10-30T14:45:17	cir	annotated	weborganizer	pressbooks/pressbooks.chunk.34.jsonl.gz	855	0	22
+2026-10-30T14:45:18	cir	downloaded		pressbooks/pressbooks.chunk.36.jsonl.gz			1
+2026-10-30T14:45:34	cir	annotated	weborganizer	pressbooks/pressbooks.chunk.35.jsonl.gz	855	0	20
+2026-10-30T14:45:35	cir	downloaded		pressbooks/pressbooks.chunk.37.jsonl.gz			1
+2026-10-30T14:45:38	cir	annotated	weborganizer	pressbooks/pressbooks.chunk.36.jsonl.gz	855	0	20
+2026-10-30T14:45:39	cir	downloaded		pressbooks/pressbooks.chunk.38.jsonl.gz			1
+2026-10-30T14:45:54	cir	annotated	weborganizer	pressbooks/pressbooks.chunk.37.jsonl.gz	855	0	19
+2026-10-30T14:45:55	cir	downloaded		pressbooks/pressbooks.chunk.39.jsonl.gz			1
+2026-10-30T14:46:00	cir	annotated	weborganizer	pressbooks/pressbooks.chunk.38.jsonl.gz	855	0	21
+2026-10-30T14:46:02	cir	downloaded		pressbooks/pressbooks.chunk.40.jsonl.gz			1
+2026-10-30T14:46:16	cir	annotated	weborganizer	pressbooks/pressbooks.chunk.39.jsonl.gz	855	0	20
+2026-10-30T14:46:17	cir	downloaded		pressbooks/pressbooks.chunk.41.jsonl.gz			1
+2026-10-30T14:46:24	cir	annotated	weborganizer	pressbooks/pressbooks.chunk.40.jsonl.gz	854	0	22
+2026-10-30T14:46:26	cir	downloaded		pressbooks/pressbooks.chunk.42.jsonl.gz			1
+2026-10-30T14:46:38	cir	annotated	weborganizer	pressbooks/pressbooks.chunk.41.jsonl.gz	854	0	21
+2026-10-30T14:46:39	cir	downloaded		pressbooks/pressbooks.chunk.43.jsonl.gz			1
+2026-10-30T14:46:48	cir	annotated	weborganizer	pressbooks/pressbooks.chunk.42.jsonl.gz	854	0	22
+2026-10-30T14:46:49	cir	downloaded		pressbooks/pressbooks.chunk.44.jsonl.gz			1
+2026-10-30T14:47:00	cir	annotated	weborganizer	pressbooks/pressbooks.chunk.43.jsonl.gz	854	0	21
+2026-10-30T14:47:01	cir	downloaded		pressbooks/pressbooks.chunk.45.jsonl.gz			1
+2026-10-30T14:47:11	cir	annotated	weborganizer	pressbooks/pressbooks.chunk.44.jsonl.gz	854	0	22
+2026-10-30T14:47:12	cir	downloaded		pressbooks/pressbooks.chunk.46.jsonl.gz			1
+2026-10-30T14:47:20	cir	annotated	weborganizer	pressbooks/pressbooks.chunk.45.jsonl.gz	854	0	19
+2026-10-30T14:47:21	cir	downloaded		pressbooks/pressbooks.chunk.47.jsonl.gz			1
+2026-10-30T14:47:33	cir	annotated	weborganizer	pressbooks/pressbooks.chunk.46.jsonl.gz	854	0	21
+2026-10-30T14:47:34	cir	downloaded		pressbooks/pressbooks.chunk.48.jsonl.gz			1
+2026-10-30T14:47:43	cir	annotated	weborganizer	pressbooks/pressbooks.chunk.47.jsonl.gz	854	0	22
+2026-10-30T14:47:45	cir	downloaded		pressbooks/pressbooks.chunk.49.jsonl.gz			1
+2026-10-30T14:47:56	cir	annotated	weborganizer	pressbooks/pressbooks.chunk.48.jsonl.gz	854	0	21
+2026-10-30T14:47:57	cir	downloaded		pressbooks/pressbooks.chunk.50.jsonl.gz			1
+2026-10-30T14:48:06	cir	annotated	weborganizer	pressbooks/pressbooks.chunk.49.jsonl.gz	854	0	22
+2026-10-30T14:48:07	cir	downloaded		pressbooks/pressbooks.chunk.51.jsonl.gz			1
+2026-10-30T14:48:17	cir	annotated	weborganizer	pressbooks/pressbooks.chunk.50.jsonl.gz	854	0	21
+2026-10-30T14:48:18	cir	downloaded		pressbooks/pressbooks.chunk.52.jsonl.gz			1
+2026-10-30T14:48:25	cir	annotated	weborganizer	pressbooks/pressbooks.chunk.51.jsonl.gz	854	0	18
+2026-10-30T14:48:26	cir	downloaded		pressbooks/pressbooks.chunk.53.jsonl.gz			1
+2026-10-30T14:48:38	cir	annotated	weborganizer	pressbooks/pressbooks.chunk.52.jsonl.gz	854	0	19
+2026-10-30T14:48:39	cir	downloaded		pressbooks/pressbooks.chunk.54.jsonl.gz			1
+2026-10-30T14:48:47	cir	annotated	weborganizer	pressbooks/pressbooks.chunk.53.jsonl.gz	854	0	21
+2026-10-30T14:48:48	cir	downloaded		pressbooks/pressbooks.chunk.55.jsonl.gz			1
+2026-10-30T14:49:01	cir	annotated	weborganizer	pressbooks/pressbooks.chunk.54.jsonl.gz	854	0	21
+2026-10-30T14:49:02	cir	downloaded		pressbooks/pressbooks.chunk.56.jsonl.gz			1
+2026-10-30T14:49:10	cir	annotated	weborganizer	pressbooks/pressbooks.chunk.55.jsonl.gz	854	0	21
+2026-10-30T14:49:11	cir	downloaded		pressbooks/pressbooks.chunk.57.jsonl.gz			1
+2026-10-30T14:49:22	cir	annotated	weborganizer	pressbooks/pressbooks.chunk.56.jsonl.gz	854	0	20
+2026-10-30T14:49:23	cir	downloaded		pressbooks/pressbooks.chunk.58.jsonl.gz			1
+2026-10-30T14:49:33	cir	annotated	weborganizer	pressbooks/pressbooks.chunk.57.jsonl.gz	854	0	22
+2026-10-30T14:49:34	cir	downloaded		pressbooks/pressbooks.chunk.59.jsonl.gz			1
+2026-10-30T14:49:45	cir	annotated	weborganizer	pressbooks/pressbooks.chunk.58.jsonl.gz	854	0	22
+2026-10-30T14:49:45	cir	downloaded		pressbooks/pressbooks.chunk.60.jsonl.gz			1
+2026-10-30T14:49:54	cir	annotated	weborganizer	pressbooks/pressbooks.chunk.59.jsonl.gz	854	0	20
+2026-10-30T14:49:55	cir	downloaded		pressbooks/pressbooks.chunk.61.jsonl.gz			1
+2026-10-30T14:50:09	cir	annotated	weborganizer	pressbooks/pressbooks.chunk.60.jsonl.gz	854	0	24
+2026-10-30T14:50:10	cir	downloaded		pressbooks/pressbooks.chunk.62.jsonl.gz			1
+2026-10-30T14:50:17	cir	annotated	weborganizer	pressbooks/pressbooks.chunk.61.jsonl.gz	854	0	22
+2026-10-30T14:50:18	cir	downloaded		pressbooks/pressbooks.chunk.63.jsonl.gz			1
+2026-10-30T14:50:32	cir	annotated	weborganizer	pressbooks/pressbooks.chunk.62.jsonl.gz	854	0	21
+2026-10-30T14:50:33	cir	downloaded		oercommons/oercommons.chunk.00.jsonl.gz			1
+2026-10-30T14:50:36	cir	annotated	weborganizer	oercommons/oercommons.chunk.00.jsonl.gz	84	0	3
+2026-10-30T14:50:36	cir	downloaded		oercommons/oercommons.chunk.01.jsonl.gz			1
+2026-10-30T14:50:39	cir	annotated	weborganizer	oercommons/oercommons.chunk.01.jsonl.gz	84	0	2
+2026-10-30T14:50:39	cir	annotated	weborganizer	pressbooks/pressbooks.chunk.63.jsonl.gz	854	0	21
+2026-10-30T14:50:39	cir	downloaded		oercommons/oercommons.chunk.02.jsonl.gz			1
+2026-10-30T14:50:40	cir	downloaded		oercommons/oercommons.chunk.03.jsonl.gz			1
+2026-10-30T14:50:42	cir	annotated	weborganizer	oercommons/oercommons.chunk.02.jsonl.gz	84	0	2
+2026-10-30T14:50:42	cir	annotated	weborganizer	oercommons/oercommons.chunk.03.jsonl.gz	84	0	2
+2026-10-30T14:50:42	cir	downloaded		oercommons/oercommons.chunk.04.jsonl.gz			1
+2026-10-30T14:50:43	cir	downloaded		oercommons/oercommons.chunk.05.jsonl.gz			1
+2026-10-30T14:50:45	cir	annotated	weborganizer	oercommons/oercommons.chunk.04.jsonl.gz	84	0	2
+2026-10-30T14:50:46	cir	downloaded		oercommons/oercommons.chunk.06.jsonl.gz			1
+2026-10-30T14:50:46	cir	annotated	weborganizer	oercommons/oercommons.chunk.05.jsonl.gz	83	0	2
+2026-10-30T14:50:47	cir	downloaded		oercommons/oercommons.chunk.07.jsonl.gz			1
+2026-10-30T14:50:48	cir	annotated	weborganizer	oercommons/oercommons.chunk.06.jsonl.gz	83	0	3
+2026-10-30T14:50:48	cir	annotated	weborganizer	oercommons/oercommons.chunk.07.jsonl.gz	83	0	2
+2026-10-30T14:50:49	cir	downloaded		oercommons/oercommons.chunk.08.jsonl.gz			1
+2026-10-30T14:50:49	cir	downloaded		oercommons/oercommons.chunk.09.jsonl.gz			1
+2026-10-30T14:50:51	cir	annotated	weborganizer	oercommons/oercommons.chunk.09.jsonl.gz	83	0	2
+2026-10-30T14:50:51	cir	annotated	weborganizer	oercommons/oercommons.chunk.08.jsonl.gz	83	0	2
+2026-10-30T14:50:52	cir	downloaded		oercommons/oercommons.chunk.10.jsonl.gz			1
+2026-10-30T14:50:52	cir	downloaded		oercommons/oercommons.chunk.11.jsonl.gz			1
+2026-10-30T14:50:54	cir	annotated	weborganizer	oercommons/oercommons.chunk.10.jsonl.gz	83	0	2
+2026-10-30T14:50:55	cir	downloaded		oercommons/oercommons.chunk.12.jsonl.gz			1
+2026-10-30T14:50:55	cir	annotated	weborganizer	oercommons/oercommons.chunk.11.jsonl.gz	83	0	3
+2026-10-30T14:50:56	cir	downloaded		oercommons/oercommons.chunk.13.jsonl.gz			1
+2026-10-30T14:50:57	cir	annotated	weborganizer	oercommons/oercommons.chunk.12.jsonl.gz	83	0	2
+2026-10-30T14:50:58	cir	annotated	weborganizer	oercommons/oercommons.chunk.13.jsonl.gz	83	0	2
+2026-10-30T14:50:58	cir	downloaded		oercommons/oercommons.chunk.14.jsonl.gz			1
+2026-10-30T14:50:59	cir	downloaded		oercommons/oercommons.chunk.15.jsonl.gz			1
+2026-10-30T14:51:00	cir	annotated	weborganizer	oercommons/oercommons.chunk.14.jsonl.gz	83	0	2
+2026-10-30T14:51:01	cir	annotated	weborganizer	oercommons/oercommons.chunk.15.jsonl.gz	83	0	2
+2026-10-30T14:51:01	cir	downloaded		oercommons/oercommons.chunk.16.jsonl.gz			1
+2026-10-30T14:51:02	cir	downloaded		oercommons/oercommons.chunk.17.jsonl.gz			1
+2026-10-30T14:51:04	cir	annotated	weborganizer	oercommons/oercommons.chunk.17.jsonl.gz	83	0	2
+2026-10-30T14:51:04	cir	annotated	weborganizer	oercommons/oercommons.chunk.16.jsonl.gz	83	0	2
+2026-10-30T14:51:05	cir	downloaded		oercommons/oercommons.chunk.19.jsonl.gz			1
+2026-10-30T14:51:05	cir	downloaded		oercommons/oercommons.chunk.18.jsonl.gz			1
+2026-10-30T14:51:06	cir	annotated	weborganizer	oercommons/oercommons.chunk.18.jsonl.gz	83	0	2
+2026-10-30T14:51:07	cir	annotated	weborganizer	oercommons/oercommons.chunk.19.jsonl.gz	83	0	2
+2026-10-30T14:51:07	cir	downloaded		oercommons/oercommons.chunk.20.jsonl.gz			1
+2026-10-30T14:51:08	cir	downloaded		oercommons/oercommons.chunk.21.jsonl.gz			1
+2026-10-30T14:51:09	cir	annotated	weborganizer	oercommons/oercommons.chunk.20.jsonl.gz	83	0	2
+2026-10-30T14:51:09	cir	annotated	weborganizer	oercommons/oercommons.chunk.21.jsonl.gz	83	0	2
+2026-10-30T14:51:10	cir	downloaded		oercommons/oercommons.chunk.22.jsonl.gz			1
+2026-10-30T14:51:10	cir	downloaded		oercommons/oercommons.chunk.23.jsonl.gz			1
+2026-10-30T14:51:12	cir	annotated	weborganizer	oercommons/oercommons.chunk.23.jsonl.gz	83	0	2
+2026-10-30T14:51:13	cir	annotated	weborganizer	oercommons/oercommons.chunk.22.jsonl.gz	83	0	2
+2026-10-30T14:51:13	cir	downloaded		oercommons/oercommons.chunk.24.jsonl.gz			1
+2026-10-30T14:51:14	cir	downloaded		oercommons/oercommons.chunk.25.jsonl.gz			1
+2026-10-30T14:51:15	cir	annotated	weborganizer	oercommons/oercommons.chunk.24.jsonl.gz	83	0	2
+2026-10-30T14:51:15	cir	annotated	weborganizer	oercommons/oercommons.chunk.25.jsonl.gz	83	0	2
+2026-10-30T14:51:16	cir	downloaded		oercommons/oercommons.chunk.26.jsonl.gz			1
+2026-10-30T14:51:16	cir	downloaded		oercommons/oercommons.chunk.27.jsonl.gz			1
+2026-10-30T14:51:18	cir	annotated	weborganizer	oercommons/oercommons.chunk.27.jsonl.gz	83	0	2
+2026-10-30T14:51:18	cir	annotated	weborganizer	oercommons/oercommons.chunk.26.jsonl.gz	83	0	2
+2026-10-30T14:51:19	cir	downloaded		oercommons/oercommons.chunk.28.jsonl.gz			1
+2026-10-30T14:51:19	cir	downloaded		oercommons/oercommons.chunk.29.jsonl.gz			1
+2026-10-30T14:51:21	cir	annotated	weborganizer	oercommons/oercommons.chunk.29.jsonl.gz	83	0	2
+2026-10-30T14:51:21	cir	annotated	weborganizer	oercommons/oercommons.chunk.28.jsonl.gz	83	0	2
+2026-10-30T14:51:22	cir	downloaded		oercommons/oercommons.chunk.31.jsonl.gz			1
+2026-10-30T14:51:22	cir	downloaded		oercommons/oercommons.chunk.30.jsonl.gz			1
+2026-10-30T14:51:24	cir	annotated	weborganizer	oercommons/oercommons.chunk.30.jsonl.gz	83	0	2
+2026-10-30T14:51:24	cir	annotated	weborganizer	oercommons/oercommons.chunk.31.jsonl.gz	83	0	2
+2026-10-30T14:51:25	cir	downloaded		oercommons/oercommons.chunk.32.jsonl.gz			1
+2026-10-30T14:51:25	cir	downloaded		oercommons/oercommons.chunk.33.jsonl.gz			1
+2026-10-30T14:51:27	cir	annotated	weborganizer	oercommons/oercommons.chunk.32.jsonl.gz	83	0	2
+2026-10-30T14:51:27	cir	annotated	weborganizer	oercommons/oercommons.chunk.33.jsonl.gz	83	0	2
+2026-10-30T14:51:28	cir	downloaded		oercommons/oercommons.chunk.34.jsonl.gz			1
+2026-10-30T14:51:28	cir	downloaded		oercommons/oercommons.chunk.35.jsonl.gz			1
+2026-10-30T14:51:29	cir	annotated	weborganizer	oercommons/oercommons.chunk.34.jsonl.gz	83	0	2
+2026-10-30T14:51:30	cir	downloaded		oercommons/oercommons.chunk.36.jsonl.gz			1
+2026-10-30T14:51:30	cir	annotated	weborganizer	oercommons/oercommons.chunk.35.jsonl.gz	83	0	2
+2026-10-30T14:51:31	cir	downloaded		oercommons/oercommons.chunk.37.jsonl.gz			1
+2026-10-30T14:51:32	cir	annotated	weborganizer	oercommons/oercommons.chunk.36.jsonl.gz	83	0	2
+2026-10-30T14:51:33	cir	downloaded		oercommons/oercommons.chunk.38.jsonl.gz			1
+2026-10-30T14:51:34	cir	annotated	weborganizer	oercommons/oercommons.chunk.37.jsonl.gz	83	0	2
+2026-10-30T14:51:35	cir	downloaded		oercommons/oercommons.chunk.39.jsonl.gz			1
+2026-10-30T14:51:35	cir	annotated	weborganizer	oercommons/oercommons.chunk.38.jsonl.gz	83	0	2
+2026-10-30T14:51:36	cir	downloaded		oercommons/oercommons.chunk.40.jsonl.gz			1
+2026-10-30T14:51:37	cir	annotated	weborganizer	oercommons/oercommons.chunk.39.jsonl.gz	83	0	3
+2026-10-30T14:51:38	cir	downloaded		oercommons/oercommons.chunk.41.jsonl.gz			1
+2026-10-30T14:51:38	cir	annotated	weborganizer	oercommons/oercommons.chunk.40.jsonl.gz	83	0	2
+2026-10-30T14:51:39	cir	downloaded		oercommons/oercommons.chunk.42.jsonl.gz			1
+2026-10-30T14:51:40	cir	annotated	weborganizer	oercommons/oercommons.chunk.41.jsonl.gz	83	0	2
+2026-10-30T14:51:41	cir	downloaded		oercommons/oercommons.chunk.43.jsonl.gz			1
+2026-10-30T14:51:42	cir	annotated	weborganizer	oercommons/oercommons.chunk.42.jsonl.gz	83	0	3
+2026-10-30T14:51:42	cir	downloaded		oercommons/oercommons.chunk.44.jsonl.gz			1
+2026-10-30T14:51:43	cir	annotated	weborganizer	oercommons/oercommons.chunk.43.jsonl.gz	83	0	2
+2026-10-30T14:51:44	cir	annotated	weborganizer	oercommons/oercommons.chunk.44.jsonl.gz	83	0	1
+2026-10-30T14:51:44	cir	downloaded		oercommons/oercommons.chunk.45.jsonl.gz			1
+2026-10-30T14:51:45	cir	downloaded		oercommons/oercommons.chunk.46.jsonl.gz			1
+2026-10-30T14:51:46	cir	annotated	weborganizer	oercommons/oercommons.chunk.45.jsonl.gz	83	0	2
+2026-10-30T14:51:47	cir	downloaded		oercommons/oercommons.chunk.47.jsonl.gz			1
+2026-10-30T14:51:47	cir	annotated	weborganizer	oercommons/oercommons.chunk.46.jsonl.gz	83	0	2
+2026-10-30T14:51:48	cir	downloaded		oercommons/oercommons.chunk.48.jsonl.gz			1
+2026-10-30T14:51:49	cir	annotated	weborganizer	oercommons/oercommons.chunk.47.jsonl.gz	83	0	2
+2026-10-30T14:51:50	cir	annotated	weborganizer	oercommons/oercommons.chunk.48.jsonl.gz	83	0	2
+2026-10-30T14:51:50	cir	downloaded		oercommons/oercommons.chunk.49.jsonl.gz			1
+2026-10-30T14:51:51	cir	downloaded		oercommons/oercommons.chunk.50.jsonl.gz			1
+2026-10-30T14:51:52	cir	annotated	weborganizer	oercommons/oercommons.chunk.49.jsonl.gz	83	0	3
+2026-10-30T14:51:52	cir	annotated	weborganizer	oercommons/oercommons.chunk.50.jsonl.gz	83	0	2
+2026-10-30T14:51:53	cir	downloaded		oercommons/oercommons.chunk.51.jsonl.gz			1
+2026-10-30T14:51:53	cir	downloaded		oercommons/oercommons.chunk.52.jsonl.gz			1
+2026-10-30T14:51:55	cir	annotated	weborganizer	oercommons/oercommons.chunk.51.jsonl.gz	83	0	2
+2026-10-30T14:51:55	cir	annotated	weborganizer	oercommons/oercommons.chunk.52.jsonl.gz	83	0	2
+2026-10-30T14:51:56	cir	downloaded		oercommons/oercommons.chunk.53.jsonl.gz			1
+2026-10-30T14:51:56	cir	downloaded		oercommons/oercommons.chunk.54.jsonl.gz			1
+2026-10-30T14:51:58	cir	annotated	weborganizer	oercommons/oercommons.chunk.53.jsonl.gz	83	0	2
+2026-10-30T14:51:58	cir	annotated	weborganizer	oercommons/oercommons.chunk.54.jsonl.gz	83	0	2
+2026-10-30T14:51:59	cir	downloaded		oercommons/oercommons.chunk.55.jsonl.gz			1
+2026-10-30T14:51:59	cir	downloaded		oercommons/oercommons.chunk.56.jsonl.gz			1
+2026-10-30T14:52:01	cir	annotated	weborganizer	oercommons/oercommons.chunk.55.jsonl.gz	83	0	2
+2026-10-30T14:52:01	cir	annotated	weborganizer	oercommons/oercommons.chunk.56.jsonl.gz	83	0	2
+2026-10-30T14:52:02	cir	downloaded		oercommons/oercommons.chunk.57.jsonl.gz			1
+2026-10-30T14:52:02	cir	downloaded		oercommons/oercommons.chunk.58.jsonl.gz			1
+2026-10-30T14:52:04	cir	annotated	weborganizer	oercommons/oercommons.chunk.58.jsonl.gz	83	0	2
+2026-10-30T14:52:04	cir	annotated	weborganizer	oercommons/oercommons.chunk.57.jsonl.gz	83	0	2
+2026-10-30T14:52:05	cir	downloaded		oercommons/oercommons.chunk.59.jsonl.gz			1
+2026-10-30T14:52:05	cir	downloaded		oercommons/oercommons.chunk.60.jsonl.gz			1
+2026-10-30T14:52:07	cir	annotated	weborganizer	oercommons/oercommons.chunk.59.jsonl.gz	83	0	2
+2026-10-30T14:52:07	cir	annotated	weborganizer	oercommons/oercommons.chunk.60.jsonl.gz	83	0	2
+2026-10-30T14:52:08	cir	downloaded		oercommons/oercommons.chunk.61.jsonl.gz			1
+2026-10-30T14:52:08	cir	downloaded		oercommons/oercommons.chunk.62.jsonl.gz			1
+2026-10-30T14:52:10	cir	annotated	weborganizer	oercommons/oercommons.chunk.61.jsonl.gz	83	0	2
+2026-10-30T14:52:10	cir	annotated	weborganizer	oercommons/oercommons.chunk.62.jsonl.gz	83	0	2
+2026-10-30T14:52:11	cir	downloaded		oercommons/oercommons.chunk.63.jsonl.gz			1
+2026-10-30T14:52:12	cir	annotated	weborganizer	oercommons/oercommons.chunk.63.jsonl.gz	83	0	2
+2026-10-30T15:05:48	cir	annotated	weborganizer	stackexchange/stackexchange.chunk.63.jsonl.gz	484184	0	2962
+2026-11-03T10:42:29	cir	downloaded		project_gutenberg/project_gutenberg.chunk.03.jsonl.gz			5
