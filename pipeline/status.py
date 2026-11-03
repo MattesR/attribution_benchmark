@@ -34,8 +34,10 @@ def main() -> None:
     active = {r["shard"].split("/")[0] for r in log}
     sources = list(by_source) if args.all else priority + sorted(active - set(priority))
 
-    names = list(ANNOTATORS)
-    header = f"{'source':<30}{'shards':>7}{'downl.':>8}" + "".join(f"{n:>14}{'docs':>13}" for n in names)
+    # Record-level annotators, plus window runs (e.g. propella-w32000) once they appear in the log.
+    names = list(ANNOTATORS) + sorted(n for n in done if n not in ANNOTATORS)
+    width = {n: max(14, len(n) + 2) for n in names}
+    header = f"{'source':<30}{'shards':>7}{'downl.':>8}" + "".join(f"{n:>{width[n]}}{'docs':>13}" for n in names)
     print(header)
     print("-" * len(header))
     totals = defaultdict(int)
@@ -47,13 +49,13 @@ def main() -> None:
         for n in names:
             finished = shards & done[n].keys()
             docs = sum(done[n][x] for x in finished)
-            line += f"{f'{len(finished)}/{len(shards)}':>14}{docs:>13,}"
+            line += f"{f'{len(finished)}/{len(shards)}':>{width[n]}}{docs:>13,}"
             totals[n] += len(finished)
             totals[n + "_docs"] += docs
         print(line)
     print("-" * len(header))
     print(f"{'total':<30}{totals['shards']:>7}{totals['downl']:>8}"
-          + "".join(f"{totals[n]:>14}{totals[n + '_docs']:>13,}" for n in names))
+          + "".join(f"{totals[n]:>{width[n]}}{totals[n + '_docs']:>13,}" for n in names))
 
     locks = sorted((common.DATA / "locks").rglob("*.lock"))
     partials = sorted((common.DATA / "annotations").rglob("*.partial.jsonl"))

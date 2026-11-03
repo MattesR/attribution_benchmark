@@ -105,6 +105,7 @@ A100s don't support fp8, so `--fp8` is left off. Only use GPUs that
 ```bash
 VENV=.venv-weborganizer bash local_run.sh weborganizer
 GPUS="3 2" bash local_run.sh propella --backend sglang
+./local_check.sh                                   # overview: workers, GPUs, shards done
 tail -f logs/weborganizer-gpu3.log                 # watch one worker
 kill $(cat logs/weborganizer-gpu2.pid)              # free GPU 2; its file resumes later
 ```
@@ -129,6 +130,28 @@ Overview:
 ```bash
 python -m pipeline.status
 ```
+
+## Long texts: window mode
+
+Comma cuts long texts into records of at most 128,000 characters. For books
+(Gutenberg: 87% of records exceed propella's 50k-character truncation) the
+annotators would only see the start of each record. `--windows N` splits every
+record longer than N characters into balanced windows of at most N characters,
+cut at headings (Markdown, `CHAPTER`) or paragraph breaks
+(`pipeline/windows.py`). 32,000 characters fits both annotators:
+
+```bash
+sbatch -w cn11 --array=0-1 slurm/annotate.sbatch propella --windows 32000 \
+  --sources project_gutenberg,doab --backend sglang --fp8
+```
+
+Window runs are separate annotators in output, locks and log
+(`propella-w32000`, `weborganizer-w32000`), and every row carries
+`row, window, start, end`, an exact character range of the record.
+
+Gutenberg: 185,133 records, DOAB: 461,558 (mostly single sections). With
+balanced windows (~25k chars median) chunk.00 gives 12,391 and 11,938
+windows, i.e. roughly 790k and 760k windows over all 64 files.
 
 ## Notes
 

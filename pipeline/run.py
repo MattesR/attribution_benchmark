@@ -12,6 +12,11 @@ Loop over shards in priority order, skipping those already marked
 
 The partial file is the checkpoint: a killed process resumes where it
 stopped. With --limit-docs the shard stays partial (for prototyping).
+
+--windows N annotates windows of at most N characters instead of whole
+records (for long texts such as books; see pipeline/windows.py). Output, locks
+and log then use the name <annotator>-w<N>, and every row carries
+row, window, start, end.
 """
 
 from __future__ import annotations
@@ -29,6 +34,7 @@ from loguru import logger
 from tqdm import tqdm
 
 from pipeline import common
+from pipeline.windows import split_windows
 
 ANNOTATORS = {
     "weborganizer": "pipeline.weborganizer_annotator",
@@ -36,7 +42,12 @@ ANNOTATORS = {
 }
 
 
-def read_partial(path) -> dict[int, dict]:
+def key(r: dict):
+    """A unit is a record (row) or, with --windows, a window of a record."""
+    return (r["row"], r["window"]) if "window" in r else r["row"]
+
+
+def read_partial(path) -> dict:
     rows = {}
     if path.exists():
         for line in open(path):
@@ -44,7 +55,7 @@ def read_partial(path) -> dict[int, dict]:
                 r = json.loads(line)
             except json.JSONDecodeError:  # last line cut off by a kill
                 continue
-            rows[r["row"]] = r
+            rows[key(r)] = r
     return rows
 
 
@@ -60,18 +71,27 @@ def float32(table: pa.Table) -> pa.Table:
 
 
 def annotate_shard(name: str, annotate, shard: str, args) -> None:
-    texts = common.read_texts(common.download(shard))
+    records = common.read_texts(common.download(shard))
+    # Units to annotate: whole records, or windows of them (--windows).
+    if args.windows:
+        units = [{"row": i, "window": w, "start": s, "end": e}
+                 for i, t in enumerate(records) for w, (s, e) in enumerate(split_windows(t, args.windows))]
+        logger.info(f"{shard}: {len(records):,} records -> {len(units):,} windows of <= {args.windows:,} chars")
+    else:
+        units = [{"row": i} for i in range(len(records))]
+    texts = {key(u): records[u["row"]][u["start"]:u["end"]] if "window" in u else records[u["row"]]
+             for u in units}
     partial = common.output_path(name, shard, partial=True)
     partial.parent.mkdir(parents=True, exist_ok=True)
     done = read_partial(partial)
 
     # Length-sorted so batches pad efficiently.
-    todo = sorted((i for i in range(len(texts)) if i not in done), key=lambda i: len(texts[i]))
+    todo = sorted((u for u in units if key(u) not in done), key=lambda u: len(texts[key(u)]))
     if args.limit_docs:
         todo = todo[: args.limit_docs]
     if done:
-        logger.info(f"{shard}: resuming, {len(done):,} rows already annotated")
-    logger.info(f"{shard}: annotating {len(todo):,} docs in batches of {args.batch_size} "
+        logger.info(f"{shard}: resuming, {len(done):,} units already annotated")
+    logger.info(f"{shard}: annotating {len(todo):,} units in batches of {args.batch_size} "
                 "(shortest first, so the rate drops over time)")
 
     t0 = time.time()
@@ -79,32 +99,32 @@ def annotate_shard(name: str, annotate, shard: str, args) -> None:
     # In a batch job (log file, not a terminal) update once a minute, so the
     # log stays readable and its last line is the current progress.
     interactive = sys.stderr.isatty()
-    with open(partial, "a") as sink, tqdm(total=len(texts), initial=len(done), desc=shard, unit="doc",
+    with open(partial, "a") as sink, tqdm(total=len(units), initial=len(done), desc=shard, unit="doc",
                                           dynamic_ncols=True, mininterval=0.1 if interactive else 60,
                                           ascii=not interactive) as bar:
         for b in range(0, len(todo), args.batch_size):
-            rows = todo[b : b + args.batch_size]
+            batch = todo[b : b + args.batch_size]
             # annotate() may return an iterator (sglang): the bar moves per document.
-            for i, ann in zip(rows, annotate([texts[i] for i in rows])):
-                sink.write(json.dumps({"row": i, **ann}) + "\n")
-                chars += len(texts[i])
+            for u, ann in zip(batch, annotate([texts[key(u)] for u in batch])):
+                sink.write(json.dumps({**u, **ann}) + "\n")
+                chars += len(texts[key(u)])
                 bar.update(1)
             sink.flush()
             bar.set_postfix(chars_per_s=f"{chars / (time.time() - t0):,.0f}",
-                            doc_len=f"{len(texts[rows[-1]]):,}")
+                            doc_len=f"{len(texts[key(batch[-1])]):,}")
     if todo:
         # Rate of this run only (a resumed shard was partly done before).
         sec = time.time() - t0
-        chars = sum(len(texts[i]) for i in todo)
-        logger.info(f"{shard}: {len(todo)} docs in {sec:.0f}s = {len(todo) / sec:.2f} docs/s, "
-                    f"{chars / sec:,.0f} chars/s (avg {chars / len(todo):,.0f} chars/doc)")
+        chars = sum(len(texts[key(u)]) for u in todo)
+        logger.info(f"{shard}: {len(todo)} units in {sec:.0f}s = {len(todo) / sec:.2f} units/s, "
+                    f"{chars / sec:,.0f} chars/s (avg {chars / len(todo):,.0f} chars/unit)")
 
     done = read_partial(partial)
-    if len(done) < len(texts):
-        logger.info(f"{shard}: {len(done)}/{len(texts)} rows annotated, shard stays partial")
+    if len(done) < len(units):
+        logger.info(f"{shard}: {len(done)}/{len(units)} units annotated, shard stays partial")
         return
 
-    rows = [done[i] for i in range(len(texts))]
+    rows = [done[key(u)] for u in units]
     out = common.output_path(name, shard)
     logger.info(f"{shard}: complete, writing {out.name}")
     pq.write_table(float32(pa.Table.from_pylist(rows)), out, compression="zstd")
@@ -112,7 +132,7 @@ def annotate_shard(name: str, annotate, shard: str, args) -> None:
     n_failed = sum(r.get("ok") is False for r in rows)
     common.log("annotated", annotator=name, shard=shard, n_docs=len(rows),
                n_failed=n_failed, seconds=round(time.time() - t0))
-    logger.success(f"{shard}: {len(rows)} docs -> {out} ({n_failed} failed)")
+    logger.success(f"{shard}: {len(rows)} units -> {out} ({n_failed} failed)")
 
 
 def main() -> None:
@@ -125,11 +145,16 @@ def main() -> None:
                                    "shared locks don't overlap")
     ap.add_argument("--max-shards", type=int, default=0, help="stop after this many shards")
     ap.add_argument("--limit-docs", type=int, default=0, help="prototype: annotate only N docs per shard")
-    name = ap.parse_known_args()[0].annotator
-    module = importlib.import_module(ANNOTATORS[name])
+    ap.add_argument("--windows", type=int, default=0,
+                    help="annotate windows of at most N characters instead of whole records "
+                         "(e.g. 32000 for books); results go to <annotator>-w<N>")
+    annotator = ap.parse_known_args()[0].annotator
+    module = importlib.import_module(ANNOTATORS[annotator])
     module.add_args(ap)  # adds --batch-size and annotator-specific options
     ap.add_argument("-h", "--help", action="help")
     args = ap.parse_args()
+    # Window runs are kept apart from record-level runs: own output dir, locks, log name.
+    name = f"{annotator}-w{args.windows}" if args.windows else annotator
 
     # SIGTERM (kill, SLURM time limit) -> normal exit, so the lock is released.
     signal.signal(signal.SIGTERM, lambda *_: sys.exit(1))

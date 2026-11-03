@@ -32,7 +32,7 @@ PRIORITY = [
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = Path(os.environ.get("ATTRIB_DATA", ROOT / "data"))
-LOG = ROOT / "progress.tsv"
+LOG = Path(os.environ.get("ATTRIB_LOG", ROOT / "progress.tsv"))  # tests: point ATTRIB_LOG elsewhere
 HOST = socket.gethostname().strip()
 LOG_FIELDS = ["time", "host", "event", "annotator", "shard", "n_docs", "n_failed", "seconds"]
 
