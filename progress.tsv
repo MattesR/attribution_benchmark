@@ -3102,3 +3102,195 @@ time	host	event	annotator	shard	n_docs	n_failed	seconds
 2026-11-04T16:39:06	cir	downloaded		doab/doab.chunk.62.jsonl.gz			3
 2026-11-04T16:49:11	cir	annotated	weborganizer-w32000	doab/doab.chunk.62.jsonl.gz	11789	0	604
 2026-11-04T16:59:39	cir	annotated	weborganizer-w32000	doab/doab.chunk.63.jsonl.gz	11998	0	626
+2026-11-05T04:01:28	cn11.hpc.itu.dk	downloaded		project_gutenberg/project_gutenberg.chunk.00.jsonl.gz			6
+2026-11-05T04:36:03	cn11.hpc.itu.dk	annotated	propella-w32000	project_gutenberg/project_gutenberg.chunk.00.jsonl.gz	12391	0	2071
+2026-11-05T04:36:08	cn11.hpc.itu.dk	downloaded		project_gutenberg/project_gutenberg.chunk.01.jsonl.gz			5
+2026-11-05T05:11:07	cn11.hpc.itu.dk	annotated	propella-w32000	project_gutenberg/project_gutenberg.chunk.01.jsonl.gz	12535	0	2096
+2026-11-05T05:11:15	cn11.hpc.itu.dk	downloaded		project_gutenberg/project_gutenberg.chunk.02.jsonl.gz			7
+2026-11-05T05:45:46	cn11.hpc.itu.dk	annotated	propella-w32000	project_gutenberg/project_gutenberg.chunk.02.jsonl.gz	12327	0	2068
+2026-11-05T05:45:53	cn11.hpc.itu.dk	downloaded		project_gutenberg/project_gutenberg.chunk.04.jsonl.gz			6
+2026-11-05T06:20:31	cn11.hpc.itu.dk	annotated	propella-w32000	project_gutenberg/project_gutenberg.chunk.04.jsonl.gz	12373	2	2075
+2026-11-05T06:20:36	cn11.hpc.itu.dk	downloaded		project_gutenberg/project_gutenberg.chunk.05.jsonl.gz			5
+2026-11-05T06:55:36	cn11.hpc.itu.dk	annotated	propella-w32000	project_gutenberg/project_gutenberg.chunk.05.jsonl.gz	12476	0	2097
+2026-11-05T06:55:42	cn11.hpc.itu.dk	downloaded		project_gutenberg/project_gutenberg.chunk.06.jsonl.gz			6
+2026-11-05T07:30:18	cn11.hpc.itu.dk	annotated	propella-w32000	project_gutenberg/project_gutenberg.chunk.06.jsonl.gz	12389	1	2073
+2026-11-05T07:30:24	cn11.hpc.itu.dk	downloaded		project_gutenberg/project_gutenberg.chunk.08.jsonl.gz			7
+2026-11-05T08:05:28	cn11.hpc.itu.dk	annotated	propella-w32000	project_gutenberg/project_gutenberg.chunk.08.jsonl.gz	12490	1	2100
+2026-11-05T08:05:35	cn11.hpc.itu.dk	downloaded		project_gutenberg/project_gutenberg.chunk.09.jsonl.gz			7
+2026-11-05T08:40:23	cn11.hpc.itu.dk	annotated	propella-w32000	project_gutenberg/project_gutenberg.chunk.09.jsonl.gz	12397	1	2083
+2026-11-05T08:40:30	cn11.hpc.itu.dk	downloaded		project_gutenberg/project_gutenberg.chunk.10.jsonl.gz			6
+2026-11-05T09:15:20	cn11.hpc.itu.dk	annotated	propella-w32000	project_gutenberg/project_gutenberg.chunk.10.jsonl.gz	12441	1	2086
+2026-11-05T09:15:27	cn11.hpc.itu.dk	downloaded		project_gutenberg/project_gutenberg.chunk.12.jsonl.gz			6
+2026-11-05T09:49:53	cn11.hpc.itu.dk	annotated	propella-w32000	project_gutenberg/project_gutenberg.chunk.12.jsonl.gz	12328	0	2064
+2026-11-05T09:49:59	cn11.hpc.itu.dk	downloaded		project_gutenberg/project_gutenberg.chunk.13.jsonl.gz			6
+2026-11-05T10:24:32	cn11.hpc.itu.dk	annotated	propella-w32000	project_gutenberg/project_gutenberg.chunk.13.jsonl.gz	12367	0	2070
+2026-11-05T10:24:39	cn11.hpc.itu.dk	downloaded		project_gutenberg/project_gutenberg.chunk.14.jsonl.gz			7
+2026-11-05T10:44:09	cn11.hpc.itu.dk	downloaded		project_gutenberg/project_gutenberg.chunk.16.jsonl.gz			5
+2026-11-05T10:59:00	cn11.hpc.itu.dk	annotated	propella-w32000	project_gutenberg/project_gutenberg.chunk.14.jsonl.gz	12416	1	2059
+2026-11-05T10:59:05	cn11.hpc.itu.dk	downloaded		project_gutenberg/project_gutenberg.chunk.17.jsonl.gz			5
+2026-11-05T11:17:58	cn11.hpc.itu.dk	annotated	propella-w32000	project_gutenberg/project_gutenberg.chunk.16.jsonl.gz	12423	1	2026
+2026-11-05T11:18:08	cn11.hpc.itu.dk	downloaded		project_gutenberg/project_gutenberg.chunk.18.jsonl.gz			9
+2026-11-05T11:33:20	cn11.hpc.itu.dk	annotated	propella-w32000	project_gutenberg/project_gutenberg.chunk.17.jsonl.gz	12286	3	2052
+2026-11-05T11:33:25	cn11.hpc.itu.dk	downloaded		project_gutenberg/project_gutenberg.chunk.20.jsonl.gz			5
+2026-11-05T11:52:20	cn11.hpc.itu.dk	annotated	propella-w32000	project_gutenberg/project_gutenberg.chunk.18.jsonl.gz	12509	1	2050
+2026-11-05T11:52:26	cn11.hpc.itu.dk	downloaded		project_gutenberg/project_gutenberg.chunk.21.jsonl.gz			6
+2026-11-05T12:08:10	cn11.hpc.itu.dk	annotated	propella-w32000	project_gutenberg/project_gutenberg.chunk.20.jsonl.gz	12436	0	2081
+2026-11-05T12:08:15	cn11.hpc.itu.dk	downloaded		project_gutenberg/project_gutenberg.chunk.22.jsonl.gz			5
+2026-11-05T12:25:56	cn11.hpc.itu.dk	annotated	propella-w32000	project_gutenberg/project_gutenberg.chunk.21.jsonl.gz	12314	1	2006
+2026-11-05T12:26:04	cn11.hpc.itu.dk	downloaded		project_gutenberg/project_gutenberg.chunk.24.jsonl.gz			8
+2026-11-05T12:43:02	cn11.hpc.itu.dk	annotated	propella-w32000	project_gutenberg/project_gutenberg.chunk.22.jsonl.gz	12455	0	2083
+2026-11-05T12:43:07	cn11.hpc.itu.dk	downloaded		project_gutenberg/project_gutenberg.chunk.25.jsonl.gz			5
+2026-11-05T12:59:39	cn11.hpc.itu.dk	annotated	propella-w32000	project_gutenberg/project_gutenberg.chunk.24.jsonl.gz	12331	0	2012
+2026-11-05T12:59:46	cn11.hpc.itu.dk	downloaded		project_gutenberg/project_gutenberg.chunk.26.jsonl.gz			7
+2026-11-05T13:17:37	cn11.hpc.itu.dk	annotated	propella-w32000	project_gutenberg/project_gutenberg.chunk.25.jsonl.gz	12391	0	2067
+2026-11-05T13:17:43	cn11.hpc.itu.dk	downloaded		project_gutenberg/project_gutenberg.chunk.28.jsonl.gz			6
+2026-11-05T13:33:41	cn11.hpc.itu.dk	annotated	propella-w32000	project_gutenberg/project_gutenberg.chunk.26.jsonl.gz	12418	0	2032
+2026-11-05T13:33:48	cn11.hpc.itu.dk	downloaded		project_gutenberg/project_gutenberg.chunk.29.jsonl.gz			6
+2026-11-05T13:53:26	cn11.hpc.itu.dk	annotated	propella-w32000	project_gutenberg/project_gutenberg.chunk.28.jsonl.gz	12490	2	2139
+2026-11-05T13:53:31	cn11.hpc.itu.dk	downloaded		project_gutenberg/project_gutenberg.chunk.30.jsonl.gz			5
+2026-11-05T14:08:43	cn11.hpc.itu.dk	annotated	propella-w32000	project_gutenberg/project_gutenberg.chunk.29.jsonl.gz	12474	0	2092
+2026-11-05T14:08:49	cn11.hpc.itu.dk	downloaded		project_gutenberg/project_gutenberg.chunk.32.jsonl.gz			5
+2026-11-05T14:27:47	cn11.hpc.itu.dk	annotated	propella-w32000	project_gutenberg/project_gutenberg.chunk.30.jsonl.gz	12326	1	2053
+2026-11-05T14:27:53	cn11.hpc.itu.dk	downloaded		project_gutenberg/project_gutenberg.chunk.33.jsonl.gz			5
+2026-11-05T14:42:40	cn11.hpc.itu.dk	annotated	propella-w32000	project_gutenberg/project_gutenberg.chunk.32.jsonl.gz	12422	0	2028
+2026-11-05T14:42:45	cn11.hpc.itu.dk	downloaded		project_gutenberg/project_gutenberg.chunk.34.jsonl.gz			5
+2026-11-05T15:02:22	cn11.hpc.itu.dk	annotated	propella-w32000	project_gutenberg/project_gutenberg.chunk.33.jsonl.gz	12415	0	2067
+2026-11-05T15:02:28	cn11.hpc.itu.dk	downloaded		project_gutenberg/project_gutenberg.chunk.36.jsonl.gz			6
+2026-11-05T15:16:29	cn11.hpc.itu.dk	annotated	propella-w32000	project_gutenberg/project_gutenberg.chunk.34.jsonl.gz	12387	0	2022
+2026-11-05T15:16:34	cn11.hpc.itu.dk	downloaded		project_gutenberg/project_gutenberg.chunk.37.jsonl.gz			5
+2026-11-05T15:36:31	cn11.hpc.itu.dk	annotated	propella-w32000	project_gutenberg/project_gutenberg.chunk.36.jsonl.gz	12268	0	2040
+2026-11-05T15:36:37	cn11.hpc.itu.dk	downloaded		project_gutenberg/project_gutenberg.chunk.38.jsonl.gz			6
+2026-11-05T15:50:27	cn11.hpc.itu.dk	annotated	propella-w32000	project_gutenberg/project_gutenberg.chunk.37.jsonl.gz	12408	0	2030
+2026-11-05T15:50:32	cn11.hpc.itu.dk	downloaded		project_gutenberg/project_gutenberg.chunk.40.jsonl.gz			5
+2026-11-05T16:10:49	cn11.hpc.itu.dk	annotated	propella-w32000	project_gutenberg/project_gutenberg.chunk.38.jsonl.gz	12334	1	2049
+2026-11-05T16:10:54	cn11.hpc.itu.dk	downloaded		project_gutenberg/project_gutenberg.chunk.41.jsonl.gz			5
+2026-11-05T16:24:22	cn11.hpc.itu.dk	annotated	propella-w32000	project_gutenberg/project_gutenberg.chunk.40.jsonl.gz	12440	0	2027
+2026-11-05T16:24:28	cn11.hpc.itu.dk	downloaded		project_gutenberg/project_gutenberg.chunk.42.jsonl.gz			6
+2026-11-05T16:45:22	cn11.hpc.itu.dk	annotated	propella-w32000	project_gutenberg/project_gutenberg.chunk.41.jsonl.gz	12402	0	2065
+2026-11-05T16:45:27	cn11.hpc.itu.dk	downloaded		project_gutenberg/project_gutenberg.chunk.44.jsonl.gz			5
+2026-11-05T16:58:30	cn11.hpc.itu.dk	annotated	propella-w32000	project_gutenberg/project_gutenberg.chunk.42.jsonl.gz	12479	1	2039
+2026-11-05T16:58:36	cn11.hpc.itu.dk	downloaded		project_gutenberg/project_gutenberg.chunk.45.jsonl.gz			5
+2026-11-05T17:19:33	cn11.hpc.itu.dk	annotated	propella-w32000	project_gutenberg/project_gutenberg.chunk.44.jsonl.gz	12308	0	2043
+2026-11-05T17:19:39	cn11.hpc.itu.dk	downloaded		project_gutenberg/project_gutenberg.chunk.46.jsonl.gz			6
+2026-11-05T17:32:24	cn11.hpc.itu.dk	annotated	propella-w32000	project_gutenberg/project_gutenberg.chunk.45.jsonl.gz	12381	0	2026
+2026-11-05T17:32:29	cn11.hpc.itu.dk	downloaded		project_gutenberg/project_gutenberg.chunk.48.jsonl.gz			5
+2026-11-05T17:54:26	cn11.hpc.itu.dk	annotated	propella-w32000	project_gutenberg/project_gutenberg.chunk.46.jsonl.gz	12498	1	2084
+2026-11-05T17:54:32	cn11.hpc.itu.dk	downloaded		project_gutenberg/project_gutenberg.chunk.49.jsonl.gz			6
+2026-11-05T18:06:13	cn11.hpc.itu.dk	annotated	propella-w32000	project_gutenberg/project_gutenberg.chunk.48.jsonl.gz	12396	0	2022
+2026-11-05T18:06:18	cn11.hpc.itu.dk	downloaded		project_gutenberg/project_gutenberg.chunk.50.jsonl.gz			5
+2026-11-05T18:29:12	cn11.hpc.itu.dk	annotated	propella-w32000	project_gutenberg/project_gutenberg.chunk.49.jsonl.gz	12482	1	2077
+2026-11-05T18:29:17	cn11.hpc.itu.dk	downloaded		project_gutenberg/project_gutenberg.chunk.52.jsonl.gz			5
+2026-11-05T18:40:02	cn11.hpc.itu.dk	annotated	propella-w32000	project_gutenberg/project_gutenberg.chunk.50.jsonl.gz	12418	0	2020
+2026-11-05T18:40:07	cn11.hpc.itu.dk	downloaded		project_gutenberg/project_gutenberg.chunk.53.jsonl.gz			5
+2026-11-05T19:03:52	cn11.hpc.itu.dk	annotated	propella-w32000	project_gutenberg/project_gutenberg.chunk.52.jsonl.gz	12400	0	2072
+2026-11-05T19:03:58	cn11.hpc.itu.dk	downloaded		project_gutenberg/project_gutenberg.chunk.54.jsonl.gz			6
+2026-11-05T19:13:40	cn11.hpc.itu.dk	annotated	propella-w32000	project_gutenberg/project_gutenberg.chunk.53.jsonl.gz	12325	0	2010
+2026-11-05T19:13:45	cn11.hpc.itu.dk	downloaded		project_gutenberg/project_gutenberg.chunk.56.jsonl.gz			5
+2026-11-05T19:38:24	cn11.hpc.itu.dk	annotated	propella-w32000	project_gutenberg/project_gutenberg.chunk.54.jsonl.gz	12376	2	2063
+2026-11-05T19:38:28	cn11.hpc.itu.dk	downloaded		project_gutenberg/project_gutenberg.chunk.57.jsonl.gz			5
+2026-11-05T19:47:47	cn11.hpc.itu.dk	annotated	propella-w32000	project_gutenberg/project_gutenberg.chunk.56.jsonl.gz	12471	0	2039
+2026-11-05T19:47:52	cn11.hpc.itu.dk	downloaded		project_gutenberg/project_gutenberg.chunk.58.jsonl.gz			5
+2026-11-05T20:12:43	cn11.hpc.itu.dk	annotated	propella-w32000	project_gutenberg/project_gutenberg.chunk.57.jsonl.gz	12313	0	2052
+2026-11-05T20:12:49	cn11.hpc.itu.dk	downloaded		project_gutenberg/project_gutenberg.chunk.60.jsonl.gz			6
+2026-11-05T20:21:31	cn11.hpc.itu.dk	annotated	propella-w32000	project_gutenberg/project_gutenberg.chunk.58.jsonl.gz	12386	2	2016
+2026-11-05T20:21:37	cn11.hpc.itu.dk	downloaded		project_gutenberg/project_gutenberg.chunk.61.jsonl.gz			5
+2026-11-05T20:47:18	cn11.hpc.itu.dk	annotated	propella-w32000	project_gutenberg/project_gutenberg.chunk.60.jsonl.gz	12327	0	2066
+2026-11-05T20:47:23	cn11.hpc.itu.dk	downloaded		project_gutenberg/project_gutenberg.chunk.62.jsonl.gz			5
+2026-11-05T20:55:18	cn11.hpc.itu.dk	annotated	propella-w32000	project_gutenberg/project_gutenberg.chunk.61.jsonl.gz	12285	0	2019
+2026-11-05T20:55:23	cn11.hpc.itu.dk	downloaded		doab/doab.chunk.00.jsonl.gz			5
+2026-11-05T21:16:13	cn11.hpc.itu.dk	annotated	propella-w32000	doab/doab.chunk.00.jsonl.gz	11938	2	1248
+2026-11-05T21:16:17	cn11.hpc.itu.dk	downloaded		doab/doab.chunk.01.jsonl.gz			4
+2026-11-05T21:22:13	cn11.hpc.itu.dk	annotated	propella-w32000	project_gutenberg/project_gutenberg.chunk.62.jsonl.gz	12459	0	2087
+2026-11-05T21:22:16	cn11.hpc.itu.dk	downloaded		doab/doab.chunk.02.jsonl.gz			4
+2026-11-05T21:37:19	cn11.hpc.itu.dk	annotated	propella-w32000	doab/doab.chunk.01.jsonl.gz	12000	2	1261
+2026-11-05T21:37:23	cn11.hpc.itu.dk	downloaded		doab/doab.chunk.04.jsonl.gz			3
+2026-11-05T21:43:59	cn11.hpc.itu.dk	annotated	propella-w32000	doab/doab.chunk.02.jsonl.gz	11995	0	1301
+2026-11-05T21:44:02	cn11.hpc.itu.dk	downloaded		doab/doab.chunk.05.jsonl.gz			4
+2026-11-05T21:57:43	cn11.hpc.itu.dk	annotated	propella-w32000	doab/doab.chunk.04.jsonl.gz	11752	3	1219
+2026-11-05T21:57:47	cn11.hpc.itu.dk	downloaded		doab/doab.chunk.06.jsonl.gz			4
+2026-11-05T22:05:02	cn11.hpc.itu.dk	annotated	propella-w32000	doab/doab.chunk.05.jsonl.gz	11814	3	1258
+2026-11-05T22:05:05	cn11.hpc.itu.dk	downloaded		doab/doab.chunk.08.jsonl.gz			4
+2026-11-05T22:18:04	cn11.hpc.itu.dk	annotated	propella-w32000	doab/doab.chunk.06.jsonl.gz	11740	0	1216
+2026-11-05T22:18:08	cn11.hpc.itu.dk	downloaded		doab/doab.chunk.09.jsonl.gz			4
+2026-11-05T22:26:23	cn11.hpc.itu.dk	annotated	propella-w32000	doab/doab.chunk.08.jsonl.gz	11943	2	1277
+2026-11-05T22:26:27	cn11.hpc.itu.dk	downloaded		doab/doab.chunk.10.jsonl.gz			4
+2026-11-05T22:39:25	cn11.hpc.itu.dk	annotated	propella-w32000	doab/doab.chunk.09.jsonl.gz	12046	1	1276
+2026-11-05T22:39:29	cn11.hpc.itu.dk	downloaded		doab/doab.chunk.12.jsonl.gz			4
+2026-11-05T22:48:23	cn11.hpc.itu.dk	annotated	propella-w32000	doab/doab.chunk.10.jsonl.gz	12095	0	1315
+2026-11-05T22:48:27	cn11.hpc.itu.dk	downloaded		doab/doab.chunk.13.jsonl.gz			4
+2026-11-05T23:00:22	cn11.hpc.itu.dk	annotated	propella-w32000	doab/doab.chunk.12.jsonl.gz	11980	0	1252
+2026-11-05T23:00:26	cn11.hpc.itu.dk	downloaded		doab/doab.chunk.14.jsonl.gz			3
+2026-11-05T23:09:26	cn11.hpc.itu.dk	annotated	propella-w32000	doab/doab.chunk.13.jsonl.gz	11861	0	1257
+2026-11-05T23:09:29	cn11.hpc.itu.dk	downloaded		doab/doab.chunk.16.jsonl.gz			4
+2026-11-05T23:21:19	cn11.hpc.itu.dk	annotated	propella-w32000	doab/doab.chunk.14.jsonl.gz	11922	3	1252
+2026-11-05T23:21:24	cn11.hpc.itu.dk	downloaded		doab/doab.chunk.17.jsonl.gz			5
+2026-11-05T23:30:25	cn11.hpc.itu.dk	annotated	propella-w32000	doab/doab.chunk.16.jsonl.gz	11849	2	1254
+2026-11-05T23:30:29	cn11.hpc.itu.dk	downloaded		doab/doab.chunk.18.jsonl.gz			3
+2026-11-05T23:41:54	cn11.hpc.itu.dk	annotated	propella-w32000	doab/doab.chunk.17.jsonl.gz	11825	0	1229
+2026-11-05T23:41:59	cn11.hpc.itu.dk	downloaded		doab/doab.chunk.20.jsonl.gz			5
+2026-11-05T23:51:22	cn11.hpc.itu.dk	annotated	propella-w32000	doab/doab.chunk.18.jsonl.gz	11834	1	1252
+2026-11-05T23:51:27	cn11.hpc.itu.dk	downloaded		doab/doab.chunk.21.jsonl.gz			5
+2026-11-06T00:03:20	cn11.hpc.itu.dk	annotated	propella-w32000	doab/doab.chunk.20.jsonl.gz	12064	0	1279
+2026-11-06T00:03:23	cn11.hpc.itu.dk	downloaded		doab/doab.chunk.22.jsonl.gz			4
+2026-11-06T00:12:35	cn11.hpc.itu.dk	annotated	propella-w32000	doab/doab.chunk.21.jsonl.gz	11887	2	1267
+2026-11-06T00:12:39	cn11.hpc.itu.dk	downloaded		doab/doab.chunk.24.jsonl.gz			3
+2026-11-06T00:24:43	cn11.hpc.itu.dk	annotated	propella-w32000	doab/doab.chunk.22.jsonl.gz	12080	3	1278
+2026-11-06T00:24:48	cn11.hpc.itu.dk	downloaded		doab/doab.chunk.25.jsonl.gz			5
+2026-11-06T00:34:12	cn11.hpc.itu.dk	annotated	propella-w32000	doab/doab.chunk.24.jsonl.gz	11974	1	1292
+2026-11-06T00:34:16	cn11.hpc.itu.dk	downloaded		doab/doab.chunk.26.jsonl.gz			4
+2026-11-06T00:45:58	cn11.hpc.itu.dk	annotated	propella-w32000	doab/doab.chunk.25.jsonl.gz	12008	2	1268
+2026-11-06T00:46:01	cn11.hpc.itu.dk	downloaded		doab/doab.chunk.28.jsonl.gz			3
+2026-11-06T00:55:30	cn11.hpc.itu.dk	annotated	propella-w32000	doab/doab.chunk.26.jsonl.gz	11903	1	1272
+2026-11-06T00:55:33	cn11.hpc.itu.dk	downloaded		doab/doab.chunk.29.jsonl.gz			4
+2026-11-06T01:06:47	cn11.hpc.itu.dk	annotated	propella-w32000	doab/doab.chunk.28.jsonl.gz	11903	0	1244
+2026-11-06T01:06:50	cn11.hpc.itu.dk	downloaded		doab/doab.chunk.30.jsonl.gz			3
+2026-11-06T01:17:03	cn11.hpc.itu.dk	annotated	propella-w32000	doab/doab.chunk.29.jsonl.gz	12010	3	1288
+2026-11-06T01:17:19	cn11.hpc.itu.dk	downloaded		doab/doab.chunk.32.jsonl.gz			16
+2026-11-06T01:27:51	cn11.hpc.itu.dk	annotated	propella-w32000	doab/doab.chunk.30.jsonl.gz	11950	0	1259
+2026-11-06T01:27:55	cn11.hpc.itu.dk	downloaded		doab/doab.chunk.33.jsonl.gz			4
+2026-11-06T01:38:55	cn11.hpc.itu.dk	annotated	propella-w32000	doab/doab.chunk.32.jsonl.gz	12015	0	1294
+2026-11-06T01:38:59	cn11.hpc.itu.dk	downloaded		doab/doab.chunk.34.jsonl.gz			4
+2026-11-06T01:49:04	cn11.hpc.itu.dk	annotated	propella-w32000	doab/doab.chunk.33.jsonl.gz	12007	1	1268
+2026-11-06T01:49:08	cn11.hpc.itu.dk	downloaded		doab/doab.chunk.36.jsonl.gz			4
+2026-11-06T01:59:30	cn11.hpc.itu.dk	annotated	propella-w32000	doab/doab.chunk.34.jsonl.gz	11691	1	1230
+2026-11-06T01:59:34	cn11.hpc.itu.dk	downloaded		doab/doab.chunk.37.jsonl.gz			4
+2026-11-06T02:09:33	cn11.hpc.itu.dk	annotated	propella-w32000	doab/doab.chunk.36.jsonl.gz	11814	0	1224
+2026-11-06T02:09:37	cn11.hpc.itu.dk	downloaded		doab/doab.chunk.38.jsonl.gz			4
+2026-11-06T02:20:44	cn11.hpc.itu.dk	annotated	propella-w32000	doab/doab.chunk.37.jsonl.gz	11898	0	1269
+2026-11-06T02:20:48	cn11.hpc.itu.dk	downloaded		doab/doab.chunk.40.jsonl.gz			4
+2026-11-06T02:30:10	cn11.hpc.itu.dk	annotated	propella-w32000	doab/doab.chunk.38.jsonl.gz	11868	0	1232
+2026-11-06T02:30:13	cn11.hpc.itu.dk	downloaded		doab/doab.chunk.41.jsonl.gz			4
+2026-11-06T02:41:11	cn11.hpc.itu.dk	annotated	propella-w32000	doab/doab.chunk.40.jsonl.gz	11686	0	1221
+2026-11-06T02:41:15	cn11.hpc.itu.dk	downloaded		doab/doab.chunk.42.jsonl.gz			4
+2026-11-06T02:51:07	cn11.hpc.itu.dk	annotated	propella-w32000	doab/doab.chunk.41.jsonl.gz	11934	4	1253
+2026-11-06T02:51:12	cn11.hpc.itu.dk	downloaded		doab/doab.chunk.44.jsonl.gz			4
+2026-11-06T03:01:55	cn11.hpc.itu.dk	annotated	propella-w32000	doab/doab.chunk.42.jsonl.gz	11744	3	1239
+2026-11-06T03:01:59	cn11.hpc.itu.dk	downloaded		doab/doab.chunk.45.jsonl.gz			4
+2026-11-06T03:12:09	cn11.hpc.itu.dk	annotated	propella-w32000	doab/doab.chunk.44.jsonl.gz	11978	2	1256
+2026-11-06T03:12:13	cn11.hpc.itu.dk	downloaded		doab/doab.chunk.46.jsonl.gz			4
+2026-11-06T03:23:14	cn11.hpc.itu.dk	annotated	propella-w32000	doab/doab.chunk.45.jsonl.gz	11907	0	1274
+2026-11-06T03:23:18	cn11.hpc.itu.dk	downloaded		doab/doab.chunk.48.jsonl.gz			4
+2026-11-06T03:33:48	cn11.hpc.itu.dk	annotated	propella-w32000	doab/doab.chunk.46.jsonl.gz	12102	1	1294
+2026-11-06T03:33:53	cn11.hpc.itu.dk	downloaded		doab/doab.chunk.49.jsonl.gz			4
+2026-11-06T03:44:48	cn11.hpc.itu.dk	annotated	propella-w32000	doab/doab.chunk.48.jsonl.gz	11987	0	1288
+2026-11-06T03:44:52	cn11.hpc.itu.dk	downloaded		doab/doab.chunk.50.jsonl.gz			4
+2026-11-06T03:54:28	cn11.hpc.itu.dk	annotated	propella-w32000	doab/doab.chunk.49.jsonl.gz	11809	0	1234
+2026-11-06T03:54:32	cn11.hpc.itu.dk	downloaded		doab/doab.chunk.52.jsonl.gz			4
+2026-11-06T04:05:50	cn11.hpc.itu.dk	annotated	propella-w32000	doab/doab.chunk.50.jsonl.gz	11831	0	1257
+2026-11-06T04:05:54	cn11.hpc.itu.dk	downloaded		doab/doab.chunk.53.jsonl.gz			4
+2026-11-06T04:14:51	cn11.hpc.itu.dk	annotated	propella-w32000	doab/doab.chunk.52.jsonl.gz	11768	2	1218
+2026-11-06T04:14:55	cn11.hpc.itu.dk	downloaded		doab/doab.chunk.54.jsonl.gz			4
+2026-11-06T04:27:21	cn11.hpc.itu.dk	annotated	propella-w32000	doab/doab.chunk.53.jsonl.gz	11942	1	1285
+2026-11-06T04:27:26	cn11.hpc.itu.dk	downloaded		doab/doab.chunk.56.jsonl.gz			5
+2026-11-06T04:35:34	cn11.hpc.itu.dk	annotated	propella-w32000	doab/doab.chunk.54.jsonl.gz	11886	2	1237
+2026-11-06T04:35:38	cn11.hpc.itu.dk	downloaded		doab/doab.chunk.57.jsonl.gz			4
+2026-11-06T04:49:10	cn11.hpc.itu.dk	annotated	propella-w32000	doab/doab.chunk.56.jsonl.gz	12040	1	1302
+2026-11-06T04:49:14	cn11.hpc.itu.dk	downloaded		doab/doab.chunk.58.jsonl.gz			4
+2026-11-06T04:55:55	cn11.hpc.itu.dk	annotated	propella-w32000	doab/doab.chunk.57.jsonl.gz	11788	0	1216
+2026-11-06T04:55:59	cn11.hpc.itu.dk	downloaded		doab/doab.chunk.60.jsonl.gz			4
+2026-11-06T05:11:16	cn11.hpc.itu.dk	annotated	propella-w32000	doab/doab.chunk.58.jsonl.gz	12138	1	1321
+2026-11-06T05:11:21	cn11.hpc.itu.dk	downloaded		doab/doab.chunk.61.jsonl.gz			5
+2026-11-06T05:17:06	cn11.hpc.itu.dk	annotated	propella-w32000	doab/doab.chunk.60.jsonl.gz	12062	1	1266
+2026-11-06T05:17:10	cn11.hpc.itu.dk	downloaded		doab/doab.chunk.62.jsonl.gz			3
+2026-11-06T05:32:32	cn11.hpc.itu.dk	annotated	propella-w32000	doab/doab.chunk.61.jsonl.gz	11822	3	1270
+2026-11-06T05:37:33	cn11.hpc.itu.dk	annotated	propella-w32000	doab/doab.chunk.62.jsonl.gz	11789	2	1223
