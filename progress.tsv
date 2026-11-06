@@ -2815,3 +2815,290 @@ time	host	event	annotator	shard	n_docs	n_failed	seconds
 2026-10-30T14:52:12	cir	annotated	weborganizer	oercommons/oercommons.chunk.63.jsonl.gz	83	0	2
 2026-10-30T15:05:48	cir	annotated	weborganizer	stackexchange/stackexchange.chunk.63.jsonl.gz	484184	0	2962
 2026-11-03T10:42:29	cir	downloaded		project_gutenberg/project_gutenberg.chunk.03.jsonl.gz			5
+2026-11-03T11:51:56	cir	downloaded		project_gutenberg/project_gutenberg.chunk.00.jsonl.gz			3
+2026-11-03T11:52:15	cir	downloaded		project_gutenberg/project_gutenberg.chunk.07.jsonl.gz			5
+2026-11-03T12:08:46	cir	annotated	weborganizer-w32000	project_gutenberg/project_gutenberg.chunk.00.jsonl.gz	12391	0	1007
+2026-11-03T12:08:50	cir	downloaded		project_gutenberg/project_gutenberg.chunk.01.jsonl.gz			3
+2026-11-03T12:25:57	cir	annotated	weborganizer-w32000	project_gutenberg/project_gutenberg.chunk.01.jsonl.gz	12535	0	1023
+2026-11-03T12:26:00	cir	downloaded		project_gutenberg/project_gutenberg.chunk.02.jsonl.gz			3
+2026-11-03T12:42:51	cir	annotated	weborganizer-w32000	project_gutenberg/project_gutenberg.chunk.02.jsonl.gz	12327	0	1008
+2026-11-03T12:59:57	cir	annotated	weborganizer-w32000	project_gutenberg/project_gutenberg.chunk.03.jsonl.gz	12467	0	1023
+2026-11-03T13:00:01	cir	downloaded		project_gutenberg/project_gutenberg.chunk.04.jsonl.gz			3
+2026-11-03T13:16:59	cir	annotated	weborganizer-w32000	project_gutenberg/project_gutenberg.chunk.04.jsonl.gz	12373	0	1015
+2026-11-03T13:17:02	cir	downloaded		project_gutenberg/project_gutenberg.chunk.05.jsonl.gz			3
+2026-11-03T13:20:11	cir	annotated	propella-w32000	project_gutenberg/project_gutenberg.chunk.03.jsonl.gz	12467	2	5277
+2026-11-03T13:20:15	cir	downloaded		project_gutenberg/project_gutenberg.chunk.11.jsonl.gz			4
+2026-11-03T13:34:09	cir	annotated	weborganizer-w32000	project_gutenberg/project_gutenberg.chunk.05.jsonl.gz	12476	0	1024
+2026-11-03T13:34:13	cir	downloaded		project_gutenberg/project_gutenberg.chunk.06.jsonl.gz			4
+2026-11-03T13:42:10	cir	annotated	propella-w32000	project_gutenberg/project_gutenberg.chunk.07.jsonl.gz	12460	1	6592
+2026-11-03T13:42:13	cir	downloaded		project_gutenberg/project_gutenberg.chunk.15.jsonl.gz			3
+2026-11-03T13:51:10	cir	annotated	weborganizer-w32000	project_gutenberg/project_gutenberg.chunk.06.jsonl.gz	12389	0	1014
+2026-11-03T14:08:16	cir	annotated	weborganizer-w32000	project_gutenberg/project_gutenberg.chunk.07.jsonl.gz	12460	0	1023
+2026-11-03T14:08:19	cir	downloaded		project_gutenberg/project_gutenberg.chunk.08.jsonl.gz			3
+2026-11-03T14:25:27	cir	annotated	weborganizer-w32000	project_gutenberg/project_gutenberg.chunk.08.jsonl.gz	12490	0	1024
+2026-11-03T14:25:30	cir	downloaded		project_gutenberg/project_gutenberg.chunk.09.jsonl.gz			3
+2026-11-03T14:42:28	cir	annotated	weborganizer-w32000	project_gutenberg/project_gutenberg.chunk.09.jsonl.gz	12397	0	1014
+2026-11-03T14:42:31	cir	downloaded		project_gutenberg/project_gutenberg.chunk.10.jsonl.gz			3
+2026-11-03T14:59:32	cir	annotated	weborganizer-w32000	project_gutenberg/project_gutenberg.chunk.10.jsonl.gz	12441	0	1018
+2026-11-03T15:10:44	cir	annotated	propella-w32000	project_gutenberg/project_gutenberg.chunk.11.jsonl.gz	12465	1	6626
+2026-11-03T15:10:47	cir	downloaded		project_gutenberg/project_gutenberg.chunk.19.jsonl.gz			3
+2026-11-03T15:16:37	cir	annotated	weborganizer-w32000	project_gutenberg/project_gutenberg.chunk.11.jsonl.gz	12465	0	1021
+2026-11-03T15:16:40	cir	downloaded		project_gutenberg/project_gutenberg.chunk.12.jsonl.gz			3
+2026-11-03T15:31:42	cir	annotated	propella-w32000	project_gutenberg/project_gutenberg.chunk.15.jsonl.gz	12432	0	6566
+2026-11-03T15:31:45	cir	downloaded		project_gutenberg/project_gutenberg.chunk.23.jsonl.gz			3
+2026-11-03T15:33:30	cir	annotated	weborganizer-w32000	project_gutenberg/project_gutenberg.chunk.12.jsonl.gz	12328	0	1007
+2026-11-03T15:33:33	cir	downloaded		project_gutenberg/project_gutenberg.chunk.13.jsonl.gz			3
+2026-11-03T15:50:24	cir	annotated	weborganizer-w32000	project_gutenberg/project_gutenberg.chunk.13.jsonl.gz	12367	0	1008
+2026-11-03T15:50:27	cir	downloaded		project_gutenberg/project_gutenberg.chunk.14.jsonl.gz			3
+2026-11-03T16:07:23	cir	annotated	weborganizer-w32000	project_gutenberg/project_gutenberg.chunk.14.jsonl.gz	12416	0	1013
+2026-11-03T16:24:22	cir	annotated	weborganizer-w32000	project_gutenberg/project_gutenberg.chunk.15.jsonl.gz	12432	0	1016
+2026-11-03T16:24:26	cir	downloaded		project_gutenberg/project_gutenberg.chunk.16.jsonl.gz			3
+2026-11-03T16:41:18	cir	annotated	weborganizer-w32000	project_gutenberg/project_gutenberg.chunk.16.jsonl.gz	12423	0	1010
+2026-11-03T16:41:22	cir	downloaded		project_gutenberg/project_gutenberg.chunk.17.jsonl.gz			3
+2026-11-03T16:58:10	cir	annotated	weborganizer-w32000	project_gutenberg/project_gutenberg.chunk.17.jsonl.gz	12286	0	1005
+2026-11-03T16:58:13	cir	downloaded		project_gutenberg/project_gutenberg.chunk.18.jsonl.gz			3
+2026-11-03T17:00:04	cir	annotated	propella-w32000	project_gutenberg/project_gutenberg.chunk.19.jsonl.gz	12335	0	6554
+2026-11-03T17:00:07	cir	downloaded		project_gutenberg/project_gutenberg.chunk.27.jsonl.gz			3
+2026-11-03T17:15:18	cir	annotated	weborganizer-w32000	project_gutenberg/project_gutenberg.chunk.18.jsonl.gz	12509	0	1022
+2026-11-03T17:20:03	cir	annotated	propella-w32000	project_gutenberg/project_gutenberg.chunk.23.jsonl.gz	12296	3	6495
+2026-11-03T17:20:06	cir	downloaded		project_gutenberg/project_gutenberg.chunk.31.jsonl.gz			3
+2026-11-03T17:32:08	cir	annotated	weborganizer-w32000	project_gutenberg/project_gutenberg.chunk.19.jsonl.gz	12335	0	1007
+2026-11-03T17:32:12	cir	downloaded		project_gutenberg/project_gutenberg.chunk.20.jsonl.gz			3
+2026-11-03T17:49:14	cir	annotated	weborganizer-w32000	project_gutenberg/project_gutenberg.chunk.20.jsonl.gz	12436	0	1019
+2026-11-03T17:49:17	cir	downloaded		project_gutenberg/project_gutenberg.chunk.21.jsonl.gz			3
+2026-11-03T18:06:03	cir	annotated	weborganizer-w32000	project_gutenberg/project_gutenberg.chunk.21.jsonl.gz	12314	0	1003
+2026-11-03T18:06:07	cir	downloaded		project_gutenberg/project_gutenberg.chunk.22.jsonl.gz			3
+2026-11-03T18:23:11	cir	annotated	weborganizer-w32000	project_gutenberg/project_gutenberg.chunk.22.jsonl.gz	12455	0	1021
+2026-11-03T18:40:02	cir	annotated	weborganizer-w32000	project_gutenberg/project_gutenberg.chunk.23.jsonl.gz	12296	0	1008
+2026-11-03T18:40:05	cir	downloaded		project_gutenberg/project_gutenberg.chunk.24.jsonl.gz			3
+2026-11-03T18:49:23	cir	annotated	propella-w32000	project_gutenberg/project_gutenberg.chunk.27.jsonl.gz	12345	0	6553
+2026-11-03T18:49:26	cir	downloaded		project_gutenberg/project_gutenberg.chunk.35.jsonl.gz			3
+2026-11-03T18:56:53	cir	annotated	weborganizer-w32000	project_gutenberg/project_gutenberg.chunk.24.jsonl.gz	12331	0	1005
+2026-11-03T18:56:57	cir	downloaded		project_gutenberg/project_gutenberg.chunk.25.jsonl.gz			4
+2026-11-03T19:07:35	cir	annotated	propella-w32000	project_gutenberg/project_gutenberg.chunk.31.jsonl.gz	12239	1	6446
+2026-11-03T19:07:39	cir	downloaded		project_gutenberg/project_gutenberg.chunk.39.jsonl.gz			3
+2026-11-03T19:13:51	cir	annotated	weborganizer-w32000	project_gutenberg/project_gutenberg.chunk.25.jsonl.gz	12391	0	1011
+2026-11-03T19:13:54	cir	downloaded		project_gutenberg/project_gutenberg.chunk.26.jsonl.gz			4
+2026-11-03T19:30:56	cir	annotated	weborganizer-w32000	project_gutenberg/project_gutenberg.chunk.26.jsonl.gz	12418	0	1019
+2026-11-03T19:47:45	cir	annotated	weborganizer-w32000	project_gutenberg/project_gutenberg.chunk.27.jsonl.gz	12345	0	1006
+2026-11-03T19:47:48	cir	downloaded		project_gutenberg/project_gutenberg.chunk.28.jsonl.gz			3
+2026-11-03T20:04:52	cir	annotated	weborganizer-w32000	project_gutenberg/project_gutenberg.chunk.28.jsonl.gz	12490	0	1021
+2026-11-03T20:04:56	cir	downloaded		project_gutenberg/project_gutenberg.chunk.29.jsonl.gz			4
+2026-11-03T20:22:00	cir	annotated	weborganizer-w32000	project_gutenberg/project_gutenberg.chunk.29.jsonl.gz	12474	0	1021
+2026-11-03T20:22:04	cir	downloaded		project_gutenberg/project_gutenberg.chunk.30.jsonl.gz			3
+2026-11-03T20:38:58	cir	annotated	weborganizer-w32000	project_gutenberg/project_gutenberg.chunk.30.jsonl.gz	12326	0	1012
+2026-11-03T20:39:36	cir	annotated	propella-w32000	project_gutenberg/project_gutenberg.chunk.35.jsonl.gz	12417	1	6606
+2026-11-03T20:39:39	cir	downloaded		project_gutenberg/project_gutenberg.chunk.43.jsonl.gz			3
+2026-11-03T20:55:19	cir	annotated	propella-w32000	project_gutenberg/project_gutenberg.chunk.39.jsonl.gz	12262	0	6457
+2026-11-03T20:55:23	cir	downloaded		project_gutenberg/project_gutenberg.chunk.47.jsonl.gz			4
+2026-11-03T20:55:39	cir	annotated	weborganizer-w32000	project_gutenberg/project_gutenberg.chunk.31.jsonl.gz	12239	0	997
+2026-11-03T20:55:44	cir	downloaded		project_gutenberg/project_gutenberg.chunk.32.jsonl.gz			5
+2026-11-03T21:12:45	cir	annotated	weborganizer-w32000	project_gutenberg/project_gutenberg.chunk.32.jsonl.gz	12422	0	1018
+2026-11-03T21:12:48	cir	downloaded		project_gutenberg/project_gutenberg.chunk.33.jsonl.gz			3
+2026-11-03T21:29:48	cir	annotated	weborganizer-w32000	project_gutenberg/project_gutenberg.chunk.33.jsonl.gz	12415	0	1017
+2026-11-03T21:29:51	cir	downloaded		project_gutenberg/project_gutenberg.chunk.34.jsonl.gz			3
+2026-11-03T21:46:49	cir	annotated	weborganizer-w32000	project_gutenberg/project_gutenberg.chunk.34.jsonl.gz	12387	0	1015
+2026-11-03T22:03:49	cir	annotated	weborganizer-w32000	project_gutenberg/project_gutenberg.chunk.35.jsonl.gz	12417	0	1017
+2026-11-03T22:03:53	cir	downloaded		project_gutenberg/project_gutenberg.chunk.36.jsonl.gz			3
+2026-11-03T22:20:38	cir	annotated	weborganizer-w32000	project_gutenberg/project_gutenberg.chunk.36.jsonl.gz	12268	0	1002
+2026-11-03T22:20:42	cir	downloaded		project_gutenberg/project_gutenberg.chunk.37.jsonl.gz			4
+2026-11-03T22:28:54	cir	annotated	propella-w32000	project_gutenberg/project_gutenberg.chunk.43.jsonl.gz	12359	0	6551
+2026-11-03T22:28:57	cir	downloaded		project_gutenberg/project_gutenberg.chunk.51.jsonl.gz			3
+2026-11-03T22:37:40	cir	annotated	weborganizer-w32000	project_gutenberg/project_gutenberg.chunk.37.jsonl.gz	12408	0	1015
+2026-11-03T22:37:44	cir	downloaded		project_gutenberg/project_gutenberg.chunk.38.jsonl.gz			4
+2026-11-03T22:44:47	cir	annotated	propella-w32000	project_gutenberg/project_gutenberg.chunk.47.jsonl.gz	12400	1	6561
+2026-11-03T22:44:50	cir	downloaded		project_gutenberg/project_gutenberg.chunk.55.jsonl.gz			3
+2026-11-03T22:54:31	cir	annotated	weborganizer-w32000	project_gutenberg/project_gutenberg.chunk.38.jsonl.gz	12334	0	1004
+2026-11-03T23:11:10	cir	annotated	weborganizer-w32000	project_gutenberg/project_gutenberg.chunk.39.jsonl.gz	12262	0	996
+2026-11-03T23:11:13	cir	downloaded		project_gutenberg/project_gutenberg.chunk.40.jsonl.gz			3
+2026-11-03T23:28:14	cir	annotated	weborganizer-w32000	project_gutenberg/project_gutenberg.chunk.40.jsonl.gz	12440	0	1018
+2026-11-03T23:28:17	cir	downloaded		project_gutenberg/project_gutenberg.chunk.41.jsonl.gz			3
+2026-11-03T23:45:12	cir	annotated	weborganizer-w32000	project_gutenberg/project_gutenberg.chunk.41.jsonl.gz	12402	0	1012
+2026-11-03T23:45:16	cir	downloaded		project_gutenberg/project_gutenberg.chunk.42.jsonl.gz			3
+2026-11-04T00:02:21	cir	annotated	weborganizer-w32000	project_gutenberg/project_gutenberg.chunk.42.jsonl.gz	12479	0	1022
+2026-11-04T00:19:14	cir	annotated	weborganizer-w32000	project_gutenberg/project_gutenberg.chunk.43.jsonl.gz	12359	0	1010
+2026-11-04T00:19:17	cir	downloaded		project_gutenberg/project_gutenberg.chunk.44.jsonl.gz			3
+2026-11-04T00:20:19	cir	annotated	propella-w32000	project_gutenberg/project_gutenberg.chunk.51.jsonl.gz	12555	0	6678
+2026-11-04T00:20:23	cir	downloaded		project_gutenberg/project_gutenberg.chunk.59.jsonl.gz			4
+2026-11-04T00:34:48	cir	annotated	propella-w32000	project_gutenberg/project_gutenberg.chunk.55.jsonl.gz	12454	0	6595
+2026-11-04T00:34:52	cir	downloaded		project_gutenberg/project_gutenberg.chunk.63.jsonl.gz			3
+2026-11-04T00:36:02	cir	annotated	weborganizer-w32000	project_gutenberg/project_gutenberg.chunk.44.jsonl.gz	12308	0	1002
+2026-11-04T00:36:06	cir	downloaded		project_gutenberg/project_gutenberg.chunk.45.jsonl.gz			4
+2026-11-04T00:53:01	cir	annotated	weborganizer-w32000	project_gutenberg/project_gutenberg.chunk.45.jsonl.gz	12381	0	1011
+2026-11-04T00:53:04	cir	downloaded		project_gutenberg/project_gutenberg.chunk.46.jsonl.gz			4
+2026-11-04T01:10:08	cir	annotated	weborganizer-w32000	project_gutenberg/project_gutenberg.chunk.46.jsonl.gz	12498	0	1020
+2026-11-04T01:27:04	cir	annotated	weborganizer-w32000	project_gutenberg/project_gutenberg.chunk.47.jsonl.gz	12400	0	1013
+2026-11-04T01:27:08	cir	downloaded		project_gutenberg/project_gutenberg.chunk.48.jsonl.gz			4
+2026-11-04T01:44:04	cir	annotated	weborganizer-w32000	project_gutenberg/project_gutenberg.chunk.48.jsonl.gz	12396	0	1013
+2026-11-04T01:44:07	cir	downloaded		project_gutenberg/project_gutenberg.chunk.49.jsonl.gz			3
+2026-11-04T02:01:08	cir	annotated	weborganizer-w32000	project_gutenberg/project_gutenberg.chunk.49.jsonl.gz	12482	0	1017
+2026-11-04T02:01:11	cir	downloaded		project_gutenberg/project_gutenberg.chunk.50.jsonl.gz			3
+2026-11-04T02:09:44	cir	annotated	propella-w32000	project_gutenberg/project_gutenberg.chunk.59.jsonl.gz	12352	0	6557
+2026-11-04T02:09:46	cir	downloaded		doab/doab.chunk.03.jsonl.gz			3
+2026-11-04T02:18:10	cir	annotated	weborganizer-w32000	project_gutenberg/project_gutenberg.chunk.50.jsonl.gz	12418	0	1016
+2026-11-04T02:23:52	cir	annotated	propella-w32000	project_gutenberg/project_gutenberg.chunk.63.jsonl.gz	12386	0	6537
+2026-11-04T02:23:56	cir	downloaded		doab/doab.chunk.07.jsonl.gz			4
+2026-11-04T02:35:21	cir	annotated	weborganizer-w32000	project_gutenberg/project_gutenberg.chunk.51.jsonl.gz	12555	0	1027
+2026-11-04T02:35:24	cir	downloaded		project_gutenberg/project_gutenberg.chunk.52.jsonl.gz			3
+2026-11-04T02:52:25	cir	annotated	weborganizer-w32000	project_gutenberg/project_gutenberg.chunk.52.jsonl.gz	12400	0	1018
+2026-11-04T02:52:29	cir	downloaded		project_gutenberg/project_gutenberg.chunk.53.jsonl.gz			4
+2026-11-04T03:09:20	cir	annotated	weborganizer-w32000	project_gutenberg/project_gutenberg.chunk.53.jsonl.gz	12325	0	1008
+2026-11-04T03:09:24	cir	downloaded		project_gutenberg/project_gutenberg.chunk.54.jsonl.gz			4
+2026-11-04T03:17:10	cir	annotated	propella-w32000	doab/doab.chunk.03.jsonl.gz	11932	2	4042
+2026-11-04T03:17:13	cir	downloaded		doab/doab.chunk.11.jsonl.gz			3
+2026-11-04T03:26:18	cir	annotated	weborganizer-w32000	project_gutenberg/project_gutenberg.chunk.54.jsonl.gz	12376	0	1010
+2026-11-04T03:30:28	cir	annotated	propella-w32000	doab/doab.chunk.07.jsonl.gz	11967	2	3991
+2026-11-04T03:30:31	cir	downloaded		doab/doab.chunk.15.jsonl.gz			3
+2026-11-04T03:43:24	cir	annotated	weborganizer-w32000	project_gutenberg/project_gutenberg.chunk.55.jsonl.gz	12454	0	1023
+2026-11-04T03:43:28	cir	downloaded		project_gutenberg/project_gutenberg.chunk.56.jsonl.gz			4
+2026-11-04T04:00:33	cir	annotated	weborganizer-w32000	project_gutenberg/project_gutenberg.chunk.56.jsonl.gz	12471	0	1023
+2026-11-04T04:00:37	cir	downloaded		project_gutenberg/project_gutenberg.chunk.57.jsonl.gz			3
+2026-11-04T04:17:23	cir	annotated	weborganizer-w32000	project_gutenberg/project_gutenberg.chunk.57.jsonl.gz	12313	0	1003
+2026-11-04T04:17:27	cir	downloaded		project_gutenberg/project_gutenberg.chunk.58.jsonl.gz			4
+2026-11-04T04:24:22	cir	annotated	propella-w32000	doab/doab.chunk.11.jsonl.gz	11920	0	4027
+2026-11-04T04:24:26	cir	downloaded		doab/doab.chunk.19.jsonl.gz			4
+2026-11-04T04:34:16	cir	annotated	weborganizer-w32000	project_gutenberg/project_gutenberg.chunk.58.jsonl.gz	12386	0	1006
+2026-11-04T04:37:12	cir	annotated	propella-w32000	doab/doab.chunk.15.jsonl.gz	11927	2	4000
+2026-11-04T04:37:15	cir	downloaded		doab/doab.chunk.23.jsonl.gz			3
+2026-11-04T04:51:06	cir	annotated	weborganizer-w32000	project_gutenberg/project_gutenberg.chunk.59.jsonl.gz	12352	0	1007
+2026-11-04T04:51:10	cir	downloaded		project_gutenberg/project_gutenberg.chunk.60.jsonl.gz			4
+2026-11-04T05:07:58	cir	annotated	weborganizer-w32000	project_gutenberg/project_gutenberg.chunk.60.jsonl.gz	12327	0	1005
+2026-11-04T05:08:02	cir	downloaded		project_gutenberg/project_gutenberg.chunk.61.jsonl.gz			3
+2026-11-04T05:24:49	cir	annotated	weborganizer-w32000	project_gutenberg/project_gutenberg.chunk.61.jsonl.gz	12285	0	1005
+2026-11-04T05:24:53	cir	downloaded		project_gutenberg/project_gutenberg.chunk.62.jsonl.gz			3
+2026-11-04T05:32:43	cir	annotated	propella-w32000	doab/doab.chunk.19.jsonl.gz	11984	1	4095
+2026-11-04T05:32:45	cir	downloaded		doab/doab.chunk.27.jsonl.gz			3
+2026-11-04T05:41:57	cir	annotated	weborganizer-w32000	project_gutenberg/project_gutenberg.chunk.62.jsonl.gz	12459	0	1021
+2026-11-04T05:45:22	cir	annotated	propella-w32000	doab/doab.chunk.23.jsonl.gz	12044	3	4086
+2026-11-04T05:45:25	cir	downloaded		doab/doab.chunk.31.jsonl.gz			3
+2026-11-04T05:58:57	cir	annotated	weborganizer-w32000	project_gutenberg/project_gutenberg.chunk.63.jsonl.gz	12386	0	1016
+2026-11-04T05:59:00	cir	downloaded		doab/doab.chunk.00.jsonl.gz			3
+2026-11-04T06:09:18	cir	annotated	weborganizer-w32000	doab/doab.chunk.00.jsonl.gz	11938	0	617
+2026-11-04T06:09:21	cir	downloaded		doab/doab.chunk.01.jsonl.gz			3
+2026-11-04T06:19:45	cir	annotated	weborganizer-w32000	doab/doab.chunk.01.jsonl.gz	12000	0	622
+2026-11-04T06:19:48	cir	downloaded		doab/doab.chunk.02.jsonl.gz			3
+2026-11-04T06:30:23	cir	annotated	weborganizer-w32000	doab/doab.chunk.02.jsonl.gz	11995	0	633
+2026-11-04T06:40:13	cir	annotated	propella-w32000	doab/doab.chunk.27.jsonl.gz	11971	1	4046
+2026-11-04T06:40:16	cir	downloaded		doab/doab.chunk.35.jsonl.gz			3
+2026-11-04T06:40:45	cir	annotated	weborganizer-w32000	doab/doab.chunk.03.jsonl.gz	11932	0	620
+2026-11-04T06:40:48	cir	downloaded		doab/doab.chunk.04.jsonl.gz			3
+2026-11-04T06:50:50	cir	annotated	weborganizer-w32000	doab/doab.chunk.04.jsonl.gz	11752	0	600
+2026-11-04T06:50:53	cir	downloaded		doab/doab.chunk.05.jsonl.gz			3
+2026-11-04T06:51:29	cir	annotated	propella-w32000	doab/doab.chunk.31.jsonl.gz	11869	0	3963
+2026-11-04T06:51:32	cir	downloaded		doab/doab.chunk.39.jsonl.gz			3
+2026-11-04T07:01:00	cir	annotated	weborganizer-w32000	doab/doab.chunk.05.jsonl.gz	11814	0	606
+2026-11-04T07:01:03	cir	downloaded		doab/doab.chunk.06.jsonl.gz			3
+2026-11-04T07:11:03	cir	annotated	weborganizer-w32000	doab/doab.chunk.06.jsonl.gz	11740	0	599
+2026-11-04T07:21:22	cir	annotated	weborganizer-w32000	doab/doab.chunk.07.jsonl.gz	11967	0	617
+2026-11-04T07:21:25	cir	downloaded		doab/doab.chunk.08.jsonl.gz			3
+2026-11-04T07:31:45	cir	annotated	weborganizer-w32000	doab/doab.chunk.08.jsonl.gz	11943	0	618
+2026-11-04T07:31:48	cir	downloaded		doab/doab.chunk.09.jsonl.gz			3
+2026-11-04T07:42:21	cir	annotated	weborganizer-w32000	doab/doab.chunk.09.jsonl.gz	12046	0	631
+2026-11-04T07:42:24	cir	downloaded		doab/doab.chunk.10.jsonl.gz			3
+2026-11-04T07:47:08	cir	annotated	propella-w32000	doab/doab.chunk.35.jsonl.gz	11897	3	4010
+2026-11-04T07:47:11	cir	downloaded		doab/doab.chunk.43.jsonl.gz			3
+2026-11-04T07:53:04	cir	annotated	weborganizer-w32000	doab/doab.chunk.10.jsonl.gz	12095	0	639
+2026-11-04T07:57:05	cir	annotated	propella-w32000	doab/doab.chunk.39.jsonl.gz	11860	3	3931
+2026-11-04T07:57:08	cir	downloaded		doab/doab.chunk.47.jsonl.gz			3
+2026-11-04T08:03:20	cir	annotated	weborganizer-w32000	doab/doab.chunk.11.jsonl.gz	11920	0	614
+2026-11-04T08:03:23	cir	downloaded		doab/doab.chunk.12.jsonl.gz			3
+2026-11-04T08:13:42	cir	annotated	weborganizer-w32000	doab/doab.chunk.12.jsonl.gz	11980	0	618
+2026-11-04T08:13:45	cir	downloaded		doab/doab.chunk.13.jsonl.gz			3
+2026-11-04T08:23:55	cir	annotated	weborganizer-w32000	doab/doab.chunk.13.jsonl.gz	11861	0	608
+2026-11-04T08:23:58	cir	downloaded		doab/doab.chunk.14.jsonl.gz			3
+2026-11-04T08:34:18	cir	annotated	weborganizer-w32000	doab/doab.chunk.14.jsonl.gz	11922	0	619
+2026-11-04T08:44:40	cir	annotated	weborganizer-w32000	doab/doab.chunk.15.jsonl.gz	11927	0	620
+2026-11-04T08:44:42	cir	downloaded		doab/doab.chunk.16.jsonl.gz			3
+2026-11-04T08:52:30	cir	annotated	propella-w32000	doab/doab.chunk.43.jsonl.gz	11759	2	3918
+2026-11-04T08:52:33	cir	downloaded		doab/doab.chunk.51.jsonl.gz			3
+2026-11-04T08:54:50	cir	annotated	weborganizer-w32000	doab/doab.chunk.16.jsonl.gz	11849	0	606
+2026-11-04T08:54:53	cir	downloaded		doab/doab.chunk.17.jsonl.gz			3
+2026-11-04T09:04:15	cir	annotated	propella-w32000	doab/doab.chunk.47.jsonl.gz	11992	0	4026
+2026-11-04T09:04:19	cir	downloaded		doab/doab.chunk.55.jsonl.gz			4
+2026-11-04T09:05:04	cir	annotated	weborganizer-w32000	doab/doab.chunk.17.jsonl.gz	11825	0	609
+2026-11-04T09:05:08	cir	downloaded		doab/doab.chunk.18.jsonl.gz			4
+2026-11-04T09:15:14	cir	annotated	weborganizer-w32000	doab/doab.chunk.18.jsonl.gz	11834	0	604
+2026-11-04T09:25:46	cir	annotated	weborganizer-w32000	doab/doab.chunk.19.jsonl.gz	11984	0	630
+2026-11-04T09:25:49	cir	downloaded		doab/doab.chunk.20.jsonl.gz			3
+2026-11-04T09:36:23	cir	annotated	weborganizer-w32000	doab/doab.chunk.20.jsonl.gz	12064	0	632
+2026-11-04T09:36:26	cir	downloaded		doab/doab.chunk.21.jsonl.gz			3
+2026-11-04T09:46:39	cir	annotated	weborganizer-w32000	doab/doab.chunk.21.jsonl.gz	11887	0	611
+2026-11-04T09:46:42	cir	downloaded		doab/doab.chunk.22.jsonl.gz			3
+2026-11-04T09:56:22	cir	annotated	propella-w32000	doab/doab.chunk.51.jsonl.gz	11645	2	3828
+2026-11-04T09:56:25	cir	downloaded		doab/doab.chunk.59.jsonl.gz			3
+2026-11-04T09:57:16	cir	annotated	weborganizer-w32000	doab/doab.chunk.22.jsonl.gz	12080	0	633
+2026-11-04T10:07:52	cir	annotated	weborganizer-w32000	doab/doab.chunk.23.jsonl.gz	12044	0	634
+2026-11-04T10:07:54	cir	downloaded		doab/doab.chunk.24.jsonl.gz			2
+2026-11-04T10:09:21	cir	annotated	propella-w32000	doab/doab.chunk.55.jsonl.gz	11751	1	3901
+2026-11-04T10:09:24	cir	downloaded		doab/doab.chunk.63.jsonl.gz			3
+2026-11-04T10:18:25	cir	annotated	weborganizer-w32000	doab/doab.chunk.24.jsonl.gz	11974	0	630
+2026-11-04T10:18:29	cir	downloaded		doab/doab.chunk.25.jsonl.gz			3
+2026-11-04T10:28:57	cir	annotated	weborganizer-w32000	doab/doab.chunk.25.jsonl.gz	12008	0	627
+2026-11-04T10:29:00	cir	downloaded		doab/doab.chunk.26.jsonl.gz			3
+2026-11-04T10:39:17	cir	annotated	weborganizer-w32000	doab/doab.chunk.26.jsonl.gz	11903	0	615
+2026-11-04T10:49:37	cir	annotated	weborganizer-w32000	doab/doab.chunk.27.jsonl.gz	11971	0	619
+2026-11-04T10:49:40	cir	downloaded		doab/doab.chunk.28.jsonl.gz			3
+2026-11-04T10:59:56	cir	annotated	weborganizer-w32000	doab/doab.chunk.28.jsonl.gz	11903	0	614
+2026-11-04T10:59:59	cir	downloaded		doab/doab.chunk.29.jsonl.gz			3
+2026-11-04T11:04:07	cir	annotated	propella-w32000	doab/doab.chunk.59.jsonl.gz	11931	3	4060
+2026-11-04T11:10:26	cir	annotated	weborganizer-w32000	doab/doab.chunk.29.jsonl.gz	12010	0	625
+2026-11-04T11:10:28	cir	downloaded		doab/doab.chunk.30.jsonl.gz			3
+2026-11-04T11:16:43	cir	annotated	propella-w32000	doab/doab.chunk.63.jsonl.gz	11998	1	4037
+2026-11-04T11:20:56	cir	annotated	weborganizer-w32000	doab/doab.chunk.30.jsonl.gz	11950	0	626
+2026-11-04T11:31:08	cir	annotated	weborganizer-w32000	doab/doab.chunk.31.jsonl.gz	11869	0	610
+2026-11-04T11:31:11	cir	downloaded		doab/doab.chunk.32.jsonl.gz			3
+2026-11-04T11:41:39	cir	annotated	weborganizer-w32000	doab/doab.chunk.32.jsonl.gz	12015	0	627
+2026-11-04T11:41:42	cir	downloaded		doab/doab.chunk.33.jsonl.gz			3
+2026-11-04T11:52:11	cir	annotated	weborganizer-w32000	doab/doab.chunk.33.jsonl.gz	12007	0	627
+2026-11-04T11:52:14	cir	downloaded		doab/doab.chunk.34.jsonl.gz			3
+2026-11-04T12:02:08	cir	annotated	weborganizer-w32000	doab/doab.chunk.34.jsonl.gz	11691	0	592
+2026-11-04T12:12:19	cir	annotated	weborganizer-w32000	doab/doab.chunk.35.jsonl.gz	11897	0	610
+2026-11-04T12:12:22	cir	downloaded		doab/doab.chunk.36.jsonl.gz			3
+2026-11-04T12:22:27	cir	annotated	weborganizer-w32000	doab/doab.chunk.36.jsonl.gz	11814	0	603
+2026-11-04T12:22:31	cir	downloaded		doab/doab.chunk.37.jsonl.gz			3
+2026-11-04T12:32:45	cir	annotated	weborganizer-w32000	doab/doab.chunk.37.jsonl.gz	11898	0	613
+2026-11-04T12:32:48	cir	downloaded		doab/doab.chunk.38.jsonl.gz			3
+2026-11-04T12:42:56	cir	annotated	weborganizer-w32000	doab/doab.chunk.38.jsonl.gz	11868	0	607
+2026-11-04T12:53:05	cir	annotated	weborganizer-w32000	doab/doab.chunk.39.jsonl.gz	11860	0	607
+2026-11-04T12:53:08	cir	downloaded		doab/doab.chunk.40.jsonl.gz			3
+2026-11-04T13:02:57	cir	annotated	weborganizer-w32000	doab/doab.chunk.40.jsonl.gz	11686	0	588
+2026-11-04T13:03:00	cir	downloaded		doab/doab.chunk.41.jsonl.gz			3
+2026-11-04T13:13:21	cir	annotated	weborganizer-w32000	doab/doab.chunk.41.jsonl.gz	11934	0	619
+2026-11-04T13:13:24	cir	downloaded		doab/doab.chunk.42.jsonl.gz			3
+2026-11-04T13:23:23	cir	annotated	weborganizer-w32000	doab/doab.chunk.42.jsonl.gz	11744	0	598
+2026-11-04T13:33:23	cir	annotated	weborganizer-w32000	doab/doab.chunk.43.jsonl.gz	11759	0	598
+2026-11-04T13:33:27	cir	downloaded		doab/doab.chunk.44.jsonl.gz			3
+2026-11-04T13:43:48	cir	annotated	weborganizer-w32000	doab/doab.chunk.44.jsonl.gz	11978	0	620
+2026-11-04T13:43:50	cir	downloaded		doab/doab.chunk.45.jsonl.gz			3
+2026-11-04T13:54:05	cir	annotated	weborganizer-w32000	doab/doab.chunk.45.jsonl.gz	11907	0	613
+2026-11-04T13:54:08	cir	downloaded		doab/doab.chunk.46.jsonl.gz			3
+2026-11-04T14:04:52	cir	annotated	weborganizer-w32000	doab/doab.chunk.46.jsonl.gz	12102	0	642
+2026-11-04T14:15:14	cir	annotated	weborganizer-w32000	doab/doab.chunk.47.jsonl.gz	11992	0	621
+2026-11-04T14:15:17	cir	downloaded		doab/doab.chunk.48.jsonl.gz			3
+2026-11-04T14:25:41	cir	annotated	weborganizer-w32000	doab/doab.chunk.48.jsonl.gz	11987	0	622
+2026-11-04T14:25:44	cir	downloaded		doab/doab.chunk.49.jsonl.gz			3
+2026-11-04T14:35:54	cir	annotated	weborganizer-w32000	doab/doab.chunk.49.jsonl.gz	11809	0	608
+2026-11-04T14:35:57	cir	downloaded		doab/doab.chunk.50.jsonl.gz			3
+2026-11-04T14:46:02	cir	annotated	weborganizer-w32000	doab/doab.chunk.50.jsonl.gz	11831	0	603
+2026-11-04T14:55:44	cir	annotated	weborganizer-w32000	doab/doab.chunk.51.jsonl.gz	11645	0	581
+2026-11-04T14:55:46	cir	downloaded		doab/doab.chunk.52.jsonl.gz			3
+2026-11-04T15:05:46	cir	annotated	weborganizer-w32000	doab/doab.chunk.52.jsonl.gz	11768	0	598
+2026-11-04T15:05:49	cir	downloaded		doab/doab.chunk.53.jsonl.gz			3
+2026-11-04T15:16:15	cir	annotated	weborganizer-w32000	doab/doab.chunk.53.jsonl.gz	11942	0	624
+2026-11-04T15:16:18	cir	downloaded		doab/doab.chunk.54.jsonl.gz			3
+2026-11-04T15:26:31	cir	annotated	weborganizer-w32000	doab/doab.chunk.54.jsonl.gz	11886	0	611
+2026-11-04T15:36:34	cir	annotated	weborganizer-w32000	doab/doab.chunk.55.jsonl.gz	11751	0	601
+2026-11-04T15:36:36	cir	downloaded		doab/doab.chunk.56.jsonl.gz			3
+2026-11-04T15:47:09	cir	annotated	weborganizer-w32000	doab/doab.chunk.56.jsonl.gz	12040	0	631
+2026-11-04T15:47:12	cir	downloaded		doab/doab.chunk.57.jsonl.gz			3
+2026-11-04T15:57:10	cir	annotated	weborganizer-w32000	doab/doab.chunk.57.jsonl.gz	11788	0	597
+2026-11-04T15:57:12	cir	downloaded		doab/doab.chunk.58.jsonl.gz			2
+2026-11-04T16:07:54	cir	annotated	weborganizer-w32000	doab/doab.chunk.58.jsonl.gz	12138	0	640
+2026-11-04T16:18:18	cir	annotated	weborganizer-w32000	doab/doab.chunk.59.jsonl.gz	11931	0	622
+2026-11-04T16:18:21	cir	downloaded		doab/doab.chunk.60.jsonl.gz			3
+2026-11-04T16:28:49	cir	annotated	weborganizer-w32000	doab/doab.chunk.60.jsonl.gz	12062	0	626
+2026-11-04T16:28:51	cir	downloaded		doab/doab.chunk.61.jsonl.gz			2
+2026-11-04T16:39:03	cir	annotated	weborganizer-w32000	doab/doab.chunk.61.jsonl.gz	11822	0	610
+2026-11-04T16:39:06	cir	downloaded		doab/doab.chunk.62.jsonl.gz			3
+2026-11-04T16:49:11	cir	annotated	weborganizer-w32000	doab/doab.chunk.62.jsonl.gz	11789	0	604
+2026-11-04T16:59:39	cir	annotated	weborganizer-w32000	doab/doab.chunk.63.jsonl.gz	11998	0	626
