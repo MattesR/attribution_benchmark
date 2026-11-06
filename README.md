@@ -51,6 +51,8 @@ pipeline/
   weborganizer_annotator.py  load(args) -> annotate(texts) -> list[dict]
   propella_annotator.py      same interface; transformers or sglang backend
   status.py                  overview table: python -m pipeline.status
+queries/                     stage 2: WildChat prompts -> Comma generations -> labels -> candidates
+                             (see docs/QUERIES.md)
 slurm/annotate.sbatch        one GPU per array task
 progress.tsv                 the log (created on first download)
 ```
@@ -152,6 +154,20 @@ Window runs are separate annotators in output, locks and log
 Gutenberg: 185,133 records, DOAB: 461,558 (mostly single sections). With
 balanced windows (~25k chars median) chunk.00 gives 12,391 and 11,938
 windows, i.e. roughly 790k and 760k windows over all 64 files.
+
+## Stage 2: queries and candidate documents
+
+`queries/` turns WildChat requests into benchmark queries (`comma-v0.1-2t`
+continuations), labels them with the same annotators, and samples
+label-matched candidate documents from the annotated corpus. See
+[docs/QUERIES.md](docs/QUERIES.md) for the design and commands.
+
+```bash
+python -m queries.wildchat --per-topic 200
+CUDA_VISIBLE_DEVICES=1,2,3 python -m queries.generate --sglang-args "--dp-size 3"
+python -m queries.annotate propella --backend sglang
+python -m queries.label_pool --match topic,format,content_type --k 100 --with-text
+```
 
 ## Notes
 

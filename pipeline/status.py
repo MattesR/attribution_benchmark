@@ -49,7 +49,11 @@ def main() -> None:
         for n in names:
             finished = shards & done[n].keys()
             docs = sum(done[n][x] for x in finished)
-            line += f"{f'{len(finished)}/{len(shards)}':>{width[n]}}{docs:>13,}"
+            if n not in ANNOTATORS and not finished:
+                # window runs cover selected sources only: '-' instead of a misleading 0/64
+                line += f"{'-':>{width[n]}}{'-':>13}"
+            else:
+                line += f"{f'{len(finished)}/{len(shards)}':>{width[n]}}{docs:>13,}"
             totals[n] += len(finished)
             totals[n + "_docs"] += docs
         print(line)
