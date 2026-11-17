@@ -163,7 +163,7 @@ label-matched candidate documents from the annotated corpus. See
 [docs/QUERIES.md](docs/QUERIES.md) for the design and commands.
 
 ```bash
-python -m queries.wildchat --per-topic 200
+python -m queries.wildchat --per-stratum 500   # filter -> classify (request type, open-endedness) -> sample
 CUDA_VISIBLE_DEVICES=1,2,3 python -m queries.generate --sglang-args "--dp-size 3"
 python -m queries.annotate propella --backend sglang
 python -m queries.label_pool --match topic,format,content_type --k 100 --with-text
