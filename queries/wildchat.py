@@ -59,6 +59,14 @@ DATASET = "allenai/WildChat-4.8M"
 # name -> default model; labels are compared case-insensitively
 CLASSIFIERS = {"request": "tceron/info-seek-classifier", "openness": "tceron/open-endedness-classifier"}
 REQUIRED_LABELS = {"request": {"information seeking", "content creation"}, "openness": {"factoid", "analytical"}}
+# Both configs only carry generic names (LABEL_0, ...); the mapping is in each
+# model card (huggingface.co/tceron/<model>, checked 2026-11-18). Used only when
+# the config has no real names.
+LABEL_NAMES = {
+    "tceron/info-seek-classifier": ["information seeking", "content creation", "coding", "not english",
+                                    "no request"],
+    "tceron/open-endedness-classifier": ["Analytical", "Factoid"],
+}
 # stratum -> (request label, openness label or None)
 STRATA = {
     "info_seeking/factoid": ("information seeking", "factoid"),
@@ -180,6 +188,11 @@ def load_classifier(name: str, model_id: str, revision: str | None, args):
     model = AutoModelForSequenceClassification.from_pretrained(model_id, revision=revision)
     model = model.to(device, dtype).eval()
     labels = [model.config.id2label[i] for i in range(model.config.num_labels)]
+    if all(re.fullmatch(r"LABEL_\d+", lab) for lab in labels) and model_id in LABEL_NAMES:
+        if len(LABEL_NAMES[model_id]) != len(labels):
+            raise SystemExit(f"{model_id} has {len(labels)} labels, LABEL_NAMES lists {len(LABEL_NAMES[model_id])}")
+        labels = LABEL_NAMES[model_id]
+        logger.info(f"{name}: config has generic label names; using the model card's: {labels}")
     missing = REQUIRED_LABELS[name] - {lab.lower() for lab in labels}
     if missing:
         raise SystemExit(f"{model_id} labels {labels} lack {sorted(missing)}: update STRATA")
