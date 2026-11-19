@@ -141,7 +141,14 @@ def main() -> None:
                 control.should_save = True
                 control.should_training_stop = True
 
+    # TRL turns on the trainer's own activation checkpointing by default; under FSDP
+    # it must be off, FSDP checkpoints per decoder layer instead (fsdp.yaml).
+    # transformers 5 calls the argument activation_checkpointing, older versions gradient_checkpointing.
+    import dataclasses
+    fields = {f.name for f in dataclasses.fields(SFTConfig)}
+    no_trainer_ckpt = {k: False for k in ("activation_checkpointing", "gradient_checkpointing") if k in fields}
     cfg = SFTConfig(
+        **no_trainer_ckpt,
         output_dir=str(out / "checkpoints"),
         num_train_epochs=1,
         max_steps=args.max_steps,
