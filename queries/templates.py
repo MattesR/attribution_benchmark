@@ -39,10 +39,19 @@ PLAIN = """\
 Question: {prompt}
 Answer:"""
 
+# For the instruction-tuned Comma (sft/train.py): the exact training format
+# (sft.train.CHAT_TEMPLATE) without the begin-of-text token, which the server
+# adds when it tokenizes the prompt. Generation ends at <|end_of_text|> (EOS).
+CHAT = """<|user|>
+{prompt}
+<|assistant|>
+"""
+
 # name -> (frame, stop strings). Every frame ends right before the answer.
 TEMPLATES = {
     "fewshot": (FEWSHOT, ["\nUser:"]),
     "plain": (PLAIN, ["\nQuestion:"]),
+    "chat": (CHAT, ["<|user|>", "<|end_of_text|>"]),
 }
 
 

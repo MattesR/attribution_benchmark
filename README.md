@@ -183,3 +183,25 @@ python -m queries.label_pool --match topic,format,content_type --k 100 --with-te
 - Machines without a shared filesystem coordinate only through `--part` and a
   manually synced `progress.tsv` (`git pull && git add progress.tsv && git
   commit -m progress && git push`). The workers never commit themselves.
+
+## Instruction-tuned Comma (sft/)
+
+Full fine-tuning of `common-pile/comma-v0.1-2t` (7B) on the Tulu 3 SFT mixture
+with FSDP on 4 GPUs (`sft/train.py`, `sft/fsdp.yaml`). Tulu's WildChat subset,
+its identity examples, and every example whose first user turn matches a
+WildChat benchmark candidate are removed, so the model has not seen the
+benchmark prompts. Tulu format as plain text, loss on assistant turns only,
+Tulu 3 hyperparameters (lr 5e-6, batch 128, length 4096). The ids of the
+trained examples are written to `data/sft/<run>/data_ids.txt`.
+
+```bash
+uv venv .venv-sft --python 3.12
+uv pip install --python .venv-sft/bin/python torch==2.15.0 transformers==5.23.0 trl==1.18.1 \
+  datasets==5.2.0 accelerate==1.16.0 pyarrow loguru tqdm huggingface_hub
+source .venv-sft/bin/activate
+accelerate launch --config_file sft/fsdp.yaml -m sft.train --run smoke --num-examples 2000 --max-steps 10
+accelerate launch --config_file sft/fsdp.yaml -m sft.train --run comma2t-tulu3 --num-examples N --max-hours 20
+```
+
+Queries from the tuned model: `python -m queries.generate --model data/sft/comma2t-tulu3/final
+--template chat --run comma2t-sft-chat` (the `chat` template is the training format).

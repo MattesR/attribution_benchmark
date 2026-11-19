@@ -15,6 +15,15 @@ with --redo <step>):
      3. 15 <= length <= --max-chars characters (Comma's context is 4,096 tokens)
      4. no URLs; no image-prompt templates (Midjourney etc.); no references to an
         earlier conversation, an attachment or the assistant (CONTEXT_PATTERNS)
+     4b. ChatGPT's first reply does not just ask for the input (ASKS_FOR_INPUT:
+        a reply under 300 characters with "please provide/share ...", "I'm
+        ready", "once you send ..."). This catches setup messages whose
+        content only follows in later turns ("for all the following posts I
+        give you, give feedback ..."), which the prompt's wording alone does
+        not reveal. Tested on one WildChat file: 1.4% of candidates, almost all
+        setup messages or questions ChatGPT could not answer without more
+        information. The reply's first 200 characters are kept in
+        candidates.parquet (chatgpt_reply_start).
      5. deduplication: exact (normalised text), then by the first 80 normalised
         characters, which collapses templates that only differ at the end;
         the oldest conversation is kept
@@ -89,6 +98,16 @@ CONTEXT_PATTERNS = re.compile(
     r"|(the|this|that) (previous|above) (text|answer|response|message|conversation)"
     r"|continue (the|this|from)|rewrite (it|this|that)|the attached|this (image|picture|photo|screenshot|file|pdf))\b",
     re.I)
+# ChatGPT's first reply only asks for the input (applied to replies < 300 chars)
+ASKS_FOR_INPUT = re.compile(
+    r"\b(please|kindly|go ahead and|feel free to)\s+(provide|share|send|paste|give|post|upload|enter|type|list)\b"
+    r"|\bi('m| am) ready\b|\bwhenever you('re| are) ready\b|\bgo ahead\b"
+    r"|\b(once|when|after|as soon as) you (provide|share|send|paste|give|post)\b|\bwaiting for (your|the)\b",
+    re.I)
+
+
+def asks_for_input(reply: str) -> bool:
+    return len(reply) < 300 and bool(ASKS_FOR_INPUT.search(reply))
 
 
 def norm_text(t: str) -> str:
@@ -126,10 +145,12 @@ def first_turns(files: list[str]):
         pf = pq.ParquetFile(f)
         have = [c for c in cols if c in pf.schema_arrow.names]
         for batch in pf.iter_batches(columns=have, batch_size=50_000):
-            first = pc.list_element(batch.column("conversation"), 0)
+            conv = batch.column("conversation")
+            first = pc.list_element(conv, 0)
             out = {c: batch.column(c) for c in have if c != "conversation"}
             for k in ["role", "content", "language"]:
                 out[f"first_{k}"] = pc.struct_field(first, k)
+            out["second"] = pc.list_slice(conv, 1, 2)  # ChatGPT's reply ([] if there is none)
             yield pa.table(out)
 
 
@@ -146,7 +167,8 @@ def step_filter(args) -> None:
         t = t.filter(pc.fill_null(pc.and_(pc.equal(t["first_role"], "user"),
                                           pc.equal(t["first_language"], "English")), False))
         counts["2_first_turn_user_english"] += len(t)
-        for r in t.select(["conversation_hash", "first_content", "model", "timestamp", "turn"]).to_pylist():
+        for r in t.select(["conversation_hash", "first_content", "model", "timestamp", "turn",
+                           "second"]).to_pylist():
             text = (r["first_content"] or "").strip()
             if not args.min_chars <= len(text) <= args.max_chars:
                 continue
@@ -154,8 +176,13 @@ def step_filter(args) -> None:
             if URL.search(text) or IMAGE_TEMPLATES.search(text) or CONTEXT_PATTERNS.search(text):
                 continue
             counts["4_self_contained"] += 1
+            reply = ((r["second"] or [{}])[0].get("content") or "").strip()
+            if asks_for_input(reply):
+                continue
+            counts["4b_reply_not_asking_for_input"] += 1
             kept.append({"prompt_id": r["conversation_hash"], "prompt": text, "chatgpt_model": r["model"],
-                         "timestamp": str(r["timestamp"]), "n_turns": r["turn"], "n_chars": len(text)})
+                         "timestamp": str(r["timestamp"]), "n_turns": r["turn"], "n_chars": len(text),
+                         "chatgpt_reply_start": reply[:200]})
 
     # Oldest conversation first, so a prompt's first occurrence is kept.
     kept.sort(key=lambda r: (r["timestamp"], r["prompt_id"]))
