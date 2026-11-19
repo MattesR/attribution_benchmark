@@ -22,16 +22,20 @@ Format: Comma has no chat template; the Tulu format is used as plain text
 Hyperparameters follow Tulu 3 SFT for 8B models: lr 5e-6, linear decay,
 3% warmup, effective batch 128 sequences, max length 4096.
 
-Output: data/sft/<run>/ (checkpoints, final model in HF format, data_ids.txt,
-manifest.json). A killed run resumes from its last checkpoint.
+Output: <out-dir>/<run>/ (checkpoints, final model in HF format, data_ids.txt,
+manifest.json), by default data/sft/. A killed run resumes from its last
+checkpoint. A checkpoint is ~84 GB, so --out-dir can point to a bigger disk;
+at start the script writes a 1 GiB test file there and reports the speed.
 """
 
 from __future__ import annotations
 
 import argparse
 import json
+import os
 import socket
 import time
+from pathlib import Path
 
 from pipeline.common import DATA
 
@@ -99,9 +103,33 @@ def load_sft_data(args):
     return ds.select_columns(["id", "messages"]), stats
 
 
+def check_output_dir(out: Path, gib: float = 1.0) -> None:
+    """Fail early if the output disk is not writable; print free space and write speed."""
+    import shutil
+    out.mkdir(parents=True, exist_ok=True)
+    test = out / f".write_test.{socket.gethostname()}.{os.getpid()}"
+    block = os.urandom(1 << 20)
+    t = time.time()
+    with open(test, "wb") as f:
+        for _ in range(int(gib * 1024)):
+            f.write(block)
+        f.flush()
+        os.fsync(f.fileno())
+    dt = time.time() - t
+    test.unlink()
+    free = shutil.disk_usage(out).free / 1e9
+    mbs = gib * 1024 / dt
+    print(f"output {out}: writable, {free:,.0f} GB free, {mbs:,.0f} MB/s "
+          f"(one ~84 GB checkpoint takes ~{84e3 / mbs / 60:.0f} min)", flush=True)
+    if free < 200:
+        print(f"WARNING: only {free:,.0f} GB free; peak use is ~200 GB (two checkpoints + final model)")
+
+
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("--run", required=True, help="output name: data/sft/<run>")
+    ap.add_argument("--run", required=True, help="output name: <out-dir>/<run>")
+    ap.add_argument("--out-dir", type=Path, default=DATA / "sft",
+                    help="where runs are written (default: data/sft); checkpoints are ~84 GB each")
     ap.add_argument("--model", default=MODEL)
     ap.add_argument("--revision", default=MODEL_REVISION)
     ap.add_argument("--num-examples", type=int, default=0, help="subset size (0 = all)")
@@ -119,10 +147,12 @@ def main() -> None:
     from transformers import AutoTokenizer, TrainerCallback
     from trl import SFTConfig, SFTTrainer
 
-    out = DATA / "sft" / args.run
+    out = args.out_dir / args.run
+    if int(os.environ.get("RANK", 0)) == 0:
+        check_output_dir(out)
     out.mkdir(parents=True, exist_ok=True)
     world = torch.distributed.get_world_size() if torch.distributed.is_initialized() else \
-        int(__import__("os").environ.get("WORLD_SIZE", 1))
+        int(os.environ.get("WORLD_SIZE", 1))
     grad_accum = max(1, args.effective_batch // (args.per_device_batch * world))
 
     tok = AutoTokenizer.from_pretrained(args.model, revision=args.revision)
@@ -191,7 +221,7 @@ def main() -> None:
     if trainer.accelerator.is_main_process:
         tok.save_pretrained(str(final))
         (out / "data_ids.txt").write_text("\n".join(train["id"]) + "\n")
-        manifest = {"time": time.strftime("%Y-%m-%dT%H:%M:%S"), "host": socket.gethostname().strip(),
+        manifest = {"time": time.strftime("%Y-%m-%dT%H:%M:%S"), "host": socket.gethostname().strip(), "output": str(out),
                     "base_model": args.model, "base_revision": args.revision, "data": stats,
                     "args": vars(args), "world_size": world, "gradient_accumulation_steps": grad_accum,
                     "train_seconds": round(time.time() - t0), "global_step": trainer.state.global_step,

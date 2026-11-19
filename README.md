@@ -192,16 +192,24 @@ its identity examples, and every example whose first user turn matches a
 WildChat benchmark candidate are removed, so the model has not seen the
 benchmark prompts. Tulu format as plain text, loss on assistant turns only,
 Tulu 3 hyperparameters (lr 5e-6, batch 128, length 4096). The ids of the
-trained examples are written to `data/sft/<run>/data_ids.txt`.
+trained examples are written to `<out-dir>/<run>/data_ids.txt`.
+
+Disk: a checkpoint (fp32 weights + Adam states, sharded) is ~84 GB, one is
+kept, and while the next one is written there are briefly two; with the final
+model (~28 GB) the peak is ~200 GB. `--out-dir` (default `data/sft`) points the
+run to a bigger disk, e.g. `/home/mruc/data/sft` on cir. At start the script
+writes a 1 GiB test file there and prints free space and write speed.
 
 ```bash
 uv venv .venv-sft --python 3.12
 uv pip install --python .venv-sft/bin/python torch==2.15.0 transformers==5.23.0 trl==1.18.1 \
   datasets==5.2.0 accelerate==1.16.0 pyarrow loguru tqdm huggingface_hub
 source .venv-sft/bin/activate
-accelerate launch --config_file sft/fsdp.yaml -m sft.train --run smoke --num-examples 2000 --max-steps 10
-accelerate launch --config_file sft/fsdp.yaml -m sft.train --run comma2t-tulu3 --num-examples N --max-hours 20
+accelerate launch --config_file sft/fsdp.yaml -m sft.train --out-dir /home/mruc/data/sft --run smoke \
+  --num-examples 2000 --max-steps 10 --save-steps 5
+accelerate launch --config_file sft/fsdp.yaml -m sft.train --out-dir /home/mruc/data/sft --run comma2t-tulu3 \
+  --num-examples N --max-hours 20
 ```
 
-Queries from the tuned model: `python -m queries.generate --model data/sft/comma2t-tulu3/final
+Queries from the tuned model: `python -m queries.generate --model /home/mruc/data/sft/comma2t-tulu3/final
 --template chat --run comma2t-sft-chat` (the `chat` template is the training format).
