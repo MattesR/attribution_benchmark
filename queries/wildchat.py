@@ -7,7 +7,8 @@ and creative requests.
     python -m queries.wildchat --per-stratum 500 --min-prob 0.8 --min-openness-prob 0.7
 
 Three steps, each with its own output in data/queries/wildchat/ (rerun one
-with --redo <step>):
+with --redo <step>; after --redo filter, classify reuses the labels of
+prompts that are still candidates):
 
   filter    -> candidates.parquet   cheap filters + deduplication (CPU)
      1. the conversation is English, not toxic, not redacted (PII removed)
@@ -301,8 +302,14 @@ def step_classify(args) -> None:
             if ids == cand_ids:
                 logger.info(f"{name}: {path} exists, skipped")
                 continue
-            logger.warning(f"{name}: {path} doesn't match the current candidates, classifying again")
-            path.with_suffix(".partial.jsonl").unlink(missing_ok=True)
+            # Candidates changed (e.g. after --redo filter): keep the labels of prompts that are
+            # still candidates (same prompt -> same label), classify only the new ones.
+            keep = [r for r in pq.read_table(path).to_pylist() if r["prompt_id"] in cand_ids]
+            with open_append(path.with_suffix(".partial.jsonl")) as sink:
+                for r in keep:
+                    sink.write(json.dumps(r) + "\n")
+            logger.warning(f"{name}: {path} doesn't match the current candidates; "
+                           f"reusing {len(keep):,} labels, classifying {len(cand_ids) - len(keep):,} new prompts")
         run_classifier(name, args)
 
 
@@ -376,8 +383,9 @@ def main() -> None:
             ap.error(f"{opt}: unknown {sorted(set(have) - set(valid))}; choose from {list(valid)}")
 
     redo = STEPS[STEPS.index(args.redo):] if args.redo else []
-    args.redo_classify = "classify" in redo
-    if args.redo_classify:  # stale checkpoints would mix two candidate sets
+    # --redo classify relabels everything; after --redo filter, labels of unchanged prompts are reused.
+    args.redo_classify = args.redo == "classify"
+    if args.redo_classify:
         for name in args.classifiers:
             classified_path(name).with_suffix(".partial.jsonl").unlink(missing_ok=True)
 

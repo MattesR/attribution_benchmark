@@ -61,8 +61,10 @@ available). The two classifiers run one after the other on all candidates, so
 both labels are available for every prompt. Each output has the top label
 (lower-cased), its probability and all class probabilities. Each classifier keeps
 its own checkpoint and resumes after a kill. A finished classifier is skipped
-unless the candidates changed (detected automatically) or `--redo classify` is
-given. Each manifest counts every label at probability thresholds 0.5–0.95.
+if the candidates are unchanged. If they changed (e.g. after `--redo filter`),
+the labels of prompts that are still candidates are reused and only new
+prompts are classified. `--redo classify` relabels everything. Each manifest
+counts every label at probability thresholds 0.5–0.95.
 
 **sample → `prompts.parquet`** (seconds, can be rerun freely):
 
